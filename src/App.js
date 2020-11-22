@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import Map from './Components/Map'
 import CoordinatePointCreator from './Components/Calculations/CoordinatePointCreator'
 import Point from './Components/Point'
-import RouteToDestination from './Components/Calculations/RouteToDestination'
+import NavigationSteps from './Components/NavigationSteps'
 import Canvas from './Components/Canvas'
-import {defaultTeleports} from './Data/TeleportDB.js'
 import Teleports from './Components/Teleports'
+
+import {defaultTeleports} from './Data/TeleportDB.js'
+import {RouteToDestination} from './Components/Calculations/RouteToDestination'
 
 const App = () => {
   const [ startPoint, setStartPoint ] = useState({x: 63.4, y: 36.7})
@@ -42,6 +44,10 @@ const App = () => {
     setNewY(event.target.value)
   }
 
+  
+  const routeDetails = RouteToDestination(startPoint, endPoint, teleports)
+  const nodes = routeDetails[0]
+  const finalRoute = routeDetails[1]
 
   // ==================================
   // CANVAS DRAWING FUNCTIONS
@@ -98,7 +104,7 @@ const App = () => {
 
 
       <h2>Route</h2>
-      <RouteToDestination startPoint={startPoint} endPoint={endPoint} teleports={teleports}/>
+      <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
 
       <h1>Map</h1>
       <Map />

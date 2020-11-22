@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { nodes } from './Calculations/RouteToDestination'
+
+import {RouteToDestination} from './Calculations/RouteToDestination'
+import {defaultTeleports} from './../Data/TeleportDB.js'
 
 const adjustToCanvas = (canvas, coordinate) => {
   const rect = canvas.getBoundingClientRect()
@@ -9,17 +11,20 @@ const adjustToCanvas = (canvas, coordinate) => {
   }
 }
 
+
+
 const Canvas = ({ drawEffects, drawPoint, drawCanvasLines }) => {
   const [coordinates, setCoordinates] = useState([])
-  const [bgLoaded, setBgLoaded] = useState(false)
+  const [bgLoaded, setBgLoaded] = useState(false) // If this line is removed, the image won't load...
 
+  // Adds point to canvas on mouse click, i.e. adds mouse click coordinates to coordinates
   const handleCanvasClick = (event) => {
     const currentCoord = { x: event.clientX, y: event.clientY }
     setCoordinates([...coordinates, currentCoord])
   }
 
   const canvasRef = useRef(null)
-  
+
   useEffect(() => {
     const canvas = canvasRef.current
     const context = canvas.getContext('2d')
@@ -37,6 +42,8 @@ const Canvas = ({ drawEffects, drawPoint, drawCanvasLines }) => {
       console.log(canvasBg)
       context.drawImage(canvasBg, 0, 0);
     }
+
+
 
     drawEffects(context)
     //drawCanvasLines(context, start, end)

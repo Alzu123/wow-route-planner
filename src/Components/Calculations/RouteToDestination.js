@@ -1,5 +1,3 @@
-import React from 'react'
-
 const distanceBetweenTwoPoints = (point1, point2) => {
     const xDiff = point2.x - point1.x
     const yDiff = point2.y - point1.y
@@ -7,9 +5,7 @@ const distanceBetweenTwoPoints = (point1, point2) => {
     return Math.sqrt(xDiff ** 2 + yDiff ** 2)
 }
 
-
-
-const RouteToDestination = ({ startPoint, endPoint, teleports }) => {
+export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
 
     const startNode = [
         {
@@ -50,18 +46,7 @@ const RouteToDestination = ({ startPoint, endPoint, teleports }) => {
     console.log(nodes)
     const finalRoute = nodes[0].bestRoute.map(id => id === 0 ? 0 : nodes[id].bestRoute).flat() // This might need to be done again depending on how many layers of portals there are. Not tested yet so check later
     console.log(finalRoute)
-    return (
-        <div>
-            <p>The shortest route is {Math.round((nodes[0].distanceToDestination + Number.EPSILON) * 100) / 100} units long</p>
-            <ol>
-                {finalRoute.map((nodeId, index) =>
-                index === 0 ? '' : <li key={index}>Fly to the portal which takes you from {nodes[nodeId].name}</li>
-                )}
-                <li key={nodes.length}>Fly to your destination.</li>
-            </ol>
-        </div>
-
-    )
+    return ([nodes, finalRoute])
 }
 
 export default RouteToDestination
