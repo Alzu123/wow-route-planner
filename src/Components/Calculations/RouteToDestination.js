@@ -49,7 +49,7 @@ const RouteToDestination = ({ startPoint, endPoint, teleports }) => {
     nodes = nodes.map(node => ({...node, bestRoute: node.bestRoute.filter(id => id !== '')}))
     console.log(nodes)
     const finalRoute = nodes[0].bestRoute.map(id => id === 0 ? 0 : nodes[id].bestRoute).flat() // This might need to be done again depending on how many layers of portals there are. Not tested yet so check later
-
+    console.log(finalRoute)
     return (
         <div>
             <p>The shortest route is {Math.round((nodes[0].distanceToDestination + Number.EPSILON) * 100) / 100} units long</p>
