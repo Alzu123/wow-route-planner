@@ -8,6 +8,7 @@ import Teleports from './Components/Teleports'
 
 import {defaultTeleports} from './Data/TeleportDB.js'
 import {RouteToDestination} from './Components/Calculations/RouteToDestination'
+import WorldCoordinatesToCanvasCoordinates from './Components/Calculations/WorldCoordinatesToCanvasCoordinates'
 
 const App = () => {
   const [ startPoint, setStartPoint ] = useState({x: 63.4, y: 36.7})
@@ -52,13 +53,23 @@ const App = () => {
   // ==================================
   // CANVAS DRAWING FUNCTIONS
   // ==================================
-  const drawCanvasBorder = (context) => {
+  const drawCanvasEffects = (context) => {
     // Draw borders
     context.fillStyle = '#000000'
     context.beginPath();
     context.lineWidth = '3';
     context.rect(0, 0, context.canvas.width, context.canvas.height);
     context.stroke();
+
+    // Draw start and end positions
+    drawCanvasPoints(context, WorldCoordinatesToCanvasCoordinates(context.canvas, startPoint))
+    drawCanvasPoints(context, WorldCoordinatesToCanvasCoordinates(context.canvas, nodes[1].origin))
+    drawCanvasPoints(context, WorldCoordinatesToCanvasCoordinates(context.canvas, nodes[1].destination))
+    drawCanvasPoints(context, WorldCoordinatesToCanvasCoordinates(context.canvas, endPoint))
+
+    // Draw optimal route
+    drawCanvasLines(context, WorldCoordinatesToCanvasCoordinates(context.canvas, nodes[0].origin), WorldCoordinatesToCanvasCoordinates(context.canvas, nodes[1].origin))
+    drawCanvasLines(context, WorldCoordinatesToCanvasCoordinates(context.canvas, nodes[1].destination), WorldCoordinatesToCanvasCoordinates(context.canvas, endPoint))
   }
 
   const drawCanvasPoints = (context, location) => {
@@ -74,8 +85,9 @@ const App = () => {
   }
 
   const drawCanvasLines = (context, start, end) => {
+
     context.beginPath()
-    context.fillStyle = '#000000'
+    context.fillStyle = '#FFFFFF'
     context.lineWidth = "5"
     context.moveTo(start.x, start.y)
     context.lineTo(end.x, end.y)
@@ -85,7 +97,7 @@ const App = () => {
   return (
     <div>
       <h2>Canvas</h2>
-      <Canvas drawEffects={drawCanvasBorder} drawPoint={drawCanvasPoints} drawLine={drawCanvasLines}/> 
+      <Canvas drawEffects={drawCanvasEffects} drawPoint={drawCanvasPoints} drawLine={drawCanvasLines}/> 
 
       <h1>Calculations</h1>
       Create start or end point

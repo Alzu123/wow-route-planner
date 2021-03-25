@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from 'react'
 
 import {RouteToDestination} from './Calculations/RouteToDestination'
 import {defaultTeleports} from './../Data/TeleportDB.js'
+import WorldCoordinatesToCanvasCoordinates from './Calculations/WorldCoordinatesToCanvasCoordinates'
+import MouseCoordinatesToCanvasCoordinates from './Calculations/MouseCoordinatesToCanvasCoordinates'
 
 const adjustToCanvas = (canvas, coordinate) => {
   const rect = canvas.getBoundingClientRect()
@@ -12,8 +14,7 @@ const adjustToCanvas = (canvas, coordinate) => {
 }
 
 
-
-const Canvas = ({ drawEffects, drawPoint, drawCanvasLines }) => {
+const Canvas = ({ drawEffects, drawPoint, drawLine }) => {
   const [coordinates, setCoordinates] = useState([])
   const [bgLoaded, setBgLoaded] = useState(false) // If this line is removed, the image won't load...
 
@@ -23,6 +24,7 @@ const Canvas = ({ drawEffects, drawPoint, drawCanvasLines }) => {
     setCoordinates([...coordinates, currentCoord])
   }
 
+  
   const canvasRef = useRef(null)
 
   useEffect(() => {
@@ -41,14 +43,14 @@ const Canvas = ({ drawEffects, drawPoint, drawCanvasLines }) => {
       console.log("tring to draw image")
       console.log(canvasBg)
       context.drawImage(canvasBg, 0, 0);
+
+      drawEffects(context)
     }
 
-
-
-    drawEffects(context)
-    //drawCanvasLines(context, start, end)
-    coordinates.forEach((coordinate) => {drawPoint(context, adjustToCanvas(canvas, coordinate))})
-  }, [drawEffects, drawPoint, coordinates])
+    coordinates.forEach((coordinate) => {drawPoint(context, MouseCoordinatesToCanvasCoordinates(canvas, coordinate))})
+    console.log(coordinates)
+    console.log()
+  }, [drawEffects, drawPoint, drawLine, coordinates])
   
   return <canvas width="800" height="533" ref={canvasRef} onClick={handleCanvasClick}/>
 }
