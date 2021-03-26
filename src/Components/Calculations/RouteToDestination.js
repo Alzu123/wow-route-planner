@@ -43,9 +43,18 @@ export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
     } while (improvementsFound && iteration <= maxSearchDepth)
     
     nodes = nodes.map(node => ({...node, bestRoute: node.bestRoute.filter(id => id !== '')}))
-    console.log(nodes)
-    const finalRoute = nodes[0].bestRoute.map(id => id === 0 ? 0 : nodes[id].bestRoute).flat() // This might need to be done again depending on how many layers of portals there are. Not tested yet so check later
-    console.log(finalRoute)
+    let finalRoute = nodes[0].bestRoute.map(id => id === 0 ? 0 : nodes[id].bestRoute).flat() // This might need to be done again depending on how many layers of portals there are. Not tested yet so check later
+
+    // Add destination as to the return values as well
+    const endNode = 
+    {
+        name: "End",
+        id: nodes.length,
+        origin: {x: endPoint.x, y: endPoint.y},
+        destination: {x: endPoint.x, y: endPoint.y}
+    }
+    nodes = nodes.concat(endNode)
+    finalRoute = finalRoute.concat(endNode.id)
     return ([nodes, finalRoute])
 }
 
