@@ -37,6 +37,7 @@ const Canvas = ({ onClick, routeDetails }) => {
     // This should be done some other way but not sure how. Drawing an image after separately from onload feels weird.
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.drawImage(canvasBg, 0, 0);
+    DrawTeleports(canvas, 'green')
 
     const adjustedCoordinates = coordinates.map(coordinate => MouseCoordinatesToWorldCoordinates(canvas, coordinate))
     adjustedCoordinates.forEach(coordinate => {DrawPointToCanvas(canvas, coordinate, 'red')})

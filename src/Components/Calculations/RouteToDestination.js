@@ -51,7 +51,14 @@ export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
 
   // Find the node with the closest destination to the target
   let nodesToSearch = nodes.map(node => ({...node, distanceToTarget: distanceBetweenTwoPoints(node.destination, targetNode.origin)}))
+                           .map(node => ({...node, bestRoute: [node.id]}))
   console.log("Initial nodes: ", nodesToSearch)
+
+  // After finding the node closest to destination, we can update all others' distances knowing that the closest node origin is closer by its destination. Repeat this. Similar to original approach.
+  // The closest node can always be removed from search, maybe. At least the first closest can. Think about others
+/*   const startDistance = nodesToSearch[0].distanceToTarget
+  nodesToSearch = nodesToSearch.filter(node => node.distanceToTarget <= startDistance)
+  console.log("Initial nodes after filter: ", nodesToSearch) */
 
   let iteration = 0
   const maxSearchDepth = 100
@@ -59,7 +66,8 @@ export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
   // This algorithm is naive and will get give poor results if the destination of a teleport is close to target but origin is far from start
   do {
     targetNode = findNodeWithSmallestDistance(nodesToSearch)
-    nodesToSearch = nodesToSearch.filter(node => node.id !== targetNode.id).map(node => ({...node, distanceToTarget: distanceBetweenTwoPoints(node.destination, targetNode.origin)}))
+    nodesToSearch = nodesToSearch.filter(node => node.id !== targetNode.id)
+                                 .map(node => ({...node, distanceToTarget: distanceBetweenTwoPoints(node.destination, targetNode.origin)}))
     bestRoute.unshift(targetNode.id)
 
     iteration++

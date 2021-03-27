@@ -2,7 +2,7 @@ export const defaultTeleports = [
   {
     name: "Orgrimmar to Uldum",
     id: 1,
-    origin: {x: 58.3, y: 43.3},
+    origin: {x: 10, y: 10}, // {x: 58.3, y: 43.3},
     destination: {x: 48.6, y: 87.4},
     fromPlayer: false
   },

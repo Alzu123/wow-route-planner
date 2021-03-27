@@ -42,7 +42,6 @@ const App = () => {
   const updateStartPoint = (event) => {
     event.preventDefault()
     const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
-    console.log(event)
 
     setStartPoint(canvasAdjustedCoordinates)
     updatePlayerTeleports(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y)
@@ -78,11 +77,11 @@ const App = () => {
       Player: <Point point={startPoint}/>
       Destination <Point point={endPoint}/>
 
-      <h2>List of teleports</h2>
-      <Teleports teleports={teleports}/>
-
       <h2>Route</h2>
       <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
+
+      <h2>List of teleports</h2>
+      <Teleports teleports={teleports}/>
 
       <h1>Map</h1>
       <Map />
