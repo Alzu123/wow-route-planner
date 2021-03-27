@@ -1,7 +1,7 @@
 import React from 'react'
 
 const fancifyCoordinates = (coordinates) => {
-  return `${coordinates.x}, ${coordinates.y}`
+  return `[${coordinates.x}, ${coordinates.y}]`
 }
 
 const Teleports = ({ teleports }) => {

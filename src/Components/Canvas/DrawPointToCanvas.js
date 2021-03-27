@@ -1,6 +1,6 @@
 import WorldCoordinatesToCanvasCoordinates from "../Calculations/WorldCoordinatesToCanvasCoordinates"
 
-export const DrawPointToCanvas = (canvas, location) => {
+export const DrawPointToCanvas = (canvas, location, fill) => {
   const context = canvas.getContext('2d')
   const adjustedCoordinates = WorldCoordinatesToCanvasCoordinates(canvas, location)
 
@@ -9,7 +9,7 @@ export const DrawPointToCanvas = (canvas, location) => {
   context.arc(adjustedCoordinates.x, adjustedCoordinates.y, 5, 0, 2*Math.PI)
   context.fill()
 
-  context.fillStyle = 'red'
+  context.fillStyle = fill
   context.beginPath()
   context.arc(adjustedCoordinates.x, adjustedCoordinates.y, 4, 0, 2*Math.PI)
   context.fill()

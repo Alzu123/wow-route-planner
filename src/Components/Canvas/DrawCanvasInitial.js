@@ -5,7 +5,7 @@ export const DrawCanvasInitial = (context) => {
   //const nodes = [{origin: {x: 63.4, y: 36.7}, destination: {x: 63.4, y: 36.7}}, {origin: {x: 58.3, y: 43.3}, destination: {x: 48.6, y: 87.4}}]
 
   // Draw borders
-  context.fillStyle = '#000000'
+  context.strokeStyle = '#000000'
   context.beginPath();
   context.lineWidth = '3';
   context.rect(0, 0, context.canvas.width, context.canvas.height);

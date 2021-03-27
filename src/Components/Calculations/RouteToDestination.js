@@ -17,8 +17,8 @@ export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
     ]
     // Add the initial distances to goal and the construction for best route
     let nodes = startNode.concat(teleports)
-                           .map(node => ({...node, distanceToDestination: distanceBetweenTwoPoints(node.destination, endPoint)}))
-                           .map(node => ({...node, bestRoute: [node.id]}))
+                         .map(node => ({...node, distanceToDestination: distanceBetweenTwoPoints(node.destination, endPoint)}))
+                         .map(node => ({...node, bestRoute: [node.id]}))
 
     // Iterate over all points and compare that point to all others until no improvements have been found or max iteration limit is hit
     let improvementsFound = false

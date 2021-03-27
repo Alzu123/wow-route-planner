@@ -66,6 +66,7 @@ const App = () => {
       Player: <Point point={startPoint}/>
       Destination <Point point={endPoint}/>
 
+      <h2>List of teleports</h2>
       <Teleports teleports={teleports}/>
 
 
