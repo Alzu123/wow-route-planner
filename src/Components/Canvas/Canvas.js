@@ -4,15 +4,16 @@ import DrawCanvasInitial from './DrawCanvasInitial'
 import DrawPointToCanvas from './DrawPointToCanvas'
 import DrawOptimalRoute from './DrawOptimalRoute'
 import MouseCoordinatesToWorldCoordinates from '../Calculations/MouseCoordinatesToWorldCoordinates'
+import DrawTeleports from './DrawTeleports'
 
 
-const Canvas = ({ routeDetails }) => {
+const Canvas = ({ onClick, routeDetails }) => {
   const [coordinates, setCoordinates] = useState([])
 
-  // Adds point to canvas on mouse click, i.e. adds mouse click coordinates to coordinates
+  // Adds point to canvas on mouse click, i.e. adds mouse click position to coordinates
   const handleCanvasClick = (event) => {
     const currentCoord = { x: event.clientX, y: event.clientY }
-    setCoordinates([...coordinates, currentCoord])
+    setCoordinates([currentCoord])
   }
 
   const canvasRef = useRef(null)
@@ -30,6 +31,7 @@ const Canvas = ({ routeDetails }) => {
       context.drawImage(canvasBg, 0, 0);
       DrawCanvasInitial(context)
       DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1])
+      DrawTeleports(canvas, 'green')
     }
 
     // This should be done some other way but not sure how. Drawing an image after separately from onload feels weird.
@@ -37,14 +39,14 @@ const Canvas = ({ routeDetails }) => {
     context.drawImage(canvasBg, 0, 0);
 
     const adjustedCoordinates = coordinates.map(coordinate => MouseCoordinatesToWorldCoordinates(canvas, coordinate))
-    adjustedCoordinates.forEach((coordinate) => {DrawPointToCanvas(canvas, coordinate, 'red')})
+    adjustedCoordinates.forEach(coordinate => {DrawPointToCanvas(canvas, coordinate, 'red')})
     DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1])
 
   }, [routeDetails, coordinates])
   
   return (
   <div>
-    <canvas width="800" height="533" ref={canvasRef} onClick={handleCanvasClick}/>
+    <canvas width="800" height="533" ref={canvasRef} onClick={onClick}/>
     <br></br>
     <button onClick={handleCanvasClick}>DrawOptimalRoute</button>
   </div>

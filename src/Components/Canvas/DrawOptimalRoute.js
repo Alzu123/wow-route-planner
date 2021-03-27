@@ -11,8 +11,8 @@ const getRedToGreen = (currentStep, totalSteps) => {
 }
 
 export const DrawOptimalRoute = (canvas, nodes, optimalRoute) => {
-  console.log(nodes)
-  console.log(optimalRoute)
+  //console.log(nodes)
+  //console.log(optimalRoute)
 
   // Draw start and end points separately
   DrawPointToCanvas(canvas, nodes[0].origin, 'green')

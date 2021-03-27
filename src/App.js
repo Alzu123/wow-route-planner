@@ -8,6 +8,7 @@ import Teleports from './Components/Teleports'
 
 import {defaultTeleports} from './Data/TeleportDB'
 import {RouteToDestination} from './Components/Calculations/RouteToDestination'
+import MouseCoordinatesToWorldCoordinates from './Components/Calculations/MouseCoordinatesToWorldCoordinates'
 
 const App = () => {
   const [ startPoint, setStartPoint ] = useState({x: 63.4, y: 36.7})
@@ -36,6 +37,17 @@ const App = () => {
     setNewY('')
   }
 
+  // Updates the start point based on clicks on canvas
+  // TODO: Figure a way to enable used to change it to end point
+  const updateStartPoint = (event) => {
+    event.preventDefault()
+    const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
+    console.log(event)
+
+    setStartPoint(canvasAdjustedCoordinates)
+    updatePlayerTeleports(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y)
+  }
+
   const handleXChange = (event) => {
     setNewX(event.target.value)
   }
@@ -51,7 +63,7 @@ const App = () => {
   return (
     <div>
       <h1>Canvas</h1>
-      <Canvas routeDetails={routeDetails} /> 
+      <Canvas onClick={updateStartPoint} routeDetails={routeDetails} /> 
 
       <h1>Calculations</h1>
       Create start or end point
@@ -68,7 +80,6 @@ const App = () => {
 
       <h2>List of teleports</h2>
       <Teleports teleports={teleports}/>
-
 
       <h2>Route</h2>
       <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
