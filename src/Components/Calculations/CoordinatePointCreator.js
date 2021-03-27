@@ -7,7 +7,7 @@ const CoordinatePointCreator = (props) => {
 
       <div>
         Type: 
-        <select id="select" value={props.newType} onChange={props.handleOptionChange}>
+        <select id="select" >
           <option value="start">Start point</option>
           <option value="end">End point</option>
         </select>

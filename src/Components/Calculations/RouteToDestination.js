@@ -2,22 +2,7 @@ const distanceBetweenTwoPoints = (point1, point2) => {
   const xDiff = point2.x - point1.x
   const yDiff = point2.y - point1.y
 
-  return Math.sqrt(xDiff ** 2 + yDiff ** 2)
-}
-
-const findNodeWithSmallestDistance = (nodes) => {
-  let lowestDistance = Number.POSITIVE_INFINITY
-  let bestNode = nodes[0]
-
-  for (let i = 0; i < nodes.length; i++) {
-    const currentDistance = nodes[i].distanceToTarget
-    if (currentDistance < lowestDistance) {
-      lowestDistance = currentDistance
-      bestNode = nodes[i]
-    }
-  }
-
-  return bestNode
+  return Math.round(Math.sqrt(xDiff ** 2 + yDiff ** 2) * 100) / 100
 }
 
 const updatePlayerTeleports = (playerLocation, teleports) => {
@@ -43,38 +28,47 @@ export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
   }
 
   let targetNode = endNode
-  let bestRoute = [targetNode.id]
+  let bestRoute = [startNode.id]
     
   // Add the initial distances to goal and the construction for best route
   nodes = nodes.concat(startNode)
                .concat(updatedTeleports)
+               .concat(endNode)
 
   // Find the node with the closest destination to the target
-  let nodesToSearch = nodes.map(node => ({...node, distanceToTarget: distanceBetweenTwoPoints(node.destination, targetNode.origin)}))
-                           .map(node => ({...node, bestRoute: [node.id]}))
-  console.log("Initial nodes: ", nodesToSearch)
+  nodes = nodes.map(node => ({...node, distanceToTarget: distanceBetweenTwoPoints(node.destination, targetNode.origin)}))
+                           .map(node => ({...node, nextNode: targetNode.id}))
 
-  // After finding the node closest to destination, we can update all others' distances knowing that the closest node origin is closer by its destination. Repeat this. Similar to original approach.
-  // The closest node can always be removed from search, maybe. At least the first closest can. Think about others
-/*   const startDistance = nodesToSearch[0].distanceToTarget
-  nodesToSearch = nodesToSearch.filter(node => node.distanceToTarget <= startDistance)
-  console.log("Initial nodes after filter: ", nodesToSearch) */
+  // Radiate the best found distance from node origins and compute the best found route.
+  const maxNumberOfNodesToPass = 10
+  // Loop n times to update values often
+  for (let i = 0; i < maxNumberOfNodesToPass; i++) {
+    // Update every node individually
+    for (let j = 0; j < nodes.length; j++) {
+      let nodeToUpdate = nodes[j]
+      let currentBestDistance = nodeToUpdate.distanceToTarget
 
-  let iteration = 0
-  const maxSearchDepth = 100
+      // Compare the node to all other nodes and the distance that it would take going through the comparison node first
+      for (let k = 0; k < nodes.length; k++) {
+        let comparisonNode = nodes[k]
+        let newDistance = comparisonNode.distanceToTarget + distanceBetweenTwoPoints(nodeToUpdate.destination, comparisonNode.origin)
 
-  // This algorithm is naive and will get give poor results if the destination of a teleport is close to target but origin is far from start
+        // If better result save the distance and directions
+        if (newDistance < currentBestDistance) {
+          currentBestDistance = newDistance
+          nodes[j].distanceToTarget = newDistance
+          nodes[j].nextNode = k
+        }
+      }
+    }
+  }
+
+  let currentNode = nodes[0]
   do {
-    targetNode = findNodeWithSmallestDistance(nodesToSearch)
-    nodesToSearch = nodesToSearch.filter(node => node.id !== targetNode.id)
-                                 .map(node => ({...node, distanceToTarget: distanceBetweenTwoPoints(node.destination, targetNode.origin)}))
-    bestRoute.unshift(targetNode.id)
+    bestRoute.push(currentNode.nextNode)
+    currentNode = nodes[currentNode.nextNode]
+  } while (currentNode.id !== endNode.id)
 
-    iteration++
-  } while (targetNode.id !== startNode.id && iteration <= maxSearchDepth)
-
-  // Add destination as to the return values as well
-  nodes = nodes.concat(endNode)
   return ([nodes, bestRoute])
 }
 

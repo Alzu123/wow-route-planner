@@ -1,21 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from 'react'
 
 import DrawCanvasInitial from './DrawCanvasInitial'
-import DrawPointToCanvas from './DrawPointToCanvas'
 import DrawOptimalRoute from './DrawOptimalRoute'
-import MouseCoordinatesToWorldCoordinates from '../Calculations/MouseCoordinatesToWorldCoordinates'
 import DrawTeleports from './DrawTeleports'
 
 
-const Canvas = ({ onClick, routeDetails }) => {
-  const [coordinates, setCoordinates] = useState([])
-
-  // Adds point to canvas on mouse click, i.e. adds mouse click position to coordinates
-  const handleCanvasClick = (event) => {
-    const currentCoord = { x: event.clientX, y: event.clientY }
-    setCoordinates([currentCoord])
-  }
-
+const Canvas = ({ onClick, onDropdownChange, routeDetails }) => {
   const canvasRef = useRef(null)
 
   useEffect(() => {
@@ -30,26 +20,27 @@ const Canvas = ({ onClick, routeDetails }) => {
     canvasBg.onload = () => {
       context.drawImage(canvasBg, 0, 0);
       DrawCanvasInitial(context)
+      DrawTeleports(canvas, 'green', 'purple')
       DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1])
-      DrawTeleports(canvas, 'green')
     }
 
     // This should be done some other way but not sure how. Drawing an image after separately from onload feels weird.
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.drawImage(canvasBg, 0, 0);
-    DrawTeleports(canvas, 'green')
-
-    const adjustedCoordinates = coordinates.map(coordinate => MouseCoordinatesToWorldCoordinates(canvas, coordinate))
-    adjustedCoordinates.forEach(coordinate => {DrawPointToCanvas(canvas, coordinate, 'red')})
+    DrawTeleports(canvas, 'green', 'purple')
     DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1])
 
-  }, [routeDetails, coordinates])
+  }, [routeDetails])
   
   return (
   <div>
     <canvas width="800" height="533" ref={canvasRef} onClick={onClick}/>
     <br></br>
-    <button onClick={handleCanvasClick}>DrawOptimalRoute</button>
+    Clicks currently edit :
+      <select id="select" onChange={onDropdownChange}>
+        <option value="start">Start point</option>
+        <option value="end">End point</option>
+      </select>
   </div>
   )
 }

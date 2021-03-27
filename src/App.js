@@ -12,11 +12,10 @@ import MouseCoordinatesToWorldCoordinates from './Components/Calculations/MouseC
 
 const App = () => {
   const [ startPoint, setStartPoint ] = useState({x: 63.4, y: 36.7})
+  const [ endPoint, setEndPoint ] = useState({x: 53.4, y: 89.9})
   const [ newX, setNewX ] = useState('')
   const [ newY, setNewY ] = useState('')
-  const [ endPoint, setEndPoint ] = useState({x: 53.4, y: 89.9})
-
-
+  const [ editingStart, setEditingStart ] = useState(true)
   const [ teleports, setTeleports ] = useState(defaultTeleports)
 
   const updatePlayerTeleports = (newX, newY) => {
@@ -37,22 +36,35 @@ const App = () => {
     setNewY('')
   }
 
-  // Updates the start point based on clicks on canvas
-  // TODO: Figure a way to enable used to change it to end point
-  const updateStartPoint = (event) => {
-    event.preventDefault()
-    const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
-
-    setStartPoint(canvasAdjustedCoordinates)
-    updatePlayerTeleports(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y)
-  }
-
   const handleXChange = (event) => {
     setNewX(event.target.value)
   }
 
   const handleYChange = (event) => {
     setNewY(event.target.value)
+  }
+
+  // Updates the start point based on clicks on canvas
+  const updateStartPoint = (event) => {
+    event.preventDefault()
+    const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
+
+    if (editingStart) {
+      setStartPoint(canvasAdjustedCoordinates)
+      updatePlayerTeleports(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y)
+    } else {
+      setEndPoint(canvasAdjustedCoordinates)
+    }
+  }
+
+  const updateClickEditTarget = (event) => {
+    event.preventDefault()
+    console.log(event)
+    if (event.target.value === "start") {
+      setEditingStart(true)
+    } else {
+      setEditingStart(false)
+    }
   }
   
   const routeDetails = RouteToDestination(startPoint, endPoint, teleports)
@@ -62,7 +74,7 @@ const App = () => {
   return (
     <div>
       <h1>Canvas</h1>
-      <Canvas onClick={updateStartPoint} routeDetails={routeDetails} /> 
+      <Canvas onClick={updateStartPoint} onDropdownChange={updateClickEditTarget} routeDetails={routeDetails} /> 
 
       <h1>Calculations</h1>
       Create start or end point
