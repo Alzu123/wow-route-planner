@@ -1,4 +1,6 @@
-export const DrawCanvasInitial = (context) => {
+export const DrawCanvasInitial = (canvas) => {
+  const context = canvas.getContext('2d')
+
   // Draw canvas border
   context.strokeStyle = '#000000'
   context.beginPath();

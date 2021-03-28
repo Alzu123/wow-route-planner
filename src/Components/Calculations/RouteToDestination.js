@@ -1,30 +1,48 @@
-const distanceBetweenTwoPoints = (point1, point2) => {
+const distanceBetweenTwoPoints = (position1, position2) => {
+  if (position1.continent !== position2.continent) {
+    return Number.POSITIVE_INFINITY
+  }
+
+  const point1 = position1.coordinates
+  const point2 = position2.coordinates
+
   const xDiff = point2.x - point1.x
   const yDiff = point2.y - point1.y
-
   return Math.round(Math.sqrt(xDiff ** 2 + yDiff ** 2) * 100) / 100
 }
 
 const updatePlayerTeleports = (playerLocation, teleports) => {
-  return teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: playerLocation} : teleport)
+  return teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...origin, coordinates: playerLocation.coordinates, continent: playerLocation.continent}} : teleport)
 }
 
-export const RouteToDestination = ( startPoint, endPoint, teleports ) => {
+export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
 
   let nodes = []
-  const updatedTeleports = updatePlayerTeleports(startPoint, teleports)
+  const updatedTeleports = updatePlayerTeleports(startPosition, teleports)
 
   const startNode = {
     name: "Start",
     id: 0,
-    origin: {x: startPoint.x, y: startPoint.y},
-    destination: {x: startPoint.x, y: startPoint.y}
+    origin: {
+      coordinates: startPosition.coordinates,
+      continent: startPosition.continent
+    },
+    destination: {
+      coordinates: startPosition.coordinates,
+      continent: startPosition.continent
+    }
   }
   const endNode = {
     name: "End",
     id: teleports.length + 1,
-    origin: {x: endPoint.x, y: endPoint.y},
-    destination: {x: endPoint.x, y: endPoint.y}
+    origin: {
+      coordinates: endPosition.coordinates,
+      continent: endPosition.continent
+    },
+    destination: {
+      coordinates: endPosition.coordinates,
+      continent: endPosition.continent
+    }
   }
 
   let targetNode = endNode

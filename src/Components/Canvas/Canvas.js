@@ -1,45 +1,59 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 
 import DrawCanvasInitial from './DrawCanvasInitial'
 import DrawOptimalRoute from './DrawOptimalRoute'
 import DrawTeleports from './DrawTeleports'
 
+import {Images} from '../../Data/ImageDB'
 
-const Canvas = ({ onClick, onDropdownChange, routeDetails }) => {
+const canvasHeight = 533
+const canvasWidth = 800
+
+const drawCanvasElements = (canvas, canvasBg, routeDetails, backgroundName) => {
+  const context = canvas.getContext('2d')
+
+  const bgHeight = canvasBg.naturalHeight
+  const bgWidth = canvasBg.naturalWidth
+
+  context.drawImage(canvasBg, 0, 0, bgWidth, bgHeight,
+                              0, 0, canvas.width, canvas.height);
+  DrawCanvasInitial(canvas)
+  DrawTeleports(canvas, 'green', 'purple', backgroundName)
+  DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1], backgroundName)
+
+}
+
+const Canvas = ({ onClick, onClickEditChange, routeDetails, bgImage, onBgChange }) => {
   const canvasRef = useRef(null)
 
   useEffect(() => {
     const canvas = canvasRef.current
-    const context = canvas.getContext('2d')
+    const canvasBg = new Image()
+    canvasBg.src = bgImage.file.default
 
-    // For some reason, I can't get the image to load from the file but only from a HTML element. Figure out a solution to this.
-    // TODO: Add possibility to switch image on the go
-    const canvasBg = document.getElementById('Kalimdor')
-    // const canvasBg = new Image()
-    // canvasBg.src = '../Data/Images/Kalimdor.jpg'
     canvasBg.onload = () => {
-      context.drawImage(canvasBg, 0, 0);
-      DrawCanvasInitial(context)
-      DrawTeleports(canvas, 'green', 'purple')
-      DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1])
+      drawCanvasElements(canvas, canvasBg, routeDetails, bgImage.name)
     }
 
-    // This should be done some other way but not sure how. Drawing an image after separately from onload feels weird.
-    context.clearRect(0, 0, canvas.width, canvas.height);
-    context.drawImage(canvasBg, 0, 0);
-    DrawTeleports(canvas, 'green', 'purple')
-    DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1])
+    // This should be done some other way but not sure how. Redrawing after onload feels weird.
+    canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height)
+    drawCanvasElements(canvas, canvasBg, routeDetails, bgImage.name)
 
-  }, [routeDetails])
+  }, [bgImage, routeDetails])
   
   return (
   <div>
-    <canvas width="800" height="533" ref={canvasRef} onClick={onClick}/>
+    <canvas width={canvasWidth} height={canvasHeight} ref={canvasRef} onClick={onClick}/>
     <br></br>
     Clicks currently edit :
-      <select id="select" onChange={onDropdownChange}>
+      <select id="select" onChange={onClickEditChange}>
         <option value="start">Start point</option>
         <option value="end">End point</option>
+      </select>
+    <br></br>
+    Current background :
+      <select id="select" onChange={onBgChange}>
+        {Images.map((image, i) => <option value={image.name} key={i}>{image.name}</option>)}
       </select>
   </div>
   )

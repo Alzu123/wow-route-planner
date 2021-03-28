@@ -1,8 +1,13 @@
 import WorldCoordinatesToCanvasCoordinates from "../Calculations/WorldCoordinatesToCanvasCoordinates"
 
-export const DrawPointToCanvas = (canvas, location, fill) => {
+export const DrawPointToCanvas = (canvas, position, fill, backgroundName) => {
+  if (position.continent !== backgroundName) {
+    return
+  }
+
   const context = canvas.getContext('2d')
-  const adjustedCoordinates = WorldCoordinatesToCanvasCoordinates(canvas, location)
+  position = position.coordinates
+  const adjustedCoordinates = WorldCoordinatesToCanvasCoordinates(canvas, position)
 
   context.fillStyle = '#000000'
   context.beginPath()

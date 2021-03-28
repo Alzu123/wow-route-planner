@@ -3,7 +3,7 @@ import React from 'react'
 const Point = ({ point }) => {
     
     return (
-        <p>{point.x}, {point.y}</p>
+        <p>{Math.round(point.x * 100) / 100}, {Math.round(point.y * 100) / 100}</p>
       )
 }
 
