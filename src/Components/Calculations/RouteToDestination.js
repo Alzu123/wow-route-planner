@@ -12,7 +12,7 @@ const distanceBetweenTwoPoints = (position1, position2) => {
 }
 
 const updatePlayerTeleports = (playerLocation, teleports) => {
-  return teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...origin, coordinates: playerLocation.coordinates, continent: playerLocation.continent}} : teleport)
+  return teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...teleport.origin, coordinates: playerLocation.coordinates, continent: playerLocation.continent}} : teleport)
 }
 
 export const RouteToDestination = ( startPosition, endPosition, teleports ) => {

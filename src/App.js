@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Map from './Components/Map'
-import CoordinatePointCreator from './Components/CoordinatePointCreator'
 import Point from './Components/Point'
 import NavigationSteps from './Components/NavigationSteps'
 import Canvas from './Components/Canvas/Canvas'
@@ -11,6 +9,8 @@ import {RouteToDestination} from './Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from './Components/Calculations/MouseCoordinatesToWorldCoordinates'
 
 import {Images} from './Data/ImageDB'
+
+import GenerateTeleportJson from './Data/GenerateTeleportJson'
 
 const App = () => {
   const [ startPosition, setStartPosition ] = useState({coordinates: {x: 63.4, y: 36.7}, continent: "Kalimdor"})
@@ -23,7 +23,7 @@ const App = () => {
     const newX = position.coordinates.x
     const newY = position.coordinates.y
     const newContinent = position.continent
-    setTeleports(teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...origin, coordinates: {x: newX, y: newY}, continent: newContinent}} : teleport))
+    setTeleports(teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...teleport.origin, coordinates: {x: newX, y: newY}, continent: newContinent}} : teleport))
   }
 
   const changeBg = (event) => {
@@ -60,6 +60,8 @@ const App = () => {
   const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
   const nodes = routeDetails[0]
   const finalRoute = routeDetails[1]
+
+  GenerateTeleportJson()
 
   return (
     <div>

@@ -9,7 +9,7 @@ const NavigationSteps = ({ nodes, finalRoute }) => {
       <p>The shortest route is {Math.round((nodes[0].distanceToTarget + Number.EPSILON) * 100) / 100} units long.</p>
       <ol>
         {finalRoute.map((nodeId, index) =>
-          index === 0 || index === finalRoute.length - 1 ? '' : <li key={index}>{nodes[nodeId].type} - {nodes[nodeId].name}</li>
+          index === 0 || index === finalRoute.length - 1 ? '' : <li key={index}>{nodes[nodeId].type} - {nodes[nodeId].origin.description} to {nodes[nodeId].destination.description}</li>
         )}
         <li key={nodes.length}>Fly to your destination.</li>
       </ol>
