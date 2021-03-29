@@ -1,32 +1,223 @@
 export const preprocessedTeleports = [
   {
-    name: "Cloak of Coordination",
-    note: "",
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Monday",
     origin: {
       coordinates: {
         x: 0,
         y: 0
       },
       continent: "",
-      description: "Cloak of Coordination"
+      description: "Adept's Guide to Dimensional Rifting"
     },
     destination: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 35,
+        y: 36.8
       },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
+      continent: "Broken Isles",
+      description: "Val'sharah"
     },
     fromPlayer: true,
     type: "Item",
     enabled: true,
-    cooldown: 120,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "Direbrew's Remote",
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Tuesday",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Adept's Guide to Dimensional Rifting"
+    },
+    destination: {
+      coordinates: {
+        x: 48.9,
+        y: 49.4
+      },
+      continent: "Broken Isles",
+      description: "Suramar"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Wednesday",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Adept's Guide to Dimensional Rifting"
+    },
+    destination: {
+      coordinates: {
+        x: 32.3,
+        y: 68.5
+      },
+      continent: "Broken Isles",
+      description: "Azsuna"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Thursday",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Adept's Guide to Dimensional Rifting"
+    },
+    destination: {
+      coordinates: {
+        x: 48.3,
+        y: 28.2
+      },
+      continent: "Broken Isles",
+      description: "Highmountain"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Friday",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Adept's Guide to Dimensional Rifting"
+    },
+    destination: {
+      coordinates: {
+        x: 61.4,
+        y: 36.4
+      },
+      continent: "Broken Isles",
+      description: "Stormheim"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Saturday",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Adept's Guide to Dimensional Rifting"
+    },
+    destination: {
+      coordinates: {
+        x: 55.4,
+        y: 61.9
+      },
+      continent: "Broken Isles",
+      description: "Broken Shore"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Adept's Guide to Dimensional Rifting",
+    note: "Only active on Sunday",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Adept's Guide to Dimensional Rifting"
+    },
+    destination: {
+      coordinates: {
+        x: 65.31,
+        y: 43.23
+      },
+      continent: "Argus",
+      description: "Antoran Wastes"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Admiral's Compass",
     note: "",
     origin: {
       coordinates: {
@@ -34,48 +225,213 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Direbrew's Remote"
+      description: "Admiral's Compass"
     },
     destination: {
       coordinates: {
-        x: 47.4,
-        y: 68.3
+        x: 32.31,
+        y: 37.97
+      },
+      continent: "Draenor",
+      description: "Garrison Shipyard"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Ancient Teleport: Dalaran",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Ancient Teleport: Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 46.5,
+        y: 38.1
       },
       continent: "Eastern Kingdoms",
-      description: "BRD"
+      description: "Dalaran Crater, Hillsbrad Foothills"
     },
     fromPlayer: true,
-    type: "Item",
+    type: "Spell",
     enabled: true,
-    cooldown: 60,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "Jaina's Locket",
-    note: "Multiple people can use",
+    name: "Argent Crusader's Tabard",
+    note: "",
     origin: {
       coordinates: {
         x: 0,
         y: 0
       },
       continent: "",
-      description: "Jaina's Locket"
+      description: "Argent Crusader's Tabard"
     },
     destination: {
       coordinates: {
-        x: 49.9,
-        y: 41.1
+        x: 46.02,
+        y: 20.9
       },
       continent: "Northrend",
-      description: "Old Dalaran"
+      description: "Icecrown"
     },
     fromPlayer: true,
     type: "Item",
     enabled: true,
-    cooldown: 60,
-    restrictions: "",
-    instant: true
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Atiesh, Greatstaff of the Guardian",
+    note: "Usable by others",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Atiesh, Greatstaff of the Guardian"
+    },
+    destination: {
+      coordinates: {
+        x: 49.55,
+        y: 82.13
+      },
+      continent: "Eastern Kingdoms",
+      description: "Karazhan"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid, Mage, Priest, Warlock",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Band of Kirin Tor",
+    note: "Many similar which share CD?",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Band of Kirin Tor"
+    },
+    destination: {
+      coordinates: {
+        x: 48.7,
+        y: 42.18
+      },
+      continent: "Northrend",
+      description: "Dalaran"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Baradin's Wardens Tabard",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Baradin's Wardens Tabard"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "Tol Barad",
+      description: "Baradin Base Camp"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Bladespire Relic",
+    note: "https://www.wowhead.com/item=118662/bladespire-relic#comments",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Bladespire Relic"
+    },
+    destination: {
+      coordinates: {
+        x: 28.4,
+        y: 30
+      },
+      continent: "Draenor",
+      description: "Frostfire Ridge"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
     name: "Blessed Medallion of Karabor",
@@ -90,8 +446,8 @@ export const preprocessedTeleports = [
     },
     destination: {
       coordinates: {
-        x: 75,
-        y: 80.7
+        x: 71.07,
+        y: 80.58
       },
       continent: "Outland",
       description: "Black Temple"
@@ -100,37 +456,16 @@ export const preprocessedTeleports = [
     type: "Item",
     enabled: true,
     cooldown: 15,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "Admiral's Compass",
-    note: "Horde version",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Admiral's Compass"
-    },
-    destination: {
-      coordinates: {
-        x: 33,
-        y: 39
-      },
-      continent: "Draenor",
-      description: "Garrison Shipyard"
-    },
-    fromPlayer: true,
-    type: "Item",
-    enabled: true,
-    cooldown: 240,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "Time-Lost Artifact",
+    name: "Boots of the Bay",
     note: "",
     origin: {
       coordinates: {
@@ -138,48 +473,275 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Time-Lost Artifact"
+      description: "Boots of the Bay"
     },
     destination: {
       coordinates: {
-        x: 88.6,
-        y: 70.8
-      },
-      continent: "Pandaria",
-      description: "Timeless Isle"
-    },
-    fromPlayer: true,
-    type: "Item",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "Violet Seal of the Grand Magus",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Violet Seal of the Grand Magus"
-    },
-    destination: {
-      coordinates: {
-        x: 50.4,
-        y: 81.8
+        x: 43.19,
+        y: 93.74
       },
       continent: "Eastern Kingdoms",
-      description: "Karazhan"
+      description: "Booty Bay"
     },
     fromPlayer: true,
     type: "Item",
     enabled: true,
-    cooldown: 240,
-    restrictions: "",
-    instant: true
+    cooldown: 1440,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Boralus Portal Room",
+    note: "If old Silithus enabled",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 46.98,
+        y: 76.53
+      },
+      continent: "Kalimdor",
+      description: "Silithus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Boralus Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 44.6,
+        y: 59.1
+      },
+      continent: "Eastern Kingdoms",
+      description: "Ironforge"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Boralus Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Boralus Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 30.5,
+        y: 25.9
+      },
+      continent: "Kalimdor",
+      description: "Exodar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Boralus Portal Room",
+    note: "Destination not on world maps",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "Nazjatar",
+      description: "Nazjatar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Captain's Signet of Command",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Captain's Signet of Command"
+    },
+    destination: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Cloak of Coordination",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Cloak of Coordination"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 120,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Cloak of Coordination",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Cloak of Coordination"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 120,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
     name: "Commander's Signet of Battle",
@@ -194,8 +756,8 @@ export const preprocessedTeleports = [
     },
     destination: {
       coordinates: {
-        x: 58.1,
-        y: 71.3
+        x: 58.29,
+        y: 72.23
       },
       continent: "Zandalar",
       description: "Zulzadar Harbor"
@@ -204,11 +766,16 @@ export const preprocessedTeleports = [
     type: "Item",
     enabled: true,
     cooldown: 30,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "Dreamwalk",
+    name: "Dalaran Hearthstone",
     note: "",
     origin: {
       coordinates: {
@@ -216,449 +783,69 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Dalaran Hearthstone"
     },
     destination: {
       coordinates: {
-        x: 53.8,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Mount Hyjal"
-    },
-    fromPlayer: true,
-    type: "Spell",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
-  },
-  {
-    name: "Dreamwalk",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Dreamwalk"
-    },
-    destination: {
-      coordinates: {
-        x: 40.3,
-        y: 63.1
-      },
-      continent: "Kalimdor",
-      description: "Feralas"
-    },
-    fromPlayer: true,
-    type: "Spell",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
-  },
-  {
-    name: "Dreamwalk",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Dreamwalk"
-    },
-    destination: {
-      coordinates: {
-        x: 46.8,
-        y: 79.2
-      },
-      continent: "Eastern Kingdoms",
-      description: "Duskwood"
-    },
-    fromPlayer: true,
-    type: "Spell",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
-  },
-  {
-    name: "Dreamwalk",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Dreamwalk"
-    },
-    destination: {
-      coordinates: {
-        x: 52.9,
-        y: 17.1
-      },
-      continent: "Kalimdor",
-      description: "Moonglade"
-    },
-    fromPlayer: true,
-    type: "Spell",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
-  },
-  {
-    name: "Dreamwalk",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Dreamwalk"
-    },
-    destination: {
-      coordinates: {
-        x: 68,
-        y: 57.4
-      },
-      continent: "Northrend",
-      description: "Grizzly Hills"
-    },
-    fromPlayer: true,
-    type: "Spell",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
-  },
-  {
-    name: "Dreamwalk",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Dreamwalk"
-    },
-    destination: {
-      coordinates: {
-        x: 54.9,
-        y: 38.3
-      },
-      continent: "Eastern Kingdoms",
-      description: "Hinterlands"
-    },
-    fromPlayer: true,
-    type: "Spell",
-    enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
-  },
-  {
-    name: "Dreamwalk",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Dreamwalk"
-    },
-    destination: {
-      coordinates: {
-        x: 31,
-        y: 26.3
+        x: 46.33,
+        y: 64.42
       },
       continent: "Broken Isles",
-      description: "Val'sharah"
+      description: "Dalaran"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 1,
-    restrictions: "Druid only",
-    instant: true
+    cooldown: 20,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "Orgrimmar Portal Room",
-    note: "",
+    name: "Darkmoon Faerie Mystic Mage",
+    note: "Up for a week every month",
     origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 61.5,
-        y: 36.4
-      },
-      continent: "Pandaria",
-      description: "Jade Forest"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "Horde only",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 58.1,
-        y: 60.8
-      },
-      continent: "Zulzadar",
-      description: "Dazar'alor"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "Horde only",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 42.5,
-        y: 65.3
-      },
-      continent: "Outland",
-      description: "Shattrath"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "Horde only",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 57.3,
-        y: 84.3
-      },
-      continent: "Kalimdor",
-      description: "Caverns of Time"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "Horde only",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "Bugs for some characters",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 52.63,
-        y: 85.2
-      },
-      continent: "Eastern Kingdoms",
-      description: "Blasted Lands"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "Horde only",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 49.9,
-        y: 41.1
-      },
-      continent: "Northrend",
-      description: "Old Dalaran"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 33.1,
-        y: 56.3
-      },
-      continent: "Broken Isles",
-      description: "Azsuna"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 72.3,
-        y: 43.7
-      },
-      continent: "Draenor",
-      description: "Warspear"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "Orgrimmar Portal Room",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 55.5,
-        y: 14.3
-      },
-      continent: "Eastern Kingdoms",
-      description: "Silvermoon City"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 58.1,
-        y: 60.8
-      },
-      continent: "Zulzadar",
-      description: "Dazar'alor"
-    },
-    destination: {
       coordinates: {
         x: 43.1,
-        y: 79.2
+        y: 71.3
       },
-      continent: "Kalimdor",
-      description: "Silithus"
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    destination: {
+      coordinates: {
+        x: 45.3,
+        y: 75.8
+      },
+      continent: "Eastern Kingdoms",
+      description: "Elwynn Forest"
     },
     fromPlayer: false,
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "Horde only",
-    instant: true
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "",
-    note: "",
+    name: "Darkmoon Faerie Mystic Mage",
+    note: "Up for a week every month",
     origin: {
       coordinates: {
-        x: 58.1,
-        y: 60.8
+        x: 58.3,
+        y: 42.66
       },
-      continent: "Zulzadar",
-      description: "Dazar'alor"
+      continent: "Kalimdor",
+      description: "Orgrimmar"
     },
     destination: {
       coordinates: {
@@ -672,24 +859,91 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "Horde only",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "",
-    note: "",
+    name: "Dazar'alor Portal Room",
+    note: "If old Silithus enabled",
     origin: {
       coordinates: {
-        x: 58.1,
-        y: 60.8
+        x: 58.26,
+        y: 62.04
       },
       continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 46.98,
+        y: 76.53
+      },
+      continent: "Kalimdor",
+      description: "Silithus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dazar'alor Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zulzadar",
+      description: "Dazar'alor"
+    },
+    destination: {
+      coordinates: {
+        x: 45.6,
+        y: 54.12
+      },
+      continent: "Kalimdor",
+      description: "Thunder Bluff"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dazar'alor Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zulzadar",
+      description: "Dazar'alor"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
@@ -698,24 +952,29 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "Horde only",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "",
+    name: "Dazar'alor Portal Room",
     note: "",
     origin: {
       coordinates: {
-        x: 58.1,
-        y: 60.8
+        x: 58.26,
+        y: 62.04
       },
       continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
       coordinates: {
-        x: 55.5,
-        y: 14.3
+        x: 56.16,
+        y: 13.18
       },
       continent: "Eastern Kingdoms",
       description: "Silvermoon City"
@@ -724,16 +983,21 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "Horde only",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "",
+    name: "Dazar'alor Portal Room",
     note: "Destination not on world maps",
     origin: {
       coordinates: {
-        x: 58.1,
-        y: 60.8
+        x: 58.26,
+        y: 62.04
       },
       continent: "Zulzadar",
       description: "Dazar'alor"
@@ -750,15 +1014,671 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "Horde only",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "",
-    note: "Unreachable by flying",
+    name: "Death Gate",
+    note: "",
     origin: {
       coordinates: {
-        x: 42.5,
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Death Gate"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "",
+      description: ""
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Death Knight",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Dimensional Ripper - Area 52",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dimensional Ripper - Area 52"
+    },
+    destination: {
+      coordinates: {
+        x: 53.3,
+        y: 23.1
+      },
+      continent: "Outland",
+      description: "Area 52, Netherstorm"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Goblin Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Dimensional Ripper - Everlook",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dimensional Ripper - Everlook"
+    },
+    destination: {
+      coordinates: {
+        x: 57.8,
+        y: 22.9
+      },
+      continent: "Kalimdor",
+      description: "Everlook, Winterspring"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Goblin Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Direbrew's Remote",
+    note: "Inside the mountain",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Direbrew's Remote"
+    },
+    destination: {
+      coordinates: {
+        x: 46.87,
+        y: 67.81
+      },
+      continent: "Eastern Kingdoms",
+      description: "Blackrock Depths"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 60,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 56.23,
+        y: 27.62
+      },
+      continent: "Kalimdor",
+      description: "Mount Hyjal"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 41.26,
+        y: 61.9
+      },
+      continent: "Kalimdor",
+      description: "Feralas"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 45.65,
+        y: 79.41
+      },
+      continent: "Eastern Kingdoms",
+      description: "Duskwood"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 54.37,
+        y: 19.34
+      },
+      continent: "Kalimdor",
+      description: "Moonglade"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 71.77,
+        y: 52.79
+      },
+      continent: "Northrend",
+      description: "Grizzly Hills"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 54.37,
+        y: 37.98
+      },
+      continent: "Eastern Kingdoms",
+      description: "Hinterlands"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Dreamwalk",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Dreamwalk"
+    },
+    destination: {
+      coordinates: {
+        x: 30.74,
+        y: 24.95
+      },
+      continent: "Broken Isles",
+      description: "Val'sharah"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Druid",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Emblem of Margoss",
+    note: "Consumed on use",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Emblem of Margoss"
+    },
+    destination: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Margoss's Retreat, Dalaran"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: false,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Empowered Ring of Kirin Tor",
+    note: "Shares CD with old rings",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Empowered Ring of Kirin Tor"
+    },
+    destination: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 44.5,
+        y: 21.2
+      },
+      continent: "Outland",
+      description: "Gruul's Lair, Blade's Edge Mountains"
+    },
+    destination: {
+      coordinates: {
+        x: 49.9,
+        y: 23.3
+      },
+      continent: "Draenor",
+      description: "Blackrock Foundry, Gorgrond"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 61.6,
+        y: 42.6
+      },
+      continent: "Outland",
+      description: "Throne of Kil'Jaeden, Hellfire Peninsula"
+    },
+    destination: {
+      coordinates: {
+        x: 59.6,
+        y: 39.4
+      },
+      continent: "Draenor",
+      description: "Throne of Kil'jaeden, Tanaan Jungle"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 66.4,
+        y: 52.2
+      },
+      continent: "Outland",
+      description: "Dark Portal, Hellfire Peninsula"
+    },
+    destination: {
+      coordinates: {
+        x: 62.3,
+        y: 47.5
+      },
+      continent: "Draenor",
+      description: "Dark Portal, Tanaan Jungle"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 57.6,
+        y: 51.4
+      },
+      continent: "Outland",
+      description: "Magtheridon's Lair, Hellfire Peninsula"
+    },
+    destination: {
+      coordinates: {
+        x: 56.8,
+        y: 47.1
+      },
+      continent: "Draenor",
+      description: "Hellfire Citadel, Tanaan Jungle"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 69.8,
+        y: 80.5
+      },
+      continent: "Outland",
+      description: "Warden's Cage, Shadowmoon Valley"
+    },
+    destination: {
+      coordinates: {
+        x: 60.8,
+        y: 70
+      },
+      continent: "Draenor",
+      description: "Path of Light, Shadowmoon Valley"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.9,
+        y: 75.8
+      },
+      continent: "Outland",
+      description: "Legion Hold, Shadowmoon Valley"
+    },
+    destination: {
+      coordinates: {
+        x: 53.3,
+        y: 64.8
+      },
+      continent: "Draenor",
+      description: "Moonflower Valley, Shadowmoon Valley"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 55.8,
+        y: 81.8
+      },
+      continent: "Outland",
+      description: "Skettis, Terokkar Forest"
+    },
+    destination: {
+      coordinates: {
+        x: 45.1,
+        y: 68.1
+      },
+      continent: "Draenor",
+      description: "Talador"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 47.5,
+        y: 72.1
+      },
+      continent: "Outland",
+      description: "Bone Wastes, Terokkar Forest"
+    },
+    destination: {
+      coordinates: {
+        x: 42.6,
+        y: 65.3
+      },
+      continent: "Draenor",
+      description: "Deathweb Hollow, Talador"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 42.6,
         y: 65.3
       },
       continent: "Outland",
@@ -766,26 +1686,1240 @@ export const preprocessedTeleports = [
     },
     destination: {
       coordinates: {
-        x: 55,
-        y: 3.2
+        x: 40.4,
+        y: 54.1
       },
-      continent: "Eastern Kingdoms",
-      description: "Isle of Quel'Danas"
+      continent: "Draenor",
+      description: "Shattrath, Talador"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 44,
+        y: 52.6
+      },
+      continent: "Outland",
+      description: "Zangarmarsh"
+    },
+    destination: {
+      coordinates: {
+        x: 46.4,
+        y: 47.1
+      },
+      continent: "Draenor",
+      description: "Path of Glory, Talador"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 26.8,
+        y: 69.3
+      },
+      continent: "Outland",
+      description: "Oshugun Spirit Fields, Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 25.4,
+        y: 55.9
+      },
+      continent: "Draenor",
+      description: "Oshugun Spirit Woods, Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 34.4,
+        y: 57.1
+      },
+      continent: "Outland",
+      description: "Throne of the Elements, Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 30.1,
+        y: 46.4
+      },
+      continent: "Draenor",
+      description: "Throne of the Elements, Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 38.6,
+        y: 59.7
+      },
+      continent: "Outland",
+      description: "Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 36.5,
+        y: 48.4
+      },
+      continent: "Draenor",
+      description: "Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 42.5,
+        y: 34.4
+      },
+      continent: "Outland",
+      description: "Razor Ridge, Blade's Edge Mountains"
+    },
+    destination: {
+      coordinates: {
+        x: 48.9,
+        y: 37.4
+      },
+      continent: "Draenor",
+      description: "Razor Bloom, Gorgrond"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 38.9,
+        y: 32.9
+      },
+      continent: "Outland",
+      description: "Bloodmaul Ravine, Blade's Edge Mountains"
+    },
+    destination: {
+      coordinates: {
+        x: 30.3,
+        y: 34.7
+      },
+      continent: "Draenor",
+      description: "Burning Glacier, Frostfire Ridge"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 36.1,
+        y: 35.5
+      },
+      continent: "Outland",
+      description: "Bloodmaul Ravine, Blade's Edge Mountains"
+    },
+    destination: {
+      coordinates: {
+        x: 26.8,
+        y: 31.7
+      },
+      continent: "Draenor",
+      description: "Gormaul Tower, Frostfire Ridge"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 33.8,
+        y: 48.2
+      },
+      continent: "Outland",
+      description: "Twinspire Ruins, Zangarmarsh"
+    },
+    destination: {
+      coordinates: {
+        x: 33.5,
+        y: 43.9
+      },
+      continent: "Draenor",
+      description: "Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Fracture Necrolyte Skull",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Fracture Necrolyte Skull"
+    },
+    destination: {
+      coordinates: {
+        x: 71.07,
+        y: 80.58
+      },
+      continent: "Outland",
+      description: "Black Temple"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 60,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Garrison Hearthstone",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Garrison Hearthstone"
+    },
+    destination: {
+      coordinates: {
+        x: 33.54,
+        y: 36.89
+      },
+      continent: "Draenor",
+      description: "Frostwall"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 15,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Garrison Hearthstone",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Garrison Hearthstone"
+    },
+    destination: {
+      coordinates: {
+        x: 53.9,
+        y: 63.3
+      },
+      continent: "Draenor",
+      description: ""
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 15,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Grim Campfire",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 57,
+        y: 29.1
+      },
+      continent: "Draenor",
+      description: "Gorgrond"
+    },
+    destination: {
+      coordinates: {
+        x: 91.5,
+        y: 76.9
+      },
+      continent: "Pandaria",
+      description: "Timeless Isle"
     },
     fromPlayer: false,
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Grim Campfire",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 91.5,
+        y: 76.9
+      },
+      continent: "Pandaria",
+      description: "Timeless Isle"
+    },
+    destination: {
+      coordinates: {
+        x: 57,
+        y: 29.1
+      },
+      continent: "Draenor",
+      description: "Gorgrond"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Hearthstone",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Hearthstone"
+    },
+    destination: {
+      coordinates: {
+        x: 47.9,
+        y: 82.44
+      },
+      continent: "Shadowlands",
+      description: "Ardenweald"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 15,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Hellscream's Reach Tabard",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Hellscream's Reach Tabard"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "Tol Barad",
+      description: "Hellscream's Grasp"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Jaina's Locket",
+    note: "Multiple people can use",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Jaina's Locket"
+    },
+    destination: {
+      coordinates: {
+        x: 48.7,
+        y: 42.18
+      },
+      continent: "Northrend",
+      description: "Dalaran"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 60,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Kyrian travel network",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 77,
+        y: 53.5
+      },
+      continent: "Shadowlands",
+      description: "Bastion"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 44.6,
+        y: 59.1
+      },
+      continent: "Eastern Kingdoms",
+      description: "Ironforge"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 52.8,
+        y: 81.8
+      },
+      continent: "Eastern Kingdoms",
+      description: "Nethergarde Keep, Blasted Lands"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 49.9,
+        y: 39.6
+      },
+      continent: "Eastern Kingdoms",
+      description: "Aerie Peak, The Hinterlands"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 47.4,
+        y: 68.5
+      },
+      continent: "Eastern Kingdoms",
+      description: "The Masonary, Black Rock Mountains"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "Eastern Kingdoms",
+      description: "Shadowforge City, Shadowforge City"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 50.4,
+        y: 80.1
+      },
+      continent: "Kalimdor",
+      description: "Fire Plume Ridge, Un'Goro Crater"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 54.4,
+        y: 34.2
+      },
+      continent: "Kalimdor",
+      description: "Throne of Flame, Mount Hyjal"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 49.5,
+        y: 50.3
+      },
+      continent: "Kalimdor",
+      description: "The Great Divide, Southern Barrens"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 59.3,
+        y: 55.9
+      },
+      continent: "Outland",
+      description: "Honor Hold, Hellfire Peninsula"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 66.3,
+        y: 78.4
+      },
+      continent: "Outland",
+      description: "Fel Pits, Shadowmoon Valley"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 46.3,
+        y: 18.2
+      },
+      continent: "Outland",
+      description: "Skald, Blade's Edge Mountains"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 43.9,
+        y: 19.3
+      },
+      continent: "Northrend",
+      description: "Argent Tournament Grounds, Icecrown"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 45.6,
+        y: 58
+      },
+      continent: "Northrend",
+      description: "Ruby Dragonshrine, Dragonblight"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 49.5,
+        y: 35.7
+      },
+      continent: "Pandaria",
+      description: "One Keg, Kun-Lai Summit"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 46.6,
+        y: 70.6
+      },
+      continent: "Pandaria",
+      description: "Stormstout Brewery, Valley of the Four Winds"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 47.4,
+        y: 29.5
+      },
+      continent: "Draenor",
+      description: "Blackrock Foundry Overlook, Gorgrond"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 29.6,
+        y: 43.9
+      },
+      continent: "Draenor",
+      description: "Elemental Plateau, Nagrand"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 46.5,
+        y: 29.5
+      },
+      continent: "Broken Isles",
+      description: "Neltharion's Vault, Highmountain"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Mole Machine",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Mole Machine"
+    },
+    destination: {
+      coordinates: {
+        x: 57.9,
+        y: 66.6
+      },
+      continent: "Broken Isles",
+      description: "The Broken Shore"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 30,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "Dark Iron Dwarf",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Necrolord travel network",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 62.7,
+        y: 27.6
+      },
+      continent: "Shadowlands",
+      description: "Maldraxxus"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Night Fae travel network",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 47.92,
+        y: 81.53
+      },
+      continent: "Shadowlands",
+      description: "Ardenweald"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Cataclysm Portals",
     note: "Destination not on world maps",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.28,
+        y: 41.82
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
@@ -802,24 +2936,29 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.28,
+        y: 41.82
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 53.8,
-        y: 43.3
+        x: 56.23,
+        y: 27.62
       },
       continent: "Kalimdor",
       description: "Mount Hyjal"
@@ -828,24 +2967,29 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.28,
+        y: 41.82
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 58.4,
-        y: 54.2
+        x: 60.11,
+        y: 56.02
       },
       continent: "Eastern Kingdoms",
       description: "Twilight Highlands"
@@ -854,24 +2998,29 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.28,
+        y: 41.82
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 34.3,
-        y: 61.9
+        x: 29.53,
+        y: 65.34
       },
       continent: "Eastern Kingdoms",
       description: "Vashj'ir"
@@ -880,16 +3029,21 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Cataclysm Portals",
     note: "Destination not on world maps",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.28,
+        y: 41.82
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
@@ -906,24 +3060,29 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.28,
+        y: 41.82
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 48.5,
-        y: 87.5
+        x: 48.98,
+        y: 88.67
       },
       continent: "Kalimdor",
       description: "Uldum"
@@ -932,34 +3091,385 @@ export const preprocessedTeleports = [
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Portal Room",
     note: "",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 58.6,
+        y: 44.28
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 43.6,
-        y: 34.2
+        x: 59.91,
+        y: 35.56
+      },
+      continent: "Pandaria",
+      description: "Jade Forest"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
       },
       continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zandalar",
+      description: "Dazar'alor"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 43.25,
+        y: 66.34
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 59.33,
+        y: 83.45
+      },
+      continent: "Kalimdor",
+      description: "Caverns of Time"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "Bugs for some characters",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 69.13,
+        y: 52.13
+      },
+      continent: "Outland",
+      description: "Dark Portal"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 48.7,
+        y: 42.18
+      },
+      continent: "Northrend",
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 33.73,
+        y: 57.91
+      },
+      continent: "Broken Isles",
+      description: "Azsuna"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 71.64,
+        y: 39.04
+      },
+      continent: "Draenor",
+      description: "Warspear"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 56.16,
+        y: 13.18
+      },
+      continent: "Eastern Kingdoms",
+      description: "Silvermoon City"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Zeppelin",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 44.07,
+        y: 87.02
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stranglethorn Vale"
+    },
+    destination: {
+      coordinates: {
+        x: 58.3,
+        y: 42.66
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Orgrimmar Zeppelin",
+    note: "Old world on arrival",
+    origin: {
+      coordinates: {
+        x: 58.3,
+        y: 42.66
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 44.45,
+        y: 34.63
+      },
+      continent: "Eastern Kingdoms",
       description: "Undercity"
     },
     fromPlayer: false,
     type: "Portal",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: false
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Zeppelin",
@@ -967,15 +3477,15 @@ export const preprocessedTeleports = [
     origin: {
       coordinates: {
         x: 58.3,
-        y: 43.3
+        y: 42.66
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 44,
-        y: 87.3
+        x: 44.07,
+        y: 87.02
       },
       continent: "Eastern Kingdoms",
       description: "Stranglethorn Vale"
@@ -984,24 +3494,29 @@ export const preprocessedTeleports = [
     type: "World",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: false
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Zeppelin",
     note: "",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 57.99,
+        y: 43.03
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 19.9,
-        y: 65.1
+        x: 18.98,
+        y: 65.73
       },
       continent: "Northrend",
       description: "Borean Tundra"
@@ -1010,24 +3525,29 @@ export const preprocessedTeleports = [
     type: "World",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: false
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "Orgrimmar Zeppelin",
-    note: "",
+    note: "Slower than flying",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
+        x: 57.99,
+        y: 43.03
       },
       continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
       coordinates: {
-        x: 47.1,
-        y: 55.4
+        x: 45.6,
+        y: 54.12
       },
       continent: "Kalimdor",
       description: "Thunder Bluff"
@@ -1036,11 +3556,109 @@ export const preprocessedTeleports = [
     type: "World",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: false
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Orgrimmar Zeppelin",
+    note: "Current time on arrival",
+    origin: {
+      coordinates: {
+        x: 58.3,
+        y: 42.66
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 44.87,
+        y: 33.99
+      },
+      continent: "Eastern Kingdoms",
+      description: "Undercity"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Orgrimmar Zeppelin",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 45.6,
+        y: 54.12
+      },
+      continent: "Kalimdor",
+      description: "Thunder Bluff"
+    },
+    destination: {
+      coordinates: {
+        x: 57.99,
+        y: 43.03
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Orgrimmar Zeppelin",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 18.98,
+        y: 65.73
+      },
+      continent: "Northrend",
+      description: "Borean Tundra"
+    },
+    destination: {
+      coordinates: {
+        x: 57.99,
+        y: 43.03
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Path of the Black Ox",
     note: "",
     origin: {
       coordinates: {
@@ -1048,25 +3666,774 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Path of the Black Ox"
+    },
+    destination: {
+      coordinates: {
+        x: 25.9,
+        y: 48.6
+      },
+      continent: "Pandaria",
+      description: "Siege of Niuzao"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Bloodmaul",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Bloodmaul"
+    },
+    destination: {
+      coordinates: {
+        x: 30.8,
+        y: 27
+      },
+      continent: "Draenor",
+      description: "Bloodmaul Slag Mines"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Burning Mountain",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Burning Mountain"
+    },
+    destination: {
+      coordinates: {
+        x: 47.5,
+        y: 68.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Upper Blackrock Spire"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Crescent Moon",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Crescent Moon"
+    },
+    destination: {
+      coordinates: {
+        x: 55.1,
+        y: 73.2
+      },
+      continent: "Draenor",
+      description: "Shadowmoon Burial Grounds"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Dark Rail",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Dark Rail"
+    },
+    destination: {
+      coordinates: {
+        x: 52,
+        y: 25
+      },
+      continent: "Draenor",
+      description: "Grimrail Depot"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Iron Prow",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Iron Prow"
+    },
+    destination: {
+      coordinates: {
+        x: 48.9,
+        y: 17.5
+      },
+      continent: "Draenor",
+      description: "Iron Docks"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Jade Serpent",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Jade Serpent"
+    },
+    destination: {
+      coordinates: {
+        x: 72.08,
+        y: 55.4
+      },
+      continent: "Pandaria",
+      description: "Temple of Jade Serpent"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Path of the Mogu King",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Mogu King"
+    },
+    destination: {
+      coordinates: {
+        x: 56.5,
+        y: 53.3
+      },
+      continent: "Pandaria",
+      description: "Mogu'shan Palace"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Necromancer",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Necromancer"
+    },
+    destination: {
+      coordinates: {
+        x: 50.7,
+        y: 36.2
+      },
+      continent: "Eastern Kingdoms",
+      description: "Scholomance"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Scarlet Blade",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Scarlet Blade"
+    },
+    destination: {
+      coordinates: {
+        x: 46.6,
+        y: 30.8
+      },
+      continent: "Eastern Kingdoms",
+      description: "Scarlet Halls"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Scarlet Mitre",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Scarlet Mitre"
+    },
+    destination: {
+      coordinates: {
+        x: 46.6,
+        y: 30.8
+      },
+      continent: "Eastern Kingdoms",
+      description: "Scarlet Monastery"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Setting Sun",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Setting Sun"
+    },
+    destination: {
+      coordinates: {
+        x: 42.8,
+        y: 57.4
+      },
+      continent: "Pandaria",
+      description: "Gate of the Setting Sun"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Shado-Pan",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Shado-Pan"
+    },
+    destination: {
+      coordinates: {
+        x: 41.1,
+        y: 30.2
+      },
+      continent: "Pandaria",
+      description: "Shado-Pan Monastery"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Skies",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Skies"
+    },
+    destination: {
+      coordinates: {
+        x: 44.8,
+        y: 72.8
+      },
+      continent: "Draenor",
+      description: "Skyreach"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Stout Brew",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Stout Brew"
+    },
+    destination: {
+      coordinates: {
+        x: 48.15,
+        y: 70.68
+      },
+      continent: "Pandaria",
+      description: "Stormstout Brewery"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Path of the Verdant",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Verdant"
+    },
+    destination: {
+      coordinates: {
+        x: 51.4,
+        y: 33
+      },
+      continent: "Draenor",
+      description: "The Everbloom"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Path of the Vigilant",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Path of the Vigilant"
+    },
+    destination: {
+      coordinates: {
+        x: 39.3,
+        y: 61.9
+      },
+      continent: "Draenor",
+      description: "Auchindoun"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pit Fighter's Punching Ring",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Pit Fighter's Punching Ring"
+    },
+    destination: {
+      coordinates: {
+        x: 57.99,
+        y: 43.03
+      },
+      continent: "Kalimdor",
+      description: "Brawl'gar Arena, Orgrimmar"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 60,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pit Fighter's Punching Ring",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Pit Fighter's Punching Ring"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Bizmo's Brawlpub, Stormwind"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 60,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Potion of Deepholm",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Potion of Deepholm"
     },
     destination: {
       coordinates: {
         x: null,
         y: null
       },
-      continent: "",
-      description: ""
+      continent: "Deepholm",
+      description: "Deepholm"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Reaves",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Reaves"
+    },
+    destination: {
+      coordinates: {
+        x: 34.4,
+        y: 57.1
+      },
+      continent: "Broken Isles",
+      description: "Azsuna"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1.5,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Reaves",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Reaves"
+    },
+    destination: {
+      coordinates: {
+        x: 35.3,
+        y: 34.2
+      },
+      continent: "Broken Isles",
+      description: "Val'sharah"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1.5,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Reaves",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Reaves"
+    },
+    destination: {
+      coordinates: {
+        x: 46.6,
+        y: 22.2
+      },
+      continent: "Broken Isles",
+      description: "Highmountain"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1.5,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Reaves",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Reaves"
+    },
+    destination: {
+      coordinates: {
+        x: 59.3,
+        y: 35.3
+      },
+      continent: "Broken Isles",
+      description: "Stormheim"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1.5,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Reaves",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Reaves"
+    },
+    destination: {
+      coordinates: {
+        x: 47.4,
+        y: 46.7
+      },
+      continent: "Broken Isles",
+      description: "Suramar"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1.5,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Relic of Karabor",
     note: "",
     origin: {
       coordinates: {
@@ -1074,51 +4441,774 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Relic of Karabor"
+    },
+    destination: {
+      coordinates: {
+        x: 71.1,
+        y: 46.6
+      },
+      continent: "Draenor",
+      description: "Shadowmoon Valley"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Shroud of Cooperation",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Shroud of Cooperation"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Shroud of Cooperation",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Shroud of Cooperation"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 480,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Skyhold",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 32.5,
+        y: 51.4
+      },
+      continent: "Broken Isles",
+      description: "Azsuna"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Warrior",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Skyhold",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 46.6,
+        y: 25.4
+      },
+      continent: "Broken Isles",
+      description: "Highmountain"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Warrior",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Skyhold",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 61.1,
+        y: 31.5
+      },
+      continent: "Broken Isles",
+      description: "Stormheim"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Warrior",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Skyhold",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 34.5,
+        y: 34.9
+      },
+      continent: "Broken Isles",
+      description: "Val'sharah"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Warrior",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Skyhold",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 44.5,
+        y: 45.6
+      },
+      continent: "Broken Isles",
+      description: "Suramar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Warrior",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Skyhold",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 53.9,
+        y: 68.5
+      },
+      continent: "Broken Isles",
+      description: "Broken Shore"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Warrior",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Cataclysm Portals",
+    note: "Destination not on world maps",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
     },
     destination: {
       coordinates: {
         x: null,
         y: null
       },
-      continent: "",
-      description: ""
+      continent: "Deepholm",
+      description: "Deepholm"
     },
-    fromPlayer: true,
-    type: "Spell",
+    fromPlayer: false,
+    type: "Portal",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Stormwind Cataclysm Portals",
     note: "",
     origin: {
       coordinates: {
-        x: 0,
-        y: 0
+        x: 43.1,
+        y: 71.3
       },
-      continent: "",
-      description: ""
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    destination: {
+      coordinates: {
+        x: 56.23,
+        y: 27.62
+      },
+      continent: "Kalimdor",
+      description: "Mount Hyjal"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Cataclysm Portals",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    destination: {
+      coordinates: {
+        x: 55.6,
+        y: 52.7
+      },
+      continent: "Eastern Kingdoms",
+      description: "Twilight Highlands"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Cataclysm Portals",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    destination: {
+      coordinates: {
+        x: 34.4,
+        y: 61.8
+      },
+      continent: "Eastern Kingdoms",
+      description: "Vashj'ir"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Cataclysm Portals",
+    note: "Destination not on world maps",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
     },
     destination: {
       coordinates: {
         x: null,
         y: null
       },
-      continent: "",
-      description: ""
+      continent: "Tol Barad",
+      description: "Tol Barad"
     },
-    fromPlayer: true,
-    type: "Spell",
+    fromPlayer: false,
+    type: "Portal",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Stormwind Cataclysm Portals",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    destination: {
+      coordinates: {
+        x: 48.98,
+        y: 88.67
+      },
+      continent: "Kalimdor",
+      description: "Uldum"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 68.6,
+        y: 64.6
+      },
+      continent: "Pandaria",
+      description: "Jade Forest"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 43.25,
+        y: 66.34
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 59.33,
+        y: 83.45
+      },
+      continent: "Kalimdor",
+      description: "Caverns of Time"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 69.13,
+        y: 52.13
+      },
+      continent: "Outland",
+      description: "Dark Portal"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 48.7,
+        y: 42.18
+      },
+      continent: "Northrend",
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 33.73,
+        y: 57.91
+      },
+      continent: "Broken Isles",
+      description: "Azsuna"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 73.3,
+        y: 46.9
+      },
+      continent: "Draenor",
+      description: "Stormshield"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "Unreachable by flying",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 30.5,
+        y: 25.9
+      },
+      continent: "Kalimdor",
+      description: "Exodar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind Portal Room",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Boralus",
     note: "",
     origin: {
       coordinates: {
@@ -1126,25 +5216,557 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Teleport: Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Dalaran - Broken Isles",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Dalaran - Broken Isles"
+    },
+    destination: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Teleport: Dalaran - Northrend",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Dalaran - Northrend"
+    },
+    destination: {
+      coordinates: {
+        x: 48.7,
+        y: 42.18
+      },
+      continent: "Northrend",
+      description: "Dalaran"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Darnassus",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Darnassus"
+    },
+    destination: {
+      coordinates: {
+        x: 40.5,
+        y: 9.6
+      },
+      continent: "Kalimdor",
+      description: "Darnassus"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Dazar'alor",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Dazar'alor"
+    },
+    destination: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zandalar",
+      description: "Dazar'alor"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Teleport: Exodar",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Exodar"
+    },
+    destination: {
+      coordinates: {
+        x: 30.5,
+        y: 25.9
+      },
+      continent: "Kalimdor",
+      description: "Exodar"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Ironforge",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Ironforge"
+    },
+    destination: {
+      coordinates: {
+        x: 44.6,
+        y: 59.1
+      },
+      continent: "Eastern Kingdoms",
+      description: "Ironforge"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Orgrimmar",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Orgrimmar"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Teleport: Oribos",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Oribos"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Shattrath",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 43.25,
+        y: 66.34
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Shattrath",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 43.25,
+        y: 66.34
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Silvermoon",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Silvermoon"
+    },
+    destination: {
+      coordinates: {
+        x: 56.16,
+        y: 13.18
+      },
+      continent: "Eastern Kingdoms",
+      description: "Silvermoon City"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Stonard",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Stonard"
+    },
+    destination: {
+      coordinates: {
+        x: 53.1,
+        y: 80.1
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stonard"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Stormshield",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Stormshield"
+    },
+    destination: {
+      coordinates: {
+        x: 73.3,
+        y: 46.9
+      },
+      continent: "Draenor",
+      description: "Stormshield"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Stormwind",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Stormwind"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Theramore",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Theramore"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 65.5
+      },
+      continent: "Kalimdor",
+      description: "Theramore"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Thunder Bluff",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Thunder Bluff"
+    },
+    destination: {
+      coordinates: {
+        x: 45.6,
+        y: 54.12
+      },
+      continent: "Kalimdor",
+      description: "Thunder Bluff"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Tol Barad",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Tol Barad"
     },
     destination: {
       coordinates: {
         x: null,
         y: null
       },
-      continent: "",
-      description: ""
+      continent: "Tol Barad",
+      description: "Tol Barad"
     },
     fromPlayer: true,
     type: "Spell",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Teleport: Tol Barad",
     note: "",
     origin: {
       coordinates: {
@@ -1152,25 +5774,92 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Teleport: Tol Barad"
     },
     destination: {
       coordinates: {
         x: null,
         y: null
       },
-      continent: "",
-      description: ""
+      continent: "Tol Barad",
+      description: "Tol Barad"
     },
     fromPlayer: true,
     type: "Spell",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Teleport: Undercity",
+    note: "Old world on arrival",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Undercity"
+    },
+    destination: {
+      coordinates: {
+        x: 44.45,
+        y: 34.63
+      },
+      continent: "Eastern Kingdoms",
+      description: "Undercity"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Undercity",
+    note: "Current time on arrival",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Teleport: Undercity"
+    },
+    destination: {
+      coordinates: {
+        x: 44.87,
+        y: 33.99
+      },
+      continent: "Eastern Kingdoms",
+      description: "Undercity"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Teleport: Vale of Eternal Blossoms",
     note: "",
     origin: {
       coordinates: {
@@ -1178,25 +5867,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Teleport: Vale of Eternal Blossoms"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 53,
+        y: 49.9
       },
-      continent: "",
-      description: ""
+      continent: "Pandaria",
+      description: "Vale of Eternal Blossoms"
     },
     fromPlayer: true,
     type: "Spell",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Teleport: Vale of Eternal Blossoms",
     note: "",
     origin: {
       coordinates: {
@@ -1204,25 +5898,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Teleport: Vale of Eternal Blossoms"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 55,
+        y: 57.4
       },
-      continent: "",
-      description: ""
+      continent: "Pandaria",
+      description: "Vale of Eternal Blossoms"
     },
     fromPlayer: true,
     type: "Spell",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "Alliance",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "MoP Challenger's Path",
+    name: "Teleport: Warspear",
     note: "",
     origin: {
       coordinates: {
@@ -1230,25 +5929,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Teleport: Warspear"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 71.64,
+        y: 39.04
       },
-      continent: "",
-      description: ""
+      continent: "Draenor",
+      description: "Warspear"
     },
     fromPlayer: true,
     type: "Spell",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "Horde",
+      class: "Mage",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "MoP Challenger's Path",
+    name: "The Brassiest Knuckle",
     note: "",
     origin: {
       coordinates: {
@@ -1256,25 +5960,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "The Brassiest Knuckle"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 57.99,
+        y: 43.03
       },
-      continent: "",
-      description: ""
+      continent: "Kalimdor",
+      description: "Brawl'gar Arena, Orgrimmar"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 60,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "WoD Walords's Path",
+    name: "The Brassiest Knuckle",
     note: "",
     origin: {
       coordinates: {
@@ -1282,25 +5991,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "The Brassiest Knuckle"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 43.1,
+        y: 71.3
       },
-      continent: "",
-      description: ""
+      continent: "Eastern Kingdoms",
+      description: "Bizmo's Brawlpub, Stormwind"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 60,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "WoD Walords's Path",
+    name: "Time-Lost Artifact",
     note: "",
     origin: {
       coordinates: {
@@ -1308,25 +6022,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Time-Lost Artifact"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 88.02,
+        y: 70.87
       },
-      continent: "",
-      description: ""
+      continent: "Pandaria",
+      description: "Timeless Isle"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "WoD Walords's Path",
+    name: "Ultrasafe Transporter: Gadgetzan",
     note: "",
     origin: {
       coordinates: {
@@ -1334,25 +6053,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Ultrasafe Transporter: Gadgetzan"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 56.8,
+        y: 78.6
       },
-      continent: "",
-      description: ""
+      continent: "Kalimdor",
+      description: "Gadgetzan, Tanaris"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Gnomish Engineering"
+    },
+    verified: false
   },
   {
-    name: "WoD Walords's Path",
+    name: "Ultrasafe Transporter: Mechagon",
     note: "",
     origin: {
       coordinates: {
@@ -1360,25 +6084,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Ultrasafe Transporter: Mechagon"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 18.6,
+        y: 26.5
       },
-      continent: "",
-      description: ""
+      continent: "Kul Tiras",
+      description: "Mechagon"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "WoD Walords's Path",
+    name: "Ultrasafe Transporter: Toshley's Station",
     note: "",
     origin: {
       coordinates: {
@@ -1386,25 +6115,61 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Ultrasafe Transporter: Toshley's Station"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 43.8,
+        y: 32.5
       },
-      continent: "",
-      description: ""
+      continent: "Outland",
+      description: "Toshley's Station, Blade's Edge Mountains"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Gnomish Engineering"
+    },
+    verified: false
   },
   {
-    name: "WoD Walords's Path",
+    name: "Venthyr travel network",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 21,
+        y: 50.5
+      },
+      continent: "Shadowlands",
+      description: "Revendreth"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Violet Seal of the Grand Magus",
     note: "",
     origin: {
       coordinates: {
@@ -1412,25 +6177,216 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Violet Seal of the Grand Magus"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 49.55,
+        y: 82.13
       },
-      continent: "",
-      description: ""
+      continent: "Eastern Kingdoms",
+      description: "Karazhan"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
-    name: "WoD Walords's Path",
+    name: "Wormhole Centrifuge",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Centrifuge"
+    },
+    destination: {
+      coordinates: {
+        x: 47.4,
+        y: 76.4
+      },
+      continent: "Draenor",
+      description: "Spires of Arak"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Centrifuge",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Centrifuge"
+    },
+    destination: {
+      coordinates: {
+        x: 44,
+        y: 58
+      },
+      continent: "Draenor",
+      description: "Talador"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Centrifuge",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Centrifuge"
+    },
+    destination: {
+      coordinates: {
+        x: 58.1,
+        y: 70.4
+      },
+      continent: "Draenor",
+      description: "Shadowmoon Valley"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Centrifuge",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Centrifuge"
+    },
+    destination: {
+      coordinates: {
+        x: 27.8,
+        y: 52.4
+      },
+      continent: "Draenor",
+      description: "Nagrand"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Centrifuge",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Centrifuge"
+    },
+    destination: {
+      coordinates: {
+        x: 49.8,
+        y: 30.6
+      },
+      continent: "Draenor",
+      description: "Gorgrond"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Centrifuge",
+    note: "Teleports in varied locations in the zone. Destination is set to zone middle",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Centrifuge"
+    },
+    destination: {
+      coordinates: {
+        x: 33.5,
+        y: 29.9
+      },
+      continent: "Draenor",
+      description: "Frostfire Ridge"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
       coordinates: {
@@ -1438,25 +6394,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Wormhole Generator: Northrend"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 22.4,
+        y: 63.3
       },
-      continent: "",
-      description: ""
+      continent: "Northrend",
+      description: "Borean Tundra"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
   },
   {
-    name: "WoD Walords's Path",
+    name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
       coordinates: {
@@ -1464,25 +6425,30 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Wormhole Generator: Northrend"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 78.5,
+        y: 77.3
       },
-      continent: "",
-      description: ""
+      continent: "Northrend",
+      description: "Howling Fjord"
     },
     fromPlayer: true,
-    type: "Spell",
+    type: "Item",
     enabled: true,
-    cooldown: 480,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
   },
   {
-    name: "Hearthstone",
+    name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
       coordinates: {
@@ -1490,12 +6456,105 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Hearthstone"
+      description: "Wormhole Generator: Northrend"
     },
     destination: {
       coordinates: {
-        x: 46.8,
-        y: 51.2
+        x: 26.9,
+        y: 40.7
+      },
+      continent: "Northrend",
+      description: "Sholazar Basin"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Generator: Northrend",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Generator: Northrend"
+    },
+    destination: {
+      coordinates: {
+        x: 41.9,
+        y: 23.9
+      },
+      continent: "Northrend",
+      description: "Icecrown"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Generator: Northrend",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Generator: Northrend"
+    },
+    destination: {
+      coordinates: {
+        x: 58,
+        y: 16.2
+      },
+      continent: "Northrend",
+      description: "Storm Peaks"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Generator: Shadowlands",
+    note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Generator: Shadowlands"
+    },
+    destination: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
       },
       continent: "Shadowlands",
       description: "Oribos"
@@ -1504,141 +6563,171 @@ export const preprocessedTeleports = [
     type: "Item",
     enabled: true,
     cooldown: 15,
-    restrictions: "",
-    instant: true
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
   },
   {
-    name: "Dalaran Hearthstone",
-    note: "",
+    name: "Wormhole Generator: Shadowlands",
+    note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
       coordinates: {
         x: 0,
         y: 0
       },
       continent: "",
-      description: "Dalaran Hearthstone"
+      description: "Wormhole Generator: Shadowlands"
     },
     destination: {
       coordinates: {
-        x: 46.4,
-        y: 66.3
+        x: 74,
+        y: 67.6
       },
-      continent: "Broken Isles",
-      description: "Dalaran"
-    },
-    fromPlayer: true,
-    type: "Item",
-    enabled: true,
-    cooldown: 20,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "Garrison Hearthstone",
-    note: "",
-    origin: {
-      coordinates: {
-        x: 0,
-        y: 0
-      },
-      continent: "",
-      description: "Garrison Hearthstone"
-    },
-    destination: {
-      coordinates: {
-        x: 34,
-        y: 37.4
-      },
-      continent: "Draenor",
-      description: "Garrison"
+      continent: "Shadowlands",
+      description: "Bastion"
     },
     fromPlayer: true,
     type: "Item",
     enabled: true,
     cooldown: 15,
-    restrictions: "Horde only",
-    instant: true
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
   },
   {
-    name: "Darkmoon Faerie Mystic Mage",
-    note: "Up for a week every month",
+    name: "Wormhole Generator: Shadowlands",
+    note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
       coordinates: {
-        x: 58.3,
-        y: 43.3
-      },
-      continent: "Kalimdor",
-      description: "Orgrimmar"
-    },
-    destination: {
-      coordinates: {
-        x: 47.1,
-        y: 55.4
-      },
-      continent: "Kalimdor",
-      description: "Thunder Bluff"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "",
-    note: "Up for a week every 3 weeks",
-    origin: {
-      coordinates: {
-        x: 58.1,
-        y: 71.3
-      },
-      continent: "Zandalar",
-      description: "Zulzadar Harbor"
-    },
-    destination: {
-      coordinates: {
-        x: null,
-        y: null
+        x: 0,
+        y: 0
       },
       continent: "",
-      description: "Darkshore"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
-  },
-  {
-    name: "",
-    note: "Up for a week every 3 weeks",
-    origin: {
-      coordinates: {
-        x: 58.1,
-        y: 71.3
-      },
-      continent: "Zandalar",
-      description: "Zulzadar Harbor"
+      description: "Wormhole Generator: Shadowlands"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 60.5,
+        y: 19.3
       },
-      continent: "",
-      description: "Arathi Highlands"
+      continent: "Shadowlands",
+      description: "Maldraxxus"
     },
-    fromPlayer: false,
-    type: "Portal",
+    fromPlayer: true,
+    type: "Item",
     enabled: true,
-    cooldown: null,
-    restrictions: "",
-    instant: true
+    cooldown: 15,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
   },
   {
-    name: "Argent Crusader's Tabard",
+    name: "Wormhole Generator: Shadowlands",
+    note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Generator: Shadowlands"
+    },
+    destination: {
+      coordinates: {
+        x: 51,
+        y: 82
+      },
+      continent: "Shadowlands",
+      description: "Ardenweald"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 15,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Generator: Shadowlands",
+    note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Generator: Shadowlands"
+    },
+    destination: {
+      coordinates: {
+        x: 20.9,
+        y: 58
+      },
+      continent: "Shadowlands",
+      description: "Revendreth"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 15,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wormhole Generator: Shadowlands",
+    note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Wormhole Generator: Shadowlands"
+    },
+    destination: {
+      coordinates: {
+        x: 20.9,
+        y: 7.3
+      },
+      continent: "Shadowlands",
+      description: "The Maw"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 15,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: "Engineering"
+    },
+    verified: false
+  },
+  {
+    name: "Wrap of Unity",
     note: "",
     origin: {
       coordinates: {
@@ -1646,74 +6735,1763 @@ export const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: ""
+      description: "Wrap of Unity"
     },
     destination: {
       coordinates: {
-        x: 43.3,
-        y: 19.9
+        x: 58.6,
+        y: 44.28
       },
-      continent: "Northrend",
-      description: "Icecrown"
+      continent: "Kalimdor",
+      description: "Orgrimmar"
     },
     fromPlayer: true,
     type: "Item",
     enabled: true,
-    cooldown: 30,
-    restrictions: "",
-    instant: true
+    cooldown: 240,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   },
   {
-    name: "",
-    note: "Old world only",
+    name: "Wrap of Unity",
+    note: "",
     origin: {
       coordinates: {
-        x: null,
-        y: null
+        x: 0,
+        y: 0
       },
       continent: "",
-      description: "Darnassus"
+      description: "Wrap of Unity"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 240,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Zen Pilgrimage",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
       },
       continent: "",
-      description: "Exodar"
+      description: "Zen Pilgrimage"
+    },
+    destination: {
+      coordinates: {
+        x: 48.3,
+        y: 28.4
+      },
+      continent: "Pandaria",
+      description: "Kun-lai Summit"
+    },
+    fromPlayer: true,
+    type: "Spell",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Monk",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Dalaran to Orgrimmar",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=45423/wailing-critters has to be completed",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 52,
+        y: 50.7
+      },
+      continent: "Kalimdor",
+      description: "Wailing Caverns, Northern Barrens"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Paladin Class Hall",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 58.3,
+        y: 33.4
+      },
+      continent: "Eastern Kingdoms",
+      description: "Light's Hope Chapel, Eastern Plaguelands"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Paladin",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 41.5,
+        y: 60.4
+      },
+      continent: "Eastern Kingdoms",
+      description: "Gnomeregan"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed",
+    origin: {
+      coordinates: {
+        x: 46.33,
+        y: 64.42
+      },
+      continent: "Broken Isles",
+      description: "Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 40.8,
+        y: 82.6
+      },
+      continent: "Eastern Kingdoms",
+      description: "Deadmines"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Booty Bay to Ratchet boat",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.19,
+        y: 93.74
+      },
+      continent: "Eastern Kingdoms",
+      description: "Booty Bay"
+    },
+    destination: {
+      coordinates: {
+        x: 56.83,
+        y: 54.26
+      },
+      continent: "Kalimdor",
+      description: "Ratchet"
     },
     fromPlayer: false,
     type: "World",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: false
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Undercity Zeppelin",
+    note: "Outside",
+    origin: {
+      coordinates: {
+        x: 43.9,
+        y: 33.54
+      },
+      continent: "Eastern Kingdoms",
+      description: "Brill, Undercity"
+    },
+    destination: {
+      coordinates: {
+        x: 44.07,
+        y: 86.83
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stranglethorn Vale"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Undercity Zeppelin",
+    note: "Outside",
+    origin: {
+      coordinates: {
+        x: 43.9,
+        y: 33.54
+      },
+      continent: "Eastern Kingdoms",
+      description: "Brill, Undercity"
+    },
+    destination: {
+      coordinates: {
+        x: 84.59,
+        y: 72.89
+      },
+      continent: "Northrend",
+      description: "Howling Fjord"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Undercity Zeppelin",
+    note: "Outside",
+    origin: {
+      coordinates: {
+        x: 43.9,
+        y: 33.54
+      },
+      continent: "Eastern Kingdoms",
+      description: "Brill, Undercity"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Stormwind to Teldrassil boat",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: 43.8,
+        y: 14.7
+      },
+      continent: "Kalimdor",
+      description: "Teldrassil"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Stormwind to Borean Tundra boat",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: 78.9,
+        y: 78.6
+      },
+      continent: "Northrend",
+      description: "Valiance Keep, Borean Tundra"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Horde Gnomeregan portal",
+    note: "Inside instance. Can't get out?",
+    origin: {
+      coordinates: {
+        x: 44.07,
+        y: 86.83
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stranglethorn Vale"
+    },
+    destination: {
+      coordinates: {
+        x: 41.5,
+        y: 60.4
+      },
+      continent: "Eastern Kingdoms",
+      description: "Gnomeregan"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "Uncercity to Dark Portal",
+    note: "Old world only",
+    origin: {
+      coordinates: {
+        x: 44.45,
+        y: 34.63
+      },
+      continent: "Eastern Kingdoms",
+      description: "Undercity"
+    },
+    destination: {
+      coordinates: {
+        x: 69.06,
+        y: 51.94
+      },
+      continent: "Outland",
+      description: "Dark Portal"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
   },
   {
     name: "",
-    note: "Old world?",
+    note: "Old world only?",
     origin: {
       coordinates: {
-        x: null,
-        y: null
+        x: 46.9,
+        y: 53.7
       },
-      continent: "",
+      continent: "Eastern Kingdoms",
       description: "Wetlands"
     },
     destination: {
       coordinates: {
-        x: null,
-        y: null
+        x: 58.6,
+        y: 65.5
       },
-      continent: "",
+      continent: "Kalimdor",
       description: "Dustwallow Marsh"
     },
     fromPlayer: false,
     type: "World",
     enabled: true,
     cooldown: null,
-    restrictions: "",
-    instant: false
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Old world only?",
+    origin: {
+      coordinates: {
+        x: 43.8,
+        y: 14.7
+      },
+      continent: "Kalimdor",
+      description: "Teldrassil"
+    },
+    destination: {
+      coordinates: {
+        x: 30.5,
+        y: 25.9
+      },
+      continent: "Kalimdor",
+      description: "Exodar"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Old world only?",
+    origin: {
+      coordinates: {
+        x: 58.6,
+        y: 65.5
+      },
+      continent: "Kalimdor",
+      description: "Dustwallow Marsh"
+    },
+    destination: {
+      coordinates: {
+        x: 46.9,
+        y: 53.7
+      },
+      continent: "Eastern Kingdoms",
+      description: "Wetlands"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: false,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.91,
+        y: 35.56
+      },
+      continent: "Pandaria",
+      description: "Jade Forest"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.25,
+        y: 66.34
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.33,
+        y: 83.45
+      },
+      continent: "Kalimdor",
+      description: "Caverns of Time"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 69.13,
+        y: 52.13
+      },
+      continent: "Outlands",
+      description: "Dark Portal"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 48.7,
+        y: 42.18
+      },
+      continent: "Northrend",
+      description: "Old Dalaran"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 71.64,
+        y: 39.04
+      },
+      continent: "Draenor",
+      description: "Warspear"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 56.16,
+        y: 13.18
+      },
+      continent: "Eastern Kingdoms",
+      description: "Silvermoon City"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 45.61,
+        y: 50.7
+      },
+      continent: "Shadowlands",
+      description: "Oribos"
+    },
+    destination: {
+      coordinates: {
+        x: 58.6,
+        y: 44.28
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 56.23,
+        y: 27.62
+      },
+      continent: "Kalimdor",
+      description: "Mount Hyjal"
+    },
+    destination: {
+      coordinates: {
+        x: 58.28,
+        y: 41.82
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 60.11,
+        y: 56.02
+      },
+      continent: "Eastern Kingdoms",
+      description: "Twilight Highlands"
+    },
+    destination: {
+      coordinates: {
+        x: 58.28,
+        y: 41.82
+      },
+      continent: "Kalimdor",
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 56.23,
+        y: 27.62
+      },
+      continent: "Kalimdor",
+      description: "Mount Hyjal"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 55.6,
+        y: 52.7
+      },
+      continent: "Eastern Kingdoms",
+      description: "Twilight Highlands"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 56.83,
+        y: 54.26
+      },
+      continent: "Kalimdor",
+      description: "Ratchet"
+    },
+    destination: {
+      coordinates: {
+        x: 43.19,
+        y: 93.74
+      },
+      continent: "Eastern Kingdoms",
+      description: "Booty Bay"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.8,
+        y: 14.7
+      },
+      continent: "Kalimdor",
+      description: "Teldrassil"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind Harbor"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Old world only?",
+    origin: {
+      coordinates: {
+        x: 30.5,
+        y: 25.9
+      },
+      continent: "Kalimdor",
+      description: "Exodar"
+    },
+    destination: {
+      coordinates: {
+        x: 43.8,
+        y: 14.7
+      },
+      continent: "Kalimdor",
+      description: "Teldrassil"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=45423/wailing-critters has to be completed",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 52,
+        y: 50.7
+      },
+      continent: "Kalimdor",
+      description: "Wailing Caverns, Northern Barrens"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 41.5,
+        y: 60.4
+      },
+      continent: "Eastern Kingdoms",
+      description: "Gnomeregan"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 40.8,
+        y: 82.6
+      },
+      continent: "Eastern Kingdoms",
+      description: "Deadmines"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 33.8,
+        y: 21.6
+      },
+      continent: "Zandalar",
+      description: "Vol'dun"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 63.6,
+        y: 25.7
+      },
+      continent: "Zandalar",
+      description: "Nazmir"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.5,
+        y: 54.4
+      },
+      continent: "Kul Tiras",
+      description: "Boralus"
+    },
+    destination: {
+      coordinates: {
+        x: 44,
+        y: 77.5
+      },
+      continent: "Zandalar",
+      description: "Zuldazar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 78.9,
+        y: 78.6
+      },
+      continent: "Northrend",
+      description: "Valiance Keep, Borean Tundra"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind Harbor"
+    },
+    fromPlayer: false,
+    type: "World",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Related to quest https://www.wowhead.com/quest=12561/an-issue-of-trust#. Investigate",
+    origin: {
+      coordinates: {
+        x: 25.8,
+        y: 49.4
+      },
+      continent: "Northrend",
+      description: "Sholazar Basin"
+    },
+    destination: {
+      coordinates: {
+        x: 51.5,
+        y: 75.6
+      },
+      continent: "Kalimdor",
+      description: "Shaper's Terrace, Un'goro Crater"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Unreachable by flying",
+    origin: {
+      coordinates: {
+        x: 42.5,
+        y: 65.3
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 55.67,
+        y: 2.85
+      },
+      continent: "Eastern Kingdoms",
+      description: "Isle of Quel'Danas"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: true
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 42.5,
+        y: 65.3
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 59.33,
+        y: 83.45
+      },
+      continent: "Kalimdor",
+      description: "Caverns of Time"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Seems off, verify",
+    origin: {
+      coordinates: {
+        x: 42.5,
+        y: 65.3
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 53.6,
+        y: 85.2
+      },
+      continent: "Eastern Kingdoms",
+      description: "Dark Portal, Blasted Lands"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 18.5,
+        y: 13.2
+      },
+      continent: "Pandaria",
+      description: "Isle of Thunder"
+    },
+    destination: {
+      coordinates: {
+        x: 30.1,
+        y: 46.2
+      },
+      continent: "Pandaria",
+      description: "Townlong Steppes"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Not reachable by flying",
+    origin: {
+      coordinates: {
+        x: 30.1,
+        y: 46.2
+      },
+      continent: "Pandaria",
+      description: "Townlong Steppes"
+    },
+    destination: {
+      coordinates: {
+        x: 18.5,
+        y: 13.2
+      },
+      continent: "Pandaria",
+      description: "Isle of Thunder"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=45423/wailing-critters has to be completed",
+    origin: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zandalar",
+      description: "Dazar'alor"
+    },
+    destination: {
+      coordinates: {
+        x: 52,
+        y: 50.7
+      },
+      continent: "Kalimdor",
+      description: "Wailing Caverns, Northern Barrens"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed",
+    origin: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zandalar",
+      description: "Dazar'alor"
+    },
+    destination: {
+      coordinates: {
+        x: 41.5,
+        y: 60.4
+      },
+      continent: "Eastern Kingdoms",
+      description: "Gnomeregan"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Pet Battle Teleport",
+    note: "https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed",
+    origin: {
+      coordinates: {
+        x: 58.26,
+        y: 62.04
+      },
+      continent: "Zandalar",
+      description: "Dazar'alor"
+    },
+    destination: {
+      coordinates: {
+        x: 40.8,
+        y: 82.6
+      },
+      continent: "Eastern Kingdoms",
+      description: "Deadmines"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Up for a week every 3 weeks",
+    origin: {
+      coordinates: {
+        x: 58.29,
+        y: 72.23
+      },
+      continent: "Zandalar",
+      description: "Zulzadar Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "Kalimdor",
+      description: "Darkshore"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: false,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "Up for a week every 3 weeks",
+    origin: {
+      coordinates: {
+        x: 58.29,
+        y: 72.23
+      },
+      continent: "Zandalar",
+      description: "Zulzadar Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: null,
+        y: null
+      },
+      continent: "Eastern Kingdoms",
+      description: "Arathi Highlands"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: false,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.29,
+        y: 72.23
+      },
+      continent: "Zandalar",
+      description: "Zulzadar Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: 25.8,
+        y: 66.6
+      },
+      continent: "Kul Tiras",
+      description: "Drustvar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.29,
+        y: 72.23
+      },
+      continent: "Zandalar",
+      description: "Zulzadar Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: 56.9,
+        y: 12.4
+      },
+      continent: "Kul Tiras",
+      description: "Stormsong Valley"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.29,
+        y: 72.23
+      },
+      continent: "Zandalar",
+      description: "Zulzadar Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: 69.9,
+        y: 68.3
+      },
+      continent: "Kul Tiras",
+      description: "Tiragarde Sound"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 58.29,
+        y: 72.23
+      },
+      continent: "Zandalar",
+      description: "Zulzadar Harbor"
+    },
+    destination: {
+      coordinates: {
+        x: 20.4,
+        y: 25
+      },
+      continent: "Kul Tiras",
+      description: "Mechagon"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
+  },
+  {
+    name: "Shattrath to Stormwind",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 43.25,
+        y: 66.34
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    destination: {
+      coordinates: {
+        x: 43.1,
+        y: 71.3
+      },
+      continent: "Eastern Kingdoms",
+      description: "Stormwind"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      profession: ""
+    },
+    verified: false
   }
 ]
 

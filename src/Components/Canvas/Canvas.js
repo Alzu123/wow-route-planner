@@ -18,7 +18,7 @@ const drawCanvasElements = (canvas, canvasBg, routeDetails, backgroundName) => {
   context.drawImage(canvasBg, 0, 0, bgWidth, bgHeight,
                               0, 0, canvas.width, canvas.height);
   DrawCanvasInitial(canvas)
-  DrawTeleports(canvas, 'green', 'purple', backgroundName)
+  DrawTeleports(canvas, 'purple', 'purple', backgroundName)
   DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1], backgroundName)
 
 }

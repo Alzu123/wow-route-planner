@@ -6,7 +6,6 @@ export const CsvToJson = ( csvFile, delimiter ) => {
   for(let i = 3; i < lines.length; i++){
     var data = lines[i].split(delimiter)
 
-
 	  var obj = {
       name: data[0].trim(),
       note: data[1],
@@ -24,8 +23,13 @@ export const CsvToJson = ( csvFile, delimiter ) => {
       type: data[11],
       enabled: data[12] === "TRUE",
       cooldown: parseFloat(data[13]),
-      restrictions: data[14],
-      instant: data[15] === "TRUE",
+      restrictions: {
+        faction: data[14],
+        class: data[15],
+        race: data[16],
+        profession: data[17],
+      },
+      verified: data[18] === "TRUE",
     }
 
     result.push(obj)

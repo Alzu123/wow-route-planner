@@ -4,6 +4,9 @@ const NavigationSteps = ({ nodes, finalRoute }) => {
 
   // This works but needs cleaning up.
   // TODO: 1) Add support for different types. 2) Add support for flying instead of teleporting. 3) Beautify end result
+
+  console.log(nodes)
+  console.log(finalRoute)
   return (
     <div>
       <p>The shortest route is {Math.round((nodes[0].distanceToTarget + Number.EPSILON) * 100) / 100} units long.</p>
