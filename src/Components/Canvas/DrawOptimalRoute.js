@@ -13,8 +13,8 @@ import DrawLineToCanvas from "./DrawLineToCanvas"
 export const DrawOptimalRoute = (canvas, nodes, optimalRoute, backgroundName) => {
 
   for (let i = 0; i < optimalRoute.length - 1; i++) {
-    const currentNode = nodes[optimalRoute[i]]
-    const nextNode = nodes[optimalRoute[i + 1]]
+    const currentNode =  optimalRoute[i]
+    const nextNode = optimalRoute[i + 1]
 
     // Draw lines for teleports
     DrawLineToCanvas(canvas, currentNode.origin, currentNode.destination, 'purple', backgroundName)

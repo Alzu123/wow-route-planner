@@ -4,13 +4,22 @@ const fancifyCoordinates = (coordinates) => {
   return `[${coordinates.x}, ${coordinates.y}]`
 }
 
-const Teleports = ({ teleports }) => {
+const Teleports = ({ teleports, onClick }) => {
   return (
     <div>
-      {teleports.map(teleport => 
-        <p key={teleport.id}>
-          {teleport.name}: From {fancifyCoordinates(teleport.origin)} to {fancifyCoordinates(teleport.destination)}
-        </p>)}
+      <table>
+        <tbody>
+          {teleports.map(teleport => 
+            <tr key={teleport.id} id={teleport.id}>
+              <td><button onClick={onClick}>Toggle</button></td>
+              <td>{teleport.enabled.toString()} |</td>
+              <td>
+                {teleport.name}: From {teleport.origin.coordinates.x === 0 ? 'player' : fancifyCoordinates(teleport.origin.coordinates)} to {fancifyCoordinates(teleport.destination.coordinates)} in {teleport.destination.description}, {teleport.destination.continent}
+              </td>
+            </tr>)}
+        </tbody>
+      </table>
+      
     </div>
   )
 }

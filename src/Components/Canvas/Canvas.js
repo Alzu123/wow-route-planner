@@ -9,7 +9,7 @@ import {Images} from '../../Data/ImageDB'
 const canvasHeight = 533
 const canvasWidth = 800
 
-const drawCanvasElements = (canvas, canvasBg, routeDetails, backgroundName) => {
+const drawCanvasElements = (canvas, canvasBg, teleports, routeDetails, backgroundName) => {
   const context = canvas.getContext('2d')
 
   const bgHeight = canvasBg.naturalHeight
@@ -18,12 +18,11 @@ const drawCanvasElements = (canvas, canvasBg, routeDetails, backgroundName) => {
   context.drawImage(canvasBg, 0, 0, bgWidth, bgHeight,
                               0, 0, canvas.width, canvas.height);
   DrawCanvasInitial(canvas)
-  DrawTeleports(canvas, 'purple', 'purple', backgroundName)
+  DrawTeleports(canvas, teleports, 'purple', 'purple', backgroundName)
   DrawOptimalRoute(canvas, routeDetails[0], routeDetails[1], backgroundName)
-
 }
 
-const Canvas = ({ onClick, onClickEditChange, routeDetails, bgImage, onBgChange }) => {
+const Canvas = ({ onClick, onClickEditChange, teleports, routeDetails, bgImage, onBgChange }) => {
   const canvasRef = useRef(null)
 
   useEffect(() => {
@@ -32,14 +31,14 @@ const Canvas = ({ onClick, onClickEditChange, routeDetails, bgImage, onBgChange 
     canvasBg.src = bgImage.file.default
 
     canvasBg.onload = () => {
-      drawCanvasElements(canvas, canvasBg, routeDetails, bgImage.name)
+      drawCanvasElements(canvas, canvasBg, teleports, routeDetails, bgImage.name)
     }
 
     // This should be done some other way but not sure how. Redrawing after onload feels weird.
     canvas.getContext('2d').clearRect(0, 0, canvas.width, canvas.height)
-    drawCanvasElements(canvas, canvasBg, routeDetails, bgImage.name)
+    drawCanvasElements(canvas, canvasBg, teleports, routeDetails, bgImage.name)
 
-  }, [bgImage, routeDetails])
+  }, [teleports, bgImage, routeDetails])
   
   return (
   <div>

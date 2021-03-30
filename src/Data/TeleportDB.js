@@ -1,4 +1,4 @@
-export const preprocessedTeleports = [
+const preprocessedTeleports = [
   {
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Monday",

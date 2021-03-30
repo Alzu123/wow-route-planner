@@ -1,29 +1,42 @@
 import React, { useState } from 'react'
-import Point from './Components/Point'
+import Position from './Components/Position'
 import NavigationSteps from './Components/NavigationSteps'
 import Canvas from './Components/Canvas/Canvas'
 import Teleports from './Components/Teleports'
 
 import {defaultTeleports} from './Data/TeleportDB'
-import {RouteToDestination} from './Components/Calculations/RouteToDestination'
-import MouseCoordinatesToWorldCoordinates from './Components/Calculations/MouseCoordinatesToWorldCoordinates'
-
 import {Images} from './Data/ImageDB'
+import {PlayerInfo} from './Data/Player'
 
-import GenerateTeleportJson from './Data/GenerateTeleportJson'
+import {RouteToDestination} from './Components/Calculations/RouteToDestination'
+import MouseCoordinatesToWorldCoordinates from './Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
+import {ProcessTeleports} from './Data/Teleport Processing/ProcessTeleports'
+
+import GenerateTeleportJson from './Data/Teleport Processing/GenerateTeleportJson'
+import ToggleTeleport from './Data/Teleport Processing/ToggleTeleport'
 
 const App = () => {
-  const [ startPosition, setStartPosition ] = useState({coordinates: {x: 63.4, y: 36.7}, continent: "Kalimdor"})
-  const [ endPosition, setEndPosition ] = useState({coordinates: {x: 39.63, y: 67.2}, continent: "Eastern Kingdoms"})
+  const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
+  const [ endPosition, setEndPosition ] = useState({coordinates: {x: 42.8, y: 83.3}, continent: "Kalimdor"})
   const [ editingStart, setEditingStart ] = useState(true)
   const [ bgImage, setbgImage ] = useState(Images[0])
-  const [ teleports, setTeleports ] = useState(defaultTeleports)
+  const [ teleports, setTeleports ] = useState(ProcessTeleports(defaultTeleports))
 
   const updatePlayerTeleports = (position) => {
     const newX = position.coordinates.x
     const newY = position.coordinates.y
     const newContinent = position.continent
-    setTeleports(teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...teleport.origin, coordinates: {x: newX, y: newY}, continent: newContinent}} : teleport))
+
+    const newPosition = {
+      coordinates: {
+        x: newX,
+        y: newY,
+      },
+      continent: newContinent
+    }
+
+    const processedTeleports = ProcessTeleports(teleports, newPosition)
+    setTeleports(processedTeleports)
   }
 
   const changeBg = (event) => {
@@ -56,27 +69,42 @@ const App = () => {
       setEditingStart(false)
     }
   }
+
+  const toggleAvailability = (event) => {
+    const teleportID = parseInt(event.target.parentNode.parentNode.id)
+    setTeleports(ToggleTeleport(teleports, teleportID))
+  }
   
+  //updatePlayerTeleports(startPosition)
   const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
   const nodes = routeDetails[0]
   const finalRoute = routeDetails[1]
 
-  GenerateTeleportJson()
+  //GenerateTeleportJson()
 
   return (
     <div>
-      <h1>Canvas</h1>
-      <Canvas onClick={updateStartOrEnd} onClickEditChange={updateClickEditTarget} routeDetails={routeDetails} bgImage={bgImage} onBgChange={changeBg}/> 
-
-      Player: <Point point={startPosition.coordinates}/> in {startPosition.continent}
-      <br></br>
-      Destination: <Point point={endPosition.coordinates}/> in {endPosition.continent}
-
-      <h2>Route</h2>
-      <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
+      <h1>Route</h1>
+      <table>
+        <tbody>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Player <Position position={startPosition}/></td>
+            <td>Destination: <Position position={endPosition}/></td>
+          </tr>
+          <tr>
+            <td><NavigationSteps nodes={nodes} finalRoute={finalRoute} /></td>
+            <td><Canvas onClick={updateStartOrEnd} onClickEditChange={updateClickEditTarget} teleports={teleports} routeDetails={routeDetails} bgImage={bgImage} onBgChange={changeBg}/> </td>
+          </tr>
+        </tbody>
+      </table>
+      
 
       <h2>List of teleports</h2>
-      <Teleports teleports={teleports}/>
+      <Teleports teleports={teleports} onClick={toggleAvailability}/>
     </div>
   )
 }

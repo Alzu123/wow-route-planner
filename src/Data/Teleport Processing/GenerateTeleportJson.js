@@ -1,4 +1,4 @@
-import CsvToJson from '../Components/Calculations/CsvToJson'
+import CsvToJson from './CsvToJson'
 
 /*
 ----------------- HOW TO USE -----------------
