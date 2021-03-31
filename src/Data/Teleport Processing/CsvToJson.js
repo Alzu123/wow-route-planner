@@ -27,9 +27,13 @@ export const CsvToJson = ( csvFile, delimiter ) => {
         faction: data[14],
         class: data[15],
         race: data[16],
-        profession: data[17],
+        covenant: data[17],
+        profession: data[18],
       },
-      verified: data[18] === "TRUE",
+      verified: data[19] === "TRUE",
+      numLoadingScreens: data[20] ? parseFloat(data[20]) : 0,
+      castTime: data[21] ? parseFloat(data[21]) : 0,
+      travelTime: data[22] ? parseFloat(data[22]) : 0,
     }
 
     result.push(obj)

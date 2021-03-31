@@ -14,7 +14,7 @@ const Teleports = ({ teleports, onClick }) => {
               <td><button onClick={onClick}>Toggle</button></td>
               <td>{teleport.enabled.toString()} |</td>
               <td>
-                {teleport.name}: From {teleport.origin.coordinates.x === 0 ? 'player' : fancifyCoordinates(teleport.origin.coordinates)} to {fancifyCoordinates(teleport.destination.coordinates)} in {teleport.destination.description}, {teleport.destination.continent}
+                {teleport.name}: From {teleport.fromPlayer ? 'player' : fancifyCoordinates(teleport.origin.coordinates)} to {fancifyCoordinates(teleport.destination.coordinates)} in {teleport.destination.description}, {teleport.destination.continent}
               </td>
             </tr>)}
         </tbody>

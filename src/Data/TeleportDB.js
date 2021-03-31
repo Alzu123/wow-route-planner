@@ -8,7 +8,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -26,9 +26,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Adept's Guide to Dimensional Rifting",
@@ -39,7 +43,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -57,9 +61,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Adept's Guide to Dimensional Rifting",
@@ -70,7 +78,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -88,9 +96,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Adept's Guide to Dimensional Rifting",
@@ -101,7 +113,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -119,9 +131,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Adept's Guide to Dimensional Rifting",
@@ -132,7 +148,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -150,9 +166,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Adept's Guide to Dimensional Rifting",
@@ -163,7 +183,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -181,9 +201,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Adept's Guide to Dimensional Rifting",
@@ -194,7 +218,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Adept's Guide to Dimensional Rifting"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -212,9 +236,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Admiral's Compass",
@@ -225,7 +253,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Admiral's Compass"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -243,9 +271,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ancient Teleport: Dalaran",
@@ -256,7 +288,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Ancient Teleport: Dalaran"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -274,9 +306,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Argent Crusader's Tabard",
@@ -287,7 +323,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Argent Crusader's Tabard"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -305,9 +341,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Atiesh, Greatstaff of the Guardian",
@@ -318,7 +358,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Atiesh, Greatstaff of the Guardian"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -326,7 +366,7 @@ const preprocessedTeleports = [
         y: 82.13
       },
       continent: "Eastern Kingdoms",
-      description: "Karazhan"
+      description: "Karazhan, Deadwind Pass"
     },
     fromPlayer: true,
     type: "Item",
@@ -334,11 +374,120 @@ const preprocessedTeleports = [
     cooldown: 1,
     restrictions: {
       faction: "",
-      class: "Druid, Mage, Priest, Warlock",
+      class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Atiesh, Greatstaff of the Guardian",
+    note: "Usable by others",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Player"
+    },
+    destination: {
+      coordinates: {
+        x: 49.55,
+        y: 82.13
+      },
+      continent: "Eastern Kingdoms",
+      description: "Karazhan, Deadwind Pass"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Mage",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Atiesh, Greatstaff of the Guardian",
+    note: "Usable by others",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Player"
+    },
+    destination: {
+      coordinates: {
+        x: 49.55,
+        y: 82.13
+      },
+      continent: "Eastern Kingdoms",
+      description: "Karazhan, Deadwind Pass"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Priest",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Atiesh, Greatstaff of the Guardian",
+    note: "Usable by others",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Player"
+    },
+    destination: {
+      coordinates: {
+        x: 49.55,
+        y: 82.13
+      },
+      continent: "Eastern Kingdoms",
+      description: "Karazhan, Deadwind Pass"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "Warlock",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Band of Kirin Tor",
@@ -349,7 +498,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Band of Kirin Tor"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -367,9 +516,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Baradin's Wardens Tabard",
@@ -380,7 +533,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Baradin's Wardens Tabard"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -398,9 +551,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Bladespire Relic",
@@ -411,7 +568,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Bladespire Relic"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -429,9 +586,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Blessed Medallion of Karabor",
@@ -442,7 +603,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Blessed Medallion of Karabor"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -460,9 +621,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Boots of the Bay",
@@ -473,7 +638,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Boots of the Bay"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -481,7 +646,7 @@ const preprocessedTeleports = [
         y: 93.74
       },
       continent: "Eastern Kingdoms",
-      description: "Booty Bay"
+      description: "Booty Bay, The Cape of Stranglethorn"
     },
     fromPlayer: true,
     type: "Item",
@@ -491,9 +656,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Boralus Portal Room",
@@ -522,9 +691,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Boralus Portal Room",
@@ -553,9 +726,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Boralus Portal Room",
@@ -584,9 +761,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Boralus Portal Room",
@@ -615,9 +796,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Boralus Portal Room",
@@ -646,9 +831,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Captain's Signet of Command",
@@ -659,7 +848,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Captain's Signet of Command"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -677,9 +866,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Cloak of Coordination",
@@ -690,7 +883,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Cloak of Coordination"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -708,9 +901,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Cloak of Coordination",
@@ -721,7 +918,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Cloak of Coordination"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -739,9 +936,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Commander's Signet of Battle",
@@ -752,7 +953,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Commander's Signet of Battle"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -770,9 +971,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dalaran Hearthstone",
@@ -783,7 +988,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dalaran Hearthstone"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -801,9 +1006,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 5,
+    travelTime: 0
   },
   {
     name: "Darkmoon Faerie Mystic Mage",
@@ -822,7 +1031,7 @@ const preprocessedTeleports = [
         y: 75.8
       },
       continent: "Eastern Kingdoms",
-      description: "Elwynn Forest"
+      description: "Darkmoon Staging Ground, Elwynn Forest"
     },
     fromPlayer: false,
     type: "Portal",
@@ -832,9 +1041,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Darkmoon Faerie Mystic Mage",
@@ -853,7 +1066,7 @@ const preprocessedTeleports = [
         y: 55.4
       },
       continent: "Kalimdor",
-      description: "Thunder Bluff"
+      description: "Darkmoon Staging Ground, Thunder Bluff"
     },
     fromPlayer: false,
     type: "Portal",
@@ -863,9 +1076,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dazar'alor Portal Room",
@@ -894,9 +1111,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dazar'alor Portal Room",
@@ -925,9 +1146,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dazar'alor Portal Room",
@@ -956,9 +1181,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dazar'alor Portal Room",
@@ -987,9 +1216,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dazar'alor Portal Room",
@@ -1018,9 +1251,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Death Gate",
@@ -1031,7 +1268,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Death Gate"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1049,9 +1286,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Death Knight",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dimensional Ripper - Area 52",
@@ -1062,7 +1303,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dimensional Ripper - Area 52"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1080,9 +1321,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Goblin Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Dimensional Ripper - Everlook",
@@ -1093,7 +1338,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dimensional Ripper - Everlook"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1111,9 +1356,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Goblin Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Direbrew's Remote",
@@ -1124,7 +1373,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Direbrew's Remote"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1142,9 +1391,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 60
   },
   {
     name: "Dreamwalk",
@@ -1155,7 +1408,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1173,9 +1426,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Dreamwalk",
@@ -1186,7 +1443,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1204,9 +1461,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Dreamwalk",
@@ -1217,7 +1478,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1235,9 +1496,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Dreamwalk",
@@ -1248,7 +1513,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1266,9 +1531,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Dreamwalk",
@@ -1279,7 +1548,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1297,9 +1566,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Dreamwalk",
@@ -1310,7 +1583,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1328,9 +1601,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Dreamwalk",
@@ -1341,7 +1618,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Dreamwalk"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1359,9 +1636,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Druid",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 2,
+    castTime: 10,
+    travelTime: 10
   },
   {
     name: "Emblem of Margoss",
@@ -1372,7 +1653,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Emblem of Margoss"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1384,15 +1665,19 @@ const preprocessedTeleports = [
     },
     fromPlayer: true,
     type: "Item",
-    enabled: false,
+    enabled: true,
     cooldown: null,
     restrictions: {
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Empowered Ring of Kirin Tor",
@@ -1403,7 +1688,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Empowered Ring of Kirin Tor"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1421,9 +1706,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1452,9 +1741,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1483,9 +1776,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1514,9 +1811,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1545,9 +1846,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1576,9 +1881,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1607,9 +1916,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1638,9 +1951,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1669,9 +1986,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1682,7 +2003,7 @@ const preprocessedTeleports = [
         y: 65.3
       },
       continent: "Outland",
-      description: "Shattrath"
+      description: "Shattrath City, Terokkar Forest"
     },
     destination: {
       coordinates: {
@@ -1700,9 +2021,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1731,9 +2056,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1762,9 +2091,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1793,9 +2126,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1824,9 +2161,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1855,9 +2196,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1886,9 +2231,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1917,9 +2266,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ever-Shifting Mirror",
@@ -1948,9 +2301,608 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 49.9,
+        y: 23.3
+      },
+      continent: "Draenor",
+      description: "Blackrock Foundry, Gorgrond"
+    },
+    destination: {
+      coordinates: {
+        x: 44.5,
+        y: 21.2
+      },
+      continent: "Outland",
+      description: "Gruul's Lair, Blade's Edge Mountains"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 59.6,
+        y: 39.4
+      },
+      continent: "Draenor",
+      description: "Throne of Kil'jaeden, Tanaan Jungle"
+    },
+    destination: {
+      coordinates: {
+        x: 61.6,
+        y: 42.6
+      },
+      continent: "Outland",
+      description: "Throne of Kil'Jaeden, Hellfire Peninsula"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 62.3,
+        y: 47.5
+      },
+      continent: "Draenor",
+      description: "Dark Portal, Tanaan Jungle"
+    },
+    destination: {
+      coordinates: {
+        x: 66.4,
+        y: 52.2
+      },
+      continent: "Outland",
+      description: "Dark Portal, Hellfire Peninsula"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 56.8,
+        y: 47.1
+      },
+      continent: "Draenor",
+      description: "Hellfire Citadel, Tanaan Jungle"
+    },
+    destination: {
+      coordinates: {
+        x: 57.6,
+        y: 51.4
+      },
+      continent: "Outland",
+      description: "Magtheridon's Lair, Hellfire Peninsula"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 60.8,
+        y: 70
+      },
+      continent: "Draenor",
+      description: "Path of Light, Shadowmoon Valley"
+    },
+    destination: {
+      coordinates: {
+        x: 69.8,
+        y: 80.5
+      },
+      continent: "Outland",
+      description: "Warden's Cage, Shadowmoon Valley"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 53.3,
+        y: 64.8
+      },
+      continent: "Draenor",
+      description: "Moonflower Valley, Shadowmoon Valley"
+    },
+    destination: {
+      coordinates: {
+        x: 58.9,
+        y: 75.8
+      },
+      continent: "Outland",
+      description: "Legion Hold, Shadowmoon Valley"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 45.1,
+        y: 68.1
+      },
+      continent: "Draenor",
+      description: "Talador"
+    },
+    destination: {
+      coordinates: {
+        x: 55.8,
+        y: 81.8
+      },
+      continent: "Outland",
+      description: "Skettis, Terokkar Forest"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 42.6,
+        y: 65.3
+      },
+      continent: "Draenor",
+      description: "Deathweb Hollow, Talador"
+    },
+    destination: {
+      coordinates: {
+        x: 47.5,
+        y: 72.1
+      },
+      continent: "Outland",
+      description: "Bone Wastes, Terokkar Forest"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 40.4,
+        y: 54.1
+      },
+      continent: "Draenor",
+      description: "Shattrath, Talador"
+    },
+    destination: {
+      coordinates: {
+        x: 42.6,
+        y: 65.3
+      },
+      continent: "Outland",
+      description: "Shattrath"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 46.4,
+        y: 47.1
+      },
+      continent: "Draenor",
+      description: "Path of Glory, Talador"
+    },
+    destination: {
+      coordinates: {
+        x: 44,
+        y: 52.6
+      },
+      continent: "Outland",
+      description: "Zangarmarsh"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 25.4,
+        y: 55.9
+      },
+      continent: "Draenor",
+      description: "Oshugun Spirit Woods, Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 26.8,
+        y: 69.3
+      },
+      continent: "Outland",
+      description: "Oshugun Spirit Fields, Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 30.1,
+        y: 46.4
+      },
+      continent: "Draenor",
+      description: "Throne of the Elements, Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 34.4,
+        y: 57.1
+      },
+      continent: "Outland",
+      description: "Throne of the Elements, Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 36.5,
+        y: 48.4
+      },
+      continent: "Draenor",
+      description: "Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 38.6,
+        y: 59.7
+      },
+      continent: "Outland",
+      description: "Nagrand"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 48.9,
+        y: 37.4
+      },
+      continent: "Draenor",
+      description: "Razor Bloom, Gorgrond"
+    },
+    destination: {
+      coordinates: {
+        x: 42.5,
+        y: 34.4
+      },
+      continent: "Outland",
+      description: "Razor Ridge, Blade's Edge Mountains"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 30.3,
+        y: 34.7
+      },
+      continent: "Draenor",
+      description: "Burning Glacier, Frostfire Ridge"
+    },
+    destination: {
+      coordinates: {
+        x: 38.9,
+        y: 32.9
+      },
+      continent: "Outland",
+      description: "Bloodmaul Ravine, Blade's Edge Mountains"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 26.8,
+        y: 31.7
+      },
+      continent: "Draenor",
+      description: "Gormaul Tower, Frostfire Ridge"
+    },
+    destination: {
+      coordinates: {
+        x: 36.1,
+        y: 35.5
+      },
+      continent: "Outland",
+      description: "Bloodmaul Ravine, Blade's Edge Mountains"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ever-Shifting Mirror",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 33.5,
+        y: 43.9
+      },
+      continent: "Draenor",
+      description: "Nagrand"
+    },
+    destination: {
+      coordinates: {
+        x: 33.8,
+        y: 48.2
+      },
+      continent: "Outland",
+      description: "Twinspire Ruins, Zangarmarsh"
+    },
+    fromPlayer: false,
+    type: "Item",
+    enabled: true,
+    cooldown: 0.25,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Fracture Necrolyte Skull",
@@ -1961,7 +2913,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Fracture Necrolyte Skull"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -1979,9 +2931,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Garrison Hearthstone",
@@ -1992,7 +2948,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Garrison Hearthstone"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2010,9 +2966,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 5,
+    travelTime: 0
   },
   {
     name: "Garrison Hearthstone",
@@ -2023,7 +2983,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Garrison Hearthstone"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2041,9 +3001,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 5,
+    travelTime: 0
   },
   {
     name: "Grim Campfire",
@@ -2072,9 +3036,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Grim Campfire",
@@ -2103,9 +3071,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Hearthstone",
@@ -2116,7 +3088,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Hearthstone"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2134,9 +3106,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Hellscream's Reach Tabard",
@@ -2147,7 +3123,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Hellscream's Reach Tabard"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2165,9 +3141,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Jaina's Locket",
@@ -2178,7 +3158,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Jaina's Locket"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2196,9 +3176,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Kyrian travel network",
@@ -2227,9 +3211,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "Kyrian",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2240,7 +3228,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2258,9 +3246,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2271,7 +3263,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2289,9 +3281,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2302,7 +3298,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2320,9 +3316,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2333,7 +3333,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2351,9 +3351,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2364,7 +3368,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2382,9 +3386,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2395,7 +3403,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2413,9 +3421,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2426,7 +3438,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2444,9 +3456,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2457,7 +3473,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2475,9 +3491,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2488,7 +3508,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2506,9 +3526,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2519,7 +3543,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2537,9 +3561,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2550,7 +3578,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2568,9 +3596,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2581,7 +3613,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2599,9 +3631,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2612,7 +3648,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2630,9 +3666,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2643,7 +3683,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2661,9 +3701,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2674,7 +3718,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2692,9 +3736,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2705,7 +3753,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2723,9 +3771,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2736,7 +3788,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2754,9 +3806,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2767,7 +3823,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2785,9 +3841,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2798,7 +3858,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2816,9 +3876,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Mole Machine",
@@ -2829,7 +3893,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Mole Machine"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -2847,9 +3911,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "Dark Iron Dwarf",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Necrolord travel network",
@@ -2878,9 +3946,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "Necrolord",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Night Fae travel network",
@@ -2909,9 +3981,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "Night Fae",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Cataclysm Portals",
@@ -2940,9 +4016,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Cataclysm Portals",
@@ -2971,9 +4051,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Cataclysm Portals",
@@ -3002,9 +4086,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Cataclysm Portals",
@@ -3033,9 +4121,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Cataclysm Portals",
@@ -3064,9 +4156,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Cataclysm Portals",
@@ -3095,9 +4191,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3126,9 +4226,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3157,9 +4261,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3188,9 +4296,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3219,9 +4331,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3250,9 +4366,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3281,9 +4401,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3312,9 +4436,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3343,9 +4471,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3374,9 +4506,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Portal Room",
@@ -3405,12 +4541,16 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Zeppelin from Stranglethorn Vale",
     note: "",
     origin: {
       coordinates: {
@@ -3418,7 +4558,7 @@ const preprocessedTeleports = [
         y: 87.02
       },
       continent: "Eastern Kingdoms",
-      description: "Stranglethorn Vale"
+      description: "Grom'gol Base Camp, Stranglethorn Vale"
     },
     destination: {
       coordinates: {
@@ -3436,9 +4576,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Orgrimmar Zeppelin",
@@ -3467,12 +4611,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Zeppelin to Stranglethorn Vale",
     note: "",
     origin: {
       coordinates: {
@@ -3488,7 +4636,7 @@ const preprocessedTeleports = [
         y: 87.02
       },
       continent: "Eastern Kingdoms",
-      description: "Stranglethorn Vale"
+      description: "Grom'gol Base Camp, Stranglethorn Vale"
     },
     fromPlayer: false,
     type: "World",
@@ -3498,12 +4646,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Zeppelin to Borean Tundra",
     note: "",
     origin: {
       coordinates: {
@@ -3519,7 +4671,7 @@ const preprocessedTeleports = [
         y: 65.73
       },
       continent: "Northrend",
-      description: "Borean Tundra"
+      description: "Warsong Hold, Borean Tundra"
     },
     fromPlayer: false,
     type: "World",
@@ -3529,12 +4681,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Zeppelin to Thunder Bluff",
     note: "Slower than flying",
     origin: {
       coordinates: {
@@ -3560,9 +4716,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 300
   },
   {
     name: "Orgrimmar Zeppelin",
@@ -3591,12 +4751,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Zeppelin from Thunder Bluff",
     note: "",
     origin: {
       coordinates: {
@@ -3622,12 +4786,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 300
   },
   {
-    name: "Orgrimmar Zeppelin",
+    name: "Orgrimmar Zeppelin from Borean Tundra",
     note: "",
     origin: {
       coordinates: {
@@ -3635,7 +4803,7 @@ const preprocessedTeleports = [
         y: 65.73
       },
       continent: "Northrend",
-      description: "Borean Tundra"
+      description: "Warsong Hold, Borean Tundra"
     },
     destination: {
       coordinates: {
@@ -3653,9 +4821,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Path of the Black Ox",
@@ -3666,7 +4838,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Black Ox"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3684,9 +4856,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Bloodmaul",
@@ -3697,7 +4873,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Bloodmaul"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3715,9 +4891,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Burning Mountain",
@@ -3728,7 +4908,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Burning Mountain"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3746,9 +4926,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Crescent Moon",
@@ -3759,7 +4943,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Crescent Moon"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3777,9 +4961,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Dark Rail",
@@ -3790,7 +4978,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Dark Rail"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3808,9 +4996,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Iron Prow",
@@ -3821,7 +5013,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Iron Prow"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3839,9 +5031,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Jade Serpent",
@@ -3852,7 +5048,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Jade Serpent"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3870,9 +5066,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Mogu King",
@@ -3883,7 +5083,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Mogu King"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3901,9 +5101,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Necromancer",
@@ -3914,7 +5118,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Necromancer"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3932,9 +5136,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Scarlet Blade",
@@ -3945,7 +5153,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Scarlet Blade"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3963,9 +5171,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Scarlet Mitre",
@@ -3976,7 +5188,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Scarlet Mitre"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -3994,9 +5206,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Setting Sun",
@@ -4007,7 +5223,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Setting Sun"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4025,9 +5241,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Shado-Pan",
@@ -4038,12 +5258,12 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Shado-Pan"
+      description: "Player"
     },
     destination: {
       coordinates: {
-        x: 41.1,
-        y: 30.2
+        x: 39.99,
+        y: 30.1
       },
       continent: "Pandaria",
       description: "Shado-Pan Monastery"
@@ -4056,9 +5276,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Skies",
@@ -4069,7 +5293,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Skies"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4087,9 +5311,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Stout Brew",
@@ -4100,7 +5328,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Stout Brew"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4118,9 +5346,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Verdant",
@@ -4131,7 +5363,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Verdant"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4149,9 +5381,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Path of the Vigilant",
@@ -4162,7 +5398,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Path of the Vigilant"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4180,9 +5416,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Pit Fighter's Punching Ring",
@@ -4193,7 +5433,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Pit Fighter's Punching Ring"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4211,9 +5451,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pit Fighter's Punching Ring",
@@ -4224,7 +5468,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Pit Fighter's Punching Ring"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4242,9 +5486,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Potion of Deepholm",
@@ -4255,7 +5503,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Potion of Deepholm"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4273,9 +5521,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Reaves",
@@ -4286,7 +5538,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Reaves"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4304,9 +5556,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Reaves",
@@ -4317,7 +5573,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Reaves"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4335,9 +5591,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Reaves",
@@ -4348,7 +5608,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Reaves"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4366,9 +5626,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Reaves",
@@ -4379,7 +5643,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Reaves"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4397,9 +5661,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Reaves",
@@ -4410,7 +5678,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Reaves"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4428,9 +5696,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Relic of Karabor",
@@ -4441,7 +5713,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Relic of Karabor"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4459,9 +5731,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Shroud of Cooperation",
@@ -4472,7 +5748,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Shroud of Cooperation"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4490,9 +5766,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Shroud of Cooperation",
@@ -4503,7 +5783,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Shroud of Cooperation"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -4521,9 +5801,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Skyhold",
@@ -4552,9 +5836,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Warrior",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Skyhold",
@@ -4583,9 +5871,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Warrior",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Skyhold",
@@ -4614,9 +5906,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Warrior",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Skyhold",
@@ -4645,9 +5941,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Warrior",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Skyhold",
@@ -4676,9 +5976,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Warrior",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Skyhold",
@@ -4707,9 +6011,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Warrior",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -4738,9 +6046,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -4769,9 +6081,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -4800,9 +6116,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -4831,9 +6151,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -4862,9 +6186,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -4893,9 +6221,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -4924,9 +6256,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -4955,9 +6291,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -4986,9 +6326,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5017,9 +6361,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5048,9 +6396,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5079,9 +6431,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5110,9 +6466,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5141,9 +6501,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5172,9 +6536,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Stormwind Portal Room",
@@ -5203,9 +6571,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Teleport: Boralus",
@@ -5216,7 +6588,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Boralus"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5234,9 +6606,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Dalaran - Broken Isles",
@@ -5247,7 +6623,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Dalaran - Broken Isles"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5265,9 +6641,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Dalaran - Northrend",
@@ -5278,7 +6658,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Dalaran - Northrend"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5296,9 +6676,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Darnassus",
@@ -5309,7 +6693,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Darnassus"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5327,9 +6711,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Dazar'alor",
@@ -5340,7 +6728,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Dazar'alor"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5358,9 +6746,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Exodar",
@@ -5371,7 +6763,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Exodar"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5389,9 +6781,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Ironforge",
@@ -5402,7 +6798,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Ironforge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5420,9 +6816,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Orgrimmar",
@@ -5433,7 +6833,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Orgrimmar"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5451,9 +6851,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Oribos",
@@ -5464,7 +6868,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Oribos"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5482,9 +6886,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Shattrath",
@@ -5495,7 +6903,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Shattrath"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5513,9 +6921,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Shattrath",
@@ -5526,7 +6938,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Shattrath"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5544,9 +6956,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Silvermoon",
@@ -5557,7 +6973,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Silvermoon"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5575,9 +6991,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Stonard",
@@ -5588,7 +7008,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Stonard"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5606,9 +7026,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Stormshield",
@@ -5619,7 +7043,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Stormshield"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5637,9 +7061,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Stormwind",
@@ -5650,7 +7078,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Stormwind"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5668,9 +7096,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Theramore",
@@ -5681,7 +7113,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Theramore"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5699,9 +7131,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Thunder Bluff",
@@ -5712,7 +7148,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Thunder Bluff"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5730,9 +7166,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Tol Barad",
@@ -5743,7 +7183,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Tol Barad"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5761,9 +7201,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Tol Barad",
@@ -5774,7 +7218,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Tol Barad"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5792,9 +7236,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Undercity",
@@ -5805,7 +7253,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Undercity"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5823,9 +7271,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Undercity",
@@ -5836,7 +7288,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Undercity"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5854,9 +7306,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Vale of Eternal Blossoms",
@@ -5867,7 +7323,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Vale of Eternal Blossoms"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5885,9 +7341,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Vale of Eternal Blossoms",
@@ -5898,7 +7358,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Vale of Eternal Blossoms"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5916,9 +7376,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Teleport: Warspear",
@@ -5929,7 +7393,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Teleport: Warspear"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5947,9 +7411,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "Mage",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "The Brassiest Knuckle",
@@ -5960,7 +7428,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "The Brassiest Knuckle"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -5978,9 +7446,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "The Brassiest Knuckle",
@@ -5991,7 +7463,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "The Brassiest Knuckle"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6009,9 +7481,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Time-Lost Artifact",
@@ -6022,7 +7498,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Time-Lost Artifact"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6040,9 +7516,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ultrasafe Transporter: Gadgetzan",
@@ -6053,7 +7533,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Ultrasafe Transporter: Gadgetzan"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6071,9 +7551,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Gnomish Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ultrasafe Transporter: Mechagon",
@@ -6084,7 +7568,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Ultrasafe Transporter: Mechagon"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6102,9 +7586,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Ultrasafe Transporter: Toshley's Station",
@@ -6115,7 +7603,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Ultrasafe Transporter: Toshley's Station"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6133,9 +7621,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Gnomish Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Venthyr travel network",
@@ -6164,9 +7656,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "Venthyr",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Violet Seal of the Grand Magus",
@@ -6177,7 +7673,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Violet Seal of the Grand Magus"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6195,9 +7691,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Centrifuge",
@@ -6208,7 +7708,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Centrifuge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6226,9 +7726,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Centrifuge",
@@ -6239,7 +7743,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Centrifuge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6257,9 +7761,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Centrifuge",
@@ -6270,7 +7778,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Centrifuge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6288,9 +7796,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Centrifuge",
@@ -6301,7 +7813,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Centrifuge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6319,9 +7831,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Centrifuge",
@@ -6332,7 +7848,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Centrifuge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6350,9 +7866,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Centrifuge",
@@ -6363,7 +7883,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Centrifuge"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6381,9 +7901,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Northrend",
@@ -6394,7 +7918,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Northrend"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6412,9 +7936,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Northrend",
@@ -6425,7 +7953,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Northrend"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6443,9 +7971,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Northrend",
@@ -6456,7 +7988,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Northrend"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6474,9 +8006,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Northrend",
@@ -6487,7 +8023,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Northrend"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6505,9 +8041,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Northrend",
@@ -6518,7 +8058,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Northrend"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6536,9 +8076,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Shadowlands",
@@ -6549,7 +8093,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Shadowlands"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6567,9 +8111,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Shadowlands",
@@ -6580,7 +8128,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Shadowlands"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6598,9 +8146,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Shadowlands",
@@ -6611,7 +8163,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Shadowlands"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6629,9 +8181,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Shadowlands",
@@ -6642,7 +8198,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Shadowlands"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6660,9 +8216,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Shadowlands",
@@ -6673,7 +8233,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Shadowlands"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6691,9 +8251,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wormhole Generator: Shadowlands",
@@ -6704,7 +8268,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wormhole Generator: Shadowlands"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6722,9 +8286,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: "Engineering"
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Wrap of Unity",
@@ -6735,7 +8303,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wrap of Unity"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6753,9 +8321,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Wrap of Unity",
@@ -6766,7 +8338,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Wrap of Unity"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6784,9 +8356,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Zen Pilgrimage",
@@ -6797,7 +8373,7 @@ const preprocessedTeleports = [
         y: 0
       },
       continent: "",
-      description: "Zen Pilgrimage"
+      description: "Player"
     },
     destination: {
       coordinates: {
@@ -6815,9 +8391,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Monk",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 10,
+    travelTime: 0
   },
   {
     name: "Dalaran to Orgrimmar",
@@ -6843,12 +8423,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -6877,9 +8461,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Paladin Class Hall",
@@ -6908,9 +8496,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "Paladin",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -6939,9 +8531,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -6970,12 +8566,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Booty Bay to Ratchet boat",
+    name: "Booty Bay Boat to Ratchet",
     note: "",
     origin: {
       coordinates: {
@@ -6983,7 +8583,7 @@ const preprocessedTeleports = [
         y: 93.74
       },
       continent: "Eastern Kingdoms",
-      description: "Booty Bay"
+      description: "Booty Bay, The Cape of Stranglethorn"
     },
     destination: {
       coordinates: {
@@ -6991,7 +8591,7 @@ const preprocessedTeleports = [
         y: 54.26
       },
       continent: "Kalimdor",
-      description: "Ratchet"
+      description: "Ratchet, Northern Barrens"
     },
     fromPlayer: false,
     type: "World",
@@ -7001,9 +8601,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Undercity Zeppelin",
@@ -7032,9 +8636,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Undercity Zeppelin",
@@ -7063,9 +8671,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Undercity Zeppelin",
@@ -7094,12 +8706,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Stormwind to Teldrassil boat",
+    name: "Stormwind Boat to Teldrassil",
     note: "",
     origin: {
       coordinates: {
@@ -7125,12 +8741,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "Stormwind to Borean Tundra boat",
+    name: "Stormwind Boat to Borean Tundra",
     note: "",
     origin: {
       coordinates: {
@@ -7156,9 +8776,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Horde Gnomeregan portal",
@@ -7184,12 +8808,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Uncercity to Dark Portal",
@@ -7215,12 +8843,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7231,7 +8863,7 @@ const preprocessedTeleports = [
         y: 53.7
       },
       continent: "Eastern Kingdoms",
-      description: "Wetlands"
+      description: "Menethil Harbor, Wetlands"
     },
     destination: {
       coordinates: {
@@ -7239,7 +8871,7 @@ const preprocessedTeleports = [
         y: 65.5
       },
       continent: "Kalimdor",
-      description: "Dustwallow Marsh"
+      description: "Theramore Isle, Dustwallow Marsh"
     },
     fromPlayer: false,
     type: "World",
@@ -7249,9 +8881,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7280,9 +8916,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7293,7 +8933,7 @@ const preprocessedTeleports = [
         y: 65.5
       },
       continent: "Kalimdor",
-      description: "Dustwallow Marsh"
+      description: "Theramore Isle, Dustwallow Marsh"
     },
     destination: {
       coordinates: {
@@ -7301,19 +8941,23 @@ const preprocessedTeleports = [
         y: 53.7
       },
       continent: "Eastern Kingdoms",
-      description: "Wetlands"
+      description: "Menethil Harbor, Wetlands"
     },
     fromPlayer: false,
     type: "World",
-    enabled: false,
+    enabled: true,
     cooldown: null,
     restrictions: {
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7342,9 +8986,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7373,9 +9021,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7404,9 +9056,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7435,9 +9091,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7466,9 +9126,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7497,9 +9161,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7528,9 +9196,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7559,9 +9231,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7590,9 +9266,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7621,9 +9301,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7652,9 +9336,13 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7683,12 +9371,16 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "",
+    name: "Ratchet Boat to Booty Bay",
     note: "",
     origin: {
       coordinates: {
@@ -7696,7 +9388,7 @@ const preprocessedTeleports = [
         y: 54.26
       },
       continent: "Kalimdor",
-      description: "Ratchet"
+      description: "Ratchet, Northern Barrens"
     },
     destination: {
       coordinates: {
@@ -7704,7 +9396,7 @@ const preprocessedTeleports = [
         y: 93.74
       },
       continent: "Eastern Kingdoms",
-      description: "Booty Bay"
+      description: "Booty Bay, The Cape of Stranglethorn"
     },
     fromPlayer: false,
     type: "World",
@@ -7714,12 +9406,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "",
+    name: "Stormwind Boat from Teldrassil",
     note: "",
     origin: {
       coordinates: {
@@ -7745,12 +9441,16 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "",
+    name: "Exodar Boat to Teldrassil",
     note: "Old world only?",
     origin: {
       coordinates: {
@@ -7776,9 +9476,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -7804,12 +9508,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -7835,12 +9543,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -7866,12 +9578,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7897,12 +9613,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7928,12 +9648,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -7959,15 +9683,19 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
-    name: "",
+    name: "Stormwind Boat from Borean Tundra",
     note: "",
     origin: {
       coordinates: {
@@ -7993,9 +9721,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8024,9 +9756,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8055,9 +9791,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: true
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8086,9 +9826,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8117,9 +9861,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8148,9 +9896,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8179,9 +9931,13 @@ const preprocessedTeleports = [
       faction: "",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -8207,12 +9963,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -8238,12 +9998,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Pet Battle Teleport",
@@ -8269,12 +10033,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8297,15 +10065,19 @@ const preprocessedTeleports = [
     },
     fromPlayer: false,
     type: "Portal",
-    enabled: false,
+    enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8328,15 +10100,19 @@ const preprocessedTeleports = [
     },
     fromPlayer: false,
     type: "Portal",
-    enabled: false,
+    enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8365,9 +10141,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8396,9 +10176,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8427,9 +10211,13 @@ const preprocessedTeleports = [
       faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "",
@@ -8455,12 +10243,16 @@ const preprocessedTeleports = [
     enabled: true,
     cooldown: null,
     restrictions: {
-      faction: "",
+      faction: "Horde",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   },
   {
     name: "Shattrath to Stormwind",
@@ -8489,10 +10281,51 @@ const preprocessedTeleports = [
       faction: "Alliance",
       class: "",
       race: "",
+      covenant: "",
       profession: ""
     },
-    verified: false
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Scroll of Teleport",
+    note: "",
+    origin: {
+      coordinates: {
+        x: 0,
+        y: 0
+      },
+      continent: "",
+      description: "Player"
+    },
+    destination: {
+      coordinates: {
+        x: 48,
+        y: 42.8
+      },
+      continent: "Eastern Kingdoms",
+      description: "Ravenholdt, Hillsbrad Foothills"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "Rogue",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
   }
 ]
 
-export const defaultTeleports = preprocessedTeleports.map((teleport, i) => ({...teleport, id: i + 1}))
+const defaultTeleports = preprocessedTeleports.map((teleport, i) => ({...teleport, id: i + 1}))
+
+export default defaultTeleports

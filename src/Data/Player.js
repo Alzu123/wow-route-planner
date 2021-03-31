@@ -1,8 +1,8 @@
 export const PlayerInfo = {
   position: {
     coordinates: {
-      x: 63.4,
-      y: 36.7,
+      x: 44.1,
+      y: 67.6,
     },
     continent: 'Kalimdor',
   },
@@ -11,5 +11,5 @@ export const PlayerInfo = {
   race: 'Troll',
   profession1: 'Alchemy',
   profession2: 'Herbalism',
-  speedModifier: '4.10' // Air speed. 410 % = master flying, 380 % = artisan, 250 % = normal
+  speedModifier: 4.10 // Air speed. 410 % = master flying, 380 % = artisan, 250 % = normal
 }
