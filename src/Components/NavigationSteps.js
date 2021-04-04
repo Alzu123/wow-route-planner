@@ -7,11 +7,9 @@ const beautifyNavigation = (node) => {
 const NavigationSteps = ({ nodes, finalRoute }) => {
   const routeNodes = finalRoute.nodes
 
-  // This works but needs cleaning up.
-  // TODO: 1) Add support for different types. 2) Add support for flying instead of teleporting. 3) Beautify end result
   return (
     <div>
-      <p>The route is {Math.round((finalRoute.totalFlyDistance + Number.EPSILON) * 100) / 100} units long.</p>
+      <p>The route requires {Math.round((finalRoute.totalFlyDistance + Number.EPSILON) * 100) / 100} yards of flying. It takes roughly {Math.round(finalRoute.preference + Number.EPSILON)} seconds to get to your destination.</p>
       <ol>
         {routeNodes.map((node, index) =>
           index === 0 || index === routeNodes.length - 1 ? '' : <li key={index}>{beautifyNavigation(node)}</li>

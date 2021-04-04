@@ -6,8 +6,8 @@ import Teleports from './Components/Teleports'
 import NumberLabel from './Components/NumberLabel'
 
 import defaultTeleports from './Data/TeleportDB'
-import {Images} from './Data/ImageDB'
-import {PlayerInfo} from './Data/Player'
+import continents from './Data/ContinentDB'
+import PlayerInfo from './Data/Player'
 
 import {RouteToDestination} from './Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from './Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
@@ -20,7 +20,7 @@ const App = () => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
   const [ endPosition, setEndPosition ] = useState({coordinates: {x: 48.3, y: 43.2}, continent: "Kalimdor"})
   const [ editingStart, setEditingStart ] = useState(true)
-  const [ bgImage, setbgImage ] = useState(Images[0])
+  const [ continent, setContinent ] = useState(continents[0])
   const [ teleports, setTeleports ] = useState(ProcessTeleports(defaultTeleports))
   const [ routeGoodness, setRouteGoodness ] = useState(0)
 
@@ -44,15 +44,15 @@ const App = () => {
   const changeBg = (event) => {
     event.preventDefault()
     let dropdownValue = event.target.value
-    const newBg = Images.filter(image => image.name === dropdownValue)[0]
-    setbgImage(newBg)
+    const newBg = continents.filter(continent => continent.name === dropdownValue)[0]
+    setContinent(newBg)
   }
 
   // Updates the start point based on clicks on canvas
   const updateStartOrEnd = (event) => {
     event.preventDefault()
     const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
-    const targetContinent = bgImage.name
+    const targetContinent = continent.name
     const position = {coordinates: canvasAdjustedCoordinates, continent: targetContinent}
 
     if (editingStart) {
@@ -110,7 +110,7 @@ const App = () => {
             <td>Destination: <Position position={endPosition}/></td>
           </tr>
           <tr>
-            <td><Canvas onClick={updateStartOrEnd} onClickEditChange={updateClickEditTarget} teleports={teleports} nodes={nodes} finalRoute={finalRoute} bgImage={bgImage} onBgChange={changeBg}/> </td>
+            <td><Canvas onClick={updateStartOrEnd} onClickEditChange={updateClickEditTarget} teleports={teleports} nodes={nodes} finalRoute={finalRoute} continent={continent} onBgChange={changeBg}/> </td>
             <td><NavigationSteps nodes={nodes} finalRoute={finalRoute} /></td>
           </tr>
         </tbody>

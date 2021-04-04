@@ -1,7 +1,10 @@
+import PlayerInfo from '../../Data/Player'
 import DistanceBetweenTwoPoints from './DistanceBetweenTwoPoints'
+import GetSpeed from './Speed/GetSpeed'
 
 const calculatePreference = (cost, flyDistance) => {
-  return cost + flyDistance
+  // The result is roughly equal to seconds required for the route
+  return cost + flyDistance / GetSpeed(PlayerInfo.speedModifier)
 }
 
 const CalculateRouteInformation = (routes) => {

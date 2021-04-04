@@ -36,7 +36,7 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
 
 export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
   const maxNumberOfNodesToPass = 5 // i.e. max number of teleports to use
-  const acceptableDistanceIncrease = 3 // Maximum distance in absolute coordinate units to optimal route to be considered. TODO: Normalize coordinate units to each continent (map)
+  const acceptableDistanceIncrease = 200 // Maximum distance in absolute coordinate units to optimal route to be considered. 200 is roughly 10 seconds of flying
   const acceptableFlightDistanceDeviation = 1.4 // Maximum distance relative to lowest total flight distance to be considered
 
   let nodes = []

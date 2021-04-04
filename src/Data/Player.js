@@ -1,4 +1,4 @@
-export const PlayerInfo = {
+const PlayerInfo = {
   position: {
     coordinates: {
       x: 44.1,
@@ -13,3 +13,5 @@ export const PlayerInfo = {
   profession2: 'Herbalism',
   speedModifier: 4.10 // Air speed. 410 % = master flying, 380 % = artisan, 250 % = normal
 }
+
+export default PlayerInfo

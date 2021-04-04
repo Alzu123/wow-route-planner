@@ -1,3 +1,27 @@
+/* class Teleport {
+  constructor(name, note, origin, destination, fromPlayer, type, enabled, cooldown, restrictions, verified, numLoadingScreens, castTime, travelTime) {
+    this.name = name
+    this.note = note
+    this.origin = origin
+    this.destination = destination
+    this.fromPlayer = fromPlayer
+    this.type = type
+    this.enabled = enabled
+    this.cooldown = cooldown
+    this.restrictions = restrictions
+    this.verified = verified
+    this.numLoadingScreens = numLoadingScreens
+    this.castTime = castTime
+    this.travelTime = travelTime
+  }
+}
+
+const test = [
+  new Teleport('Adept\'s Guide to Dimensional Rifting', 'Only active on Monday',
+  {coordinates: {x: 0, y: 0}, continent: '', description: 'Player'}, {coordinates: {x: 35, y: 36.8}, continent: 'Broken Isles', description: 'Val\'sharah'},
+  true, 'Item', true, 240, {faction: '', class: '', race: '', covenant: '', profession: ''}, true, 1, 0, 0)
+]
+ */
 const preprocessedTeleports = [
   {
     name: "Adept's Guide to Dimensional Rifting",

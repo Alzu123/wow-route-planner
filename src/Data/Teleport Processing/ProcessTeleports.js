@@ -1,4 +1,4 @@
-import {PlayerInfo} from '../Player'
+import PlayerInfo from '../Player'
 import AddTeleportCost from './AddTeleportCost'
 
 export const ProcessTeleports = (teleports, newPosition) => {
