@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/wow-teleport-map/static/css/main.183ae7e0.chunk.css",
+    "main.js": "/wow-teleport-map/static/js/main.d7293a9c.chunk.js",
+    "main.js.map": "/wow-teleport-map/static/js/main.d7293a9c.chunk.js.map",
+    "runtime-main.js": "/wow-teleport-map/static/js/runtime-main.df732839.js",
+    "runtime-main.js.map": "/wow-teleport-map/static/js/runtime-main.df732839.js.map",
+    "static/js/2.639c1b75.chunk.js": "/wow-teleport-map/static/js/2.639c1b75.chunk.js",
+    "static/js/2.639c1b75.chunk.js.map": "/wow-teleport-map/static/js/2.639c1b75.chunk.js.map",
+    "index.html": "/wow-teleport-map/index.html",
+    "static/css/main.183ae7e0.chunk.css.map": "/wow-teleport-map/static/css/main.183ae7e0.chunk.css.map",
+    "static/js/2.639c1b75.chunk.js.LICENSE.txt": "/wow-teleport-map/static/js/2.639c1b75.chunk.js.LICENSE.txt",
+    "static/media/Broken Isles.jpg": "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg",
+    "static/media/Deepholm.jpg": "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg",
+    "static/media/Draenor.jpg": "/wow-teleport-map/static/media/Draenor.4da50769.jpg",
+    "static/media/Eastern Kingdoms.jpg": "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg",
+    "static/media/Eastern Kingdoms_New.jpg": "/wow-teleport-map/static/media/Eastern Kingdoms_New.2ca5131e.jpg",
+    "static/media/Isle of Thunder.jpg": "/wow-teleport-map/static/media/Isle of Thunder.ab63b6e5.jpg",
+    "static/media/Kalimdor.jpg": "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg",
+    "static/media/Kalimdor2.jpg": "/wow-teleport-map/static/media/Kalimdor2.b0e8d9f9.jpg",
+    "static/media/Kalimdor_New.jpg": "/wow-teleport-map/static/media/Kalimdor_New.3c6ff7d1.jpg",
+    "static/media/Kul Tiras.jpg": "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg",
+    "static/media/Nazjatar.jpg": "/wow-teleport-map/static/media/Nazjatar.d47d5216.jpg",
+    "static/media/Northrend.jpg": "/wow-teleport-map/static/media/Northrend.177df605.jpg",
+    "static/media/Outland.jpg": "/wow-teleport-map/static/media/Outland.2097c8c2.jpg",
+    "static/media/Pandaria.jpg": "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg",
+    "static/media/Shadowlands.jpg": "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg",
+    "static/media/Tol Barad Peninsula.jpg": "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg",
+    "static/media/Tol Barad.jpg": "/wow-teleport-map/static/media/Tol Barad.1af9152f.jpg",
+    "static/media/Zandalar.jpg": "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df732839.js",
+    "static/js/2.639c1b75.chunk.js",
+    "static/css/main.183ae7e0.chunk.css",
+    "static/js/main.d7293a9c.chunk.js"
+  ]
+}
