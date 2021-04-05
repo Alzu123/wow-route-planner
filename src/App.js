@@ -94,10 +94,11 @@ const App = () => {
   const finalRoute = routeDetails[1][routeGoodness]
 
   //GenerateTeleportJson()
+  console.log('deploy test')
 
   return (
     <div>
-      <h1>Route</h1>
+      <h1>Route - Testing deploy</h1>
       <NumberLabel onClick={updateRouteGoodness} numRoutes={routeDetails[1].length - 1} />
       <table>
         <tbody>
