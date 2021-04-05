@@ -1,5 +1,4 @@
 import PlayerInfo from '../../Data/Player'
-import DistanceBetweenTwoPoints from './DistanceBetweenTwoPoints'
 import GetSpeed from './Speed/GetSpeed'
 
 const calculatePreference = (cost, flyDistance) => {
@@ -13,7 +12,12 @@ const CalculateRouteInformation = (routes) => {
 
   // Calculate the distance to fly to each node from previous node
   routes = routes.map(route => ({...route, nodes: route.nodes.map(function(node, i) {
-    return ({...node, distanceFromPreviousNode: i > 0 ? DistanceBetweenTwoPoints(route.nodes[i - 1].destination, node.origin) : 0})
+    if (i === 0) {
+      return ({...node, distanceFromPreviousNode: 0})
+    }
+    const previousNodePosition = route.nodes[i - 1].destination.position
+    const currentNodePosition = node.origin.position
+    return ({...node, distanceFromPreviousNode: previousNodePosition.distanceTo(currentNodePosition, currentNodePosition.continent.unreachableAreas) * currentNodePosition.continent.scale})
   })}))
 
   // Calculate the total flying distance for each route

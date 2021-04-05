@@ -1,22 +1,32 @@
-export const CsvToJson = ( csvFile, delimiter ) => {
+import continents from '../ContinentDB'
+import Continent from '../Continent'
+import Point from '../Point'
+
+const CsvToJson = ( csvFile, delimiter ) => {
 
   let lines = csvFile.split("\n")
   let result = []
 
   for(let i = 3; i < lines.length; i++){
-    var data = lines[i].split(delimiter)
+    const data = lines[i].split(delimiter)
 
-	  var obj = {
+    const emptyContinent = new Continent(null, null, null, null, null, null)
+    let originContinent = data[4] ? continents[data[4].replaceAll(' ', '_').replaceAll('\'', '').toUpperCase()] : emptyContinent
+    let destinationContinent = data[8] ? continents[data[8].replaceAll(' ', '_').replaceAll('\'', '').toUpperCase()] : emptyContinent
+
+    originContinent = originContinent ? originContinent : emptyContinent
+    destinationContinent = destinationContinent ? destinationContinent : emptyContinent
+
+
+	  let obj = {
       name: data[0].trim(),
       note: data[1],
       origin: {
-        coordinates: {x: parseFloat(data[2]), y: parseFloat(data[3])},
-        continent: data[4],
+        position: new Point(parseFloat(data[2]), parseFloat(data[3]), originContinent),
         description: data[5],
       },
       destination: {
-        coordinates: {x: parseFloat(data[6]), y: parseFloat(data[7])},
-        continent: data[8],
+        position: new Point(parseFloat(data[6]), parseFloat(data[7]), destinationContinent),
         description: data[9],
       },
       fromPlayer: data[10] === "TRUE",
@@ -34,6 +44,9 @@ export const CsvToJson = ( csvFile, delimiter ) => {
       numLoadingScreens: data[20] ? parseFloat(data[20]) : 0,
       castTime: data[21] ? parseFloat(data[21]) : 0,
       travelTime: data[22] ? parseFloat(data[22]) : 0,
+    }
+    if (obj.name === "Dazar'alor Portal Room") {
+      console.log(originContinent)
     }
 
     result.push(obj)

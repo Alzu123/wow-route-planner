@@ -1,11 +1,8 @@
+import continents from "./ContinentDB"
+import Point from "./Point"
+
 const PlayerInfo = {
-  position: {
-    coordinates: {
-      x: 44.1,
-      y: 67.6,
-    },
-    continent: 'Kalimdor',
-  },
+  position: new Point(27.4, 37.7, continents.NAZJATAR),
   faction: 'Horde',
   class: 'Druid',
   race: 'Troll',

@@ -1,45 +1,37 @@
-/* class Teleport {
-  constructor(name, note, origin, destination, fromPlayer, type, enabled, cooldown, restrictions, verified, numLoadingScreens, castTime, travelTime) {
-    this.name = name
-    this.note = note
-    this.origin = origin
-    this.destination = destination
-    this.fromPlayer = fromPlayer
-    this.type = type
-    this.enabled = enabled
-    this.cooldown = cooldown
-    this.restrictions = restrictions
-    this.verified = verified
-    this.numLoadingScreens = numLoadingScreens
-    this.castTime = castTime
-    this.travelTime = travelTime
-  }
-}
-
-const test = [
-  new Teleport('Adept\'s Guide to Dimensional Rifting', 'Only active on Monday',
-  {coordinates: {x: 0, y: 0}, continent: '', description: 'Player'}, {coordinates: {x: 35, y: 36.8}, continent: 'Broken Isles', description: 'Val\'sharah'},
-  true, 'Item', true, 240, {faction: '', class: '', race: '', covenant: '', profession: ''}, true, 1, 0, 0)
-]
- */
 const preprocessedTeleports = [
   {
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Monday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 35,
-        y: 36.8
+        y: 36.8,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Val'sharah"
     },
     fromPlayer: true,
@@ -62,19 +54,35 @@ const preprocessedTeleports = [
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Tuesday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.9,
-        y: 49.4
+        y: 49.4,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Suramar"
     },
     fromPlayer: true,
@@ -97,19 +105,35 @@ const preprocessedTeleports = [
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Wednesday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 32.3,
-        y: 68.5
+        y: 68.5,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Azsuna"
     },
     fromPlayer: true,
@@ -132,19 +156,35 @@ const preprocessedTeleports = [
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Thursday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.3,
-        y: 28.2
+        y: 28.2,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Highmountain"
     },
     fromPlayer: true,
@@ -167,19 +207,35 @@ const preprocessedTeleports = [
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Friday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 61.4,
-        y: 36.4
+        y: 36.4,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Stormheim"
     },
     fromPlayer: true,
@@ -202,19 +258,35 @@ const preprocessedTeleports = [
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Saturday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 55.4,
-        y: 61.9
+        y: 61.9,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Broken Shore"
     },
     fromPlayer: true,
@@ -237,19 +309,33 @@ const preprocessedTeleports = [
     name: "Adept's Guide to Dimensional Rifting",
     note: "Only active on Sunday",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 65.31,
-        y: 43.23
+        y: 43.23,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "Argus",
       description: "Antoran Wastes"
     },
     fromPlayer: true,
@@ -269,22 +355,1098 @@ const preprocessedTeleports = [
     travelTime: 0
   },
   {
+    name: "Dalaran to Antoran Wastes",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 72.8,
+        y: 48.8,
+        continent: {
+          name: "Antoran Wastes",
+          image: {
+            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 10
+        }
+      },
+      description: "Hope's Landing, Antoran Wastes, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Antoran Wastes",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 71.8,
+        y: 76.4,
+        continent: {
+          name: "Antoran Wastes",
+          image: {
+            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 10
+        }
+      },
+      description: "Light's Purchase, Antoran Wastes, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Krokuun",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 37.4,
+        y: 62.9,
+        continent: {
+          name: "Krokuun",
+          image: {
+            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 11
+        }
+      },
+      description: "Shattered Fields, Krokuun, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Krokuun",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 55.9,
+        y: 67.2,
+        continent: {
+          name: "Krokuun",
+          image: {
+            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 11
+        }
+      },
+      description: "Krokul Hovel, Krokuun, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Krokuun",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 62.7,
+        y: 49.7,
+        continent: {
+          name: "Krokuun",
+          image: {
+            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 11
+        }
+      },
+      description: "Destiny Point, Krokuun, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Mac'Aree",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 52.8,
+        y: 75.6,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Triumvirate's End,  Mac'Aree, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Mac'Aree",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 46.9,
+        y: 55.6,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "City Center, Mac'Aree, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Mac'Aree",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 32.1,
+        y: 48.8,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Shadowguard Incursion, Mac'Aree, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Mac'Aree",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 62.7,
+        y: 40.2,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Conservatory of the Arcane, Mac'Aree, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Dalaran to Mac'Aree",
+    note: "",
+    origin: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    destination: {
+      position: {
+        x: 45.1,
+        y: 11.8,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Prophet's Reflection, Mac'Aree, Argus"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Antoran Wastes to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 72.8,
+        y: 48.8,
+        continent: {
+          name: "Antoran Wastes",
+          image: {
+            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 10
+        }
+      },
+      description: "Hope's Landing, Antoran Wastes, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Antoran Wastes to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 71.8,
+        y: 76.4,
+        continent: {
+          name: "Antoran Wastes",
+          image: {
+            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 10
+        }
+      },
+      description: "Light's Purchase, Antoran Wastes, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Krokuun to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 37.4,
+        y: 62.9,
+        continent: {
+          name: "Krokuun",
+          image: {
+            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 11
+        }
+      },
+      description: "Shattered Fields, Krokuun, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Krokuun to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 55.9,
+        y: 67.2,
+        continent: {
+          name: "Krokuun",
+          image: {
+            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 11
+        }
+      },
+      description: "Krokul Hovel, Krokuun, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Krokuun to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 62.7,
+        y: 49.7,
+        continent: {
+          name: "Krokuun",
+          image: {
+            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 11
+        }
+      },
+      description: "Destiny Point, Krokuun, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Mac'Aree to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 52.8,
+        y: 75.6,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Triumvirate's End,  Mac'Aree, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Mac'Aree to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 46.9,
+        y: 55.6,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "City Center, Mac'Aree, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Mac'Aree to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 32.1,
+        y: 48.8,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Shadowguard Incursion, Mac'Aree, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Mac'Aree to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 62.7,
+        y: 40.2,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Conservatory of the Arcane, Mac'Aree, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
+    name: "Mac'Aree to Dalaran",
+    note: "",
+    origin: {
+      position: {
+        x: 45.1,
+        y: 11.8,
+        continent: {
+          name: "Mac'Aree",
+          image: {
+            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+          },
+          scale: 50,
+          type: 2,
+          isFlyable: false,
+          id: 9
+        }
+      },
+      description: "Prophet's Reflection, Mac'Aree, Argus"
+    },
+    destination: {
+      position: {
+        x: 46.33,
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
+      },
+      description: "Dalaran"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 2,
+    castTime: 0,
+    travelTime: 15
+  },
+  {
     name: "Admiral's Compass",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 32.31,
-        y: 37.97
+        y: 37.97,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Garrison Shipyard"
     },
     fromPlayer: true,
@@ -307,19 +1469,91 @@ const preprocessedTeleports = [
     name: "Ancient Teleport: Dalaran",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.5,
-        y: 38.1
+        y: 38.1,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Dalaran Crater, Hillsbrad Foothills"
     },
     fromPlayer: true,
@@ -342,19 +1576,35 @@ const preprocessedTeleports = [
     name: "Argent Crusader's Tabard",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.02,
-        y: 20.9
+        y: 20.9,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Icecrown"
     },
     fromPlayer: true,
@@ -377,19 +1627,91 @@ const preprocessedTeleports = [
     name: "Atiesh, Greatstaff of the Guardian",
     note: "Usable by others",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.55,
-        y: 82.13
+        y: 82.13,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Karazhan, Deadwind Pass"
     },
     fromPlayer: true,
@@ -412,19 +1734,91 @@ const preprocessedTeleports = [
     name: "Atiesh, Greatstaff of the Guardian",
     note: "Usable by others",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.55,
-        y: 82.13
+        y: 82.13,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Karazhan, Deadwind Pass"
     },
     fromPlayer: true,
@@ -447,19 +1841,91 @@ const preprocessedTeleports = [
     name: "Atiesh, Greatstaff of the Guardian",
     note: "Usable by others",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.55,
-        y: 82.13
+        y: 82.13,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Karazhan, Deadwind Pass"
     },
     fromPlayer: true,
@@ -482,19 +1948,91 @@ const preprocessedTeleports = [
     name: "Atiesh, Greatstaff of the Guardian",
     note: "Usable by others",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.55,
-        y: 82.13
+        y: 82.13,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Karazhan, Deadwind Pass"
     },
     fromPlayer: true,
@@ -517,19 +2055,35 @@ const preprocessedTeleports = [
     name: "Band of Kirin Tor",
     note: "Many similar which share CD?",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.7,
-        y: 42.18
+        y: 42.18,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Dalaran"
     },
     fromPlayer: true,
@@ -552,20 +2106,36 @@ const preprocessedTeleports = [
     name: "Baradin's Wardens Tabard",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 74.8,
+        y: 58.4,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
       },
-      continent: "Tol Barad",
-      description: "Baradin Base Camp"
+      description: "Baradin Base Camp, Tol Barad"
     },
     fromPlayer: true,
     type: "Item",
@@ -587,19 +2157,35 @@ const preprocessedTeleports = [
     name: "Bladespire Relic",
     note: "https://www.wowhead.com/item=118662/bladespire-relic#comments",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 28.4,
-        y: 30
+        y: 30,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Frostfire Ridge"
     },
     fromPlayer: true,
@@ -622,19 +2208,35 @@ const preprocessedTeleports = [
     name: "Blessed Medallion of Karabor",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 71.07,
-        y: 80.58
+        y: 80.58,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Black Temple"
     },
     fromPlayer: true,
@@ -657,19 +2259,91 @@ const preprocessedTeleports = [
     name: "Boots of the Bay",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.19,
-        y: 93.74
+        y: 93.74,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Booty Bay, The Cape of Stranglethorn"
     },
     fromPlayer: true,
@@ -692,19 +2366,61 @@ const preprocessedTeleports = [
     name: "Boralus Portal Room",
     note: "If old Silithus enabled",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.98,
-        y: 76.53
+        y: 76.53,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Silithus"
     },
     fromPlayer: false,
@@ -727,19 +2443,93 @@ const preprocessedTeleports = [
     name: "Boralus Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.6,
-        y: 59.1
+        y: 59.1,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Ironforge"
     },
     fromPlayer: false,
@@ -762,19 +2552,93 @@ const preprocessedTeleports = [
     name: "Boralus Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: false,
@@ -797,19 +2661,61 @@ const preprocessedTeleports = [
     name: "Boralus Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.5,
-        y: 25.9
+        y: 25.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Exodar"
     },
     fromPlayer: false,
@@ -830,21 +2736,39 @@ const preprocessedTeleports = [
   },
   {
     name: "Boralus Portal Room",
-    note: "Destination not on world maps",
+    note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 39,
+        y: 53.1,
+        continent: {
+          name: "Nazjatar",
+          image: {
+            default: "/wow-teleport-map/static/media/Nazjatar.d47d5216.jpg"
+          },
+          scale: 50,
+          type: 3,
+          isFlyable: true,
+          id: 14
+        }
       },
-      continent: "Nazjatar",
       description: "Nazjatar"
     },
     fromPlayer: false,
@@ -867,19 +2791,35 @@ const preprocessedTeleports = [
     name: "Captain's Signet of Command",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     fromPlayer: true,
@@ -902,19 +2842,59 @@ const preprocessedTeleports = [
     name: "Cloak of Coordination",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: true,
@@ -937,19 +2917,91 @@ const preprocessedTeleports = [
     name: "Cloak of Coordination",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: true,
@@ -972,19 +3024,35 @@ const preprocessedTeleports = [
     name: "Commander's Signet of Battle",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     fromPlayer: true,
@@ -1007,19 +3075,35 @@ const preprocessedTeleports = [
     name: "Dalaran Hearthstone",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     fromPlayer: true,
@@ -1042,19 +3126,149 @@ const preprocessedTeleports = [
     name: "Darkmoon Faerie Mystic Mage",
     note: "Up for a week every month",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.3,
-        y: 75.8
+        y: 75.8,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Darkmoon Staging Ground, Elwynn Forest"
     },
     fromPlayer: false,
@@ -1077,19 +3291,85 @@ const preprocessedTeleports = [
     name: "Darkmoon Faerie Mystic Mage",
     note: "Up for a week every month",
     origin: {
-      coordinates: {
+      position: {
         x: 58.3,
-        y: 42.66
+        y: 42.66,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.1,
-        y: 55.4
+        y: 55.4,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Darkmoon Staging Ground, Thunder Bluff"
     },
     fromPlayer: false,
@@ -1112,19 +3392,61 @@ const preprocessedTeleports = [
     name: "Dazar'alor Portal Room",
     note: "If old Silithus enabled",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.98,
-        y: 76.53
+        y: 76.53,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Silithus"
     },
     fromPlayer: false,
@@ -1147,19 +3469,61 @@ const preprocessedTeleports = [
     name: "Dazar'alor Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.6,
-        y: 54.12
+        y: 54.12,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Thunder Bluff"
     },
     fromPlayer: false,
@@ -1182,19 +3546,61 @@ const preprocessedTeleports = [
     name: "Dazar'alor Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -1217,19 +3623,93 @@ const preprocessedTeleports = [
     name: "Dazar'alor Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.16,
-        y: 13.18
+        y: 13.18,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Silvermoon City"
     },
     fromPlayer: false,
@@ -1250,21 +3730,39 @@ const preprocessedTeleports = [
   },
   {
     name: "Dazar'alor Portal Room",
-    note: "Destination not on world maps",
+    note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zulzadar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 49.3,
+        y: 61.7,
+        continent: {
+          name: "Nazjatar",
+          image: {
+            default: "/wow-teleport-map/static/media/Nazjatar.d47d5216.jpg"
+          },
+          scale: 50,
+          type: 3,
+          isFlyable: true,
+          id: 14
+        }
       },
-      continent: "Nazjatar",
       description: "Nazjatar"
     },
     fromPlayer: false,
@@ -1287,19 +3785,33 @@ const preprocessedTeleports = [
     name: "Death Gate",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: null,
-        y: null
+        y: null,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: ""
     },
     fromPlayer: true,
@@ -1322,19 +3834,35 @@ const preprocessedTeleports = [
     name: "Dimensional Ripper - Area 52",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53.3,
-        y: 23.1
+        y: 23.1,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Area 52, Netherstorm"
     },
     fromPlayer: true,
@@ -1357,19 +3885,59 @@ const preprocessedTeleports = [
     name: "Dimensional Ripper - Everlook",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.8,
-        y: 22.9
+        y: 22.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Everlook, Winterspring"
     },
     fromPlayer: true,
@@ -1392,19 +3960,91 @@ const preprocessedTeleports = [
     name: "Direbrew's Remote",
     note: "Inside the mountain",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.87,
-        y: 67.81
+        y: 67.81,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Blackrock Depths"
     },
     fromPlayer: true,
@@ -1427,19 +4067,59 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.23,
-        y: 27.62
+        y: 27.62,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Mount Hyjal"
     },
     fromPlayer: true,
@@ -1462,19 +4142,59 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 41.26,
-        y: 61.9
+        y: 61.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Feralas"
     },
     fromPlayer: true,
@@ -1497,19 +4217,91 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.65,
-        y: 79.41
+        y: 79.41,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Duskwood"
     },
     fromPlayer: true,
@@ -1532,19 +4324,59 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 54.37,
-        y: 19.34
+        y: 19.34,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Moonglade"
     },
     fromPlayer: true,
@@ -1567,19 +4399,35 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 71.77,
-        y: 52.79
+        y: 52.79,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Grizzly Hills"
     },
     fromPlayer: true,
@@ -1602,19 +4450,91 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 54.37,
-        y: 37.98
+        y: 37.98,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Hinterlands"
     },
     fromPlayer: true,
@@ -1637,19 +4557,35 @@ const preprocessedTeleports = [
     name: "Dreamwalk",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.74,
-        y: 24.95
+        y: 24.95,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Val'sharah"
     },
     fromPlayer: true,
@@ -1672,19 +4608,35 @@ const preprocessedTeleports = [
     name: "Emblem of Margoss",
     note: "Consumed on use",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Margoss's Retreat, Dalaran"
     },
     fromPlayer: true,
@@ -1707,19 +4659,35 @@ const preprocessedTeleports = [
     name: "Empowered Ring of Kirin Tor",
     note: "Shares CD with old rings",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     fromPlayer: true,
@@ -1742,19 +4710,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 44.5,
-        y: 21.2
+        y: 21.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Gruul's Lair, Blade's Edge Mountains"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.9,
-        y: 23.3
+        y: 23.3,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Blackrock Foundry, Gorgrond"
     },
     fromPlayer: false,
@@ -1777,19 +4763,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 61.6,
-        y: 42.6
+        y: 42.6,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Throne of Kil'Jaeden, Hellfire Peninsula"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.6,
-        y: 39.4
+        y: 39.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Throne of Kil'jaeden, Tanaan Jungle"
     },
     fromPlayer: false,
@@ -1812,19 +4816,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 66.4,
-        y: 52.2
+        y: 52.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Dark Portal, Hellfire Peninsula"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 62.3,
-        y: 47.5
+        y: 47.5,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Dark Portal, Tanaan Jungle"
     },
     fromPlayer: false,
@@ -1847,19 +4869,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 57.6,
-        y: 51.4
+        y: 51.4,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Magtheridon's Lair, Hellfire Peninsula"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.8,
-        y: 47.1
+        y: 47.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Hellfire Citadel, Tanaan Jungle"
     },
     fromPlayer: false,
@@ -1882,19 +4922,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 69.8,
-        y: 80.5
+        y: 80.5,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Warden's Cage, Shadowmoon Valley"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 60.8,
-        y: 70
+        y: 70,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Path of Light, Shadowmoon Valley"
     },
     fromPlayer: false,
@@ -1917,19 +4975,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.9,
-        y: 75.8
+        y: 75.8,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Legion Hold, Shadowmoon Valley"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53.3,
-        y: 64.8
+        y: 64.8,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Moonflower Valley, Shadowmoon Valley"
     },
     fromPlayer: false,
@@ -1952,19 +5028,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 55.8,
-        y: 81.8
+        y: 81.8,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Skettis, Terokkar Forest"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.1,
-        y: 68.1
+        y: 68.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Talador"
     },
     fromPlayer: false,
@@ -1987,19 +5081,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 47.5,
-        y: 72.1
+        y: 72.1,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Bone Wastes, Terokkar Forest"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 42.6,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Deathweb Hollow, Talador"
     },
     fromPlayer: false,
@@ -2022,19 +5134,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 42.6,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath City, Terokkar Forest"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 40.4,
-        y: 54.1
+        y: 54.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Shattrath, Talador"
     },
     fromPlayer: false,
@@ -2057,19 +5187,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 44,
-        y: 52.6
+        y: 52.6,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Zangarmarsh"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.4,
-        y: 47.1
+        y: 47.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Path of Glory, Talador"
     },
     fromPlayer: false,
@@ -2092,19 +5240,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 26.8,
-        y: 69.3
+        y: 69.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Oshugun Spirit Fields, Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 25.4,
-        y: 55.9
+        y: 55.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Oshugun Spirit Woods, Nagrand"
     },
     fromPlayer: false,
@@ -2127,19 +5293,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 34.4,
-        y: 57.1
+        y: 57.1,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Throne of the Elements, Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.1,
-        y: 46.4
+        y: 46.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Throne of the Elements, Nagrand"
     },
     fromPlayer: false,
@@ -2162,19 +5346,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 38.6,
-        y: 59.7
+        y: 59.7,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 36.5,
-        y: 48.4
+        y: 48.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Nagrand"
     },
     fromPlayer: false,
@@ -2197,19 +5399,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 42.5,
-        y: 34.4
+        y: 34.4,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Razor Ridge, Blade's Edge Mountains"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.9,
-        y: 37.4
+        y: 37.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Razor Bloom, Gorgrond"
     },
     fromPlayer: false,
@@ -2232,19 +5452,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 38.9,
-        y: 32.9
+        y: 32.9,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Bloodmaul Ravine, Blade's Edge Mountains"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.3,
-        y: 34.7
+        y: 34.7,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Burning Glacier, Frostfire Ridge"
     },
     fromPlayer: false,
@@ -2267,19 +5505,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 36.1,
-        y: 35.5
+        y: 35.5,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Bloodmaul Ravine, Blade's Edge Mountains"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 26.8,
-        y: 31.7
+        y: 31.7,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Gormaul Tower, Frostfire Ridge"
     },
     fromPlayer: false,
@@ -2302,19 +5558,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 33.8,
-        y: 48.2
+        y: 48.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Twinspire Ruins, Zangarmarsh"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.5,
-        y: 43.9
+        y: 43.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Nagrand"
     },
     fromPlayer: false,
@@ -2337,19 +5611,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 49.9,
-        y: 23.3
+        y: 23.3,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Blackrock Foundry, Gorgrond"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.5,
-        y: 21.2
+        y: 21.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Gruul's Lair, Blade's Edge Mountains"
     },
     fromPlayer: false,
@@ -2372,19 +5664,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.6,
-        y: 39.4
+        y: 39.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Throne of Kil'jaeden, Tanaan Jungle"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 61.6,
-        y: 42.6
+        y: 42.6,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Throne of Kil'Jaeden, Hellfire Peninsula"
     },
     fromPlayer: false,
@@ -2407,19 +5717,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 62.3,
-        y: 47.5
+        y: 47.5,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Dark Portal, Tanaan Jungle"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 66.4,
-        y: 52.2
+        y: 52.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Dark Portal, Hellfire Peninsula"
     },
     fromPlayer: false,
@@ -2442,19 +5770,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 56.8,
-        y: 47.1
+        y: 47.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Hellfire Citadel, Tanaan Jungle"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.6,
-        y: 51.4
+        y: 51.4,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Magtheridon's Lair, Hellfire Peninsula"
     },
     fromPlayer: false,
@@ -2477,19 +5823,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 60.8,
-        y: 70
+        y: 70,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Path of Light, Shadowmoon Valley"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 69.8,
-        y: 80.5
+        y: 80.5,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Warden's Cage, Shadowmoon Valley"
     },
     fromPlayer: false,
@@ -2512,19 +5876,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 53.3,
-        y: 64.8
+        y: 64.8,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Moonflower Valley, Shadowmoon Valley"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.9,
-        y: 75.8
+        y: 75.8,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Legion Hold, Shadowmoon Valley"
     },
     fromPlayer: false,
@@ -2547,19 +5929,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 45.1,
-        y: 68.1
+        y: 68.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Talador"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 55.8,
-        y: 81.8
+        y: 81.8,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Skettis, Terokkar Forest"
     },
     fromPlayer: false,
@@ -2582,19 +5982,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 42.6,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Deathweb Hollow, Talador"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.5,
-        y: 72.1
+        y: 72.1,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Bone Wastes, Terokkar Forest"
     },
     fromPlayer: false,
@@ -2617,19 +6035,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 40.4,
-        y: 54.1
+        y: 54.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Shattrath, Talador"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 42.6,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     fromPlayer: false,
@@ -2652,19 +6088,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.4,
-        y: 47.1
+        y: 47.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Path of Glory, Talador"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44,
-        y: 52.6
+        y: 52.6,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Zangarmarsh"
     },
     fromPlayer: false,
@@ -2687,19 +6141,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 25.4,
-        y: 55.9
+        y: 55.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Oshugun Spirit Woods, Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 26.8,
-        y: 69.3
+        y: 69.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Oshugun Spirit Fields, Nagrand"
     },
     fromPlayer: false,
@@ -2722,19 +6194,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 30.1,
-        y: 46.4
+        y: 46.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Throne of the Elements, Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 34.4,
-        y: 57.1
+        y: 57.1,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Throne of the Elements, Nagrand"
     },
     fromPlayer: false,
@@ -2757,19 +6247,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 36.5,
-        y: 48.4
+        y: 48.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 38.6,
-        y: 59.7
+        y: 59.7,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Nagrand"
     },
     fromPlayer: false,
@@ -2792,19 +6300,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 48.9,
-        y: 37.4
+        y: 37.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Razor Bloom, Gorgrond"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 42.5,
-        y: 34.4
+        y: 34.4,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Razor Ridge, Blade's Edge Mountains"
     },
     fromPlayer: false,
@@ -2827,19 +6353,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 30.3,
-        y: 34.7
+        y: 34.7,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Burning Glacier, Frostfire Ridge"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 38.9,
-        y: 32.9
+        y: 32.9,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Bloodmaul Ravine, Blade's Edge Mountains"
     },
     fromPlayer: false,
@@ -2862,19 +6406,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 26.8,
-        y: 31.7
+        y: 31.7,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Gormaul Tower, Frostfire Ridge"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 36.1,
-        y: 35.5
+        y: 35.5,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Bloodmaul Ravine, Blade's Edge Mountains"
     },
     fromPlayer: false,
@@ -2897,19 +6459,37 @@ const preprocessedTeleports = [
     name: "Ever-Shifting Mirror",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 33.5,
-        y: 43.9
+        y: 43.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Nagrand"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.8,
-        y: 48.2
+        y: 48.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Twinspire Ruins, Zangarmarsh"
     },
     fromPlayer: false,
@@ -2932,19 +6512,35 @@ const preprocessedTeleports = [
     name: "Fracture Necrolyte Skull",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 71.07,
-        y: 80.58
+        y: 80.58,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Black Temple"
     },
     fromPlayer: true,
@@ -2967,19 +6563,35 @@ const preprocessedTeleports = [
     name: "Garrison Hearthstone",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.54,
-        y: 36.89
+        y: 36.89,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Frostwall"
     },
     fromPlayer: true,
@@ -3002,19 +6614,35 @@ const preprocessedTeleports = [
     name: "Garrison Hearthstone",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53.9,
-        y: 63.3
+        y: 63.3,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: ""
     },
     fromPlayer: true,
@@ -3037,19 +6665,61 @@ const preprocessedTeleports = [
     name: "Grim Campfire",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 57,
-        y: 29.1
+        y: 29.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Gorgrond"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 91.5,
-        y: 76.9
+        y: 76.9,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Timeless Isle"
     },
     fromPlayer: false,
@@ -3072,19 +6742,61 @@ const preprocessedTeleports = [
     name: "Grim Campfire",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 91.5,
-        y: 76.9
+        y: 76.9,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Timeless Isle"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57,
-        y: 29.1
+        y: 29.1,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Gorgrond"
     },
     fromPlayer: false,
@@ -3107,19 +6819,35 @@ const preprocessedTeleports = [
     name: "Hearthstone",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.9,
-        y: 82.44
+        y: 82.44,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Ardenweald"
     },
     fromPlayer: true,
@@ -3142,20 +6870,36 @@ const preprocessedTeleports = [
     name: "Hellscream's Reach Tabard",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 54.8,
+        y: 78.1,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
       },
-      continent: "Tol Barad",
-      description: "Hellscream's Grasp"
+      description: "Hellscream's Grasp, Tol Barad"
     },
     fromPlayer: true,
     type: "Item",
@@ -3177,19 +6921,35 @@ const preprocessedTeleports = [
     name: "Jaina's Locket",
     note: "Multiple people can use",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.7,
-        y: 42.18
+        y: 42.18,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Dalaran"
     },
     fromPlayer: true,
@@ -3212,19 +6972,37 @@ const preprocessedTeleports = [
     name: "Kyrian travel network",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 77,
-        y: 53.5
+        y: 53.5,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Bastion"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: false,
@@ -3247,19 +7025,91 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.6,
-        y: 59.1
+        y: 59.1,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Ironforge"
     },
     fromPlayer: true,
@@ -3282,19 +7132,91 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: true,
@@ -3317,19 +7239,91 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 52.8,
-        y: 81.8
+        y: 81.8,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Nethergarde Keep, Blasted Lands"
     },
     fromPlayer: true,
@@ -3352,19 +7346,91 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.9,
-        y: 39.6
+        y: 39.6,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Aerie Peak, The Hinterlands"
     },
     fromPlayer: true,
@@ -3387,19 +7453,91 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.4,
-        y: 68.5
+        y: 68.5,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "The Masonary, Black Rock Mountains"
     },
     fromPlayer: true,
@@ -3422,19 +7560,91 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: null,
-        y: null
+        y: null,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Shadowforge City, Shadowforge City"
     },
     fromPlayer: true,
@@ -3457,19 +7667,59 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 50.4,
-        y: 80.1
+        y: 80.1,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Fire Plume Ridge, Un'Goro Crater"
     },
     fromPlayer: true,
@@ -3492,19 +7742,59 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 54.4,
-        y: 34.2
+        y: 34.2,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Throne of Flame, Mount Hyjal"
     },
     fromPlayer: true,
@@ -3527,19 +7817,59 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.5,
-        y: 50.3
+        y: 50.3,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "The Great Divide, Southern Barrens"
     },
     fromPlayer: true,
@@ -3562,19 +7892,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.3,
-        y: 55.9
+        y: 55.9,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Honor Hold, Hellfire Peninsula"
     },
     fromPlayer: true,
@@ -3597,19 +7943,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 66.3,
-        y: 78.4
+        y: 78.4,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Fel Pits, Shadowmoon Valley"
     },
     fromPlayer: true,
@@ -3632,19 +7994,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.3,
-        y: 18.2
+        y: 18.2,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Skald, Blade's Edge Mountains"
     },
     fromPlayer: true,
@@ -3667,19 +8045,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.9,
-        y: 19.3
+        y: 19.3,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Argent Tournament Grounds, Icecrown"
     },
     fromPlayer: true,
@@ -3702,19 +8096,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.6,
-        y: 58
+        y: 58,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Ruby Dragonshrine, Dragonblight"
     },
     fromPlayer: true,
@@ -3737,19 +8147,59 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.5,
-        y: 35.7
+        y: 35.7,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "One Keg, Kun-Lai Summit"
     },
     fromPlayer: true,
@@ -3772,19 +8222,59 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.6,
-        y: 70.6
+        y: 70.6,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Stormstout Brewery, Valley of the Four Winds"
     },
     fromPlayer: true,
@@ -3807,19 +8297,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.4,
-        y: 29.5
+        y: 29.5,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Blackrock Foundry Overlook, Gorgrond"
     },
     fromPlayer: true,
@@ -3842,19 +8348,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 29.6,
-        y: 43.9
+        y: 43.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Elemental Plateau, Nagrand"
     },
     fromPlayer: true,
@@ -3877,19 +8399,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.5,
-        y: 29.5
+        y: 29.5,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Neltharion's Vault, Highmountain"
     },
     fromPlayer: true,
@@ -3912,19 +8450,35 @@ const preprocessedTeleports = [
     name: "Mole Machine",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.9,
-        y: 66.6
+        y: 66.6,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "The Broken Shore"
     },
     fromPlayer: true,
@@ -3947,19 +8501,37 @@ const preprocessedTeleports = [
     name: "Necrolord travel network",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 62.7,
-        y: 27.6
+        y: 27.6,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Maldraxxus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: false,
@@ -3982,19 +8554,37 @@ const preprocessedTeleports = [
     name: "Night Fae travel network",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 47.92,
-        y: 81.53
+        y: 81.53,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Ardenweald"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: false,
@@ -4015,21 +8605,63 @@ const preprocessedTeleports = [
   },
   {
     name: "Orgrimmar Cataclysm Portals",
-    note: "Destination not on world maps",
+    note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 49,
+        y: 49.2,
+        continent: {
+          name: "Deepholm",
+          image: {
+            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+          },
+          scale: 50,
+          type: 3,
+          isFlyable: true,
+          id: 4
+        }
       },
-      continent: "Deepholm",
       description: "Deepholm"
     },
     fromPlayer: false,
@@ -4052,19 +8684,85 @@ const preprocessedTeleports = [
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.23,
-        y: 27.62
+        y: 27.62,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Mount Hyjal"
     },
     fromPlayer: false,
@@ -4087,19 +8785,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 60.11,
-        y: 56.02
+        y: 56.02,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Twilight Highlands"
     },
     fromPlayer: false,
@@ -4122,19 +8918,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 29.53,
-        y: 65.34
+        y: 65.34,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Vashj'ir"
     },
     fromPlayer: false,
@@ -4155,22 +9049,64 @@ const preprocessedTeleports = [
   },
   {
     name: "Orgrimmar Cataclysm Portals",
-    note: "Destination not on world maps",
+    note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 54.8,
+        y: 78.1,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
       },
-      continent: "Tol Barad",
-      description: "Tol Barad"
+      description: "Hellscream's Grasp, Tol Barad"
     },
     fromPlayer: false,
     type: "Portal",
@@ -4192,19 +9128,85 @@ const preprocessedTeleports = [
     name: "Orgrimmar Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.98,
-        y: 88.67
+        y: 88.67,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Uldum"
     },
     fromPlayer: false,
@@ -4227,19 +9229,85 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.91,
-        y: 35.56
+        y: 35.56,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Jade Forest"
     },
     fromPlayer: false,
@@ -4262,19 +9330,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Dazar'alor"
     },
     fromPlayer: false,
@@ -4297,19 +9407,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.25,
-        y: 66.34
+        y: 66.34,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     fromPlayer: false,
@@ -4332,19 +9484,85 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.33,
-        y: 83.45
+        y: 83.45,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Caverns of Time"
     },
     fromPlayer: false,
@@ -4367,19 +9585,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "Bugs for some characters",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 69.13,
-        y: 52.13
+        y: 52.13,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Dark Portal"
     },
     fromPlayer: false,
@@ -4402,19 +9662,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.7,
-        y: 42.18
+        y: 42.18,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Dalaran"
     },
     fromPlayer: false,
@@ -4437,19 +9739,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.73,
-        y: 57.91
+        y: 57.91,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Azsuna"
     },
     fromPlayer: false,
@@ -4472,19 +9816,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 71.64,
-        y: 39.04
+        y: 39.04,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Warspear"
     },
     fromPlayer: false,
@@ -4507,19 +9893,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.16,
-        y: 13.18
+        y: 13.18,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Silvermoon City"
     },
     fromPlayer: false,
@@ -4542,19 +10026,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: false,
@@ -4577,19 +10103,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin from Stranglethorn Vale",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 44.07,
-        y: 87.02
+        y: 87.02,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Grom'gol Base Camp, Stranglethorn Vale"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.3,
-        y: 42.66
+        y: 42.66,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -4612,19 +10236,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin",
     note: "Old world on arrival",
     origin: {
-      coordinates: {
+      position: {
         x: 58.3,
-        y: 42.66
+        y: 42.66,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.45,
-        y: 34.63
+        y: 34.63,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Undercity"
     },
     fromPlayer: false,
@@ -4647,19 +10369,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin to Stranglethorn Vale",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.3,
-        y: 42.66
+        y: 42.66,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.07,
-        y: 87.02
+        y: 87.02,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Grom'gol Base Camp, Stranglethorn Vale"
     },
     fromPlayer: false,
@@ -4682,19 +10502,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin to Borean Tundra",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 57.99,
-        y: 43.03
+        y: 43.03,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 18.98,
-        y: 65.73
+        y: 65.73,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Warsong Hold, Borean Tundra"
     },
     fromPlayer: false,
@@ -4717,19 +10579,85 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin to Thunder Bluff",
     note: "Slower than flying",
     origin: {
-      coordinates: {
+      position: {
         x: 57.99,
-        y: 43.03
+        y: 43.03,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.6,
-        y: 54.12
+        y: 54.12,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Thunder Bluff"
     },
     fromPlayer: false,
@@ -4752,19 +10680,117 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin",
     note: "Current time on arrival",
     origin: {
-      coordinates: {
+      position: {
         x: 58.3,
-        y: 42.66
+        y: 42.66,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.87,
-        y: 33.99
+        y: 33.99,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Undercity"
     },
     fromPlayer: false,
@@ -4787,19 +10813,85 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin from Thunder Bluff",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 45.6,
-        y: 54.12
+        y: 54.12,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Thunder Bluff"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.99,
-        y: 43.03
+        y: 43.03,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -4822,19 +10914,61 @@ const preprocessedTeleports = [
     name: "Orgrimmar Zeppelin from Borean Tundra",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 18.98,
-        y: 65.73
+        y: 65.73,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Warsong Hold, Borean Tundra"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.99,
-        y: 43.03
+        y: 43.03,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -4857,19 +10991,59 @@ const preprocessedTeleports = [
     name: "Path of the Black Ox",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
-        x: 25.9,
-        y: 48.6
+      position: {
+        x: 24.19,
+        y: 51.58,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Siege of Niuzao"
     },
     fromPlayer: true,
@@ -4883,7 +11057,7 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
     travelTime: 0
@@ -4892,19 +11066,35 @@ const preprocessedTeleports = [
     name: "Path of the Bloodmaul",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.8,
-        y: 27
+        y: 27,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Bloodmaul Slag Mines"
     },
     fromPlayer: true,
@@ -4927,19 +11117,91 @@ const preprocessedTeleports = [
     name: "Path of the Burning Mountain",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.5,
-        y: 68.3
+        y: 68.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Upper Blackrock Spire"
     },
     fromPlayer: true,
@@ -4962,19 +11224,35 @@ const preprocessedTeleports = [
     name: "Path of the Crescent Moon",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 55.1,
-        y: 73.2
+        y: 73.2,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Shadowmoon Burial Grounds"
     },
     fromPlayer: true,
@@ -4997,19 +11275,35 @@ const preprocessedTeleports = [
     name: "Path of the Dark Rail",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 52,
-        y: 25
+        y: 25,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Grimrail Depot"
     },
     fromPlayer: true,
@@ -5032,19 +11326,35 @@ const preprocessedTeleports = [
     name: "Path of the Iron Prow",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.9,
-        y: 17.5
+        y: 17.5,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Iron Docks"
     },
     fromPlayer: true,
@@ -5067,19 +11377,59 @@ const preprocessedTeleports = [
     name: "Path of the Jade Serpent",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 72.08,
-        y: 55.4
+        y: 55.4,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Temple of Jade Serpent"
     },
     fromPlayer: true,
@@ -5102,19 +11452,59 @@ const preprocessedTeleports = [
     name: "Path of the Mogu King",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.5,
-        y: 53.3
+        y: 53.3,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Mogu'shan Palace"
     },
     fromPlayer: true,
@@ -5137,19 +11527,91 @@ const preprocessedTeleports = [
     name: "Path of the Necromancer",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 50.7,
-        y: 36.2
+        y: 36.2,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Scholomance"
     },
     fromPlayer: true,
@@ -5172,19 +11634,91 @@ const preprocessedTeleports = [
     name: "Path of the Scarlet Blade",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.6,
-        y: 30.8
+        y: 30.8,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Scarlet Halls"
     },
     fromPlayer: true,
@@ -5207,19 +11741,91 @@ const preprocessedTeleports = [
     name: "Path of the Scarlet Mitre",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.6,
-        y: 30.8
+        y: 30.8,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Scarlet Monastery"
     },
     fromPlayer: true,
@@ -5242,19 +11848,59 @@ const preprocessedTeleports = [
     name: "Path of the Setting Sun",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 42.8,
-        y: 57.4
+        y: 57.4,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Gate of the Setting Sun"
     },
     fromPlayer: true,
@@ -5277,19 +11923,59 @@ const preprocessedTeleports = [
     name: "Path of the Shado-Pan",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 39.99,
-        y: 30.1
+        y: 30.1,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Shado-Pan Monastery"
     },
     fromPlayer: true,
@@ -5312,19 +11998,35 @@ const preprocessedTeleports = [
     name: "Path of the Skies",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.8,
-        y: 72.8
+        y: 72.8,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Skyreach"
     },
     fromPlayer: true,
@@ -5347,19 +12049,59 @@ const preprocessedTeleports = [
     name: "Path of the Stout Brew",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.15,
-        y: 70.68
+        y: 70.68,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Stormstout Brewery"
     },
     fromPlayer: true,
@@ -5382,19 +12124,35 @@ const preprocessedTeleports = [
     name: "Path of the Verdant",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 51.4,
-        y: 33
+        y: 33,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "The Everbloom"
     },
     fromPlayer: true,
@@ -5417,19 +12175,35 @@ const preprocessedTeleports = [
     name: "Path of the Vigilant",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 39.3,
-        y: 61.9
+        y: 61.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Auchindoun"
     },
     fromPlayer: true,
@@ -5452,19 +12226,59 @@ const preprocessedTeleports = [
     name: "Pit Fighter's Punching Ring",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.99,
-        y: 43.03
+        y: 43.03,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Brawl'gar Arena, Orgrimmar"
     },
     fromPlayer: true,
@@ -5487,19 +12301,91 @@ const preprocessedTeleports = [
     name: "Pit Fighter's Punching Ring",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Bizmo's Brawlpub, Stormwind"
     },
     fromPlayer: true,
@@ -5522,19 +12408,35 @@ const preprocessedTeleports = [
     name: "Potion of Deepholm",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 49,
+        y: 49.2,
+        continent: {
+          name: "Deepholm",
+          image: {
+            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+          },
+          scale: 50,
+          type: 3,
+          isFlyable: true,
+          id: 4
+        }
       },
-      continent: "Deepholm",
       description: "Deepholm"
     },
     fromPlayer: true,
@@ -5557,19 +12459,35 @@ const preprocessedTeleports = [
     name: "Reaves",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 34.4,
-        y: 57.1
+        y: 57.1,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Azsuna"
     },
     fromPlayer: true,
@@ -5592,19 +12510,35 @@ const preprocessedTeleports = [
     name: "Reaves",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 35.3,
-        y: 34.2
+        y: 34.2,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Val'sharah"
     },
     fromPlayer: true,
@@ -5627,19 +12561,35 @@ const preprocessedTeleports = [
     name: "Reaves",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.6,
-        y: 22.2
+        y: 22.2,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Highmountain"
     },
     fromPlayer: true,
@@ -5662,19 +12612,35 @@ const preprocessedTeleports = [
     name: "Reaves",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.3,
-        y: 35.3
+        y: 35.3,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Stormheim"
     },
     fromPlayer: true,
@@ -5697,19 +12663,35 @@ const preprocessedTeleports = [
     name: "Reaves",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.4,
-        y: 46.7
+        y: 46.7,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Suramar"
     },
     fromPlayer: true,
@@ -5732,19 +12714,35 @@ const preprocessedTeleports = [
     name: "Relic of Karabor",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 71.1,
-        y: 46.6
+        y: 46.6,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Shadowmoon Valley"
     },
     fromPlayer: true,
@@ -5767,19 +12765,59 @@ const preprocessedTeleports = [
     name: "Shroud of Cooperation",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: true,
@@ -5802,19 +12840,91 @@ const preprocessedTeleports = [
     name: "Shroud of Cooperation",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: true,
@@ -5837,19 +12947,37 @@ const preprocessedTeleports = [
     name: "Skyhold",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 32.5,
-        y: 51.4
+        y: 51.4,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Azsuna"
     },
     fromPlayer: false,
@@ -5872,19 +13000,37 @@ const preprocessedTeleports = [
     name: "Skyhold",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.6,
-        y: 25.4
+        y: 25.4,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Highmountain"
     },
     fromPlayer: false,
@@ -5907,19 +13053,37 @@ const preprocessedTeleports = [
     name: "Skyhold",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 61.1,
-        y: 31.5
+        y: 31.5,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Stormheim"
     },
     fromPlayer: false,
@@ -5942,19 +13106,37 @@ const preprocessedTeleports = [
     name: "Skyhold",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 34.5,
-        y: 34.9
+        y: 34.9,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Val'sharah"
     },
     fromPlayer: false,
@@ -5977,19 +13159,37 @@ const preprocessedTeleports = [
     name: "Skyhold",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.5,
-        y: 45.6
+        y: 45.6,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Suramar"
     },
     fromPlayer: false,
@@ -6012,19 +13212,37 @@ const preprocessedTeleports = [
     name: "Skyhold",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53.9,
-        y: 68.5
+        y: 68.5,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Broken Shore"
     },
     fromPlayer: false,
@@ -6045,21 +13263,95 @@ const preprocessedTeleports = [
   },
   {
     name: "Stormwind Cataclysm Portals",
-    note: "Destination not on world maps",
+    note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 49,
+        y: 49.2,
+        continent: {
+          name: "Deepholm",
+          image: {
+            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+          },
+          scale: 50,
+          type: 3,
+          isFlyable: true,
+          id: 4
+        }
       },
-      continent: "Deepholm",
       description: "Deepholm"
     },
     fromPlayer: false,
@@ -6082,19 +13374,117 @@ const preprocessedTeleports = [
     name: "Stormwind Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.23,
-        y: 27.62
+        y: 27.62,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Mount Hyjal"
     },
     fromPlayer: false,
@@ -6117,19 +13507,149 @@ const preprocessedTeleports = [
     name: "Stormwind Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 55.6,
-        y: 52.7
+        y: 52.7,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Twilight Highlands"
     },
     fromPlayer: false,
@@ -6152,55 +13672,150 @@ const preprocessedTeleports = [
     name: "Stormwind Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 34.4,
-        y: 61.8
+        y: 61.8,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Vashj'ir"
-    },
-    fromPlayer: false,
-    type: "Portal",
-    enabled: true,
-    cooldown: null,
-    restrictions: {
-      faction: "Alliance",
-      class: "",
-      race: "",
-      covenant: "",
-      profession: ""
-    },
-    verified: false,
-    numLoadingScreens: 1,
-    castTime: 0,
-    travelTime: 0
-  },
-  {
-    name: "Stormwind Cataclysm Portals",
-    note: "Destination not on world maps",
-    origin: {
-      coordinates: {
-        x: 43.1,
-        y: 71.3
-      },
-      continent: "Eastern Kingdoms",
-      description: "Stormwind"
-    },
-    destination: {
-      coordinates: {
-        x: null,
-        y: null
-      },
-      continent: "Tol Barad",
-      description: "Tol Barad"
     },
     fromPlayer: false,
     type: "Portal",
@@ -6222,19 +13837,226 @@ const preprocessedTeleports = [
     name: "Stormwind Cataclysm Portals",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     destination: {
-      coordinates: {
-        x: 48.98,
-        y: 88.67
+      position: {
+        x: 74.8,
+        y: 58.4,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
       },
-      continent: "Kalimdor",
+      description: "Baradin Base Camp, Tol Barad"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Stormwind Cataclysm Portals",
+    note: "",
+    origin: {
+      position: {
+        x: 43.1,
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Stormwind"
+    },
+    destination: {
+      position: {
+        x: 48.98,
+        y: 88.67,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
+      },
       description: "Uldum"
     },
     fromPlayer: false,
@@ -6257,19 +14079,85 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 68.6,
-        y: 64.6
+        y: 64.6,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Jade Forest"
     },
     fromPlayer: false,
@@ -6292,19 +14180,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     fromPlayer: false,
@@ -6327,19 +14257,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.25,
-        y: 66.34
+        y: 66.34,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     fromPlayer: false,
@@ -6362,19 +14334,85 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.33,
-        y: 83.45
+        y: 83.45,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Caverns of Time"
     },
     fromPlayer: false,
@@ -6397,19 +14435,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 69.13,
-        y: 52.13
+        y: 52.13,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Dark Portal"
     },
     fromPlayer: false,
@@ -6432,19 +14512,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.7,
-        y: 42.18
+        y: 42.18,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Dalaran"
     },
     fromPlayer: false,
@@ -6467,19 +14589,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.73,
-        y: 57.91
+        y: 57.91,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Azsuna"
     },
     fromPlayer: false,
@@ -6502,19 +14666,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 73.3,
-        y: 46.9
+        y: 46.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Stormshield"
     },
     fromPlayer: false,
@@ -6537,19 +14743,85 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "Unreachable by flying",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.5,
-        y: 25.9
+        y: 25.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Exodar"
     },
     fromPlayer: false,
@@ -6572,19 +14844,61 @@ const preprocessedTeleports = [
     name: "Stormwind Portal Room",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: false,
@@ -6607,19 +14921,35 @@ const preprocessedTeleports = [
     name: "Teleport: Boralus",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     fromPlayer: true,
@@ -6642,19 +14972,35 @@ const preprocessedTeleports = [
     name: "Teleport: Dalaran - Broken Isles",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     fromPlayer: true,
@@ -6677,19 +15023,35 @@ const preprocessedTeleports = [
     name: "Teleport: Dalaran - Northrend",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.7,
-        y: 42.18
+        y: 42.18,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Dalaran"
     },
     fromPlayer: true,
@@ -6712,19 +15074,59 @@ const preprocessedTeleports = [
     name: "Teleport: Darnassus",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 40.5,
-        y: 9.6
+        y: 9.6,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Darnassus"
     },
     fromPlayer: true,
@@ -6747,19 +15149,35 @@ const preprocessedTeleports = [
     name: "Teleport: Dazar'alor",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Dazar'alor"
     },
     fromPlayer: true,
@@ -6782,19 +15200,59 @@ const preprocessedTeleports = [
     name: "Teleport: Exodar",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.5,
-        y: 25.9
+        y: 25.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Exodar"
     },
     fromPlayer: true,
@@ -6817,19 +15275,91 @@ const preprocessedTeleports = [
     name: "Teleport: Ironforge",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.6,
-        y: 59.1
+        y: 59.1,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Ironforge"
     },
     fromPlayer: true,
@@ -6852,19 +15382,59 @@ const preprocessedTeleports = [
     name: "Teleport: Orgrimmar",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: true,
@@ -6887,19 +15457,35 @@ const preprocessedTeleports = [
     name: "Teleport: Oribos",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: true,
@@ -6922,19 +15508,35 @@ const preprocessedTeleports = [
     name: "Teleport: Shattrath",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.25,
-        y: 66.34
+        y: 66.34,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     fromPlayer: true,
@@ -6957,19 +15559,35 @@ const preprocessedTeleports = [
     name: "Teleport: Shattrath",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.25,
-        y: 66.34
+        y: 66.34,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     fromPlayer: true,
@@ -6992,19 +15610,91 @@ const preprocessedTeleports = [
     name: "Teleport: Silvermoon",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.16,
-        y: 13.18
+        y: 13.18,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Silvermoon City"
     },
     fromPlayer: true,
@@ -7027,19 +15717,91 @@ const preprocessedTeleports = [
     name: "Teleport: Stonard",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53.1,
-        y: 80.1
+        y: 80.1,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stonard"
     },
     fromPlayer: true,
@@ -7062,19 +15824,35 @@ const preprocessedTeleports = [
     name: "Teleport: Stormshield",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 73.3,
-        y: 46.9
+        y: 46.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Stormshield"
     },
     fromPlayer: true,
@@ -7097,19 +15875,91 @@ const preprocessedTeleports = [
     name: "Teleport: Stormwind",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: true,
@@ -7132,19 +15982,59 @@ const preprocessedTeleports = [
     name: "Teleport: Theramore",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 65.5
+        y: 65.5,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Theramore"
     },
     fromPlayer: true,
@@ -7167,19 +16057,59 @@ const preprocessedTeleports = [
     name: "Teleport: Thunder Bluff",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.6,
-        y: 54.12
+        y: 54.12,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Thunder Bluff"
     },
     fromPlayer: true,
@@ -7202,20 +16132,36 @@ const preprocessedTeleports = [
     name: "Teleport: Tol Barad",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 54.8,
+        y: 78.1,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
       },
-      continent: "Tol Barad",
-      description: "Tol Barad"
+      description: "Hellscream's Grasp, Tol Barad"
     },
     fromPlayer: true,
     type: "Spell",
@@ -7237,20 +16183,36 @@ const preprocessedTeleports = [
     name: "Teleport: Tol Barad",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 74.8,
+        y: 58.4,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
       },
-      continent: "Tol Barad",
-      description: "Tol Barad"
+      description: "Baradin Base Camp, Tol Barad"
     },
     fromPlayer: true,
     type: "Spell",
@@ -7272,19 +16234,91 @@ const preprocessedTeleports = [
     name: "Teleport: Undercity",
     note: "Old world on arrival",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.45,
-        y: 34.63
+        y: 34.63,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Undercity"
     },
     fromPlayer: true,
@@ -7307,19 +16341,91 @@ const preprocessedTeleports = [
     name: "Teleport: Undercity",
     note: "Current time on arrival",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.87,
-        y: 33.99
+        y: 33.99,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Undercity"
     },
     fromPlayer: true,
@@ -7342,19 +16448,59 @@ const preprocessedTeleports = [
     name: "Teleport: Vale of Eternal Blossoms",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53,
-        y: 49.9
+        y: 49.9,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Vale of Eternal Blossoms"
     },
     fromPlayer: true,
@@ -7377,19 +16523,59 @@ const preprocessedTeleports = [
     name: "Teleport: Vale of Eternal Blossoms",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 55,
-        y: 57.4
+        y: 57.4,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Vale of Eternal Blossoms"
     },
     fromPlayer: true,
@@ -7412,19 +16598,35 @@ const preprocessedTeleports = [
     name: "Teleport: Warspear",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 71.64,
-        y: 39.04
+        y: 39.04,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Warspear"
     },
     fromPlayer: true,
@@ -7447,19 +16649,59 @@ const preprocessedTeleports = [
     name: "The Brassiest Knuckle",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 57.99,
-        y: 43.03
+        y: 43.03,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Brawl'gar Arena, Orgrimmar"
     },
     fromPlayer: true,
@@ -7482,19 +16724,91 @@ const preprocessedTeleports = [
     name: "The Brassiest Knuckle",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Bizmo's Brawlpub, Stormwind"
     },
     fromPlayer: true,
@@ -7517,19 +16831,59 @@ const preprocessedTeleports = [
     name: "Time-Lost Artifact",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 88.02,
-        y: 70.87
+        y: 70.87,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Timeless Isle"
     },
     fromPlayer: true,
@@ -7552,19 +16906,59 @@ const preprocessedTeleports = [
     name: "Ultrasafe Transporter: Gadgetzan",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.8,
-        y: 78.6
+        y: 78.6,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Gadgetzan, Tanaris"
     },
     fromPlayer: true,
@@ -7587,19 +16981,35 @@ const preprocessedTeleports = [
     name: "Ultrasafe Transporter: Mechagon",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 18.6,
-        y: 26.5
+        y: 26.5,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Mechagon"
     },
     fromPlayer: true,
@@ -7622,19 +17032,35 @@ const preprocessedTeleports = [
     name: "Ultrasafe Transporter: Toshley's Station",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.8,
-        y: 32.5
+        y: 32.5,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Toshley's Station, Blade's Edge Mountains"
     },
     fromPlayer: true,
@@ -7657,19 +17083,37 @@ const preprocessedTeleports = [
     name: "Venthyr travel network",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 21,
-        y: 50.5
+        y: 50.5,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Revendreth"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: false,
@@ -7692,19 +17136,91 @@ const preprocessedTeleports = [
     name: "Violet Seal of the Grand Magus",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.55,
-        y: 82.13
+        y: 82.13,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Karazhan"
     },
     fromPlayer: true,
@@ -7727,19 +17243,35 @@ const preprocessedTeleports = [
     name: "Wormhole Centrifuge",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 47.4,
-        y: 76.4
+        y: 76.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Spires of Arak"
     },
     fromPlayer: true,
@@ -7762,19 +17294,35 @@ const preprocessedTeleports = [
     name: "Wormhole Centrifuge",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44,
-        y: 58
+        y: 58,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Talador"
     },
     fromPlayer: true,
@@ -7797,19 +17345,35 @@ const preprocessedTeleports = [
     name: "Wormhole Centrifuge",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.1,
-        y: 70.4
+        y: 70.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Shadowmoon Valley"
     },
     fromPlayer: true,
@@ -7832,19 +17396,35 @@ const preprocessedTeleports = [
     name: "Wormhole Centrifuge",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 27.8,
-        y: 52.4
+        y: 52.4,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Nagrand"
     },
     fromPlayer: true,
@@ -7867,19 +17447,35 @@ const preprocessedTeleports = [
     name: "Wormhole Centrifuge",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 49.8,
-        y: 30.6
+        y: 30.6,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Gorgrond"
     },
     fromPlayer: true,
@@ -7902,19 +17498,35 @@ const preprocessedTeleports = [
     name: "Wormhole Centrifuge",
     note: "Teleports in varied locations in the zone. Destination is set to zone middle",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.5,
-        y: 29.9
+        y: 29.9,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Frostfire Ridge"
     },
     fromPlayer: true,
@@ -7937,19 +17549,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 22.4,
-        y: 63.3
+        y: 63.3,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Borean Tundra"
     },
     fromPlayer: true,
@@ -7972,19 +17600,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 78.5,
-        y: 77.3
+        y: 77.3,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Howling Fjord"
     },
     fromPlayer: true,
@@ -8007,19 +17651,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 26.9,
-        y: 40.7
+        y: 40.7,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Sholazar Basin"
     },
     fromPlayer: true,
@@ -8042,19 +17702,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 41.9,
-        y: 23.9
+        y: 23.9,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Icecrown"
     },
     fromPlayer: true,
@@ -8077,19 +17753,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Northrend",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58,
-        y: 16.2
+        y: 16.2,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Storm Peaks"
     },
     fromPlayer: true,
@@ -8112,19 +17804,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Shadowlands",
     note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     fromPlayer: true,
@@ -8147,19 +17855,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Shadowlands",
     note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 74,
-        y: 67.6
+        y: 67.6,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Bastion"
     },
     fromPlayer: true,
@@ -8182,19 +17906,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Shadowlands",
     note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 60.5,
-        y: 19.3
+        y: 19.3,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Maldraxxus"
     },
     fromPlayer: true,
@@ -8217,19 +17957,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Shadowlands",
     note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 51,
-        y: 82
+        y: 82,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Ardenweald"
     },
     fromPlayer: true,
@@ -8252,19 +18008,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Shadowlands",
     note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 20.9,
-        y: 58
+        y: 58,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Revendreth"
     },
     fromPlayer: true,
@@ -8287,19 +18059,35 @@ const preprocessedTeleports = [
     name: "Wormhole Generator: Shadowlands",
     note: "https://www.wowhead.com/item=172924/wormhole-generator-shadowlands",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 20.9,
-        y: 7.3
+        y: 7.3,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "The Maw"
     },
     fromPlayer: true,
@@ -8322,19 +18110,59 @@ const preprocessedTeleports = [
     name: "Wrap of Unity",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: true,
@@ -8357,19 +18185,91 @@ const preprocessedTeleports = [
     name: "Wrap of Unity",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: true,
@@ -8392,19 +18292,59 @@ const preprocessedTeleports = [
     name: "Zen Pilgrimage",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48.3,
-        y: 28.4
+        y: 28.4,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Kun-lai Summit"
     },
     fromPlayer: true,
@@ -8427,19 +18367,61 @@ const preprocessedTeleports = [
     name: "Dalaran to Orgrimmar",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -8462,19 +18444,61 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=45423/wailing-critters has to be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 52,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Wailing Caverns, Northern Barrens"
     },
     fromPlayer: false,
@@ -8497,19 +18521,93 @@ const preprocessedTeleports = [
     name: "Paladin Class Hall",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.3,
-        y: 33.4
+        y: 33.4,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Light's Hope Chapel, Eastern Plaguelands"
     },
     fromPlayer: false,
@@ -8532,19 +18630,93 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 41.5,
-        y: 60.4
+        y: 60.4,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Gnomeregan"
     },
     fromPlayer: false,
@@ -8567,19 +18739,93 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 46.33,
-        y: 64.42
+        y: 64.42,
+        continent: {
+          name: "Broken Isles",
+          image: {
+            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 8
+        }
       },
-      continent: "Broken Isles",
       description: "Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 40.8,
-        y: 82.6
+        y: 82.6,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Deadmines"
     },
     fromPlayer: false,
@@ -8602,19 +18848,117 @@ const preprocessedTeleports = [
     name: "Booty Bay Boat to Ratchet",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.19,
-        y: 93.74
+        y: 93.74,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Booty Bay, The Cape of Stranglethorn"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.83,
-        y: 54.26
+        y: 54.26,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Ratchet, Northern Barrens"
     },
     fromPlayer: false,
@@ -8637,19 +18981,149 @@ const preprocessedTeleports = [
     name: "Undercity Zeppelin",
     note: "Outside",
     origin: {
-      coordinates: {
+      position: {
         x: 43.9,
-        y: 33.54
+        y: 33.54,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Brill, Undercity"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44.07,
-        y: 86.83
+        y: 86.83,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stranglethorn Vale"
     },
     fromPlayer: false,
@@ -8672,19 +19146,93 @@ const preprocessedTeleports = [
     name: "Undercity Zeppelin",
     note: "Outside",
     origin: {
-      coordinates: {
+      position: {
         x: 43.9,
-        y: 33.54
+        y: 33.54,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Brill, Undercity"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 84.59,
-        y: 72.89
+        y: 72.89,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Howling Fjord"
     },
     fromPlayer: false,
@@ -8707,19 +19255,117 @@ const preprocessedTeleports = [
     name: "Undercity Zeppelin",
     note: "Outside",
     origin: {
-      coordinates: {
+      position: {
         x: 43.9,
-        y: 33.54
+        y: 33.54,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Brill, Undercity"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -8742,19 +19388,117 @@ const preprocessedTeleports = [
     name: "Stormwind Boat to Teldrassil",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind Harbor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.8,
-        y: 14.7
+        y: 14.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Teldrassil"
     },
     fromPlayer: false,
@@ -8777,19 +19521,93 @@ const preprocessedTeleports = [
     name: "Stormwind Boat to Borean Tundra",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind Harbor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 78.9,
-        y: 78.6
+        y: 78.6,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Valiance Keep, Borean Tundra"
     },
     fromPlayer: false,
@@ -8812,19 +19630,149 @@ const preprocessedTeleports = [
     name: "Horde Gnomeregan portal",
     note: "Inside instance. Can't get out?",
     origin: {
-      coordinates: {
+      position: {
         x: 44.07,
-        y: 86.83
+        y: 86.83,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stranglethorn Vale"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 41.5,
-        y: 60.4
+        y: 60.4,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Gnomeregan"
     },
     fromPlayer: false,
@@ -8847,19 +19795,93 @@ const preprocessedTeleports = [
     name: "Uncercity to Dark Portal",
     note: "Old world only",
     origin: {
-      coordinates: {
+      position: {
         x: 44.45,
-        y: 34.63
+        y: 34.63,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Undercity"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 69.06,
-        y: 51.94
+        y: 51.94,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Dark Portal"
     },
     fromPlayer: false,
@@ -8882,19 +19904,117 @@ const preprocessedTeleports = [
     name: "",
     note: "Old world only?",
     origin: {
-      coordinates: {
+      position: {
         x: 46.9,
-        y: 53.7
+        y: 53.7,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Menethil Harbor, Wetlands"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 65.5
+        y: 65.5,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Theramore Isle, Dustwallow Marsh"
     },
     fromPlayer: false,
@@ -8917,19 +20037,85 @@ const preprocessedTeleports = [
     name: "",
     note: "Old world only?",
     origin: {
-      coordinates: {
+      position: {
         x: 43.8,
-        y: 14.7
+        y: 14.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Teldrassil"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.5,
-        y: 25.9
+        y: 25.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Exodar"
     },
     fromPlayer: false,
@@ -8952,19 +20138,117 @@ const preprocessedTeleports = [
     name: "",
     note: "Old world only?",
     origin: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 65.5
+        y: 65.5,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Theramore Isle, Dustwallow Marsh"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 46.9,
-        y: 53.7
+        y: 53.7,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Menethil Harbor, Wetlands"
     },
     fromPlayer: false,
@@ -8987,19 +20271,85 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.91,
-        y: 35.56
+        y: 35.56,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Jade Forest"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9022,19 +20372,61 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.25,
-        y: 66.34
+        y: 66.34,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9057,19 +20449,85 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.33,
-        y: 83.45
+        y: 83.45,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Caverns of Time"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9092,19 +20550,61 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 69.13,
-        y: 52.13
+        y: 52.13,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outlands",
       description: "Dark Portal"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9127,19 +20627,61 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 48.7,
-        y: 42.18
+        y: 42.18,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Old Dalaran"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9162,19 +20704,61 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 71.64,
-        y: 39.04
+        y: 39.04,
+        continent: {
+          name: "Draenor",
+          image: {
+            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 7
+        }
       },
-      continent: "Draenor",
       description: "Warspear"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9197,19 +20781,117 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 56.16,
-        y: 13.18
+        y: 13.18,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Silvermoon City"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9232,19 +20914,61 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 45.61,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: false,
+          id: 15
+        }
       },
-      continent: "Shadowlands",
       description: "Oribos"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.6,
-        y: 44.28
+        y: 44.28,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9267,19 +20991,85 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 56.23,
-        y: 27.62
+        y: 27.62,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Mount Hyjal"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9302,19 +21092,117 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 60.11,
-        y: 56.02
+        y: 56.02,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Twilight Highlands"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 58.28,
-        y: 41.82
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Orgrimmar"
     },
     fromPlayer: false,
@@ -9337,19 +21225,117 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 56.23,
-        y: 27.62
+        y: 27.62,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Mount Hyjal"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: false,
@@ -9372,19 +21358,149 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 55.6,
-        y: 52.7
+        y: 52.7,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Twilight Highlands"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: false,
@@ -9407,19 +21523,117 @@ const preprocessedTeleports = [
     name: "Ratchet Boat to Booty Bay",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 56.83,
-        y: 54.26
+        y: 54.26,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Ratchet, Northern Barrens"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.19,
-        y: 93.74
+        y: 93.74,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Booty Bay, The Cape of Stranglethorn"
     },
     fromPlayer: false,
@@ -9442,19 +21656,117 @@ const preprocessedTeleports = [
     name: "Stormwind Boat from Teldrassil",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.8,
-        y: 14.7
+        y: 14.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Teldrassil"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind Harbor"
     },
     fromPlayer: false,
@@ -9477,19 +21789,85 @@ const preprocessedTeleports = [
     name: "Exodar Boat to Teldrassil",
     note: "Old world only?",
     origin: {
-      coordinates: {
+      position: {
         x: 30.5,
-        y: 25.9
+        y: 25.9,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Exodar"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.8,
-        y: 14.7
+        y: 14.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Teldrassil"
     },
     fromPlayer: false,
@@ -9512,19 +21890,61 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=45423/wailing-critters has to be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 52,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Wailing Caverns, Northern Barrens"
     },
     fromPlayer: false,
@@ -9547,19 +21967,93 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 41.5,
-        y: 60.4
+        y: 60.4,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Gnomeregan"
     },
     fromPlayer: false,
@@ -9582,19 +22076,93 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 40.8,
-        y: 82.6
+        y: 82.6,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Deadmines"
     },
     fromPlayer: false,
@@ -9617,19 +22185,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 33.8,
-        y: 21.6
+        y: 21.6,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Vol'dun"
     },
     fromPlayer: false,
@@ -9652,19 +22238,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 63.6,
-        y: 25.7
+        y: 25.7,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Nazmir"
     },
     fromPlayer: false,
@@ -9687,19 +22291,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 59.5,
-        y: 54.4
+        y: 54.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Boralus"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 44,
-        y: 77.5
+        y: 77.5,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zuldazar"
     },
     fromPlayer: false,
@@ -9722,19 +22344,93 @@ const preprocessedTeleports = [
     name: "Stormwind Boat from Borean Tundra",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 78.9,
-        y: 78.6
+        y: 78.6,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Valiance Keep, Borean Tundra"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind Harbor"
     },
     fromPlayer: false,
@@ -9757,19 +22453,61 @@ const preprocessedTeleports = [
     name: "",
     note: "Related to quest https://www.wowhead.com/quest=12561/an-issue-of-trust#. Investigate",
     origin: {
-      coordinates: {
+      position: {
         x: 25.8,
-        y: 49.4
+        y: 49.4,
+        continent: {
+          name: "Northrend",
+          image: {
+            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 3
+        }
       },
-      continent: "Northrend",
       description: "Sholazar Basin"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 51.5,
-        y: 75.6
+        y: 75.6,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Shaper's Terrace, Un'goro Crater"
     },
     fromPlayer: false,
@@ -9792,19 +22530,93 @@ const preprocessedTeleports = [
     name: "",
     note: "Unreachable by flying",
     origin: {
-      coordinates: {
+      position: {
         x: 42.5,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 55.67,
-        y: 2.85
+        y: 2.85,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Isle of Quel'Danas"
     },
     fromPlayer: false,
@@ -9827,19 +22639,61 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 42.5,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 59.33,
-        y: 83.45
+        y: 83.45,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Caverns of Time"
     },
     fromPlayer: false,
@@ -9862,19 +22716,93 @@ const preprocessedTeleports = [
     name: "",
     note: "Seems off, verify",
     origin: {
-      coordinates: {
+      position: {
         x: 42.5,
-        y: 65.3
+        y: 65.3,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 53.6,
-        y: 85.2
+        y: 85.2,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Dark Portal, Blasted Lands"
     },
     fromPlayer: false,
@@ -9897,19 +22825,85 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 18.5,
-        y: 13.2
+        y: 13.2,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Isle of Thunder"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 30.1,
-        y: 46.2
+        y: 46.2,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Townlong Steppes"
     },
     fromPlayer: false,
@@ -9932,19 +22926,85 @@ const preprocessedTeleports = [
     name: "",
     note: "Not reachable by flying",
     origin: {
-      coordinates: {
+      position: {
         x: 30.1,
-        y: 46.2
+        y: 46.2,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Townlong Steppes"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 18.5,
-        y: 13.2
+        y: 13.2,
+        continent: {
+          name: "Pandaria",
+          image: {
+            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 14.9,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 21.4,
+                continent: "Pandaria"
+              },
+              {
+                x: 27.3,
+                y: 0,
+                continent: "Pandaria"
+              },
+              {
+                x: 14.9,
+                y: 0,
+                continent: "Pandaria"
+              }
+            ]
+          ],
+          id: 6
+        }
       },
-      continent: "Pandaria",
       description: "Isle of Thunder"
     },
     fromPlayer: false,
@@ -9967,19 +23027,61 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=45423/wailing-critters has to be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 52,
-        y: 50.7
+        y: 50.7,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Wailing Caverns, Northern Barrens"
     },
     fromPlayer: false,
@@ -10002,19 +23104,93 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 41.5,
-        y: 60.4
+        y: 60.4,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Gnomeregan"
     },
     fromPlayer: false,
@@ -10037,19 +23213,93 @@ const preprocessedTeleports = [
     name: "Pet Battle Teleport",
     note: "https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed",
     origin: {
-      coordinates: {
+      position: {
         x: 58.26,
-        y: 62.04
+        y: 62.04,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Dazar'alor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 40.8,
-        y: 82.6
+        y: 82.6,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Deadmines"
     },
     fromPlayer: false,
@@ -10072,19 +23322,61 @@ const preprocessedTeleports = [
     name: "",
     note: "Up for a week every 3 weeks",
     origin: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 47.3,
+        y: 22.3,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
       },
-      continent: "Kalimdor",
       description: "Darkshore"
     },
     fromPlayer: false,
@@ -10107,19 +23399,93 @@ const preprocessedTeleports = [
     name: "",
     note: "Up for a week every 3 weeks",
     origin: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     destination: {
-      coordinates: {
-        x: null,
-        y: null
+      position: {
+        x: 50.1,
+        y: 44.7,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Arathi Highlands"
     },
     fromPlayer: false,
@@ -10142,19 +23508,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 25.8,
-        y: 66.6
+        y: 66.6,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Drustvar"
     },
     fromPlayer: false,
@@ -10177,19 +23561,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 56.9,
-        y: 12.4
+        y: 12.4,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Stormsong Valley"
     },
     fromPlayer: false,
@@ -10212,19 +23614,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 69.9,
-        y: 68.3
+        y: 68.3,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Tiragarde Sound"
     },
     fromPlayer: false,
@@ -10247,19 +23667,37 @@ const preprocessedTeleports = [
     name: "",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 58.29,
-        y: 72.23
+        y: 72.23,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
       },
-      continent: "Zandalar",
       description: "Zulzadar Harbor"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 20.4,
-        y: 25
+        y: 25,
+        continent: {
+          name: "Kul Tiras",
+          image: {
+            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 13
+        }
       },
-      continent: "Kul Tiras",
       description: "Mechagon"
     },
     fromPlayer: false,
@@ -10282,19 +23720,93 @@ const preprocessedTeleports = [
     name: "Shattrath to Stormwind",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 43.25,
-        y: 66.34
+        y: 66.34,
+        continent: {
+          name: "Outland",
+          image: {
+            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          id: 2
+        }
       },
-      continent: "Outland",
       description: "Shattrath"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 43.1,
-        y: 71.3
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Stormwind"
     },
     fromPlayer: false,
@@ -10317,19 +23829,91 @@ const preprocessedTeleports = [
     name: "Scroll of Teleport",
     note: "",
     origin: {
-      coordinates: {
+      position: {
         x: 0,
-        y: 0
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
       },
-      continent: "",
       description: "Player"
     },
     destination: {
-      coordinates: {
+      position: {
         x: 48,
-        y: 42.8
+        y: 42.8,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
       },
-      continent: "Eastern Kingdoms",
       description: "Ravenholdt, Hillsbrad Foothills"
     },
     fromPlayer: true,
@@ -10345,6 +23929,561 @@ const preprocessedTeleports = [
     },
     verified: false,
     numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Gate to Ghostlands",
+    note: "Required to travel to Ghostlands or Eversong Woods",
+    origin: {
+      position: {
+        x: 56.1,
+        y: 27.81,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Eastern Plaguelands"
+    },
+    destination: {
+      position: {
+        x: 56.1,
+        y: 27.79,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Ghostlands"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Gate to Eastern Plaguelands",
+    note: "Required to travel from Ghostlands or Eversong Woods",
+    origin: {
+      position: {
+        x: 56.1,
+        y: 27.79,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Ghostlands"
+    },
+    destination: {
+      position: {
+        x: 56.1,
+        y: 27.81,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Eastern Plaguelands"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Tol Barad to Orgrimmar",
+    note: "",
+    origin: {
+      position: {
+        x: 54.8,
+        y: 78.1,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
+      },
+      description: "Hellscream's Grasp, Tol Barad"
+    },
+    destination: {
+      position: {
+        x: 58.28,
+        y: 41.82,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
+      },
+      description: "Orgrimmar"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Tol Barad to Stormwind",
+    note: "",
+    origin: {
+      position: {
+        x: 74.8,
+        y: 58.4,
+        continent: {
+          name: "Tol Barad Peninsula",
+          image: {
+            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+          },
+          scale: 20,
+          type: 3,
+          isFlyable: false,
+          id: 5
+        }
+      },
+      description: "Baradin Base Camp, Tol Barad"
+    },
+    destination: {
+      position: {
+        x: 43.1,
+        y: 71.3,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 300,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Stormwind"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "Alliance",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: false,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "",
+    origin: {
+      position: {
+        x: null,
+        y: null,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
+      }
+    },
+    destination: {
+      position: {
+        x: null,
+        y: null,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
+      }
+    },
+    fromPlayer: false,
+    enabled: false,
+    cooldown: null,
+    restrictions: {},
+    verified: false,
+    numLoadingScreens: 0,
     castTime: 0,
     travelTime: 0
   }

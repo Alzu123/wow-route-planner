@@ -1,13 +1,13 @@
 import WorldCoordinatesToCanvasCoordinates from "../Calculations/Coordinates/WorldCoordinatesToCanvasCoordinates"
 
 export const DrawLineToCanvas = (canvas, startPosition, endPosition, fill, backgroundName) => {
-  if (startPosition.continent !== backgroundName || endPosition.continent !== backgroundName) {
+  if (startPosition.continent.name !== backgroundName || endPosition.continent.name !== backgroundName) {
     return
   }
 
   const context = canvas.getContext('2d')
-  const adjustedStart = WorldCoordinatesToCanvasCoordinates(canvas, startPosition.coordinates)
-  const adjustedEnd = WorldCoordinatesToCanvasCoordinates(canvas, endPosition.coordinates)
+  const adjustedStart = WorldCoordinatesToCanvasCoordinates(canvas, startPosition)
+  const adjustedEnd = WorldCoordinatesToCanvasCoordinates(canvas, endPosition)
 
   context.beginPath()
   context.strokeStyle = fill

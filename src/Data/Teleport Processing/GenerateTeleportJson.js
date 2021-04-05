@@ -27,6 +27,26 @@ export const GenerateTeleportJson = () => {
   Adept's Guide to Dimensional Rifting;Only active on Friday;0;0;;Player;61.4;36.4;Broken Isles;Stormheim;TRUE;Item;TRUE;240;;;;;;TRUE;1;;
   Adept's Guide to Dimensional Rifting;Only active on Saturday;0;0;;Player;55.4;61.9;Broken Isles;Broken Shore;TRUE;Item;TRUE;240;;;;;;TRUE;1;;
   Adept's Guide to Dimensional Rifting;Only active on Sunday;0;0;;Player;65.31;43.23;Argus;Antoran Wastes;TRUE;Item;TRUE;240;;;;;;TRUE;1;;
+  Dalaran to Antoran Wastes;;46.33;64.42;Broken Isles;Dalaran;72.8;48.8;Antoran Wastes;Hope's Landing, Antoran Wastes, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Antoran Wastes;;46.33;64.42;Broken Isles;Dalaran;71.8;76.4;Antoran Wastes;Light's Purchase, Antoran Wastes, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Krokuun;;46.33;64.42;Broken Isles;Dalaran;37.4;62.9;Krokuun;Shattered Fields, Krokuun, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Krokuun;;46.33;64.42;Broken Isles;Dalaran;55.9;67.2;Krokuun;Krokul Hovel, Krokuun, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Krokuun;;46.33;64.42;Broken Isles;Dalaran;62.7;49.7;Krokuun;Destiny Point, Krokuun, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Mac'Aree;;46.33;64.42;Broken Isles;Dalaran;52.8;75.6;Mac'Aree;Triumvirate's End,  Mac'Aree, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Mac'Aree;;46.33;64.42;Broken Isles;Dalaran;46.9;55.6;Mac'Aree;City Center, Mac'Aree, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Mac'Aree;;46.33;64.42;Broken Isles;Dalaran;32.1;48.8;Mac'Aree;Shadowguard Incursion, Mac'Aree, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Mac'Aree;;46.33;64.42;Broken Isles;Dalaran;62.7;40.2;Mac'Aree;Conservatory of the Arcane, Mac'Aree, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Dalaran to Mac'Aree;;46.33;64.42;Broken Isles;Dalaran;45.1;11.8;Mac'Aree;Prophet's Reflection, Mac'Aree, Argus;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Antoran Wastes to Dalaran;;72.8;48.8;Antoran Wastes;Hope's Landing, Antoran Wastes, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Antoran Wastes to Dalaran;;71.8;76.4;Antoran Wastes;Light's Purchase, Antoran Wastes, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Krokuun to Dalaran;;37.4;62.9;Krokuun;Shattered Fields, Krokuun, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Krokuun to Dalaran;;55.9;67.2;Krokuun;Krokul Hovel, Krokuun, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Krokuun to Dalaran;;62.7;49.7;Krokuun;Destiny Point, Krokuun, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Mac'Aree to Dalaran;;52.8;75.6;Mac'Aree;Triumvirate's End,  Mac'Aree, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Mac'Aree to Dalaran;;46.9;55.6;Mac'Aree;City Center, Mac'Aree, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Mac'Aree to Dalaran;;32.1;48.8;Mac'Aree;Shadowguard Incursion, Mac'Aree, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Mac'Aree to Dalaran;;62.7;40.2;Mac'Aree;Conservatory of the Arcane, Mac'Aree, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
+  Mac'Aree to Dalaran;;45.1;11.8;Mac'Aree;Prophet's Reflection, Mac'Aree, Argus;46.33;64.42;Broken Isles;Dalaran;FALSE;Portal;TRUE;;;;;;;FALSE;2;;15
   Admiral's Compass;;0;0;;Player;32.31;37.97;Draenor;Garrison Shipyard;TRUE;Item;TRUE;240;Horde;;;;;TRUE;1;;
   Ancient Teleport: Dalaran;;0;0;;Player;46.5;38.1;Eastern Kingdoms;Dalaran Crater, Hillsbrad Foothills;TRUE;Spell;TRUE;1;;Mage;;;;FALSE;1;10;
   Argent Crusader's Tabard;;0;0;;Player;46.02;20.90;Northrend;Icecrown;TRUE;Item;TRUE;30;;;;;;TRUE;1;;
@@ -35,7 +55,7 @@ export const GenerateTeleportJson = () => {
   Atiesh, Greatstaff of the Guardian;Usable by others;0;0;;Player;49.55;82.13;Eastern Kingdoms;Karazhan, Deadwind Pass;TRUE;Item;TRUE;1;;Priest;;;;FALSE;1;;
   Atiesh, Greatstaff of the Guardian;Usable by others;0;0;;Player;49.55;82.13;Eastern Kingdoms;Karazhan, Deadwind Pass;TRUE;Item;TRUE;1;;Warlock;;;;FALSE;1;;
   Band of Kirin Tor;Many similar which share CD?;0;0;;Player;48.70;42.18;Northrend;Dalaran;TRUE;Item;TRUE;30;;;;;;FALSE;1;;
-  Baradin's Wardens Tabard;;0;0;;Player;;;Tol Barad;Baradin Base Camp;TRUE;Item;TRUE;240;Alliance;;;;;FALSE;1;;
+  Baradin's Wardens Tabard;;0;0;;Player;74.8;58.4;Tol Barad Peninsula;Baradin Base Camp, Tol Barad;TRUE;Item;TRUE;240;Alliance;;;;;FALSE;1;;
   Bladespire Relic;https://www.wowhead.com/item=118662/bladespire-relic#comments;0;0;;Player;28.4;30.0;Draenor;Frostfire Ridge;TRUE;Item;TRUE;240;Horde;;;;;FALSE;1;;
   Blessed Medallion of Karabor;;0;0;;Player;71.07;80.58;Outland;Black Temple;TRUE;Item;TRUE;15;;;;;;TRUE;1;;
   Boots of the Bay;;0;0;;Player;43.19;93.74;Eastern Kingdoms;Booty Bay, The Cape of Stranglethorn;TRUE;Item;TRUE;1440;;;;;;FALSE;1;;
@@ -43,7 +63,7 @@ export const GenerateTeleportJson = () => {
   Boralus Portal Room;;59.5;54.4;Kul Tiras;Boralus;44.6;59.1;Eastern Kingdoms;Ironforge;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Boralus Portal Room;;59.5;54.4;Kul Tiras;Boralus;43.1;71.3;Eastern Kingdoms;Stormwind;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Boralus Portal Room;;59.5;54.4;Kul Tiras;Boralus;30.5;25.9;Kalimdor;Exodar;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
-  Boralus Portal Room;Destination not on world maps;59.5;54.4;Kul Tiras;Boralus;;;Nazjatar;Nazjatar;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
+  Boralus Portal Room;;59.5;54.4;Kul Tiras;Boralus;39;53.1;Nazjatar;Nazjatar;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Captain's Signet of Command;;0;0;;Player;59.5;54.4;Kul Tiras;Boralus;TRUE;Item;TRUE;30;Alliance;;;;;FALSE;1;;
   Cloak of Coordination;;0;0;;Player;58.60;44.28;Kalimdor;Orgrimmar;TRUE;Item;TRUE;120;Horde;;;;;TRUE;1;10;
   Cloak of Coordination;;0;0;;Player;43.1;71.3;Eastern Kingdoms;Stormwind;TRUE;Item;TRUE;120;Alliance;;;;;FALSE;1;10;
@@ -51,11 +71,11 @@ export const GenerateTeleportJson = () => {
   Dalaran Hearthstone;;0;0;;Player;46.33;64.42;Broken Isles;Dalaran;TRUE;Item;TRUE;20;;;;;;TRUE;1;5;
   Darkmoon Faerie Mystic Mage;Up for a week every month;43.1;71.3;Eastern Kingdoms;Stormwind;45.3;75.8;Eastern Kingdoms;Darkmoon Staging Ground, Elwynn Forest;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Darkmoon Faerie Mystic Mage;Up for a week every month;58.3;42.66;Kalimdor;Orgrimmar;47.1;55.4;Kalimdor;Darkmoon Staging Ground, Thunder Bluff;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
-  Dazar'alor Portal Room;If old Silithus enabled;58.26;62.04;Zulzadar;Dazar'alor;46.98;76.53;Kalimdor;Silithus;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
-  Dazar'alor Portal Room;;58.26;62.04;Zulzadar;Dazar'alor;45.60;54.12;Kalimdor;Thunder Bluff;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
-  Dazar'alor Portal Room;;58.26;62.04;Zulzadar;Dazar'alor;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
-  Dazar'alor Portal Room;;58.26;62.04;Zulzadar;Dazar'alor;56.16;13.18;Eastern Kingdoms;Silvermoon City;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
-  Dazar'alor Portal Room;Destination not on world maps;58.26;62.04;Zulzadar;Dazar'alor;;;Nazjatar;Nazjatar;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
+  Dazar'alor Portal Room;If old Silithus enabled;58.26;62.04;Zandalar;Dazar'alor;46.98;76.53;Kalimdor;Silithus;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
+  Dazar'alor Portal Room;;58.26;62.04;Zandalar;Dazar'alor;45.60;54.12;Kalimdor;Thunder Bluff;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
+  Dazar'alor Portal Room;;58.26;62.04;Zandalar;Dazar'alor;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
+  Dazar'alor Portal Room;;58.26;62.04;Zandalar;Dazar'alor;56.16;13.18;Eastern Kingdoms;Silvermoon City;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
+  Dazar'alor Portal Room;;58.26;62.04;Zandalar;Dazar'alor;49.3;61.7;Nazjatar;Nazjatar;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   Death Gate;;0;0;;Player;;;;;TRUE;Spell;TRUE;1;;Death Knight;;;;FALSE;;;
   Dimensional Ripper - Area 52;;0;0;;Player;53.3;23.1;Outland;Area 52, Netherstorm;TRUE;Item;TRUE;240;;;;;Goblin Engineering;FALSE;1;;
   Dimensional Ripper - Everlook;;0;0;;Player;57.8;22.9;Kalimdor;Everlook, Winterspring;TRUE;Item;TRUE;240;;;;;Goblin Engineering;FALSE;1;;
@@ -109,7 +129,7 @@ export const GenerateTeleportJson = () => {
   Grim Campfire;;57.0;29.1;Draenor;Gorgrond;91.5;76.9;Pandaria;Timeless Isle;FALSE;Portal;TRUE;;;;;;;FALSE;1;0;
   Grim Campfire;;91.5;76.9;Pandaria;Timeless Isle;57.0;29.1;Draenor;Gorgrond;FALSE;Portal;TRUE;;;;;;;FALSE;1;0;
   Hearthstone;;0;0;;Player;47.90;82.44;Shadowlands;Ardenweald;TRUE;Item;TRUE;15;;;;;;TRUE;1;10;
-  Hellscream's Reach Tabard;;0;0;;Player;;;Tol Barad;Hellscream's Grasp;TRUE;Item;TRUE;240;Horde;;;;;FALSE;1;;
+  Hellscream's Reach Tabard;;0;0;;Player;54.8;78.1;Tol Barad Peninsula;Hellscream's Grasp, Tol Barad;TRUE;Item;TRUE;240;Horde;;;;;FALSE;1;;
   Jaina's Locket;Multiple people can use;0;0;;Player;48.70;42.18;Northrend;Dalaran;TRUE;Item;TRUE;60;;;;;;TRUE;1;10;
   Kyrian travel network;;77.0;53.5;Shadowlands;Bastion;45.61;50.70;Shadowlands;Oribos;FALSE;Portal;TRUE;;;;;Kyrian;;TRUE;1;0;
   Mole Machine;;0;0;;Player;44.6;59.1;Eastern Kingdoms;Ironforge;TRUE;Spell;TRUE;30;;;Dark Iron Dwarf;;;FALSE;;;
@@ -134,11 +154,11 @@ export const GenerateTeleportJson = () => {
   Mole Machine;;0;0;;Player;57.9;66.6;Broken Isles;The Broken Shore;TRUE;Spell;TRUE;30;;;Dark Iron Dwarf;;;FALSE;;;
   Necrolord travel network;;62.7;27.6;Shadowlands;Maldraxxus;45.61;50.70;Shadowlands;Oribos;FALSE;Portal;TRUE;;;;;Necrolord;;TRUE;1;0;
   Night Fae travel network;;47.92;81.53;Shadowlands;Ardenweald;45.61;50.70;Shadowlands;Oribos;FALSE;Portal;TRUE;;;;;Night Fae;;TRUE;1;0;
-  Orgrimmar Cataclysm Portals;Destination not on world maps;58.28;41.82;Kalimdor;Orgrimmar;;;Deepholm;Deepholm;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
+  Orgrimmar Cataclysm Portals;;58.28;41.82;Kalimdor;Orgrimmar;49;49.2;Deepholm;Deepholm;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   Orgrimmar Cataclysm Portals;;58.28;41.82;Kalimdor;Orgrimmar;56.23;27.62;Kalimdor;Mount Hyjal;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   Orgrimmar Cataclysm Portals;;58.28;41.82;Kalimdor;Orgrimmar;60.11;56.02;Eastern Kingdoms;Twilight Highlands;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   Orgrimmar Cataclysm Portals;;58.28;41.82;Kalimdor;Orgrimmar;29.53;65.34;Eastern Kingdoms;Vashj'ir;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
-  Orgrimmar Cataclysm Portals;Destination not on world maps;58.28;41.82;Kalimdor;Orgrimmar;;;Tol Barad;Tol Barad;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
+  Orgrimmar Cataclysm Portals;;58.28;41.82;Kalimdor;Orgrimmar;54.8;78.1;Tol Barad Peninsula;Hellscream's Grasp, Tol Barad;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   Orgrimmar Cataclysm Portals;;58.28;41.82;Kalimdor;Orgrimmar;48.98;88.67;Kalimdor;Uldum;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   Orgrimmar Portal Room;;58.60;44.28;Kalimdor;Orgrimmar;59.91;35.56;Pandaria;Jade Forest;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   Orgrimmar Portal Room;;58.60;44.28;Kalimdor;Orgrimmar;58.26;62.04;Zandalar;Dazar'alor;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
@@ -158,7 +178,7 @@ export const GenerateTeleportJson = () => {
   Orgrimmar Zeppelin;Current time on arrival;58.3;42.66;Kalimdor;Orgrimmar;44.87;33.99;Eastern Kingdoms;Undercity;FALSE;Portal;TRUE;;;;;;;FALSE;1;0;
   Orgrimmar Zeppelin from Thunder Bluff;;45.60;54.12;Kalimdor;Thunder Bluff;57.99;43.03;Kalimdor;Orgrimmar;FALSE;World;TRUE;;;;;;;FALSE;0;0;300
   Orgrimmar Zeppelin from Borean Tundra;;18.98;65.73;Northrend;Warsong Hold, Borean Tundra;57.99;43.03;Kalimdor;Orgrimmar;FALSE;World;TRUE;;;;;;;TRUE;1;0;
-  Path of the Black Ox;;0;0;;Player;25.9;48.6;Pandaria;Siege of Niuzao;TRUE;Spell;TRUE;480;;;;;;FALSE;1;10;
+  Path of the Black Ox;;0;0;;Player;24.19;51.58;Pandaria;Siege of Niuzao;TRUE;Spell;TRUE;480;;;;;;TRUE;1;10;
   Path of the Bloodmaul;;0;0;;Player;30.8;27.0;Draenor;Bloodmaul Slag Mines;TRUE;Spell;TRUE;480;;;;;;FALSE;1;10;
   Path of the Burning Mountain;;0;0;;Player;47.5;68.3;Eastern Kingdoms;Upper Blackrock Spire;TRUE;Spell;TRUE;480;;;;;;FALSE;1;10;
   Path of the Crescent Moon;;0;0;;Player;55.1;73.2;Draenor;Shadowmoon Burial Grounds;TRUE;Spell;TRUE;480;;;;;;FALSE;1;10;
@@ -175,9 +195,9 @@ export const GenerateTeleportJson = () => {
   Path of the Stout Brew;;0;0;;Player;48.15;70.68;Pandaria;Stormstout Brewery;TRUE;Spell;TRUE;480;;;;;;TRUE;1;10;
   Path of the Verdant;;0;0;;Player;51.4;33.0;Draenor;The Everbloom;TRUE;Spell;TRUE;480;;;;;;FALSE;1;10;
   Path of the Vigilant;;0;0;;Player;39.3;61.9;Draenor;Auchindoun;TRUE;Spell;TRUE;480;;;;;;FALSE;1;10;
-  Pit Fighter's Punching Ring;;0;0;;Player;57.99;43.03;Kalimdor;Brawl'gar Arena, Orgrimmar;TRUE;Item;TRUE;60;Horde;;;;;FALSE;1;;
-  Pit Fighter's Punching Ring;;0;0;;Player;43.1;71.3;Eastern Kingdoms;Bizmo's Brawlpub, Stormwind;TRUE;Item;TRUE;60;Alliance;;;;;FALSE;1;;
-  Potion of Deepholm;;0;0;;Player;;;Deepholm;Deepholm;TRUE;Item;TRUE;1;;;;;;FALSE;1;;
+  Pit Fighter's Punching Ring;;0;0;;Player;57.99;43.03;Kalimdor;Brawl'gar Arena, Orgrimmar;TRUE;Item;TRUE;60;Horde;;;;;FALSE;2;;
+  Pit Fighter's Punching Ring;;0;0;;Player;43.1;71.3;Eastern Kingdoms;Bizmo's Brawlpub, Stormwind;TRUE;Item;TRUE;60;Alliance;;;;;FALSE;2;;
+  Potion of Deepholm;;0;0;;Player;49;49.2;Deepholm;Deepholm;TRUE;Item;TRUE;1;;;;;;FALSE;1;;
   Reaves;Teleports in varied locations in the zone. Destination is set to zone middle;0;0;;Player;34.4;57.1;Broken Isles;Azsuna;TRUE;Item;TRUE;1.5;;;;;Engineering;FALSE;1;;
   Reaves;Teleports in varied locations in the zone. Destination is set to zone middle;0;0;;Player;35.3;34.2;Broken Isles;Val'sharah;TRUE;Item;TRUE;1.5;;;;;Engineering;FALSE;1;;
   Reaves;Teleports in varied locations in the zone. Destination is set to zone middle;0;0;;Player;46.6;22.2;Broken Isles;Highmountain;TRUE;Item;TRUE;1.5;;;;;Engineering;FALSE;1;;
@@ -192,11 +212,11 @@ export const GenerateTeleportJson = () => {
   Skyhold;;46.33;64.42;Broken Isles;Dalaran;34.5;34.9;Broken Isles;Val'sharah;FALSE;Portal;TRUE;;;Warrior;;;;FALSE;2;0;
   Skyhold;;46.33;64.42;Broken Isles;Dalaran;44.5;45.6;Broken Isles;Suramar;FALSE;Portal;TRUE;;;Warrior;;;;FALSE;2;0;
   Skyhold;;46.33;64.42;Broken Isles;Dalaran;53.9;68.5;Broken Isles;Broken Shore;FALSE;Portal;TRUE;;;Warrior;;;;FALSE;2;0;
-  Stormwind Cataclysm Portals;Destination not on world maps;43.1;71.3;Eastern Kingdoms;Stormwind;;;Deepholm;Deepholm;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
+  Stormwind Cataclysm Portals;;43.1;71.3;Eastern Kingdoms;Stormwind;49;49.2;Deepholm;Deepholm;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Stormwind Cataclysm Portals;;43.1;71.3;Eastern Kingdoms;Stormwind;56.23;27.62;Kalimdor;Mount Hyjal;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Stormwind Cataclysm Portals;;43.1;71.3;Eastern Kingdoms;Stormwind;55.6;52.7;Eastern Kingdoms;Twilight Highlands;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Stormwind Cataclysm Portals;;43.1;71.3;Eastern Kingdoms;Stormwind;34.4;61.8;Eastern Kingdoms;Vashj'ir;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
-  Stormwind Cataclysm Portals;Destination not on world maps;43.1;71.3;Eastern Kingdoms;Stormwind;;;Tol Barad;Tol Barad;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
+  Stormwind Cataclysm Portals;;43.1;71.3;Eastern Kingdoms;Stormwind;74.8;58.4;Tol Barad Peninsula;Baradin Base Camp, Tol Barad;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Stormwind Cataclysm Portals;;43.1;71.3;Eastern Kingdoms;Stormwind;48.98;88.67;Kalimdor;Uldum;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Stormwind Portal Room;;58.60;44.28;Kalimdor;Orgrimmar;68.6;64.6;Pandaria;Jade Forest;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
   Stormwind Portal Room;;58.60;44.28;Kalimdor;Orgrimmar;59.5;54.4;Kul Tiras;Boralus;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
@@ -225,15 +245,15 @@ export const GenerateTeleportJson = () => {
   Teleport: Stormwind;;0;0;;Player;43.1;71.3;Eastern Kingdoms;Stormwind;TRUE;Spell;TRUE;1;Alliance;Mage;;;;FALSE;1;10;
   Teleport: Theramore;;0;0;;Player;58.6;65.5;Kalimdor;Theramore;TRUE;Spell;TRUE;1;Alliance;Mage;;;;FALSE;1;10;
   Teleport: Thunder Bluff;;0;0;;Player;45.60;54.12;Kalimdor;Thunder Bluff;TRUE;Spell;TRUE;1;Horde;Mage;;;;FALSE;1;10;
-  Teleport: Tol Barad;;0;0;;Player;;;Tol Barad;Tol Barad;TRUE;Spell;TRUE;1;Horde;Mage;;;;FALSE;1;10;
-  Teleport: Tol Barad;;0;0;;Player;;;Tol Barad;Tol Barad;TRUE;Spell;TRUE;1;Alliance;Mage;;;;FALSE;1;10;
+  Teleport: Tol Barad;;0;0;;Player;54.8;78.1;Tol Barad Peninsula;Hellscream's Grasp, Tol Barad;TRUE;Spell;TRUE;1;Horde;Mage;;;;FALSE;1;10;
+  Teleport: Tol Barad;;0;0;;Player;74.8;58.4;Tol Barad Peninsula;Baradin Base Camp, Tol Barad;TRUE;Spell;TRUE;1;Alliance;Mage;;;;FALSE;1;10;
   Teleport: Undercity;Old world on arrival;0;0;;Player;44.45;34.63;Eastern Kingdoms;Undercity;TRUE;Spell;TRUE;1;Horde;Mage;;;;FALSE;1;10;
   Teleport: Undercity;Current time on arrival;0;0;;Player;44.87;33.99;Eastern Kingdoms;Undercity;TRUE;Spell;TRUE;1;Horde;Mage;;;;FALSE;1;10;
   Teleport: Vale of Eternal Blossoms;;0;0;;Player;53.0;49.9;Pandaria;Vale of Eternal Blossoms;TRUE;Spell;TRUE;1;Horde;Mage;;;;FALSE;1;10;
   Teleport: Vale of Eternal Blossoms;;0;0;;Player;55.0;57.4;Pandaria;Vale of Eternal Blossoms;TRUE;Spell;TRUE;1;Alliance;Mage;;;;FALSE;1;10;
   Teleport: Warspear;;0;0;;Player;71.64;39.04;Draenor;Warspear;TRUE;Spell;TRUE;1;Horde;Mage;;;;TRUE;1;10;
-  The Brassiest Knuckle;;0;0;;Player;57.99;43.03;Kalimdor;Brawl'gar Arena, Orgrimmar;TRUE;Item;TRUE;60;Horde;;;;;FALSE;1;;
-  The Brassiest Knuckle;;0;0;;Player;43.1;71.3;Eastern Kingdoms;Bizmo's Brawlpub, Stormwind;TRUE;Item;TRUE;60;Alliance;;;;;FALSE;1;;
+  The Brassiest Knuckle;;0;0;;Player;57.99;43.03;Kalimdor;Brawl'gar Arena, Orgrimmar;TRUE;Item;TRUE;60;Horde;;;;;FALSE;2;;
+  The Brassiest Knuckle;;0;0;;Player;43.1;71.3;Eastern Kingdoms;Bizmo's Brawlpub, Stormwind;TRUE;Item;TRUE;60;Alliance;;;;;FALSE;2;;
   Time-Lost Artifact;;0;0;;Player;88.02;70.87;Pandaria;Timeless Isle;TRUE;Item;TRUE;1;;;;;;TRUE;1;;
   Ultrasafe Transporter: Gadgetzan;;0;0;;Player;56.8;78.6;Kalimdor;Gadgetzan, Tanaris;TRUE;Item;TRUE;240;;;;;Gnomish Engineering;FALSE;1;;
   Ultrasafe Transporter: Mechagon;;0;0;;Player;18.6;26.5;Kul Tiras;Mechagon;TRUE;Item;TRUE;1;;;;;;FALSE;1;;
@@ -279,7 +299,7 @@ export const GenerateTeleportJson = () => {
   ;;59.91;35.56;Pandaria;Jade Forest;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   ;;43.25;66.34;Outland;Shattrath;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   ;;59.33;83.45;Kalimdor;Caverns of Time;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
-  ;;69.13;52.13;Outlands;Dark Portal;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
+  ;;69.13;52.13;Outland;Dark Portal;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   ;;48.70;42.18;Northrend;Old Dalaran;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   ;;71.64;39.04;Draenor;Warspear;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
   ;;56.16;13.18;Eastern Kingdoms;Silvermoon City;58.60;44.28;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;TRUE;1;0;
@@ -307,14 +327,19 @@ export const GenerateTeleportJson = () => {
   Pet Battle Teleport;https://www.wowhead.com/quest=45423/wailing-critters has to be completed;58.26;62.04;Zandalar;Dazar'alor;52.0;50.7;Kalimdor;Wailing Caverns, Northern Barrens;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   Pet Battle Teleport;https://www.wowhead.com/quest=54185/gnomeregans-new-guardians must be completed;58.26;62.04;Zandalar;Dazar'alor;41.5;60.4;Eastern Kingdoms;Gnomeregan;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   Pet Battle Teleport;https://www.wowhead.com/quest=46291/the-deadmines-strike-back must be completed;58.26;62.04;Zandalar;Dazar'alor;40.8;82.6;Eastern Kingdoms;Deadmines;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
-  ;Up for a week every 3 weeks;58.29;72.23;Zandalar;Zulzadar Harbor;;;Kalimdor;Darkshore;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
-  ;Up for a week every 3 weeks;58.29;72.23;Zandalar;Zulzadar Harbor;;;Eastern Kingdoms;Arathi Highlands;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
+  ;Up for a week every 3 weeks;58.29;72.23;Zandalar;Zulzadar Harbor;47.3;22.3;Kalimdor;Darkshore;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
+  ;Up for a week every 3 weeks;58.29;72.23;Zandalar;Zulzadar Harbor;50.1;44.7;Eastern Kingdoms;Arathi Highlands;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   ;;58.29;72.23;Zandalar;Zulzadar Harbor;25.8;66.6;Kul Tiras;Drustvar;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   ;;58.29;72.23;Zandalar;Zulzadar Harbor;56.9;12.4;Kul Tiras;Stormsong Valley;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   ;;58.29;72.23;Zandalar;Zulzadar Harbor;69.9;68.3;Kul Tiras;Tiragarde Sound;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   ;;58.29;72.23;Zandalar;Zulzadar Harbor;20.4;25.0;Kul Tiras;Mechagon;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
   Shattrath to Stormwind;;43.25;66.34;Outland;Shattrath;43.1;71.3;Eastern Kingdoms;Stormwind;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
-  Scroll of Teleport;;0;0;;Player;48.0;42.8;Eastern Kingdoms;Ravenholdt, Hillsbrad Foothills;TRUE;Item;TRUE;;;Rogue;;;;FALSE;1;;`
+  Scroll of Teleport;;0;0;;Player;48.0;42.8;Eastern Kingdoms;Ravenholdt, Hillsbrad Foothills;TRUE;Item;TRUE;;;Rogue;;;;FALSE;1;;
+  Gate to Ghostlands;Required to travel to Ghostlands or Eversong Woods;56.1;27.81;Eastern Kingdoms;Eastern Plaguelands;56.1;27.79;Eastern Kingdoms;Ghostlands;FALSE;Portal;TRUE;;;;;;;FALSE;1;0;
+  Gate to Eastern Plaguelands;Required to travel from Ghostlands or Eversong Woods;56.1;27.79;Eastern Kingdoms;Ghostlands;56.1;27.81;Eastern Kingdoms;Eastern Plaguelands;FALSE;Portal;TRUE;;;;;;;FALSE;1;0;
+  Tol Barad to Orgrimmar;;54.8;78.1;Tol Barad Peninsula;Hellscream's Grasp, Tol Barad;58.28;41.82;Kalimdor;Orgrimmar;FALSE;Portal;TRUE;;Horde;;;;;FALSE;1;0;
+  Tol Barad to Stormwind;;74.8;58.4;Tol Barad Peninsula;Baradin Base Camp, Tol Barad;43.1;71.3;Eastern Kingdoms;Stormwind;FALSE;Portal;TRUE;;Alliance;;;;;FALSE;1;0;
+  `
 
   console.log(CsvToJson(csv, ';'))
 }

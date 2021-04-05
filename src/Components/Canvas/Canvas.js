@@ -39,6 +39,16 @@ const Canvas = ({ onClick, onClickEditChange, teleports, nodes, finalRoute, cont
     drawCanvasElements(canvas, canvasBg, teleports, nodes, finalRoute, continent.name)
 
   }, [teleports, continent, nodes, finalRoute])
+
+  // Transform continents from object to array to loop over it. Also grab the key to set default value
+  let continentArray = []
+  let currentContinentKey
+  for (const iContinent in continents) {
+    continentArray.push({...continents[iContinent], key: iContinent})
+    if (continents[iContinent].id === continent.id) {
+      currentContinentKey = iContinent
+    }
+  }
   
   return (
   <div>
@@ -51,8 +61,8 @@ const Canvas = ({ onClick, onClickEditChange, teleports, nodes, finalRoute, cont
       </select>
     <br></br>
     Current background :
-      <select id="select" onChange={onBgChange}>
-        {continents.map((continent, i) => <option value={continent.name} key={i}>{continent.name}</option>)}
+      <select id="select" value={currentContinentKey} onChange={onBgChange}>
+        {continentArray.map((continent, i) => <option value={continent.key} key={i}>{continent.name}</option>)}
       </select>
   </div>
   )

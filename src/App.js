@@ -15,18 +15,19 @@ import {ProcessTeleports} from './Data/Teleport Processing/ProcessTeleports'
 
 import GenerateTeleportJson from './Data/Teleport Processing/GenerateTeleportJson'
 import ToggleTeleport from './Data/Teleport Processing/ToggleTeleport'
+import Point from './Data/Point'
 
 const App = () => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
-  const [ endPosition, setEndPosition ] = useState({coordinates: {x: 48.3, y: 43.2}, continent: "Kalimdor"})
+  const [ endPosition, setEndPosition ] = useState(new Point(54.5, 41.3, continents.NAZJATAR))
   const [ editingStart, setEditingStart ] = useState(true)
-  const [ continent, setContinent ] = useState(continents[0])
+  const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
   const [ teleports, setTeleports ] = useState(ProcessTeleports(defaultTeleports))
   const [ routeGoodness, setRouteGoodness ] = useState(0)
 
   const updatePlayerTeleports = (position) => {
-    const newX = position.coordinates.x
-    const newY = position.coordinates.y
+    const newX = position.x
+    const newY = position.y
     const newContinent = position.continent
 
     const newPosition = {
@@ -43,17 +44,17 @@ const App = () => {
 
   const changeBg = (event) => {
     event.preventDefault()
-    let dropdownValue = event.target.value
-    const newBg = continents.filter(continent => continent.name === dropdownValue)[0]
-    setContinent(newBg)
+    const dropdownValue = event.target.value
+    setContinent(continents[dropdownValue])
   }
 
   // Updates the start point based on clicks on canvas
   const updateStartOrEnd = (event) => {
     event.preventDefault()
     const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
-    const targetContinent = continent.name
-    const position = {coordinates: canvasAdjustedCoordinates, continent: targetContinent}
+    const targetContinent = continent
+    const position = new Point(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y, targetContinent)
+    //console.log('old end:', endPosition, 'newpos:', position)
 
     if (editingStart) {
       setStartPosition(position)
@@ -61,6 +62,8 @@ const App = () => {
     } else {
       setEndPosition(position)
     }
+
+    setRouteGoodness(0)
   }
 
   const updateClickEditTarget = (event) => {
@@ -87,18 +90,17 @@ const App = () => {
       setRouteGoodness(newGoodness)
     }
   }
+
+  GenerateTeleportJson()
   
   //updatePlayerTeleports(startPosition)
   const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
   const nodes = routeDetails[0]
   const finalRoute = routeDetails[1][routeGoodness]
 
-  //GenerateTeleportJson()
-  console.log('deploy test')
-
   return (
     <div>
-      <h1>Route - Testing deploy</h1>
+      <h1>Route</h1>
       <NumberLabel onClick={updateRouteGoodness} numRoutes={routeDetails[1].length - 1} />
       <table>
         <tbody>

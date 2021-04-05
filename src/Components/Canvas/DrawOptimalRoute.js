@@ -17,20 +17,20 @@ export const DrawOptimalRoute = (canvas, nodes, optimalRoute, backgroundName) =>
     const nextNode = optimalRoute[i + 1]
 
     // Draw lines for teleports
-    DrawLineToCanvas(canvas, currentNode.origin, currentNode.destination, 'purple', backgroundName)
+    DrawLineToCanvas(canvas, currentNode.origin.position, currentNode.destination.position, 'purple', backgroundName)
 
     // Draw lines for flying
-    DrawLineToCanvas(canvas, currentNode.destination, nextNode.origin, 'cyan', backgroundName)
+    DrawLineToCanvas(canvas, currentNode.destination.position, nextNode.origin.position, 'cyan', backgroundName)
 
     // Draw points for used teleports
     
-    DrawPointToCanvas(canvas, currentNode.origin, 'yellow', backgroundName)
-    DrawPointToCanvas(canvas, currentNode.destination, 'yellow', backgroundName)
+    DrawPointToCanvas(canvas, currentNode.origin.position, 'yellow', backgroundName)
+    DrawPointToCanvas(canvas, currentNode.destination.position, 'yellow', backgroundName)
   }
 
   // Draw start and end points separately on top of other drawings
-  DrawPointToCanvas(canvas, nodes[0].origin, 'green', backgroundName)
-  DrawPointToCanvas(canvas, nodes[nodes.length - 1].origin, 'red', backgroundName)
+  DrawPointToCanvas(canvas, nodes[0].origin.position, 'green', backgroundName)
+  DrawPointToCanvas(canvas, nodes[nodes.length - 1].origin.position, 'red', backgroundName)
 }
 
 export default DrawOptimalRoute

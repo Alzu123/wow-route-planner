@@ -1,17 +1,13 @@
+import Point from '../../Data/Point'
+import { ProcessTeleports } from '../../Data/Teleport Processing/ProcessTeleports'
 import CalculateRouteInformation from './CalculateRouteInformation'
-import DistanceBetweenTwoPoints from './DistanceBetweenTwoPoints'
-
-
-const updatePlayerTeleports = (playerLocation, teleports) => {
-  return teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...teleport.origin, coordinates: playerLocation.coordinates, continent: playerLocation.continent}} : teleport)
-}
 
 const generateAllRouteCombinations = (nodes, maxDepth) => {
   const startNode = nodes[0]
   const endNode = nodes[nodes.length - 1]
 
   function iterate(startNode, route) {
-    if (route.length > maxDepth) {
+    if (route.length > maxDepth + 2) { // +2 because start and end nodes
       return
     }
 
@@ -35,24 +31,22 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
 }
 
 export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
-  const maxNumberOfNodesToPass = 5 // i.e. max number of teleports to use
+  const maxNumberOfNodesToPass = 3 // i.e. max number of teleports to use
   const acceptableDistanceIncrease = 200 // Maximum distance in absolute coordinate units to optimal route to be considered. 200 is roughly 10 seconds of flying
   const acceptableFlightDistanceDeviation = 1.4 // Maximum distance relative to lowest total flight distance to be considered
 
   let nodes = []
-  const updatedTeleports = updatePlayerTeleports(startPosition, teleports).filter(teleport => teleport.enabled)
+  const updatedTeleports = ProcessTeleports(teleports, startPosition).filter(teleport => teleport.enabled)
 
   const startNode = {
     name: "Start",
     note: "",
     origin: {
-      coordinates: startPosition.coordinates,
-      continent: startPosition.continent,
+      position: new Point(startPosition.x, startPosition.y, startPosition.continent),
       description: "Player"
     },
     destination: {
-      coordinates: startPosition.coordinates,
-      continent: startPosition.continent,
+      position: new Point(startPosition.x, startPosition.y, startPosition.continent),
       description: "Player"
     },
     fromPlayer: true,
@@ -77,25 +71,31 @@ export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
     name: "End",
     id: teleports.length + 1,
     origin: {
-      coordinates: endPosition.coordinates,
-      continent: endPosition.continent
+      position: new Point(endPosition.x, endPosition.y, endPosition.continent),
+      description: 'Destination'
     },
     destination: {
-      coordinates: endPosition.coordinates,
-      continent: endPosition.continent
+      position: new Point(endPosition.x, endPosition.y, endPosition.continent),
+      description: 'Destination'
     }
   }
     
   // Add the initial distances to goal and the construction for best route
   nodes = nodes.concat(startNode)
                .concat(updatedTeleports)
-               .concat(endNode) 
+               .concat(endNode)
 
   // Initialize target to end node
-  nodes = nodes.map(node => ({...node, distanceToTarget: DistanceBetweenTwoPoints(node.destination, endNode.origin)}))
+  const endNodePosition = endNode.origin.position
+  nodes = nodes.map(function(node) {
+    const currentDestination = node.destination.position
+    const test = currentDestination.distanceTo(endNodePosition, endNodePosition.continent.unreachableAreas) * endNodePosition.continent.scale
+    return ({...node, distanceToTarget: test})
+  })
   nodes = nodes.map(node => ({...node, nextNodes: node.id === endNode.id ? [] : [nodes[nodes.length - 1]]}))
+  //console.log('old', nodes)
 
-  // Radiate the best found distance from node origins and compute the best found route.
+  // Radiate the best found distance from node origins
   for (let i = 0; i < maxNumberOfNodesToPass + 2; i++) { // + 2 because start and end nodes are in the count
     for (let j = 0; j < nodes.length; j++) {
       let nodeToUpdate = nodes[j]
@@ -108,7 +108,7 @@ export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
           continue
         }
 
-        let newDistance = comparisonNode.distanceToTarget + DistanceBetweenTwoPoints(nodeToUpdate.destination, comparisonNode.origin)
+        let newDistance = comparisonNode.distanceToTarget + nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position, comparisonNode.origin.position.continent.unreachableAreas) * comparisonNode.origin.position.continent.scale
 
         // If better result save the distance and directions
         if (newDistance < currentBestDistance) {
@@ -123,6 +123,7 @@ export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
       }
     }
   }
+  //console.log(nodes)
 
   // Now that we have the shortest paths in the nodes written down, write them all into an array.
   const allPossibleRoutes = generateAllRouteCombinations(nodes, maxNumberOfNodesToPass)
@@ -136,6 +137,7 @@ export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
 
   // TODO: Create a selection for user to choose between the easiest route or fewest teleports.
   //let bestRoute = orderedRoutes[0]
+  //console.log(orderedRoutes)
   return ([nodes, orderedRoutes])
 }
 
