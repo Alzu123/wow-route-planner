@@ -19,7 +19,7 @@ import Point from './Data/Point'
 
 const App = () => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
-  const [ endPosition, setEndPosition ] = useState(new Point(54.5, 41.3, continents.NAZJATAR))
+  const [ endPosition, setEndPosition ] = useState(new Point(58.6, 26.5, continents.EASTERN_KINGDOMS))
   const [ editingStart, setEditingStart ] = useState(true)
   const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
   const [ teleports, setTeleports ] = useState(ProcessTeleports(defaultTeleports))
