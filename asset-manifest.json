@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wow-teleport-map/static/css/main.183ae7e0.chunk.css",
-    "main.js": "/wow-teleport-map/static/js/main.d7293a9c.chunk.js",
-    "main.js.map": "/wow-teleport-map/static/js/main.d7293a9c.chunk.js.map",
+    "main.js": "/wow-teleport-map/static/js/main.907979c0.chunk.js",
+    "main.js.map": "/wow-teleport-map/static/js/main.907979c0.chunk.js.map",
     "runtime-main.js": "/wow-teleport-map/static/js/runtime-main.df732839.js",
     "runtime-main.js.map": "/wow-teleport-map/static/js/runtime-main.df732839.js.map",
     "static/js/2.639c1b75.chunk.js": "/wow-teleport-map/static/js/2.639c1b75.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.df732839.js",
     "static/js/2.639c1b75.chunk.js",
     "static/css/main.183ae7e0.chunk.css",
-    "static/js/main.d7293a9c.chunk.js"
+    "static/js/main.907979c0.chunk.js"
   ]
 }
