@@ -91,7 +91,7 @@ const App = () => {
     }
   }
 
-  GenerateTeleportJson()
+  //GenerateTeleportJson()
   
   //updatePlayerTeleports(startPosition)
   const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
