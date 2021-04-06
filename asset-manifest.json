@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/wow-teleport-map/static/css/main.183ae7e0.chunk.css",
-    "main.js": "/wow-teleport-map/static/js/main.02fcb3b7.chunk.js",
-    "main.js.map": "/wow-teleport-map/static/js/main.02fcb3b7.chunk.js.map",
+    "main.css": "/wow-teleport-map/static/css/main.b3d8000c.chunk.css",
+    "main.js": "/wow-teleport-map/static/js/main.c9619a73.chunk.js",
+    "main.js.map": "/wow-teleport-map/static/js/main.c9619a73.chunk.js.map",
     "runtime-main.js": "/wow-teleport-map/static/js/runtime-main.df732839.js",
     "runtime-main.js.map": "/wow-teleport-map/static/js/runtime-main.df732839.js.map",
-    "static/js/2.1d90f511.chunk.js": "/wow-teleport-map/static/js/2.1d90f511.chunk.js",
-    "static/js/2.1d90f511.chunk.js.map": "/wow-teleport-map/static/js/2.1d90f511.chunk.js.map",
+    "static/css/2.325dfaf0.chunk.css": "/wow-teleport-map/static/css/2.325dfaf0.chunk.css",
+    "static/js/2.fe435b5b.chunk.js": "/wow-teleport-map/static/js/2.fe435b5b.chunk.js",
+    "static/js/2.fe435b5b.chunk.js.map": "/wow-teleport-map/static/js/2.fe435b5b.chunk.js.map",
     "index.html": "/wow-teleport-map/index.html",
-    "static/css/main.183ae7e0.chunk.css.map": "/wow-teleport-map/static/css/main.183ae7e0.chunk.css.map",
-    "static/js/2.1d90f511.chunk.js.LICENSE.txt": "/wow-teleport-map/static/js/2.1d90f511.chunk.js.LICENSE.txt",
+    "static/css/2.325dfaf0.chunk.css.map": "/wow-teleport-map/static/css/2.325dfaf0.chunk.css.map",
+    "static/css/main.b3d8000c.chunk.css.map": "/wow-teleport-map/static/css/main.b3d8000c.chunk.css.map",
+    "static/js/2.fe435b5b.chunk.js.LICENSE.txt": "/wow-teleport-map/static/js/2.fe435b5b.chunk.js.LICENSE.txt",
     "static/media/Antoran Wastes.jpg": "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg",
     "static/media/Broken Isles.jpg": "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg",
     "static/media/Deepholm.jpg": "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg",
@@ -17,7 +19,7 @@
     "static/media/Eastern Kingdoms.jpg": "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg",
     "static/media/Eastern Kingdoms_New.jpg": "/wow-teleport-map/static/media/Eastern Kingdoms_New.2ca5131e.jpg",
     "static/media/Isle of Thunder.jpg": "/wow-teleport-map/static/media/Isle of Thunder.ab63b6e5.jpg",
-    "static/media/Kalimdor.jpg": "/wow-teleport-map/static/media/Kalimdor.6fee9865.jpg",
+    "static/media/Kalimdor.jpg": "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg",
     "static/media/Kalimdor2.jpg": "/wow-teleport-map/static/media/Kalimdor2.b0e8d9f9.jpg",
     "static/media/Kalimdor_New.jpg": "/wow-teleport-map/static/media/Kalimdor_New.3c6ff7d1.jpg",
     "static/media/Krokuun.jpg": "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg",
@@ -34,8 +36,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.df732839.js",
-    "static/js/2.1d90f511.chunk.js",
-    "static/css/main.183ae7e0.chunk.css",
-    "static/js/main.02fcb3b7.chunk.js"
+    "static/css/2.325dfaf0.chunk.css",
+    "static/js/2.fe435b5b.chunk.js",
+    "static/css/main.b3d8000c.chunk.css",
+    "static/js/main.c9619a73.chunk.js"
   ]
 }
