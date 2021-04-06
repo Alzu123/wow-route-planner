@@ -1,8 +1,14 @@
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
 
-const Position = ({ position }) => {
+const Position = ({ pretext, position }) => {
   return (
-    <p>{Math.round(position.x * 10) / 10}, {Math.round(position.y * 10) / 10} in {position.continent.name}</p>
+    <Container>
+      <Row>
+        <Col xs={3}>{pretext}</Col>
+        <Col>{Math.round(position.x * 10) / 10}, {Math.round(position.y * 10) / 10} in {position.continent.name}</Col>
+      </Row>
+    </Container>
   )
 }
 
