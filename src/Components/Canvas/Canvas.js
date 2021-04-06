@@ -2,14 +2,12 @@ import React, { useRef, useEffect, useState } from 'react'
 
 import DrawCanvasElements from './DrawCanvasElements'
 
-import continents from '../../Data/ContinentDB'
-
-const defaultHeight = 533
-const defaultWidth = 800
+const defaultWidth = 1002
+const defaultHeight = 668
 
 const Canvas = (props) => {
-  const [ a, setA ] = useState(defaultWidth)
-  const [ b, setB ] = useState(defaultHeight)
+  const [ canvasWidth, setCanvasWidth ] = useState(defaultWidth)
+  const [ canvasHeight, setCanvasHeight ] = useState(defaultHeight)
   const canvasRef = useRef(null)
 
   useEffect(() => {
@@ -30,19 +28,14 @@ const Canvas = (props) => {
     const scalingFactor = newCanvasHeight / defaultHeight
     const newCanvasWidth = defaultWidth * scalingFactor
 
-    console.log('newCanvasWidth', newCanvasWidth)
-  
-    //context.canvas.width = newCanvasWidth
-    //context.canvas.height = newCanvasHeight
-
-    setA(newCanvasWidth)
-    setB(newCanvasHeight)
+    setCanvasWidth(newCanvasWidth)
+    setCanvasHeight(newCanvasHeight)
 
   }, [props.teleports, props.continent, props.nodes, props.finalRoute])
   
   return (
   <div>
-    <canvas width={a} height={b} ref={canvasRef} onClick={props.onClick}/>
+    <canvas width={canvasWidth} height={canvasHeight} ref={canvasRef} onClick={props.onClick}/>
   </div>
   )
 }

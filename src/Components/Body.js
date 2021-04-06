@@ -104,17 +104,17 @@ const Header = () => {
             <Col>
               <ClickSelector updateClickEditTarget={updateClickEditTarget} />
               <BackgroundSelector continent={continent} changeBackground={changeBackground}/>
-              <Position pretext={'Player:'} position={startPosition}/>
-              <Position pretext={'Destination:'} position={endPosition}/>
           </Col>
           </Row>
-          <Row>
+          <Row id='position'>
             <Col>
-              <NumberLabel onClick={updateRouteGoodness} numRoutes={routeDetails[1].length - 1} />
+              <Position pretext={'Player:'} position={startPosition}/>
+              <Position pretext={'Destination:'} position={endPosition}/>
             </Col>
           </Row>
           <Row>
             <Col>
+              <NumberLabel onClick={updateRouteGoodness} numRoutes={routeDetails[1].length - 1} />
               <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
             </Col>
           </Row>

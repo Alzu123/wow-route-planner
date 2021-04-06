@@ -13,16 +13,6 @@ const ClickSelector = ({ updateClickEditTarget }) => {
       </Form.Group>
     </Form>
   )
-
-/*   return (
-    <div>
-      Clicks currently edit :
-        <select id="select" onChange={updateClickEditTarget}>
-          <option value="start">Start point</option>
-          <option value="end">End point</option>
-        </select>
-    </div>
-  ) */
 }
 
 export default ClickSelector
