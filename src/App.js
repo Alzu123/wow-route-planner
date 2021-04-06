@@ -1,17 +1,14 @@
 import React, { useState } from 'react'
-import Position from './Components/Position'
-import NavigationSteps from './Components/NavigationSteps'
-import Canvas from './Components/Canvas/Canvas'
-import Teleports from './Components/Teleports'
-import NumberLabel from './Components/NumberLabel'
+import Header from './Components/Header'
+import Body from './Components/Body'
 
 import defaultTeleports from './Data/TeleportDB'
 import continents from './Data/ContinentDB'
 import PlayerInfo from './Data/Player'
 
-import {RouteToDestination} from './Components/Calculations/RouteToDestination'
+import RouteToDestination from './Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from './Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
-import {ProcessTeleports} from './Data/Teleport Processing/ProcessTeleports'
+import ProcessTeleports from './Data/Teleport Processing/ProcessTeleports'
 
 import GenerateTeleportJson from './Data/Teleport Processing/GenerateTeleportJson'
 import ToggleTeleport from './Data/Teleport Processing/ToggleTeleport'
@@ -54,7 +51,7 @@ const App = () => {
     const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
     const targetContinent = continent
     const position = new Point(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y, targetContinent)
-    //console.log('old end:', endPosition, 'newpos:', position)
+    console.log('old end:', endPosition, 'newpos:', position)
 
     if (editingStart) {
       setStartPosition(position)
@@ -100,6 +97,14 @@ const App = () => {
 
   return (
     <div>
+      <Header />
+      <Body onClick={updateStartOrEnd} onClickEditChange={updateClickEditTarget} teleports={teleports} nodes={nodes} finalRoute={finalRoute} continent={continent} changeBackground={changeBg}/>
+    </div>
+  )
+
+/*   return (
+    <div>
+      <Header />
       <h1>Route</h1>
       <NumberLabel onClick={updateRouteGoodness} numRoutes={routeDetails[1].length - 1} />
       <table>
@@ -123,7 +128,7 @@ const App = () => {
       <h2>List of teleports</h2>
       <Teleports teleports={teleports} onClick={toggleAvailability}/>
     </div>
-  )
+  ) */
 }
 
 export default App

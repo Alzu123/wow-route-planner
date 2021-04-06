@@ -2,7 +2,7 @@ import PlayerInfo from '../Player'
 import Point from '../Point'
 import AddTeleportCost from './AddTeleportCost'
 
-export const ProcessTeleports = (teleports, newPosition) => {
+const ProcessTeleports = (teleports, newPosition) => {
 
   if (newPosition === undefined) {
     newPosition = PlayerInfo.position
@@ -64,3 +64,5 @@ export const ProcessTeleports = (teleports, newPosition) => {
   return teleports
                   
 }
+
+export default ProcessTeleports

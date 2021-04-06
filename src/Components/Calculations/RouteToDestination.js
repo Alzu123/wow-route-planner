@@ -1,5 +1,5 @@
 import Point from '../../Data/Point'
-import { ProcessTeleports } from '../../Data/Teleport Processing/ProcessTeleports'
+import ProcessTeleports from '../../Data/Teleport Processing/ProcessTeleports'
 import CalculateRouteInformation from './CalculateRouteInformation'
 
 const generateAllRouteCombinations = (nodes, maxDepth) => {
@@ -30,7 +30,7 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
   return result
 }
 
-export const RouteToDestination = ( startPosition, endPosition, teleports ) => {
+const RouteToDestination = ( startPosition, endPosition, teleports ) => {
   const maxNumberOfNodesToPass = 3 // i.e. max number of teleports to use
   const acceptableDistanceIncrease = 200 // Maximum distance in absolute coordinate units to optimal route to be considered. 200 is roughly 10 seconds of flying
   const acceptableFlightDistanceDeviation = 1.4 // Maximum distance relative to lowest total flight distance to be considered
