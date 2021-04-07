@@ -4,7 +4,6 @@ import Canvas from './Canvas/Canvas'
 import Position from './Position'
 import NumberLabel from './NumberLabel'
 
-import defaultTeleports from '../Data/TeleportDB'
 import continents from '../Data/ContinentDB'
 import PlayerInfo from '../Data/Player'
 
@@ -14,7 +13,7 @@ import ProcessTeleports from '../Data/Teleport Processing/ProcessTeleports'
 import ToggleTeleports from '../Data/Teleport Processing/ToggleTeleports'
 import Point from '../Data/Point'
 
-import { Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import ClickSelector from './ClickSelector'
 import BackgroundSelector from './BackgroundSelector'
 import Teleports from './Teleports'
@@ -26,23 +25,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
   const [ editingStart, setEditingStart ] = useState(true)
   const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
   const [ routeGoodness, setRouteGoodness ] = useState(0)
-
-  const updatePlayerTeleports = (position) => {
-    const newX = position.x
-    const newY = position.y
-    const newContinent = position.continent
-
-    const newPosition = {
-      coordinates: {
-        x: newX,
-        y: newY,
-      },
-      continent: newContinent
-    }
-
-    const processedTeleports = ProcessTeleports(teleports, newPosition)
-    setTeleports(processedTeleports)
-  }
+  const [ routeOrder, setRouteOrder ] = useState('preference')
 
   const changeBackground = (event) => {
     event.preventDefault()
@@ -50,7 +33,6 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
     setContinent(continents[dropdownValue])
   }
 
-  // Updates the start point based on clicks on canvas
   const updateStartOrEnd = (event) => {
     event.preventDefault()
     const canvasAdjustedCoordinates = MouseCoordinatesToWorldCoordinates(event.target, { x: event.clientX, y: event.clientY })
@@ -59,7 +41,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
 
     if (editingStart) {
       setStartPosition(position)
-      updatePlayerTeleports(position)
+      setTeleports(ProcessTeleports(teleports, position))
     } else {
       setEndPosition(position)
     }
@@ -77,21 +59,26 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
   }
 
   const toggleAvailability = (event) => {
-    const teleportIds = [parseInt(event.target.parentNode.parentNode.id)]
+    const listGroupItemId = event.target.parentNode.parentNode.id
+    const teleportIds = [parseInt(listGroupItemId)]
     setTeleports(ToggleTeleports(teleports, teleportIds))
   }
 
   const toggleTeleportsByRestriction = (event) => {
-    const type = event.target.parentNode.parentNode.parentNode.id
-    if (!type) {
-      return
-    }
-
+    const type = event.target.parentNode.parentNode.parentNode.id.toLowerCase()
     const value = event.target.parentNode.id
+    const targetedTeleports = teleports.filter(teleport => teleport.restrictions[type] === value)
+    const typeTeleports = teleports.filter(teleport => teleport.restrictions[type] !== '')
+    const areTargetsEnabled = !targetedTeleports.some(teleport => !teleport.enabled)
 
-    const affectedTeleports = teleports.filter(teleport => teleport.restrictions[type.toLowerCase()] === value)
-    const areAllEnabled = !affectedTeleports.some(teleport => !teleport.enabled)
-    setTeleports(ToggleTeleports(teleports, affectedTeleports.map(teleport => teleport.id), !areAllEnabled))
+    let toggledTeleports = teleports
+    if (type !== 'profession' && !areTargetsEnabled) {
+      // For other restrictions than profession, there can only be one active at once
+      toggledTeleports = ToggleTeleports(toggledTeleports, typeTeleports.map(teleport => teleport.id), false)
+    }
+    toggledTeleports = ToggleTeleports(toggledTeleports, targetedTeleports.map(teleport => teleport.id), !areTargetsEnabled)
+
+    setTeleports(toggledTeleports)
   }
 
   const updateRouteGoodness = (event) => {
@@ -104,16 +91,27 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
       setRouteGoodness(newGoodness)
     }
   }
-  
+
+  const updateConfiguration = (event) => {
+    event.preventDefault()
+    const optionsElement = document.getElementById('route-preference')
+    const routePreference = optionsElement.options[optionsElement.selectedIndex].value
+
+    setRouteOrder(routePreference)
+  }
+
   const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
-  const nodes = routeDetails[0]
-  const finalRoute = routeDetails[1][routeGoodness]
+  const nodes = routeDetails.nodes
+  const candidateRoutes = routeDetails.candidateRoutes
+  const orderedRoutes = candidateRoutes.sort((a, b) => (a[routeOrder] > b[routeOrder]) ? 1 : -1)
+  const finalRoute = orderedRoutes[routeGoodness]
 
 
   return (
     <Container fluid id='body'>
       <Teleports show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
-      <ConfigurationPanel show={showConfiguration} onClick={toggleTeleportsByRestriction} teleports={teleports}/>
+      <ConfigurationPanel show={showConfiguration} onClick={toggleTeleportsByRestriction} teleports={teleports} updateConfiguration={updateConfiguration} defaultPreference={routeOrder}/>
+
       <Row className='full'>
         <Col id='left' xs={12} md={3} className='full'>
           <Row>
@@ -130,7 +128,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
           </Row>
           <Row>
             <Col>
-              <NumberLabel onClick={updateRouteGoodness} numRoutes={routeDetails[1].length - 1} />
+              <NumberLabel onClick={updateRouteGoodness} numRoutes={candidateRoutes.length - 1} />
               <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
             </Col>
           </Row>

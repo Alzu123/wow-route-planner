@@ -30,6 +30,13 @@ const CalculateRouteInformation = (routes) => {
   // Estimate preference based on flying required and route cost
   routes = routes.map(route => ({...route, preference: calculatePreference(route.totalCost, route.totalFlyDistance)}))
 
+  // Count number of loading screens
+  routes = routes.map(route => ({...route, totalLoadingScreens: route.nodes.reduce(function (sum, node) {return sum + node.numLoadingScreens}, 0)}))
+
+  // Estimate scenery value
+  routes = routes.map(route => ({...route, sceneryValue: route.nodes.reduce(function (sum, node) {return sum - node.type === 'World' ? node.travelTime * 2 : 0 - node.distanceFromPreviousNode / GetSpeed(PlayerInfo.speedModifier)}, 0)}))
+
+
   return routes
 }
 

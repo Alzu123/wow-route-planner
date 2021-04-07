@@ -30,13 +30,13 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
   return result
 }
 
-const RouteToDestination = ( startPosition, endPosition, teleports ) => {
+const RouteToDestination = ( startPosition, endPosition, teleports, loadingScreenParams ) => {
   const maxNumberOfNodesToPass = 3 // i.e. max number of teleports to use
   const acceptableDistanceIncrease = 200 // Maximum distance in absolute coordinate units to optimal route to be considered. 200 is roughly 10 seconds of flying
   const acceptableFlightDistanceDeviation = 1.4 // Maximum distance relative to lowest total flight distance to be considered
 
   let nodes = []
-  const updatedTeleports = ProcessTeleports(teleports, startPosition).filter(teleport => teleport.enabled)
+  const updatedTeleports = ProcessTeleports(teleports, startPosition, loadingScreenParams).filter(teleport => teleport.enabled)
 
   const startNode = {
     name: "Start",
@@ -131,14 +131,12 @@ const RouteToDestination = ( startPosition, endPosition, teleports ) => {
 
   const shortestFlightRequired = Math.min.apply(null, routesWithPreferences.map(route => route.totalFlyDistance))
   const acceptableFlightDistance = shortestFlightRequired * acceptableFlightDistanceDeviation
-  const shortestRoutes = routesWithPreferences.filter(route => route.totalFlyDistance <= acceptableFlightDistance)
-
-  const orderedRoutes = shortestRoutes.sort((a, b) => (a.preference > b.preference) ? 1 : -1)
+  const candidateRoutes = routesWithPreferences.filter(route => route.totalFlyDistance <= acceptableFlightDistance)
 
   // TODO: Create a selection for user to choose between the easiest route or fewest teleports.
   //let bestRoute = orderedRoutes[0]
   //console.log(orderedRoutes)
-  return ([nodes, orderedRoutes])
+  return ({nodes: nodes, candidateRoutes: candidateRoutes})
 }
 
 export default RouteToDestination
