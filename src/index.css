@@ -78,3 +78,16 @@ canvas {
   margin-left: 50%;
   transform: translateX(-50%);
 }
+
+
+.overlay{
+  position: absolute;
+  top: 50px;
+  left: 5%;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 90%;
+  z-index: 1;
+  border: solid 1px gray;
+  overflow: scroll
+}

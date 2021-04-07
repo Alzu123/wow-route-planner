@@ -17,8 +17,9 @@ import Point from '../Data/Point'
 import { Container, Row, Col} from 'react-bootstrap'
 import ClickSelector from './ClickSelector'
 import BackgroundSelector from './BackgroundSelector'
+import Teleports from './Teleports'
 
-const Header = () => {
+const Body = ({ showTeleports }) => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
   const [ endPosition, setEndPosition ] = useState(new Point(58.6, 26.5, continents.EASTERN_KINGDOMS))
   const [ editingStart, setEditingStart ] = useState(true)
@@ -77,6 +78,7 @@ const Header = () => {
 
   const toggleAvailability = (event) => {
     const teleportID = parseInt(event.target.parentNode.parentNode.id)
+    console.log(event, teleportID)
     setTeleports(ToggleTeleport(teleports, teleportID))
   }
 
@@ -98,6 +100,7 @@ const Header = () => {
 
   return (
     <Container fluid id='body'>
+      <Teleports show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
       <Row className='full'>
         <Col id='left' xs={12} md={3} className='full'>
           <Row>
@@ -128,4 +131,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Body
