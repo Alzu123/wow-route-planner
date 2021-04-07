@@ -16,6 +16,7 @@ const ProcessTeleports = (teleports, newPosition) => {
   teleports = teleports.map(teleport => teleport.restrictions.race !== '' && teleport.restrictions.race !== PlayerInfo.race ? {...teleport, enabled: false} : teleport)
                        .map(teleport => teleport.restrictions.class !== '' && teleport.restrictions.class !== PlayerInfo.class ? {...teleport, enabled: false} : teleport)
                        .map(teleport => teleport.restrictions.faction !== '' && teleport.restrictions.faction !== PlayerInfo.faction ? {...teleport, enabled: false} : teleport)
+                       .map(teleport => teleport.restrictions.covenant !== '' && teleport.restrictions.covenant !== PlayerInfo.covenant ? {...teleport, enabled: false} : teleport)
                        .map(teleport => teleport.restrictions.profession !== '' && (teleport.restrictions.profession !== PlayerInfo.profession1 || teleport.restrictions.profession !== PlayerInfo.profession2) ? {...teleport, enabled: false} : teleport)
 
   // Handle Adepts Guide to Dimensional Rifting as it's dependant on the weekday

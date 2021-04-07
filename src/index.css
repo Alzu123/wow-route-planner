@@ -85,9 +85,12 @@ canvas {
   top: 50px;
   left: 5%;
   width: 90%;
-  max-width: 1000px;
+  max-width: 1400px;
   max-height: 90%;
   z-index: 1;
   border: solid 1px gray;
   overflow: scroll
+}
+.overlay::-webkit-scrollbar{
+  display:none
 }

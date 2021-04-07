@@ -8,6 +8,7 @@ const PlayerInfo = {
   race: 'Troll',
   profession1: 'Alchemy',
   profession2: 'Herbalism',
+  covenant: 'Night Fae',
   speedModifier: 4.10 // Air speed. 410 % = master flying, 380 % = artisan, 250 % = normal
 }
 

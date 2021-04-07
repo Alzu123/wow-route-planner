@@ -11,20 +11,20 @@ import PlayerInfo from '../Data/Player'
 import RouteToDestination from '../Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from '../Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
 import ProcessTeleports from '../Data/Teleport Processing/ProcessTeleports'
-import ToggleTeleport from '../Data/Teleport Processing/ToggleTeleport'
+import ToggleTeleports from '../Data/Teleport Processing/ToggleTeleports'
 import Point from '../Data/Point'
 
 import { Container, Row, Col} from 'react-bootstrap'
 import ClickSelector from './ClickSelector'
 import BackgroundSelector from './BackgroundSelector'
 import Teleports from './Teleports'
+import ConfigurationPanel from './ConfigurationPanel'
 
-const Body = ({ showTeleports }) => {
+const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
   const [ endPosition, setEndPosition ] = useState(new Point(58.6, 26.5, continents.EASTERN_KINGDOMS))
   const [ editingStart, setEditingStart ] = useState(true)
   const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
-  const [ teleports, setTeleports ] = useState(ProcessTeleports(defaultTeleports))
   const [ routeGoodness, setRouteGoodness ] = useState(0)
 
   const updatePlayerTeleports = (position) => {
@@ -77,9 +77,21 @@ const Body = ({ showTeleports }) => {
   }
 
   const toggleAvailability = (event) => {
-    const teleportID = parseInt(event.target.parentNode.parentNode.id)
-    console.log(event, teleportID)
-    setTeleports(ToggleTeleport(teleports, teleportID))
+    const teleportIds = [parseInt(event.target.parentNode.parentNode.id)]
+    setTeleports(ToggleTeleports(teleports, teleportIds))
+  }
+
+  const toggleTeleportsByRestriction = (event) => {
+    const type = event.target.parentNode.parentNode.parentNode.id
+    if (!type) {
+      return
+    }
+
+    const value = event.target.parentNode.id
+
+    const affectedTeleports = teleports.filter(teleport => teleport.restrictions[type.toLowerCase()] === value)
+    const areAllEnabled = !affectedTeleports.some(teleport => !teleport.enabled)
+    setTeleports(ToggleTeleports(teleports, affectedTeleports.map(teleport => teleport.id), !areAllEnabled))
   }
 
   const updateRouteGoodness = (event) => {
@@ -101,6 +113,7 @@ const Body = ({ showTeleports }) => {
   return (
     <Container fluid id='body'>
       <Teleports show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
+      <ConfigurationPanel show={showConfiguration} onClick={toggleTeleportsByRestriction} teleports={teleports}/>
       <Row className='full'>
         <Col id='left' xs={12} md={3} className='full'>
           <Row>

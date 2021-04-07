@@ -2,16 +2,27 @@ import React, { useState } from 'react'
 import Header from './Components/Header'
 import Body from './Components/Body'
 
+import defaultTeleports from './Data/TeleportDB'
+import ProcessTeleports from './Data/Teleport Processing/ProcessTeleports'
+
 import GenerateTeleportJson from './Data/Teleport Processing/GenerateTeleportJson'
 
 const App = () => {
-  const [ isTeleportListShown, setIsTeleportListShown ] = useState(false)
+  const [ isTeleportsShown, setIsTeleportsShown ] = useState(false)
+  const [ isConfigurationShown, setIsConfigurationShown ] = useState(false)
+  const [ teleports, setTeleports ] = useState(ProcessTeleports(defaultTeleports))
 
-  function showTeleports(event) {
+  function showTabs(event) {
     if (event === '#teleports') {
-      setIsTeleportListShown(!isTeleportListShown)
+      setIsTeleportsShown(!isTeleportsShown)
     } else {
-      setIsTeleportListShown(false)
+      setIsTeleportsShown(false)
+    }
+
+    if (event === '#configuration') {
+      setIsConfigurationShown(!isConfigurationShown)
+    } else {
+      setIsConfigurationShown(false)
     }
   }
 
@@ -19,8 +30,8 @@ const App = () => {
 
   return (
     <div>
-      <Header showTeleports={showTeleports}/>
-      <Body showTeleports={isTeleportListShown}/>
+      <Header showTabs={showTabs}/>
+      <Body showTeleports={isTeleportsShown} teleports={teleports} setTeleports={setTeleports} showConfiguration={isConfigurationShown}/>
     </div>
   )
 }
