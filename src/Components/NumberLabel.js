@@ -16,9 +16,9 @@ const Position = ({ value, onClick, numRoutes }) => {
 
   return (
     <Form className='route-selection'>
-      <Form.Label>Enter how good of a route you wish to see. 1 is the best.</Form.Label>
+      <Form.Label>Enter how good of a route you wish to see. 0 is the best.</Form.Label>
       <Form.Group as={Row} controlId="routeOrdinal">
-        <Col xs={9}><RangeSlider value={tempValue} name="quantity" min={1} max={numRoutes} onChange={onDrag} onAfterChange={onClick} tooltip='off'/></Col>
+        <Col xs={9}><RangeSlider value={tempValue} name="quantity" min={0} max={numRoutes} onChange={onDrag} onAfterChange={onClick} tooltip='off'/></Col>
         <Col><Form.Control value={tempValue} onChange={onWrite}/></Col>
       </Form.Group>
     </Form>

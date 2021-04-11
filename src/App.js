@@ -5,8 +5,6 @@ import Body from './Components/Body'
 import defaultTeleports from './Data/TeleportDB'
 import ProcessTeleports from './Data/Teleport Processing/ProcessTeleports'
 
-import GenerateTeleportJson from './Data/Teleport Processing/GenerateTeleportJson'
-
 const App = () => {
   const [ isTeleportsShown, setIsTeleportsShown ] = useState(false)
   const [ isConfigurationShown, setIsConfigurationShown ] = useState(false)

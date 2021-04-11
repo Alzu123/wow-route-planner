@@ -25,7 +25,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   const [ endPosition, setEndPosition ] = useState(new Point(58.6, 26.5, continents.EASTERN_KINGDOMS))
   const [ editingStart, setEditingStart ] = useState(true)
   const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
-  const [ routeGoodness, setRouteGoodness ] = useState(1)
+  const [ routeGoodness, setRouteGoodness ] = useState(0)
   const [ routeOrder, setRouteOrder ] = useState('preference')
 
   const changeBackground = (event) => {
@@ -47,7 +47,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
       setEndPosition(position)
     }
 
-    setRouteGoodness(1)
+    setRouteGoodness(0)
   }
 
   const updateClickEditTarget = (event) => {
@@ -63,7 +63,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
     const listGroupItemId = event.target.parentNode.parentNode.id
     const teleportIds = [parseInt(listGroupItemId)]
     setTeleports(ToggleTeleports(teleports, teleportIds))
-    setRouteGoodness(1)
+    setRouteGoodness(0)
   }
 
   const toggleTeleportsByRestriction = (event) => {
@@ -88,7 +88,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
     const newGoodness = parseFloat(event.target.value)
 
     if (isNaN(newGoodness)) {
-      setRouteGoodness(1)
+      setRouteGoodness(0)
     } else {
       setRouteGoodness(newGoodness)
     }
@@ -107,7 +107,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   const nodes = routeDetails.nodes
   const candidateRoutes = routeDetails.candidateRoutes.slice(0, 50)
   const orderedRoutes = candidateRoutes.sort((a, b) => (a[routeOrder] > b[routeOrder]) ? 1 : -1)
-  const finalRoute = orderedRoutes[routeGoodness - 1]
+  const finalRoute = orderedRoutes[routeGoodness]
   console.log(orderedRoutes)
 
 
