@@ -1,12 +1,25 @@
-import React from 'react'
-import { Form } from 'react-bootstrap'
+import React, { useState } from 'react'
+import { Row, Form, Col } from 'react-bootstrap'
+import RangeSlider from 'react-bootstrap-range-slider';
 
-const Position = ({ onClick, numRoutes }) => {
+const Position = ({ value, onClick, numRoutes }) => {
+  const [ tempValue, setTempValue ] = useState(value)
+
+  function onDrag(event) {
+    setTempValue(event.target.value)
+  }
+
+  function onWrite(event) {
+    onDrag(event)
+    onClick(event)
+  }
+
   return (
-    <Form>
-      <Form.Group controlId="routeOrdinal">
-        <Form.Label>Enter how good of a route you wish to see. 0 is the best.</Form.Label>
-        <Form.Control type="number" name="quantity" min="0" max={numRoutes} onChange={onClick}/>
+    <Form className='route-selection'>
+      <Form.Label>Enter how good of a route you wish to see. 1 is the best.</Form.Label>
+      <Form.Group as={Row} controlId="routeOrdinal">
+        <Col xs={9}><RangeSlider value={tempValue} name="quantity" min={1} max={numRoutes} onChange={onDrag} onAfterChange={onClick} tooltip='off'/></Col>
+        <Col><Form.Control value={tempValue} onChange={onWrite}/></Col>
       </Form.Group>
     </Form>
   )

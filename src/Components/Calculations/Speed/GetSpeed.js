@@ -1,10 +1,14 @@
+import PlayerInfo from "../../../Data/Player"
+
+
 const yardsToMeters = ( yards ) => {
   return yards * 0.9114
 }
 
-export const GetSpeed = ( modifier, unit ) => {
+export const GetSpeed = ( flyable, unit ) => {
+  const speedMod = flyable ? PlayerInfo.speedModifier : 2
   const baseSpeed = 7 // yd/s
-  const currentSpeed = baseSpeed * modifier
+  const currentSpeed = baseSpeed * speedMod
 
   if (unit) {
     const validMeterNames = ['m', 'meter', 'meters']

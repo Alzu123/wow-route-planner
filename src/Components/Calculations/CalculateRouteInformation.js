@@ -1,9 +1,8 @@
-import PlayerInfo from '../../Data/Player'
 import GetSpeed from './Speed/GetSpeed'
 
-const calculatePreference = (cost, flyDistance) => {
+const calculatePreference = (cost, travelDistance, flyable) => {
   // The result is roughly equal to seconds required for the route
-  return cost + flyDistance / GetSpeed(PlayerInfo.speedModifier)
+  return cost + travelDistance / GetSpeed(flyable)
 }
 
 const CalculateRouteInformation = (routes) => {
@@ -17,24 +16,28 @@ const CalculateRouteInformation = (routes) => {
     }
     const previousNodePosition = route.nodes[i - 1].destination.position
     const currentNodePosition = node.origin.position
-    return ({...node, distanceFromPreviousNode: previousNodePosition.distanceTo(currentNodePosition, currentNodePosition.continent.unreachableAreas) * currentNodePosition.continent.scale})
+    return ({...node, distanceFromPreviousNode: previousNodePosition.distanceTo(currentNodePosition) * currentNodePosition.continent.scale})
   })}))
 
   // Calculate the total flying distance for each route
   routes = routes.map(function(route) {
-    const lastNode = route.nodes[route.nodes.length - 1] // This is not the end node but the one before it
     const cumulativeflyDistance = route.nodes.reduce(function (sum, node) {return sum + node.distanceFromPreviousNode}, 0)
-    return({...route, totalFlyDistance: lastNode.distanceToTarget + cumulativeflyDistance}
+    return({...route, totalFlyDistance: cumulativeflyDistance}
   )})
   
   // Estimate preference based on flying required and route cost
-  routes = routes.map(route => ({...route, preference: calculatePreference(route.totalCost, route.totalFlyDistance)}))
+  routes = routes.map(function(route) {
+    const routePreference = route.nodes.reduce(function (sum, node) {return sum + calculatePreference(node.cost, node.distanceFromPreviousNode, node.destination.position.continent.isFlyable)}, 0)
+    return ({...route, preference: routePreference})
+  })
 
   // Count number of loading screens
   routes = routes.map(route => ({...route, totalLoadingScreens: route.nodes.reduce(function (sum, node) {return sum + node.numLoadingScreens}, 0)}))
 
   // Estimate scenery value
-  routes = routes.map(route => ({...route, sceneryValue: route.nodes.reduce(function (sum, node) {return sum - node.type === 'World' ? node.travelTime * 2 : 0 - node.distanceFromPreviousNode / GetSpeed(PlayerInfo.speedModifier)}, 0)}))
+  routes = routes.map(route => ({...route, sceneryValue: route.nodes.reduce(function (sum, node) {
+    return (sum - node.type === 'World' ? node.travelTime * 2 : 0) - node.distanceFromPreviousNode / GetSpeed(node.origin.position.continent.isFlyable)
+  }, 0)}))
 
 
   return routes

@@ -52,7 +52,7 @@ code {
   font-weight: bold;
 }
 
-#navigationText {
+#navigation-text {
   padding-left: 0px;
 }
 
@@ -86,8 +86,13 @@ canvas {
 .jumbotron-title {
   padding-bottom: 30px;
 }
+
 .jumbotron-subtitle {
   margin-top: -30px;
+}
+
+.jumbotron-text {
+  max-width: 600px;
 }
 
 .section-title {
@@ -123,4 +128,16 @@ canvas {
 
 .teleports {
   max-width: 1000px;
+}
+
+.route-selection {
+  padding-bottom: 20px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.info-panel {
+  max-width: 700px;
 }

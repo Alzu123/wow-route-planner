@@ -1,12 +1,17 @@
 import Point from '../../Data/Point'
 import ProcessTeleports from '../../Data/Teleport Processing/ProcessTeleports'
 import CalculateRouteInformation from './CalculateRouteInformation'
+import GetSpeed from './Speed/GetSpeed'
 
 const generateAllRouteCombinations = (nodes, maxDepth) => {
   const startNode = nodes[0]
   const endNode = nodes[nodes.length - 1]
 
   function iterate(startNode, route) {
+    if (result.length > 500) { // In case a huge number of results are found
+      return
+    }
+
     if (route.length > maxDepth + 2) { // +2 because start and end nodes
       return
     }
@@ -18,7 +23,7 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
         return relevantChildren.forEach(nodeChild => iterate(nodeChild, route.concat(nodeChild)))
       } 
     }
-
+    
     if (route[route.length - 1].id === endNode.id) {
       result.push(route)
     }
@@ -30,13 +35,12 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
   return result
 }
 
-const RouteToDestination = ( startPosition, endPosition, teleports, loadingScreenParams ) => {
-  const maxNumberOfNodesToPass = 3 // i.e. max number of teleports to use
-  const acceptableDistanceIncrease = 200 // Maximum distance in absolute coordinate units to optimal route to be considered. 200 is roughly 10 seconds of flying
-  const acceptableFlightDistanceDeviation = 1.4 // Maximum distance relative to lowest total flight distance to be considered
+const RouteToDestination = ( startPosition, endPosition, teleports ) => {
+  const maxNumberOfNodesToPass = 6 // Maximum number of teleports to use
+  const acceptableCostIncrease = 1.2 // Maximum cost increase compared to optimal route to be considered.
 
   let nodes = []
-  const updatedTeleports = ProcessTeleports(teleports, startPosition, loadingScreenParams).filter(teleport => teleport.enabled)
+  const updatedTeleports = ProcessTeleports(teleports, startPosition).filter(teleport => teleport.enabled)
 
   const startNode = {
     name: "Start",
@@ -89,53 +93,66 @@ const RouteToDestination = ( startPosition, endPosition, teleports, loadingScree
   const endNodePosition = endNode.origin.position
   nodes = nodes.map(function(node) {
     const currentDestination = node.destination.position
-    const test = currentDestination.distanceTo(endNodePosition, endNodePosition.continent.unreachableAreas) * endNodePosition.continent.scale
-    return ({...node, distanceToTarget: test})
+    const distanceToEndNode = currentDestination.distanceTo(endNodePosition) * endNodePosition.continent.scale
+    return ({...node, distanceToTarget: distanceToEndNode})
   })
-  nodes = nodes.map(node => ({...node, nextNodes: node.id === endNode.id ? [] : [nodes[nodes.length - 1]]}))
-  //console.log('old', nodes)
+  nodes = nodes.map(node => ({...node, nextNodes: []}))
+  nodes = nodes.map(node => ({...node, costToTarget: node.cost + node.distanceToTarget / GetSpeed(node.destination.position.continent.isFlyable)}))
 
   // Radiate the best found distance from node origins
   for (let i = 0; i < maxNumberOfNodesToPass + 2; i++) { // + 2 because start and end nodes are in the count
     for (let j = 0; j < nodes.length; j++) {
-      let nodeToUpdate = nodes[j]
-      let currentBestDistance = nodeToUpdate.distanceToTarget
+      const nodeToUpdate = nodes[j]
+      let currentBestCost = nodeToUpdate.costToTarget
 
       // Compare the node to all other nodes and the distance that it would take going through the comparison node first
       for (let k = 1; k < nodes.length; k++) { // Start from 1 as we skip startNode (node 0)
-        let comparisonNode = nodes[k]
-        if (nodeToUpdate.id === comparisonNode.id) {
+        const comparisonNode = nodes[k]
+        const comparisonPos = comparisonNode.origin.position
+        if (nodeToUpdate.id === comparisonNode.id || comparisonNode.id === endNode.id) {
           continue
         }
-
-        let newDistance = comparisonNode.distanceToTarget + nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position, comparisonNode.origin.position.continent.unreachableAreas) * comparisonNode.origin.position.continent.scale
+        
+        const newDistance = comparisonNode.distanceToTarget + nodeToUpdate.destination.position.distanceTo(comparisonPos) * comparisonPos.continent.scale
+        const newCost = nodeToUpdate.cost + comparisonNode.costToTarget + newDistance / GetSpeed(comparisonPos.continent.isFlyable)
 
         // If better result save the distance and directions
-        if (newDistance < currentBestDistance) {
-          currentBestDistance = newDistance
+        if (newCost < currentBestCost) {
+          currentBestCost = newCost
           nodeToUpdate.distanceToTarget = newDistance
-          nodeToUpdate.nextNodes = [comparisonNode]
-        } else if (newDistance <= currentBestDistance + acceptableDistanceIncrease && !nodeToUpdate.nextNodes.some(nextNode => nextNode.id === comparisonNode.id)) { // If result is close enough, add it for comparison
-          nodeToUpdate.nextNodes.push(comparisonNode)
+          nodeToUpdate.costToTarget = newCost
         }
 
         nodes[j] = nodeToUpdate
       }
     }
   }
-  //console.log(nodes)
+
+  // Go through all nodes once more to determine their children
+  for (let i = 0; i < nodes.length; i++) {
+    const nodeToUpdate = nodes[i]
+    const costTarget = nodeToUpdate.costToTarget
+    for (let j = 1; j < nodes.length; j++) {
+      const comparisonNode = nodes[j]
+      const costOfGettingToTarget = nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position) * comparisonNode.origin.position.continent.scale / GetSpeed(comparisonNode.origin.position.continent.isFlyable)
+      const comparisonCost = nodeToUpdate.cost + comparisonNode.costToTarget + costOfGettingToTarget
+
+      const comparisonReachable = nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position) !== Infinity
+      const comparisonNodeInChildren = nodeToUpdate.nextNodes.some(nextNode => nextNode.id === comparisonNode.id)
+      const comparisonNodeVisitsKnownSpot = nodeToUpdate.nextNodes.some(nextNode => nextNode.origin.position.distanceTo(comparisonNode.destination.position) * nextNode.destination.position.continent.scale < 100)
+
+      if (comparisonCost < costTarget * acceptableCostIncrease && !comparisonNodeInChildren && !comparisonNodeVisitsKnownSpot && comparisonReachable) {
+        nodeToUpdate.nextNodes.push(comparisonNode)
+      }
+    }
+
+    nodes[i] = nodeToUpdate
+  }
 
   // Now that we have the shortest paths in the nodes written down, write them all into an array.
   const allPossibleRoutes = generateAllRouteCombinations(nodes, maxNumberOfNodesToPass)
-  const routesWithPreferences = CalculateRouteInformation(allPossibleRoutes)
+  const candidateRoutes = CalculateRouteInformation(allPossibleRoutes)
 
-  const shortestFlightRequired = Math.min.apply(null, routesWithPreferences.map(route => route.totalFlyDistance))
-  const acceptableFlightDistance = shortestFlightRequired * acceptableFlightDistanceDeviation
-  const candidateRoutes = routesWithPreferences.filter(route => route.totalFlyDistance <= acceptableFlightDistance)
-
-  // TODO: Create a selection for user to choose between the easiest route or fewest teleports.
-  //let bestRoute = orderedRoutes[0]
-  //console.log(orderedRoutes)
   return ({nodes: nodes, candidateRoutes: candidateRoutes})
 }
 

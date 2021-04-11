@@ -1,6 +1,6 @@
 import PlayerInfo from '../Player'
 import Point from '../Point'
-import AddTeleportCost from './AddTeleportCost'
+import CalculateTeleportCost from './CalculateTeleportCost'
 
 const ProcessTeleports = (teleports, newPosition) => {
 
@@ -60,7 +60,7 @@ const ProcessTeleports = (teleports, newPosition) => {
   teleports = teleports.map(teleport => teleport.fromPlayer ? {...teleport, origin: {...teleport.origin, position: new Point(newPosition.x, newPosition.y, newPosition.continent)}} : teleport)
 
   // Calculate costs for teleports
-  teleports = AddTeleportCost(teleports)
+  teleports = teleports.map(teleport => ({...teleport, cost: CalculateTeleportCost(teleport)}))
 
   return teleports
                   

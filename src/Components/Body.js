@@ -16,15 +16,16 @@ import Point from '../Data/Point'
 import { Container, Row, Col } from 'react-bootstrap'
 import ClickSelector from './ClickSelector'
 import BackgroundSelector from './BackgroundSelector'
-import Teleports from './Teleports'
+import TeleportsPanel from './TeleportsPanel'
 import ConfigurationPanel from './ConfigurationPanel'
+import InfoPanel from './InfoPanel'
 
-const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => {
+const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showInfo }) => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
   const [ endPosition, setEndPosition ] = useState(new Point(58.6, 26.5, continents.EASTERN_KINGDOMS))
   const [ editingStart, setEditingStart ] = useState(true)
   const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
-  const [ routeGoodness, setRouteGoodness ] = useState(0)
+  const [ routeGoodness, setRouteGoodness ] = useState(1)
   const [ routeOrder, setRouteOrder ] = useState('preference')
 
   const changeBackground = (event) => {
@@ -46,7 +47,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
       setEndPosition(position)
     }
 
-    setRouteGoodness(0)
+    setRouteGoodness(1)
   }
 
   const updateClickEditTarget = (event) => {
@@ -62,6 +63,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
     const listGroupItemId = event.target.parentNode.parentNode.id
     const teleportIds = [parseInt(listGroupItemId)]
     setTeleports(ToggleTeleports(teleports, teleportIds))
+    setRouteGoodness(1)
   }
 
   const toggleTeleportsByRestriction = (event) => {
@@ -86,7 +88,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
     const newGoodness = parseFloat(event.target.value)
 
     if (isNaN(newGoodness)) {
-      setRouteGoodness(0)
+      setRouteGoodness(1)
     } else {
       setRouteGoodness(newGoodness)
     }
@@ -100,20 +102,23 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
     setRouteOrder(routePreference)
   }
 
+  // This is now ran on every change of the site. Should probably be changed
   const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
   const nodes = routeDetails.nodes
-  const candidateRoutes = routeDetails.candidateRoutes
+  const candidateRoutes = routeDetails.candidateRoutes.slice(0, 50)
   const orderedRoutes = candidateRoutes.sort((a, b) => (a[routeOrder] > b[routeOrder]) ? 1 : -1)
-  const finalRoute = orderedRoutes[routeGoodness]
+  const finalRoute = orderedRoutes[routeGoodness - 1]
+  console.log(orderedRoutes)
 
 
   return (
     <Container fluid id='body'>
-      <Teleports show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
+      <TeleportsPanel show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
       <ConfigurationPanel show={showConfiguration} onClick={toggleTeleportsByRestriction} teleports={teleports} updateConfiguration={updateConfiguration} defaultPreference={routeOrder}/>
+      <InfoPanel show={showInfo}/>
 
       <Row className='full'>
-        <Col id='left' xs={12} md={3} className='full'>
+        <Col id='left' xs={12} md={4} className='full'>
           <Row>
             <Col>
               <ClickSelector updateClickEditTarget={updateClickEditTarget} />
@@ -128,14 +133,14 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration }) => 
           </Row>
           <Row>
             <Col>
-              <NumberLabel onClick={updateRouteGoodness} numRoutes={candidateRoutes.length - 1} />
-              <NavigationSteps nodes={nodes} finalRoute={finalRoute} />
+              <NumberLabel value={routeGoodness} onClick={updateRouteGoodness} numRoutes={candidateRoutes.length} />
+              <NavigationSteps onClick={toggleAvailability} finalRoute={finalRoute} />
             </Col>
           </Row>
         </Col>
 
         <Col id='right' className='d-none d-sm-block overflow-hidden'>
-          <Canvas onClick={updateStartOrEnd} teleports={teleports} nodes={nodes} finalRoute={finalRoute} continent={continent}/>
+          <Canvas onClick={updateStartOrEnd} nodes={nodes} finalRoute={finalRoute} continent={continent}/>
         </Col>
       </Row>
     </Container>

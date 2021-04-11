@@ -1,11 +1,12 @@
 import React from 'react'
-import { Container, Jumbotron, ListGroup, ListGroupItem, Row, Col, Button } from 'react-bootstrap'
+import { Container, Jumbotron, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap'
+import ToggleTeleport from './ToggleTeleport'
 
 const fancifyCoordinates = (coordinates) => {
   return `[${coordinates.x}, ${coordinates.y}]`
 }
 
-const Teleports = ({ show, teleports, onClick }) => {
+const TeleportsPanel = ({ show, teleports, onClick }) => {
   if (show) {
     return (
       <Jumbotron className='overlay teleports'>
@@ -17,7 +18,7 @@ const Teleports = ({ show, teleports, onClick }) => {
              <ListGroupItem key={teleport.id}>
               <Container>
                 <Row id={teleport.id}>
-                  <Col xs={2}>{teleport.enabled ? <Button variant='success' onClick={onClick}>Toggle</Button> : <Button variant='danger' onClick={onClick}>Toggle</Button>}</Col>
+                  <Col xs={2}><ToggleTeleport onClick={onClick} teleport={teleport} text='Toggle'/></Col>
                   <Col xs={3}>{teleport.name}</Col>
                   <Col>From {teleport.fromPlayer ? 'player' : fancifyCoordinates(teleport.origin.position)} to {fancifyCoordinates(teleport.destination.position)} in {teleport.destination.description}, {teleport.destination.position.continent.name}</Col>
                 </Row>
@@ -32,4 +33,4 @@ const Teleports = ({ show, teleports, onClick }) => {
   }
 }
 
-export default Teleports
+export default TeleportsPanel

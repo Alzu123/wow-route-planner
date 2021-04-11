@@ -5,14 +5,18 @@ class Point {
     this.continent = continent
   }
 
-  distanceTo(point, polygons) {
-    if (polygons) {
-      for (const polygon of polygons) {
-        if (point.isInside(polygon) === !this.isInside(polygon)) {
-          return Number.POSITIVE_INFINITY
+  distanceTo(point) {
+    if (point.continent) {
+      const polygons = point.continent.unreachableAreas
+      if (polygons) {
+        for (const polygon of polygons) {
+          if (point.isInside(polygon) === !this.isInside(polygon)) {
+            return Number.POSITIVE_INFINITY
+          }
         }
       }
     }
+    
     if (this.continent && point.continent) {
       if (this.continent.name !== point.continent.name) {
         return Number.POSITIVE_INFINITY

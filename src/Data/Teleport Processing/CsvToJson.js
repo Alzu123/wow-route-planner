@@ -29,7 +29,7 @@ const CsvToJson = ( csvFile, delimiter ) => {
         position: new Point(parseFloat(data[6]), parseFloat(data[7]), destinationContinent),
         description: data[9],
       },
-      fromPlayer: data[10] === "TRUE",
+      fromPlayer: data[5] === "Player",
       type: data[11],
       enabled: data[12] === "TRUE",
       cooldown: parseFloat(data[13]),

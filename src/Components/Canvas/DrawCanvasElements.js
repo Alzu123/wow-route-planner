@@ -2,7 +2,7 @@ import DrawCanvasInitial from './DrawCanvasInitial'
 import DrawOptimalRoute from './DrawOptimalRoute'
 import DrawTeleports from './DrawTeleports'
 
-const DrawCanvasElements = (canvas, canvasBg, teleports, nodes, finalRoute, backgroundName) => {
+const DrawCanvasElements = (canvas, canvasBg, nodes, finalRoute, backgroundName) => {
   const context = canvas.getContext('2d')
 
   const bgHeight = canvasBg.naturalHeight
@@ -10,9 +10,15 @@ const DrawCanvasElements = (canvas, canvasBg, teleports, nodes, finalRoute, back
 
   context.drawImage(canvasBg, 0, 0, bgWidth, bgHeight,
                               0, 0, canvas.width, canvas.height);
+
   DrawCanvasInitial(canvas)
-  DrawTeleports(canvas, teleports, 'purple', 'purple', backgroundName)
-  DrawOptimalRoute(canvas, nodes, finalRoute.nodes, backgroundName)
+  DrawTeleports(canvas, nodes, 'purple', 'purple', backgroundName)
+  if (finalRoute) {
+    DrawOptimalRoute(canvas, finalRoute.nodes, backgroundName)
+  } else {
+    DrawOptimalRoute(canvas, [nodes[0], nodes[nodes.length - 1]], backgroundName)
+  }
+  
 }
 
 export default DrawCanvasElements
