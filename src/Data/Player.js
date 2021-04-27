@@ -1,4 +1,4 @@
-import continents from "./ContinentDB"
+import continents from './ContinentDB'
 import Point from "./Point"
 
 const PlayerInfo = {

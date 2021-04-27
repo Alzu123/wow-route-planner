@@ -4,6 +4,7 @@ import Canvas from './Canvas/Canvas'
 import NumberLabel from './NumberLabel'
 
 import continents from '../Data/ContinentDB'
+import namedLocations from '../Data/LocationDB'
 import PlayerInfo from '../Data/Player'
 
 import RouteToDestination from '../Components/Calculations/RouteToDestination'
@@ -17,6 +18,7 @@ import TeleportsPanel from './TeleportsPanel'
 import ConfigurationPanel from './ConfigurationPanel'
 import InfoPanel from './InfoPanel'
 import MapSettings from './MapSettings'
+import PointSearch from './PointSearch'
 
 const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showInfo }) => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
@@ -25,6 +27,10 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
   const [ routeGoodness, setRouteGoodness ] = useState(1)
   const [ routeOrder, setRouteOrder ] = useState('preference')
+  const [ customStartText, setCustomStartText ] = useState('')
+  const [ customEndText, setCustomEndText ] = useState('')
+  const [ startPropChanged, setStartPropChanged ] = useState(false)
+  const [ endPropChanged, setEndPropChanged ] = useState(false)
 
   const changeBackground = (event) => {
     event.preventDefault()
@@ -39,13 +45,52 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
     const position = new Point(canvasAdjustedCoordinates.x, canvasAdjustedCoordinates.y, targetContinent)
 
     if (editingStart) {
+      setStartPropChanged(true)
+      setCustomStartText([`${Math.round(canvasAdjustedCoordinates.x * 10) / 10}, ${Math.round(canvasAdjustedCoordinates.y * 10) / 10} in ${targetContinent.name}`])
       setStartPosition(position)
       setTeleports(ProcessTeleports(teleports, position))
     } else {
+      setEndPropChanged(true)
+      setCustomEndText([`${Math.round(canvasAdjustedCoordinates.x * 10) / 10}, ${Math.round(canvasAdjustedCoordinates.y * 10) / 10} in ${targetContinent.name}`])
       setEndPosition(position)
     }
 
     setRouteGoodness(1)
+  }
+
+  const resetPropChange = (event) => {
+    setStartPropChanged(false)
+    setEndPropChanged(false)
+  }
+
+  const updateStartFromText = (event) => {
+    if (!event[0]) {
+      return
+    }
+
+    const targetLocation = namedLocations.find(loc => loc.name === event[0].name)
+    if (!targetLocation) {
+      return
+    }
+
+    const newPosition = targetLocation.position
+    setStartPropChanged(false)
+    setStartPosition(newPosition)
+  }
+
+  const updateEndFromText = (event) => {
+    if (!event[0]) {
+      return
+    }
+
+    const targetLocation = namedLocations.find(loc => loc.name === event[0].name)
+    if (!targetLocation) {
+      return
+    }
+
+    const newPosition = targetLocation.position
+    setEndPropChanged(false)
+    setEndPosition(newPosition)
   }
 
   const updateClickEditTarget = (event) => {
@@ -119,7 +164,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
         <Col id='left' xs={12} md={4}>
           <Row>
             <Col>
-              Add here textboxes for entering start and end points. The default values get the current position so the old position element is no longer needed.
+              <PointSearch customStartValue={customStartText} setCurrentStart={updateStartFromText} customEndValue={customEndText} setCurrentEnd={updateEndFromText} startPropChanged={startPropChanged} endPropChanged={endPropChanged} resetPropChange={resetPropChange}/>
             </Col>
           </Row>
           <Row>
