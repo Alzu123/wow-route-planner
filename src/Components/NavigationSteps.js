@@ -3,42 +3,76 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import ToggleTeleport from './ToggleTeleport'
 
+function formatTimeText(seconds) {
+  // The time is always in seconds or minutes so no need to handle anything else
+  let minutes = Math.floor(seconds / 60)
+  seconds = seconds - 60 * minutes 
+
+  if (minutes > 0) {
+    return `${minutes} min ${seconds} s`
+  }
+}
+
 const NavigationSteps = ({ finalRoute, onClick }) => {
   if (!finalRoute) {
-    return 'Couldn\'t find a route.'
+    return 'Couldn\'t find a route with the available teleports.'
   }
-  const routeNodes = finalRoute.nodes
-  const totalFlying = Math.round(finalRoute.totalFlyDistance + Number.EPSILON)
-  const totalTime = Math.round(finalRoute.preference + Number.EPSILON)
+  const routeNodes = finalRoute.nodes.filter((_, i) => i !== 0 && i !== finalRoute.nodes.length - 0)
+  const totalFlying = Math.round(finalRoute.totalTravelDistance + Number.EPSILON)
+  const totalTime = Math.round(finalRoute.totalTime + Number.EPSILON)
+
+  let shownSteps = []
+  let runningKey = 1
+  routeNodes.forEach(function(node) {
+    if (node.distanceFromPreviousNode > 0) {
+      shownSteps.push({
+        name: node.origin.description,
+        destination: node.origin,
+        distance: node.distanceFromPreviousNode,
+        isNode: false,
+        key: runningKey
+      })
+      runningKey += 1
+    }
+    shownSteps.push({...node, isNode: true, key: runningKey})
+    runningKey += 1
+  })
+
+  shownSteps = shownSteps.filter((_, i) => i !== shownSteps.length - 1)
+  console.log('navsteps:',shownSteps)
 
   return (
-    <Container id='navigation-text'>
-      <Row key={0} id='navigation-header' className='bold'>
-        <Col>Name</Col>
-        <Col>Destination</Col>
-        <Col className='align-right' xs={2}>Disable</Col>
+    <Container className='no-side-padding'>
+      <Row key={0} className='muted navigation-step-row '>
+        <Col>{totalFlying} yd</Col>
+        <Col className='align-right'>{formatTimeText(totalTime)}</Col>
       </Row>
 
-      {routeNodes.map(function(node, index) {
-        const startOrEnd = index === 0 || index === routeNodes.length - 1
-
-        if (!startOrEnd) {
+      {shownSteps.map(function(step) {
+        if (step.isNode) {
           return (
-            <Row id={node.id} key={node.id}>
-              <Col>{index}. {node.name}</Col>
-              <Col>{node.destination.description}</Col>
-              <Col className='align-right' xs={2}><ToggleTeleport onClick={onClick} teleport={node} text='Disable'/></Col>
-            </Row>
+            <Container className='no-side-padding navigation-step-row light-bottom-border' key={step.key}>
+              <Row id={step.id}>
+                <Col className='bold'>{step.name}</Col>
+                <Col className='align-right' xs={3}><ToggleTeleport onClick={onClick} teleport={step} text='Disable'/></Col>
+              </Row>
+              <Row>
+                <Col className='muted inner'>to {step.destination.description}</Col>
+              </Row>
+            </Container>
+          )
+        } else {
+          return (
+            <Container className='no-side-padding navigation-step-row light-bottom-border' key={step.key}>
+              <Row id={step.id}>
+                <Col className='bold'>Fly to {step.name}</Col>
+                <Col className='align-right muted' xs={3}>{Math.round(step.distance)} yards</Col>
+              </Row>
+            </Container>
           )
         }
-        return ''
+          
       })}
-
-      <Row key={finalRoute.nodes.length - 1}>
-        <Col>{finalRoute.nodes.length - 1}. Fly to your destination</Col>
-      </Row>
-      <br></br>
-      The route requires {totalFlying} yards of travelling. It takes {totalTime} seconds to get to your destination.
     </Container>
   )
 }

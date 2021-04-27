@@ -52,8 +52,23 @@ code {
   font-weight: bold;
 }
 
-#navigation-text {
-  padding-left: 0px;
+.no-side-padding {
+  padding: 0;
+}
+
+.inner {
+  margin-left: 15px;
+}
+
+.light-bottom-border {
+  border-bottom: rgb(201, 201, 201);
+  border-bottom-style: solid;
+  border-width: 0.5px;
+}
+
+.navigation-step-row {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 ol {
@@ -101,9 +116,6 @@ canvas {
 }
 
 .subsection {
-  border-bottom: rgb(201, 201, 201);
-  border-bottom-style: solid;
-  border-width: 0.5px;
   margin-bottom: 8px;
   padding-bottom: 8px;
 }

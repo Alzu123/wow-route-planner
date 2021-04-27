@@ -17,7 +17,7 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
               <Form.Text muted>
                 Green = all active, yellow = some active, red = none active, grey = none available.
               </Form.Text>
-              <Form.Group className='subsection' id='Class'>
+              <Form.Group className='subsection light-bottom-border' id='Class'>
                 <Form.Row>
                   <Form.Label column lg={2}>
                     Class
@@ -44,7 +44,7 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
                   <ToggleRestrictions teleports={teleports} type='Class' value='Warrior' onClick={onClick}/>
                 </Form.Row>
               </Form.Group>
-              <Form.Group className='subsection' id='Race'>
+              <Form.Group className='subsection light-bottom-border' id='Race'>
                 <Form.Row>
                   <Form.Label column lg={2}>
                     Race
@@ -52,7 +52,7 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
                   <ToggleRestrictions teleports={teleports} type='Race' value='Dark Iron Dwarf' onClick={onClick}/>
                 </Form.Row>
               </Form.Group>
-              <Form.Group className='subsection' id='Faction'>
+              <Form.Group className='subsection light-bottom-border' id='Faction'>
                 <Form.Row>
                   <Form.Label column lg={2}>
                     Faction
@@ -63,7 +63,7 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
                   <Col></Col>
                 </Form.Row>
               </Form.Group>
-              <Form.Group className='subsection' id='Profession'>
+              <Form.Group className='subsection light-bottom-border' id='Profession'>
                 <Form.Row>
                   <Form.Label column lg={2}>
                     Profession
@@ -74,7 +74,7 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
                   <Col></Col>
                 </Form.Row>
               </Form.Group>
-              <Form.Group className='subsection' id='Covenant'>
+              <Form.Group className='subsection light-bottom-border' id='Covenant'>
                 <Form.Row>
                   <Form.Label column lg={2}>
                   Covenant

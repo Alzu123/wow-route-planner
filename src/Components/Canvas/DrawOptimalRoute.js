@@ -10,22 +10,24 @@ import DrawLineToCanvas from "./DrawLineToCanvas"
   return `rgb(${red}, ${green}, 0)`;
 } */
 
-export const DrawOptimalRoute = (canvas, optimalRoute, backgroundName) => {
+export const DrawOptimalRoute = (canvas, optimalRoute, backgroundName, drawRoute = true) => {
 
-  for (let i = 0; i < optimalRoute.length - 1; i++) {
-    const currentNode =  optimalRoute[i]
-    const nextNode = optimalRoute[i + 1]
-
-    // Draw lines for teleports
-    DrawLineToCanvas(canvas, currentNode.origin.position, currentNode.destination.position, 'purple', backgroundName)
-
-    // Draw lines for flying
-    DrawLineToCanvas(canvas, currentNode.destination.position, nextNode.origin.position, 'cyan', backgroundName)
-
-    // Draw points for used teleports
-    
-    DrawPointToCanvas(canvas, currentNode.origin.position, 5, 'yellow', backgroundName)
-    DrawPointToCanvas(canvas, currentNode.destination.position, 5, 'yellow', backgroundName)
+  if (drawRoute) {
+    for (let i = 0; i < optimalRoute.length - 1; i++) {
+      const currentNode =  optimalRoute[i]
+      const nextNode = optimalRoute[i + 1]
+  
+      // Draw lines for teleports
+      DrawLineToCanvas(canvas, currentNode.origin.position, currentNode.destination.position, 'purple', backgroundName)
+  
+      // Draw lines for flying
+      DrawLineToCanvas(canvas, currentNode.destination.position, nextNode.origin.position, 'cyan', backgroundName)
+  
+      // Draw points for used teleports
+      
+      DrawPointToCanvas(canvas, currentNode.origin.position, 5, 'yellow', backgroundName)
+      DrawPointToCanvas(canvas, currentNode.destination.position, 5, 'yellow', backgroundName)
+    }
   }
 
   // Draw start and end points separately on top of other drawings

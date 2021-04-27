@@ -60,6 +60,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   }
 
   const toggleAvailability = (event) => {
+    console.log(event)
     const listGroupItemId = event.target.parentNode.parentNode.id
     const teleportIds = [parseInt(listGroupItemId)]
     setTeleports(ToggleTeleports(teleports, teleportIds))
@@ -108,7 +109,6 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   const candidateRoutes = routeDetails.candidateRoutes.slice(0, 50)
   const orderedRoutes = candidateRoutes.sort((a, b) => (a[routeOrder] > b[routeOrder]) ? 1 : -1)
   const finalRoute = orderedRoutes[routeGoodness - 1]
-  console.log(orderedRoutes)
 
 
   return (

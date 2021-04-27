@@ -16,7 +16,8 @@ const DrawCanvasElements = (canvas, canvasBg, nodes, finalRoute, backgroundName)
   if (finalRoute) {
     DrawOptimalRoute(canvas, finalRoute.nodes, backgroundName)
   } else {
-    DrawOptimalRoute(canvas, [nodes[0], nodes[nodes.length - 1]], backgroundName)
+    console.log('lol')
+    DrawOptimalRoute(canvas, [nodes[0], nodes[nodes.length - 1]], backgroundName, false)
   }
   
 }
