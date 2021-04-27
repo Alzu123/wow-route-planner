@@ -1,15 +1,13 @@
-import { Form } from 'react-bootstrap'
+import { Form, Row } from 'react-bootstrap'
 
 const ClickSelector = ({ updateClickEditTarget }) => {
   
   return (
     <Form>
       <Form.Group controlId="startEndSelect">
-        <Form.Label>Select which point you wish to edit</Form.Label>
-        <Form.Control as="select" onChange={updateClickEditTarget}>
-          <option value="start">Start point</option>
-          <option value="end">End point</option>
-        </Form.Control>
+        <Form.Label as={Row}>Select which point you wish to edit</Form.Label>
+        <Form.Check inline type='radio' label='Start point' id='start-point' name='startEndSelect' onChange={updateClickEditTarget}></Form.Check>
+        <Form.Check inline type='radio' label='End point' id='end-point' name='startEndSelect' onChange={updateClickEditTarget}></Form.Check>
       </Form.Group>
     </Form>
   )

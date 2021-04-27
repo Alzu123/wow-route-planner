@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react'
+import { Container } from 'react-bootstrap'
 
 import DrawCanvasElements from './DrawCanvasElements'
 
@@ -34,9 +35,9 @@ const Canvas = (props) => {
   }, [props.continent, props.nodes, props.finalRoute])
   
   return (
-  <div>
-    <canvas width={canvasWidth} height={canvasHeight} ref={canvasRef} onClick={props.onClick}/>
-  </div>
+    <Container className='full'>
+      <canvas width={canvasWidth} height={canvasHeight} ref={canvasRef} onClick={props.onClick}/>
+    </Container>
   )
 }
 

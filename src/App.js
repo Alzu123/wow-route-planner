@@ -40,7 +40,7 @@ const App = () => {
   //GenerateTeleportJson()
 
   return (
-    <div>
+    <div className='full'>
       <Header showTabs={showTabs}/>
       <Body showTeleports={isTeleportsShown} teleports={teleports} setTeleports={setTeleports} showConfiguration={isConfigurationShown} showInfo={isInfoShown}/>
     </div>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import NavigationSteps from './NavigationSteps'
 import Canvas from './Canvas/Canvas'
-import Position from './Position'
 import NumberLabel from './NumberLabel'
 
 import continents from '../Data/ContinentDB'
@@ -14,11 +13,10 @@ import ToggleTeleports from '../Data/Teleport Processing/ToggleTeleports'
 import Point from '../Data/Point'
 
 import { Container, Row, Col } from 'react-bootstrap'
-import ClickSelector from './ClickSelector'
-import BackgroundSelector from './BackgroundSelector'
 import TeleportsPanel from './TeleportsPanel'
 import ConfigurationPanel from './ConfigurationPanel'
 import InfoPanel from './InfoPanel'
+import MapSettings from './MapSettings'
 
 const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showInfo }) => {
   const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
@@ -51,8 +49,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   }
 
   const updateClickEditTarget = (event) => {
-    event.preventDefault()
-    if (event.target.value === "start") {
+    if (event.target.id === "start-point") {
       setEditingStart(true)
     } else {
       setEditingStart(false)
@@ -116,19 +113,13 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
       <TeleportsPanel show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
       <ConfigurationPanel show={showConfiguration} onClick={toggleTeleportsByRestriction} teleports={teleports} updateConfiguration={updateConfiguration} defaultPreference={routeOrder}/>
       <InfoPanel show={showInfo}/>
+      <MapSettings updateClickEditTarget={updateClickEditTarget} continent={continent} changeBackground={changeBackground}/>
 
       <Row className='full'>
-        <Col id='left' xs={12} md={4} className='full'>
+        <Col id='left' xs={12} md={4}>
           <Row>
             <Col>
-              <ClickSelector updateClickEditTarget={updateClickEditTarget} />
-              <BackgroundSelector continent={continent} changeBackground={changeBackground}/>
-          </Col>
-          </Row>
-          <Row id='position'>
-            <Col>
-              <Position pretext={'Player:'} position={startPosition}/>
-              <Position pretext={'Destination:'} position={endPosition}/>
+              Add here textboxes for entering start and end points. The default values get the current position so the old position element is no longer needed.
             </Col>
           </Row>
           <Row>

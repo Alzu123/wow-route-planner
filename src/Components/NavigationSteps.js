@@ -39,7 +39,6 @@ const NavigationSteps = ({ finalRoute, onClick }) => {
   })
 
   shownSteps = shownSteps.filter((_, i) => i !== shownSteps.length - 1)
-  console.log('navsteps:',shownSteps)
 
   return (
     <Container className='no-side-padding'>
