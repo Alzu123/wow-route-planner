@@ -4,9 +4,6 @@ import PredictiveSearchField from './PredictiveSearchField'
 import namedLocations from '../Data/LocationDB'
 
 const PointSearch = ( props ) => {
-  const options = namedLocations.map(loc => loc.name)
-  
-  //<PredictiveSearchField options={options} placeholder={'Enter end location...'} onChange={props.setCurrentEnd} value={props.customEndValue}/>    
   return (
     <Form>
       <Form.Group controlId="startEndSelect">
