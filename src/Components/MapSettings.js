@@ -2,16 +2,24 @@ import React from 'react'
 
 import ClickSelector from './ClickSelector'
 import BackgroundSelector from './BackgroundSelector'
-import { Card } from 'react-bootstrap'
+import { Accordion, Card } from 'react-bootstrap'
 
 const MapSettings = ({ updateClickEditTarget, continent, changeBackground }) => {
 
   return (
-    <Card className='overlay-1 settings-card'>
-      <Card.Title>Map settings</Card.Title>
-      <ClickSelector updateClickEditTarget={updateClickEditTarget} />
-      <BackgroundSelector continent={continent} changeBackground={changeBackground}/>
-    </Card>
+    <Accordion>
+      <Card className='overlay-1 settings-card'>
+        <Accordion.Toggle as={Card.Header} eventKey='0'>
+          Map Settings
+        </Accordion.Toggle>
+        <Accordion.Collapse eventKey='0'>
+          <Card.Body>
+            <ClickSelector updateClickEditTarget={updateClickEditTarget} />
+            <BackgroundSelector continent={continent} changeBackground={changeBackground}/>
+          </Card.Body>
+        </Accordion.Collapse>
+      </Card>
+    </Accordion>
   )
 }
 

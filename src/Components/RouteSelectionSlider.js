@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Form, Col } from 'react-bootstrap'
 
-const Position = ({ value, onClick, numRoutes }) => {
+const RouteSelectionSlider = ({ value, onClick, numRoutes }) => {
   const routesFound = numRoutes > 0
 
   return (
@@ -16,4 +16,4 @@ const Position = ({ value, onClick, numRoutes }) => {
   )
 }
 
-export default Position
+export default RouteSelectionSlider

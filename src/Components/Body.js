@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import NavigationSteps from './NavigationSteps'
 import Canvas from './Canvas/Canvas'
-import NumberLabel from './NumberLabel'
+import RouteSelectionSlider from './RouteSelectionSlider'
 
 import continents from '../Data/ContinentDB'
 import namedLocations from '../Data/LocationDB'
@@ -169,7 +169,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
           </Row>
           <Row>
             <Col>
-              <NumberLabel value={routeGoodness} onClick={updateRouteGoodness} numRoutes={candidateRoutes.length} />
+              <RouteSelectionSlider value={routeGoodness} onClick={updateRouteGoodness} numRoutes={candidateRoutes.length} />
               <NavigationSteps onClick={toggleAvailability} finalRoute={finalRoute} />
             </Col>
           </Row>

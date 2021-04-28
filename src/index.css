@@ -68,6 +68,8 @@ code {
   padding-top: 30px;
   overflow-y: auto;
   height: inherit;
+  z-index: 1;
+  box-shadow: 0 0 5px;
 }
 
 #position {
@@ -177,14 +179,14 @@ canvas {
 
 .overlay-1{
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   border: solid 1px gray;
   overflow-y: auto
 }
 
 .overlay-2{
   position: absolute;
-  z-index: 2;
+  z-index: 20;
   border: solid 1px gray;
   overflow-y: auto
 }
@@ -207,11 +209,11 @@ canvas {
 }
 
 .settings-card {
-  padding-top: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
   bottom: 0;
   right: 0;
+  min-width: 251px;
+  box-shadow: 0 0 2px;
+  border-radius: 0;
 }
 
 .rbt {

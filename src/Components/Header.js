@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Nav, Media } from 'react-bootstrap'
 
 const Header = ({ showTabs }) => {
-  const icon = require('../Data/Images/WoW-Icon.jpg').default
+  const icon = require('../Data/Images/Icons/WoW-Icon.jpg').default
 
   return (
     <Navbar bg='header' variant='dark' expand='md' id='header'>
@@ -26,7 +26,7 @@ const Header = ({ showTabs }) => {
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='mr-auto' defaultActiveKey="#home">
           <Nav.Link onSelect={showTabs} href='#home'>Home</Nav.Link>
-          <Nav.Link onSelect={showTabs} href='#teleports'>Teleports</Nav.Link>
+          <Nav.Link onSelect={showTabs} href='#teleports'>Set Teleports</Nav.Link>
           <Nav.Link onSelect={showTabs} href='#configuration'>Configure</Nav.Link>
           <Nav.Link onSelect={showTabs} href='#info'>Info</Nav.Link>
         </Nav>
