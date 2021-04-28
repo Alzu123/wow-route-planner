@@ -9,7 +9,7 @@ const fancifyCoordinates = (coordinates) => {
 const TeleportsPanel = ({ show, teleports, onClick }) => {
   if (show) {
     return (
-      <Jumbotron className='overlay teleports'>
+      <Jumbotron className='overlay-2 teleports'>
         <h1 className='jumbotron-title'>List of all teleports</h1>
         <p className='jumbotron-subtitle muted'>You can enable and disable any teleports here. Green button means that the teleport is active whereas red means inactive.</p>
         <ListGroup>

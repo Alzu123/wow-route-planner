@@ -12,7 +12,6 @@ const PredictiveSearchField = ( props ) => {
 
   return (
     <Typeahead
-      clearButton
       id="basic-typeahead-single"
       labelKey="name"
       options={props.options}

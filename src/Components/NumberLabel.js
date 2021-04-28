@@ -5,7 +5,7 @@ const Position = ({ value, onClick, numRoutes }) => {
   const routesFound = numRoutes > 0
 
   return (
-    <Form className='route-selection light-bottom-border'>
+    <Form className='route-selection light-bottom-border wide'>
       <Form.Label className='bold'>Route selection</Form.Label>
       <Form.Group as={Row} controlId="routeOrdinal">
         <Col xs={2}>Best</Col>

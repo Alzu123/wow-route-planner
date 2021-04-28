@@ -1,15 +1,30 @@
 import React from 'react'
-
-import { Navbar , Nav } from 'react-bootstrap'
+import { Navbar, Nav, Media } from 'react-bootstrap'
 
 const Header = ({ showTabs }) => {
+  const icon = require('../Data/Images/WoW-Icon.jpg').default
 
   return (
-    <Navbar bg='light' expand='md' id='header'>
-      <Navbar.Brand onClick={showTabs} href='#home'>WoW Route Finder</Navbar.Brand>
+    <Navbar bg='header' variant='dark' expand='md' id='header'>
+      <Navbar.Brand onClick={showTabs} href='#home'>
+        <Media>
+          <img
+            alt='World of Warcraft game icon'
+            src={icon}
+            width='40px'
+            height='40px'
+            className='d-inline-block align-self-center'
+            id='logo-img'
+          />
+          <Media.Body>
+            <div id='logo-title'>WoW</div>
+            <div id='logo-subtitle'>Route Planner</div>
+          </Media.Body>
+        </Media>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
-        <Nav variant='tabs' className='mr-auto'>
+        <Nav className='mr-auto' defaultActiveKey="#home">
           <Nav.Link onSelect={showTabs} href='#home'>Home</Nav.Link>
           <Nav.Link onSelect={showTabs} href='#teleports'>Teleports</Nav.Link>
           <Nav.Link onSelect={showTabs} href='#configuration'>Configure</Nav.Link>

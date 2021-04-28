@@ -29,6 +29,7 @@ const NavigationSteps = ({ finalRoute, onClick }) => {
         name: node.origin.description,
         destination: node.origin,
         distance: node.distanceFromPreviousNode,
+        isFlyable: node.origin.position.continent.isFlyable,
         isNode: false,
         key: runningKey
       })
@@ -41,7 +42,7 @@ const NavigationSteps = ({ finalRoute, onClick }) => {
   shownSteps = shownSteps.filter((_, i) => i !== shownSteps.length - 1)
 
   return (
-    <Container className='no-side-padding'>
+    <Container className='no-side-padding navigation-steps'>
       <Row key={0} className='muted navigation-step-row '>
         <Col>{totalFlying} yd</Col>
         <Col className='align-right'>{formatTimeText(totalTime)}</Col>

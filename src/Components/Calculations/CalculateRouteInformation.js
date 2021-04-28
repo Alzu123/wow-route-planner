@@ -25,6 +25,19 @@ const CalculateRouteInformation = (routes) => {
     const cumulativeTravelDistance = route.nodes.reduce(function (sum, node) {return sum + node.distanceFromPreviousNode}, 0)
     return({...route, totalTravelDistance: cumulativeTravelDistance}
   )})
+
+  // Calculate the time for each step of the route
+  routes = routes.map(route => ({...route, nodes: route.nodes.map(function(node, i) {
+    if (i === 0) {
+      return ({...node, timeFromPreviousNode: 0})
+    }
+    return ({...node, timeFromPreviousNode: node.distanceFromPreviousNode / GetSpeed(node.destination.position.continent.isFlyable)})
+  })}))
+
+  // Calculate the total time taken for route
+  routes = routes.map(route => ({...route, totalTime: route.nodes.reduce(function (sum, node) {
+    return sum + node.castTime + node.travelTime + node.numLoadingScreens * TIME_IN_LOADING_SCREENS + node.timeFromPreviousNode
+  }, 0)}))
   
   // Estimate preference based on flying required and route cost
   routes = routes.map(function(route) {
@@ -36,11 +49,6 @@ const CalculateRouteInformation = (routes) => {
 
   // Count number of loading screens
   routes = routes.map(route => ({...route, totalLoadingScreens: route.nodes.reduce(function (sum, node) {return sum + node.numLoadingScreens}, 0)}))
-
-  // Calculate the total time taken for route
-  routes = routes.map(route => ({...route, totalTime: route.nodes.reduce(function (sum, node) {
-    return sum + node.castTime + node.travelTime + node.numLoadingScreens * TIME_IN_LOADING_SCREENS + node.distanceFromPreviousNode / GetSpeed(node.destination.position.continent.isFlyable)
-  }, 0)}))
 
   // Estimate scenery value
   routes = routes.map(route => ({...route, sceneryValue: route.nodes.reduce(function (sum, node) {

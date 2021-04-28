@@ -5,7 +5,7 @@ import ToggleRestrictions from './ToggleRestriction'
 const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, defaultPreference }) => {
   if (show) {
     return (
-      <Jumbotron className='overlay'>
+      <Jumbotron className='overlay-2'>
         <h1 className='jumbotron-title'>Configuration settings</h1>
         <p className='jumbotron-subtitle muted'></p>
         <form onSubmit={updateConfiguration}>

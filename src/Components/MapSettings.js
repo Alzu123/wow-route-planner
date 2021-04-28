@@ -7,7 +7,7 @@ import { Card } from 'react-bootstrap'
 const MapSettings = ({ updateClickEditTarget, continent, changeBackground }) => {
 
   return (
-    <Card className='overlay settings-card'>
+    <Card className='overlay-1 settings-card'>
       <Card.Title>Map settings</Card.Title>
       <ClickSelector updateClickEditTarget={updateClickEditTarget} />
       <BackgroundSelector continent={continent} changeBackground={changeBackground}/>
