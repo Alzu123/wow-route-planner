@@ -1,6 +1,10 @@
 import WorldCoordinatesToCanvasCoordinates from "../Calculations/Coordinates/WorldCoordinatesToCanvasCoordinates"
 
 export const DrawPointToCanvas = (canvas, position, size, fill, backgroundName, text) => {
+  if (!position) {
+    return
+  }
+  
   if (position.continent.name !== backgroundName) {
     return
   }

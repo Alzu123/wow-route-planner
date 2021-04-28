@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Nav, Media } from 'react-bootstrap'
 
 const Header = ({ showTabs }) => {
-  const icon = require('../Data/Images/Icons/WoW-Icon.jpg').default
+  const icon = require('../Data/Images/Icons/Logo.png').default
 
   return (
     <Navbar bg='header' variant='dark' expand='md' id='header'>

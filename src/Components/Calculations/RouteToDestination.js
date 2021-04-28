@@ -1,5 +1,5 @@
 import Point from '../../Data/Point'
-import ProcessTeleports from '../../Data/Teleport Processing/ProcessTeleports'
+import UpdateFromPlayerTeleports from '../../Data/Teleport Processing/UpdateFromPlayerTeleports'
 import CalculateRouteInformation from './CalculateRouteInformation'
 import GetSpeed from './Speed/GetSpeed'
 
@@ -40,7 +40,7 @@ const RouteToDestination = ( startPosition, endPosition, teleports ) => {
   const acceptableCostIncrease = 1.2 // Maximum cost increase compared to optimal route to be considered.
 
   let nodes = []
-  const updatedTeleports = ProcessTeleports(teleports, startPosition).filter(teleport => teleport.enabled)
+  const updatedTeleports = UpdateFromPlayerTeleports(teleports, startPosition).filter(teleport => teleport.enabled)
 
   const startNode = {
     name: "Start",

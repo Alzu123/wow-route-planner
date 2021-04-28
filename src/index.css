@@ -84,7 +84,7 @@ code {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight:500;
 }
 
 .no-side-padding {
@@ -115,6 +115,11 @@ code {
 .navigation-step-row {
   margin-bottom: 12px;
   padding-bottom: 12px;
+}
+
+.navigation-step-text {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 ol {
@@ -216,6 +221,10 @@ canvas {
   border-radius: 0;
 }
 
+.card-header {
+  align-items: center;
+}
+
 .rbt {
   margin-bottom: 10px;
 }
@@ -225,4 +234,8 @@ canvas {
   padding-left: 30px;
   margin-right: -30px;
   margin-left: -30px;
+}
+
+.float-right {
+  float:initial;
 }

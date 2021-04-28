@@ -9,8 +9,8 @@ import PlayerInfo from '../Data/Player'
 
 import RouteToDestination from '../Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from '../Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
-import ProcessTeleports from '../Data/Teleport Processing/ProcessTeleports'
 import ToggleTeleports from '../Data/Teleport Processing/ToggleTeleports'
+import UpdateFromPlayerTeleports from '../Data/Teleport Processing/UpdateFromPlayerTeleports'
 import Point from '../Data/Point'
 
 import { Container, Row, Col } from 'react-bootstrap'
@@ -48,7 +48,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
       setStartPropChanged(true)
       setCustomStartText([`${Math.round(canvasAdjustedCoordinates.x * 10) / 10}, ${Math.round(canvasAdjustedCoordinates.y * 10) / 10} in ${targetContinent.name}`])
       setStartPosition(position)
-      setTeleports(ProcessTeleports(teleports, position))
+      setTeleports(UpdateFromPlayerTeleports(teleports, position))
     } else {
       setEndPropChanged(true)
       setCustomEndText([`${Math.round(canvasAdjustedCoordinates.x * 10) / 10}, ${Math.round(canvasAdjustedCoordinates.y * 10) / 10} in ${targetContinent.name}`])
@@ -102,7 +102,6 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   }
 
   const toggleAvailability = (event) => {
-    console.log(event)
     const listGroupItemId = event.target.parentNode.parentNode.id
     const teleportIds = [parseInt(listGroupItemId)]
     setTeleports(ToggleTeleports(teleports, teleportIds))

@@ -37,8 +37,6 @@ const App = () => {
     }
   }
 
-  //GenerateTeleportJson()
-
   return (
     <div className='full'>
       <Header showTabs={showTabs}/>
