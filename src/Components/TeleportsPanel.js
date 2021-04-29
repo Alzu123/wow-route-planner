@@ -5,7 +5,7 @@ import ToggleTeleport from './ToggleTeleport'
 const positionToPlainText = (location) => {
   const description = location.description
   const continent = location.position.continent.name
-  return `${description}, ${continent}`
+  return `${description}, ${continent} (${location.position.x}, ${location.position.y})`
 }
 
 const TeleportsPanel = ({ show, teleports, onClick }) => {

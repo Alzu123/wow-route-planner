@@ -17,7 +17,10 @@ const InfoPanel = ({ show }) => {
         <p className='jumbotron-text'>
           This is a small project to create a route guide for World of Warcraft. It takes teleports into account and calculates the fastest way to get from one place on Azeroth to the other.
         </p>
-        <p>
+        <p className='jumbotron-text'>
+          To plan a route, you can either search for locations from the search boxes on the left, or click the start and end points on the map. You can then select a route from a few relatively good possibilities.
+        </p>
+        <p className='jumbotron-text'>
           As of right now, default settings are hard-coded and have to be changed manually each time you load the site. Perhaps some day I'll create cookies for this site.
         </p>
         <h4>Map legend</h4>

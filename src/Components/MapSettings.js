@@ -7,7 +7,7 @@ import ContextAwareToggle from './ContextAwareToggle'
 
 const MapSettings = ({ updateClickEditTarget, continent, changeBackground }) => {
   return (
-    <Accordion>
+    <Accordion defaultActiveKey="0">
       <Card className='overlay-1 settings-card'>
         <ContextAwareToggle eventKey='0' headerText={'Map settings'}>Map Settings</ContextAwareToggle>
         <Accordion.Collapse eventKey='0'>

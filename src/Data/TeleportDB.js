@@ -328,15 +328,17 @@ const preprocessedTeleports = [
         x: 65.31,
         y: 43.23,
         continent: {
-          name: null,
-          image: null,
-          scale: null,
-          type: null,
-          isFlyable: null,
-          unreachableAreas: null
+          name: "Antoran Wastes, Argus",
+          image: {
+            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+          },
+          scale: 24.21504181624986,
+          type: 2,
+          isFlyable: false,
+          id: 10
         }
       },
-      description: "Antoran Wastes"
+      description: "Antoran Wastes, Argus"
     },
     fromPlayer: true,
     type: "Item",
@@ -630,7 +632,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -759,7 +761,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -928,7 +930,7 @@ const preprocessedTeleports = [
           id: 3
         }
       },
-      description: "Icecrown"
+      description: "Argent Tournament Grounds, Icecrown"
     },
     fromPlayer: true,
     type: "Item",
@@ -1561,7 +1563,7 @@ const preprocessedTeleports = [
           id: 3
         }
       },
-      description: "Dalaran"
+      description: "Old Dalaran"
     },
     fromPlayer: true,
     type: "Item",
@@ -1642,7 +1644,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -1771,7 +1773,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -1991,7 +1993,7 @@ const preprocessedTeleports = [
           id: 2
         }
       },
-      description: "Black Temple"
+      description: "Black Temple, Shadowmoon Valley"
     },
     fromPlayer: true,
     type: "Item",
@@ -2247,7 +2249,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 120
   },
   {
     name: "Boralus Portal Room",
@@ -2385,7 +2387,7 @@ const preprocessedTeleports = [
           id: 0
         }
       },
-      description: "Silithus"
+      description: "Magni's Encampment, Silithus"
     },
     fromPlayer: false,
     type: "Portal",
@@ -2733,7 +2735,7 @@ const preprocessedTeleports = [
           id: 14
         }
       },
-      description: "Nazjatar"
+      description: "Mezzamere, Nazjatar"
     },
     fromPlayer: false,
     type: "Portal",
@@ -8030,7 +8032,7 @@ const preprocessedTeleports = [
       description: "Teldrassil"
     },
     fromPlayer: false,
-    type: "World",
+    type: "Portal",
     enabled: true,
     cooldown: null,
     restrictions: {
@@ -8272,7 +8274,7 @@ const preprocessedTeleports = [
           id: 1
         }
       },
-      description: "Ghostlands"
+      description: "Gate to Eastern Plaguelands"
     },
     destination: {
       position: {
@@ -8345,7 +8347,7 @@ const preprocessedTeleports = [
           id: 1
         }
       },
-      description: "Eastern Plaguelands"
+      description: "Gate to Ghostlands"
     },
     fromPlayer: false,
     type: "Portal",
@@ -8437,7 +8439,7 @@ const preprocessedTeleports = [
           id: 1
         }
       },
-      description: "Eastern Plaguelands"
+      description: "Gate to Ghostlands"
     },
     destination: {
       position: {
@@ -8510,7 +8512,7 @@ const preprocessedTeleports = [
           id: 1
         }
       },
-      description: "Ghostlands"
+      description: "Gate to Eastern Plaguelands"
     },
     fromPlayer: false,
     type: "Portal",
@@ -8709,7 +8711,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -9562,7 +9564,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -9691,7 +9693,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -10104,7 +10106,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -10233,7 +10235,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -10381,7 +10383,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -10510,7 +10512,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -10664,7 +10666,7 @@ const preprocessedTeleports = [
           id: 13
         }
       },
-      description: "Mechagon"
+      description: "Mechagon Port"
     },
     destination: {
       position: {
@@ -12234,7 +12236,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -12363,7 +12365,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -12511,7 +12513,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -12640,7 +12642,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -14325,7 +14327,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -14802,7 +14804,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 120
   },
   {
     name: "Orgrimmar Zeppelin from Stranglethorn Vale",
@@ -14935,7 +14937,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 120
   },
   {
     name: "Orgrimmar Zeppelin from Thunder Bluff",
@@ -15036,7 +15038,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 0,
     castTime: 0,
-    travelTime: 250
+    travelTime: 405
   },
   {
     name: "Orgrimmar Zeppelin to Borean Tundra",
@@ -15113,7 +15115,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 120
   },
   {
     name: "Orgrimmar Zeppelin to Stranglethorn Vale",
@@ -15246,7 +15248,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 120
   },
   {
     name: "Orgrimmar Zeppelin to Thunder Bluff",
@@ -15347,7 +15349,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 0,
     castTime: 0,
-    travelTime: 250
+    travelTime: 405
   },
   {
     name: "Oribos to Ardenweald",
@@ -15361,7 +15363,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -15490,7 +15492,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -15638,7 +15640,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -15767,7 +15769,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -15915,7 +15917,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -16044,7 +16046,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -16192,7 +16194,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -16321,7 +16323,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -16469,7 +16471,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -16658,7 +16660,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -16787,7 +16789,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -17178,8 +17180,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 47.5,
-        y: 68.3,
+        x: 47.86,
+        y: 68.82,
         continent: {
           name: "Eastern Kingdoms",
           image: {
@@ -17260,10 +17262,10 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
-    travelTime: 0
+    travelTime: 10
   },
   {
     name: "Path of the Crescent Moon",
@@ -17285,8 +17287,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 55.1,
-        y: 73.2,
+        x: 53.28,
+        y: 68.82,
         continent: {
           name: "Draenor",
           image: {
@@ -17311,7 +17313,7 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
     travelTime: 0
@@ -17802,8 +17804,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 46.6,
-        y: 30.8,
+        x: 46.59,
+        y: 30.49,
         continent: {
           name: "Eastern Kingdoms",
           image: {
@@ -17884,7 +17886,7 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
     travelTime: 0
@@ -18059,8 +18061,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 44.8,
-        y: 72.8,
+        x: 42.73,
+        y: 73.63,
         continent: {
           name: "Draenor",
           image: {
@@ -18072,7 +18074,7 @@ const preprocessedTeleports = [
           id: 7
         }
       },
-      description: "Skyreach"
+      description: "Skyreach, Spires of Arak"
     },
     fromPlayer: true,
     type: "Spell",
@@ -18085,7 +18087,7 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
     travelTime: 0
@@ -18185,8 +18187,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 51.4,
-        y: 33,
+        x: 52.98,
+        y: 26.89,
         continent: {
           name: "Draenor",
           image: {
@@ -18211,7 +18213,7 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
     travelTime: 0
@@ -18236,8 +18238,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 39.3,
-        y: 61.9,
+        x: 40.32,
+        y: 64.02,
         continent: {
           name: "Draenor",
           image: {
@@ -18262,7 +18264,7 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
     numLoadingScreens: 1,
     castTime: 10,
     travelTime: 0
@@ -20170,7 +20172,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 120
   },
   {
     name: "Reaves",
@@ -20490,7 +20492,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -20619,7 +20621,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -22813,7 +22815,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 0
+    travelTime: 135
   },
   {
     name: "Stormwind Boat to Boralus",
@@ -22922,7 +22924,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 80
+    travelTime: 150
   },
   {
     name: "Stormwind Boat to Borean Tundra",
@@ -23031,7 +23033,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 70
+    travelTime: 135
   },
   {
     name: "Stormwind Cataclysm Portals",
@@ -25799,7 +25801,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -26940,7 +26942,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -28530,7 +28532,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 50
+    travelTime: 105
   },
   {
     name: "Time-Lost Artifact",
@@ -29841,7 +29843,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -29970,7 +29972,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -30361,7 +30363,7 @@ const preprocessedTeleports = [
     },
     fromPlayer: false,
     type: "Portal",
-    enabled: true,
+    enabled: false,
     cooldown: null,
     restrictions: {
       faction: "Horde",
@@ -30397,8 +30399,8 @@ const preprocessedTeleports = [
     },
     destination: {
       position: {
-        x: 47.3,
-        y: 22.3,
+        x: 46.39,
+        y: 22.76,
         continent: {
           name: "Kalimdor",
           image: {
@@ -30438,7 +30440,7 @@ const preprocessedTeleports = [
     },
     fromPlayer: false,
     type: "Portal",
-    enabled: true,
+    enabled: false,
     cooldown: null,
     restrictions: {
       faction: "Horde",
@@ -30447,7 +30449,193 @@ const preprocessedTeleports = [
       covenant: "",
       profession: ""
     },
-    verified: false,
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Warfront Arathi to Zulzadar Harbor",
+    note: "Up for a week every 3 weeks",
+    origin: {
+      position: {
+        x: 49.76,
+        y: 44.12,
+        continent: {
+          name: "Eastern Kingdoms",
+          image: {
+            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+          },
+          scale: 271.4677294568911,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 52.5,
+                y: 24.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 56.1,
+                y: 27.8,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.5,
+                y: 34.2,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 61.5,
+                y: 28.7,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              }
+            ],
+            [
+              {
+                x: 51,
+                y: 9.6,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 10.9,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 59.1,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              },
+              {
+                x: 51,
+                y: 0,
+                continent: "Eastern Kingdoms"
+              }
+            ]
+          ],
+          id: 1
+        }
+      },
+      description: "Arathi Highlands"
+    },
+    destination: {
+      position: {
+        x: 58.37,
+        y: 72.06,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 104.70838238275597,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
+      },
+      description: "Zulzadar Harbor"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: false,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Warfront Darkshore to Zulzadar Harbor",
+    note: "Up for a week every 3 weeks",
+    origin: {
+      position: {
+        x: 46.39,
+        y: 22.76,
+        continent: {
+          name: "Kalimdor",
+          image: {
+            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+          },
+          scale: 243.86543375958593,
+          type: 2,
+          isFlyable: true,
+          unreachableAreas: [
+            [
+              {
+                x: 24.9,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 34.5,
+                y: 9.8,
+                continent: "Kalimdor"
+              },
+              {
+                x: 38.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              },
+              {
+                x: 24.9,
+                y: 32.9,
+                continent: "Kalimdor"
+              }
+            ]
+          ],
+          id: 0
+        }
+      },
+      description: "Darkshore"
+    },
+    destination: {
+      position: {
+        x: 58.37,
+        y: 72.06,
+        continent: {
+          name: "Zandalar",
+          image: {
+            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+          },
+          scale: 104.70838238275597,
+          type: 2,
+          isFlyable: true,
+          id: 12
+        }
+      },
+      description: "Zulzadar Harbor"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: false,
+    cooldown: null,
+    restrictions: {
+      faction: "Horde",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: true,
     numLoadingScreens: 1,
     castTime: 0,
     travelTime: 0
@@ -30559,7 +30747,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 100
+    travelTime: 180
   },
   {
     name: "Wetlands Boat to Theramore",
@@ -30692,7 +30880,7 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
-    travelTime: 50
+    travelTime: 105
   },
   {
     name: "Wormhole Centrifuge",
@@ -31282,7 +31470,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -31445,7 +31633,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -31608,7 +31796,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -31771,7 +31959,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -31934,7 +32122,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -32097,7 +32285,7 @@ const preprocessedTeleports = [
           image: {
             default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
           },
-          scale: 7.412790697674418,
+          scale: 242.42424242424107,
           type: 2,
           isFlyable: false,
           unreachableAreas: [
@@ -32987,6 +33175,723 @@ const preprocessedTeleports = [
     verified: true,
     numLoadingScreens: 1,
     castTime: 0,
+    travelTime: 0
+  },
+  {
+    name: "Ve'nari's Refuge to Tremaculum",
+    note: "",
+    origin: {
+      position: {
+        x: 24.43,
+        y: 10.82,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 242.42424242424107,
+          type: 2,
+          isFlyable: false,
+          unreachableAreas: [
+            [
+              {
+                x: 37.9,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 37.9,
+                y: 100,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 100,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 62.8,
+                y: 44.3,
+                continent: "Shadowlands"
+              },
+              {
+                x: 62.8,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 44.3,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 50,
+                y: 6.8,
+                continent: "Shadowlands"
+              },
+              {
+                x: 50,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 6.8,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 29,
+                y: 21,
+                continent: "Shadowlands"
+              },
+              {
+                x: 29,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 21,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 33.2,
+                y: 47.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16.1,
+                y: 41.1,
+                continent: "Shadowlands"
+              },
+              {
+                x: 15.9,
+                y: 67.2,
+                continent: "Shadowlands"
+              },
+              {
+                x: 33.2,
+                y: 64.6,
+                continent: "Shadowlands"
+              }
+            ]
+          ],
+          id: 15
+        }
+      },
+      description: "The Maw"
+    },
+    destination: {
+      position: {
+        x: 22.01,
+        y: 6.24,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 242.42424242424107,
+          type: 2,
+          isFlyable: false,
+          unreachableAreas: [
+            [
+              {
+                x: 37.9,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 37.9,
+                y: 100,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 100,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 62.8,
+                y: 44.3,
+                continent: "Shadowlands"
+              },
+              {
+                x: 62.8,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 44.3,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 50,
+                y: 6.8,
+                continent: "Shadowlands"
+              },
+              {
+                x: 50,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 6.8,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 29,
+                y: 21,
+                continent: "Shadowlands"
+              },
+              {
+                x: 29,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 21,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 33.2,
+                y: 47.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16.1,
+                y: 41.1,
+                continent: "Shadowlands"
+              },
+              {
+                x: 15.9,
+                y: 67.2,
+                continent: "Shadowlands"
+              },
+              {
+                x: 33.2,
+                y: 64.6,
+                continent: "Shadowlands"
+              }
+            ]
+          ],
+          id: 15
+        }
+      },
+      description: "The Tremaculum, The Maw"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: true,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 10
+  },
+  {
+    name: "Ve'nari's Refuge to Beast Warrens",
+    note: "",
+    origin: {
+      position: {
+        x: 24.43,
+        y: 10.82,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 242.42424242424107,
+          type: 2,
+          isFlyable: false,
+          unreachableAreas: [
+            [
+              {
+                x: 37.9,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 37.9,
+                y: 100,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 100,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 62.8,
+                y: 44.3,
+                continent: "Shadowlands"
+              },
+              {
+                x: 62.8,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 44.3,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 50,
+                y: 6.8,
+                continent: "Shadowlands"
+              },
+              {
+                x: 50,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 6.8,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 29,
+                y: 21,
+                continent: "Shadowlands"
+              },
+              {
+                x: 29,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 21,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 33.2,
+                y: 47.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16.1,
+                y: 41.1,
+                continent: "Shadowlands"
+              },
+              {
+                x: 15.9,
+                y: 67.2,
+                continent: "Shadowlands"
+              },
+              {
+                x: 33.2,
+                y: 64.6,
+                continent: "Shadowlands"
+              }
+            ]
+          ],
+          id: 15
+        }
+      },
+      description: "The Maw"
+    },
+    destination: {
+      position: {
+        x: 25.31,
+        y: 14.62,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 242.42424242424107,
+          type: 2,
+          isFlyable: false,
+          unreachableAreas: [
+            [
+              {
+                x: 37.9,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 37.9,
+                y: 100,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 100,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 62.8,
+                y: 44.3,
+                continent: "Shadowlands"
+              },
+              {
+                x: 62.8,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 44.3,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 50,
+                y: 6.8,
+                continent: "Shadowlands"
+              },
+              {
+                x: 50,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 6.8,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 29,
+                y: 21,
+                continent: "Shadowlands"
+              },
+              {
+                x: 29,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 21,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 33.2,
+                y: 47.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16.1,
+                y: 41.1,
+                continent: "Shadowlands"
+              },
+              {
+                x: 15.9,
+                y: 67.2,
+                continent: "Shadowlands"
+              },
+              {
+                x: 33.2,
+                y: 64.6,
+                continent: "Shadowlands"
+              }
+            ]
+          ],
+          id: 15
+        }
+      },
+      description: "The Beastwarrens, The Maw"
+    },
+    fromPlayer: false,
+    type: "Portal",
+    enabled: true,
+    cooldown: null,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: true,
+    numLoadingScreens: 0,
+    castTime: 0,
+    travelTime: 5
+  },
+  {
+    name: "Scroll of Teleport: Theater of Pain",
+    note: "Consumed on use",
+    origin: {
+      position: {
+        x: 0,
+        y: 0,
+        continent: {
+          name: null,
+          image: null,
+          scale: null,
+          type: null,
+          isFlyable: null,
+          unreachableAreas: null
+        }
+      },
+      description: "Player"
+    },
+    destination: {
+      position: {
+        x: 62.8,
+        y: 22.2,
+        continent: {
+          name: "Shadowlands",
+          image: {
+            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+          },
+          scale: 242.42424242424107,
+          type: 2,
+          isFlyable: false,
+          unreachableAreas: [
+            [
+              {
+                x: 37.9,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 37.9,
+                y: 100,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 65.4,
+                continent: "Shadowlands"
+              },
+              {
+                x: 58.4,
+                y: 100,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 62.8,
+                y: 44.3,
+                continent: "Shadowlands"
+              },
+              {
+                x: 62.8,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 72.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 80.3,
+                y: 44.3,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 50,
+                y: 6.8,
+                continent: "Shadowlands"
+              },
+              {
+                x: 50,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 37,
+                continent: "Shadowlands"
+              },
+              {
+                x: 76.5,
+                y: 6.8,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 29,
+                y: 21,
+                continent: "Shadowlands"
+              },
+              {
+                x: 29,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 0,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16,
+                y: 21,
+                continent: "Shadowlands"
+              }
+            ],
+            [
+              {
+                x: 33.2,
+                y: 47.5,
+                continent: "Shadowlands"
+              },
+              {
+                x: 16.1,
+                y: 41.1,
+                continent: "Shadowlands"
+              },
+              {
+                x: 15.9,
+                y: 67.2,
+                continent: "Shadowlands"
+              },
+              {
+                x: 33.2,
+                y: 64.6,
+                continent: "Shadowlands"
+              }
+            ]
+          ],
+          id: 15
+        }
+      },
+      description: "Theater of Pain, Maldraxxus"
+    },
+    fromPlayer: true,
+    type: "Item",
+    enabled: true,
+    cooldown: 1,
+    restrictions: {
+      faction: "",
+      class: "",
+      race: "",
+      covenant: "",
+      profession: ""
+    },
+    verified: true,
+    numLoadingScreens: 1,
+    castTime: 10,
     travelTime: 0
   }
 ]

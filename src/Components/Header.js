@@ -6,7 +6,7 @@ const Header = ({ showTabs }) => {
 
   return (
     <Navbar bg='header' variant='dark' expand='md' id='header'>
-      <Navbar.Brand onClick={showTabs} href='#home'>
+      <Navbar.Brand onClick={showTabs} href='#'>
         <Media>
           <img
             alt='World of Warcraft game icon'
