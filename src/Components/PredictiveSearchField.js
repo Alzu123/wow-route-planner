@@ -35,7 +35,7 @@ const PredictiveSearchField = ( props ) => {
         <div>
           {option.name}
           <div>
-            <small className='muted'>{option.zone}</small>
+            <small>{option.zone}</small>
           </div>
         </div>
       )}
