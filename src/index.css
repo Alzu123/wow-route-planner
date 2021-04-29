@@ -48,7 +48,7 @@ code {
 }
 
 #body {
-  height: calc(100vh - 74px); /* 100% of screen size minus header. Would love to get a good solution for this. */
+  height: calc(100vh - 75px); /* 100% of screen size minus header. Would love to get a good solution for this. */
 }
 
 .full {
@@ -61,7 +61,6 @@ code {
 
 #left {
   background-color: whitesmoke;
-  max-width: 600px;
   min-width: 400px;
   padding-right: 50px;
   padding-left: 50px;
@@ -157,11 +156,11 @@ canvas {
 
 .jumbotron {
   padding-top: 15px;
-  top: 50px;
+  top: 74px;
   left: 5%;
   width: 90%;
   max-width: 1400px;
-  max-height: 90%;
+  max-height: 85%;
 }
 
 .jumbotron-title {
@@ -229,6 +228,7 @@ canvas {
   min-width: 251px;
   box-shadow: 0 0 2px;
   border-radius: 0;
+  text-align: left;
 }
 
 .card-header {

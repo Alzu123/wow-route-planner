@@ -147,11 +147,6 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
 
   useEffect(() => {
     setRouteDetails(RouteToDestination(startPosition, endPosition, teleports))
-  
-    if (startPosition) {
-      const pointString = `new Point(${Math.round(startPosition.x * 100)/100}, ${Math.round(startPosition.y * 100)/100}, continents.${startPosition.continent.name.replaceAll(' ', '_').replaceAll('\'', '').toUpperCase()}),`
-      console.log(pointString)
-    }
   }, [startPosition, endPosition, teleports]) // Run only when these variables change
 
   const nodes = routeDetails.nodes
@@ -164,7 +159,6 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
       <TeleportsPanel show={showTeleports} teleports={teleports} onClick={toggleAvailability}/>
       <ConfigurationPanel show={showConfiguration} onClick={toggleTeleportsByRestriction} teleports={teleports} updateConfiguration={updateConfiguration} defaultPreference={routeOrder}/>
       <InfoPanel show={showInfo}/>
-      <MapSettings updateClickEditTarget={updateClickEditTarget} continent={continent} changeBackground={changeBackground}/>
 
       <Row className='full'>
         <Col id='left' xs={12} md={4}>
@@ -183,6 +177,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
 
         <Col id='right' className='d-none d-sm-block overflow-hidden'>
           <Canvas onClick={updateStartOrEnd} nodes={nodes} finalRoute={finalRoute} continent={continent} startAndEnd={{start: startPosition, end: endPosition}}/>
+          <MapSettings updateClickEditTarget={updateClickEditTarget} continent={continent} changeBackground={changeBackground}/>
         </Col>
       </Row>
     </Container>

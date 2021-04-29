@@ -2,8 +2,10 @@ import React from 'react'
 import { Container, Jumbotron, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap'
 import ToggleTeleport from './ToggleTeleport'
 
-const fancifyCoordinates = (coordinates) => {
-  return `[${coordinates.x}, ${coordinates.y}]`
+const positionToPlainText = (location) => {
+  const description = location.description
+  const continent = location.position.continent.name
+  return `${description}, ${continent}`
 }
 
 const TeleportsPanel = ({ show, teleports, onClick }) => {
@@ -20,7 +22,7 @@ const TeleportsPanel = ({ show, teleports, onClick }) => {
                 <Row id={teleport.id}>
                   <Col xs={2}><ToggleTeleport onClick={onClick} teleport={teleport} text='Toggle'/></Col>
                   <Col xs={3}>{teleport.name}</Col>
-                  <Col>From {teleport.fromPlayer ? 'player' : fancifyCoordinates(teleport.origin.position)} to {fancifyCoordinates(teleport.destination.position)} in {teleport.destination.description}, {teleport.destination.position.continent.name}</Col>
+                  <Col>From {teleport.fromPlayer ? 'player' : positionToPlainText(teleport.origin)} to {positionToPlainText(teleport.destination)}</Col>
                 </Row>
               </Container>
             </ListGroupItem>)

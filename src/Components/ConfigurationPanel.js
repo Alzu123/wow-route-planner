@@ -107,7 +107,7 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
 
           <Form.Group as={Row}>
             <Col>
-              <Button type="submit">Submit</Button>
+              <Button type="submit">Apply preference</Button>
             </Col>
           </Form.Group>
         </form>
