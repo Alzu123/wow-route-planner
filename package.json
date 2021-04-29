@@ -2,7 +2,7 @@
   "name": "wow-teleport-map",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alzu123.github.io/wow-teleport-map/",
+  "homepage": "https://alzu123.github.io/wow-route-planner/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
