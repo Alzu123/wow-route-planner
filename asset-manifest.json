@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wow-teleport-map/static/css/main.25169f0f.chunk.css",
-    "main.js": "/wow-teleport-map/static/js/main.979ee8b3.chunk.js",
-    "main.js.map": "/wow-teleport-map/static/js/main.979ee8b3.chunk.js.map",
+    "main.css": "/wow-teleport-map/static/css/main.3d3381ee.chunk.css",
+    "main.js": "/wow-teleport-map/static/js/main.7a725c07.chunk.js",
+    "main.js.map": "/wow-teleport-map/static/js/main.7a725c07.chunk.js.map",
     "runtime-main.js": "/wow-teleport-map/static/js/runtime-main.df732839.js",
     "runtime-main.js.map": "/wow-teleport-map/static/js/runtime-main.df732839.js.map",
     "static/css/2.17cdf828.chunk.css": "/wow-teleport-map/static/css/2.17cdf828.chunk.css",
-    "static/js/2.b0216991.chunk.js": "/wow-teleport-map/static/js/2.b0216991.chunk.js",
-    "static/js/2.b0216991.chunk.js.map": "/wow-teleport-map/static/js/2.b0216991.chunk.js.map",
+    "static/js/2.bc53b697.chunk.js": "/wow-teleport-map/static/js/2.bc53b697.chunk.js",
+    "static/js/2.bc53b697.chunk.js.map": "/wow-teleport-map/static/js/2.bc53b697.chunk.js.map",
     "index.html": "/wow-teleport-map/index.html",
     "static/css/2.17cdf828.chunk.css.map": "/wow-teleport-map/static/css/2.17cdf828.chunk.css.map",
-    "static/css/main.25169f0f.chunk.css.map": "/wow-teleport-map/static/css/main.25169f0f.chunk.css.map",
-    "static/js/2.b0216991.chunk.js.LICENSE.txt": "/wow-teleport-map/static/js/2.b0216991.chunk.js.LICENSE.txt",
+    "static/css/main.3d3381ee.chunk.css.map": "/wow-teleport-map/static/css/main.3d3381ee.chunk.css.map",
+    "static/js/2.bc53b697.chunk.js.LICENSE.txt": "/wow-teleport-map/static/js/2.bc53b697.chunk.js.LICENSE.txt",
     "static/media/Antoran Wastes.jpg": "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg",
     "static/media/Broken Isles.jpg": "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg",
     "static/media/Deepholm.jpg": "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.df732839.js",
     "static/css/2.17cdf828.chunk.css",
-    "static/js/2.b0216991.chunk.js",
-    "static/css/main.25169f0f.chunk.css",
-    "static/js/main.979ee8b3.chunk.js"
+    "static/js/2.bc53b697.chunk.js",
+    "static/css/main.3d3381ee.chunk.css",
+    "static/js/main.7a725c07.chunk.js"
   ]
 }
