@@ -1,3 +1,4 @@
+import { CANVAS_TRAVEL_LINE_WIDTH } from "../../Data/ConfigConstants"
 import WorldCoordinatesToCanvasCoordinates from "../Calculations/Coordinates/WorldCoordinatesToCanvasCoordinates"
 
 export const DrawLineToCanvas = (canvas, startPosition, endPosition, fill, backgroundName) => {
@@ -11,7 +12,7 @@ export const DrawLineToCanvas = (canvas, startPosition, endPosition, fill, backg
 
   context.beginPath()
   context.strokeStyle = fill
-  context.lineWidth = "5"
+  context.lineWidth = CANVAS_TRAVEL_LINE_WIDTH
   context.moveTo(adjustedStart.x, adjustedStart.y)
   context.lineTo(adjustedEnd.x, adjustedEnd.y)
   context.stroke()

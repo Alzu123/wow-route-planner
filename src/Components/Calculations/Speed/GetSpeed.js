@@ -1,13 +1,12 @@
-import PlayerInfo from "../../../Data/Player"
-
+import { PLAYER_BASE_SPEED, PLAYER_SPEED_MODIFIER } from "../../../Data/ConfigConstants"
 
 const yardsToMeters = ( yards ) => {
   return yards * 0.9114
 }
 
 export const GetSpeed = ( flyable, unit ) => {
-  const speedMod = flyable ? PlayerInfo.speedModifier : 2
-  const baseSpeed = 7 // yd/s
+  const speedMod = flyable ? PLAYER_SPEED_MODIFIER : 2
+  const baseSpeed = PLAYER_BASE_SPEED
   const currentSpeed = baseSpeed * speedMod
 
   if (unit) {

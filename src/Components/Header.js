@@ -11,8 +11,8 @@ const Header = ({ showTabs }) => {
           <img
             alt='World of Warcraft game icon'
             src={icon}
-            width='40px'
-            height='40px'
+            width='45px'
+            height='45px'
             className='d-inline-block align-self-center'
             id='logo-img'
           />

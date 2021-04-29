@@ -1,3 +1,4 @@
+import { CANVAS_TELEPORT_SIZE } from "../../Data/ConfigConstants"
 import DrawPointToCanvas from "./DrawPointToCanvas"
 
 export const DrawTeleports = (canvas, teleports, originFill, destinationFill, backgroundName) => {
@@ -7,8 +8,8 @@ export const DrawTeleports = (canvas, teleports, originFill, destinationFill, ba
 
   teleports = teleports.filter(teleport => teleport.enabled)
   teleports.forEach(function(teleport) {
-    DrawPointToCanvas(canvas, teleport.origin.position, 5, originFill, backgroundName)
-    DrawPointToCanvas(canvas, teleport.destination.position, 5, destinationFill, backgroundName)
+    DrawPointToCanvas(canvas, teleport.origin.position, CANVAS_TELEPORT_SIZE, originFill, backgroundName)
+    DrawPointToCanvas(canvas, teleport.destination.position, CANVAS_TELEPORT_SIZE, destinationFill, backgroundName)
   })
 }
 

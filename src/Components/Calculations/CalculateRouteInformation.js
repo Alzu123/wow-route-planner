@@ -1,9 +1,9 @@
-import GetSpeed from './Speed/GetSpeed'
-import {TIME_IN_LOADING_SCREENS} from '../../Data/ConfigConstants'
+import { TIME_IN_LOADING_SCREENS} from '../../Data/ConfigConstants'
+import CalculateTravelTime from './CalculateTravelTime'
 
-const calculatePreference = (cost, travelDistance, flyable) => {
+const calculatePreference = (cost, travelDistance, position) => {
   // The result is roughly equal to seconds required for the route
-  return cost + travelDistance / GetSpeed(flyable)
+  return cost + CalculateTravelTime(travelDistance, position)
 }
 
 const CalculateRouteInformation = (routes) => {
@@ -31,7 +31,7 @@ const CalculateRouteInformation = (routes) => {
     if (i === 0) {
       return ({...node, timeFromPreviousNode: 0})
     }
-    return ({...node, timeFromPreviousNode: node.distanceFromPreviousNode / GetSpeed(node.destination.position.continent.isFlyable)})
+    return ({...node, timeFromPreviousNode: CalculateTravelTime(node.distanceFromPreviousNode, node.origin.position)})
   })}))
 
   // Calculate the total time taken for route
@@ -42,7 +42,7 @@ const CalculateRouteInformation = (routes) => {
   // Estimate preference based on flying required and route cost
   routes = routes.map(function(route) {
     const routePreference = route.nodes.reduce(function (sum, node) {
-      return sum + calculatePreference(node.cost, node.distanceFromPreviousNode, node.destination.position.continent.isFlyable)
+      return sum + calculatePreference(node.cost, node.distanceFromPreviousNode, node.origin.position)
     }, 0)
     return ({...route, preference: routePreference})
   })
@@ -52,7 +52,7 @@ const CalculateRouteInformation = (routes) => {
 
   // Estimate scenery value
   routes = routes.map(route => ({...route, sceneryValue: route.nodes.reduce(function (sum, node) {
-    return (sum - node.type === 'World' ? node.travelTime * 2 : 0) - node.distanceFromPreviousNode / GetSpeed(node.origin.position.continent.isFlyable)
+    return (sum - node.type === 'World' ? node.travelTime * 2 : 0) - CalculateTravelTime(node.distanceFromPreviousNode, node.origin.position)
   }, 0)}))
 
 

@@ -1,15 +1,11 @@
-import continents from './ContinentDB'
-import Point from "./Point"
-
-const PlayerInfo = {
-  position: new Point(51.9, 74.7, continents.EASTERN_KINGDOMS),
-  faction: 'Horde',
-  class: 'Druid',
-  race: 'Troll',
-  profession1: 'Alchemy',
-  profession2: 'Herbalism',
-  covenant: 'Night Fae',
-  speedModifier: 4.10 // Air speed. 410 % = master flying, 380 % = artisan, 250 % = normal
+class Player {
+  constructor(faction, playerClass, race, professions, covenant) {
+    this.faction = faction
+    this.class = playerClass
+    this.race = race
+    this.professions = professions
+    this.covenant = covenant
+  }
 }
 
-export default PlayerInfo
+export default Player

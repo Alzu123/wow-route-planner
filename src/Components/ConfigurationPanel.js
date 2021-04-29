@@ -1,5 +1,6 @@
 import React from 'react'
 import { Form, Jumbotron, Col, Button, Row } from 'react-bootstrap'
+import { LOADING_SCREEN_PENALTY, TIME_IN_LOADING_SCREENS } from '../Data/ConfigConstants'
 import ToggleRestrictions from './ToggleRestriction'
 
 const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, defaultPreference }) => {
@@ -89,11 +90,14 @@ const ConfigurationPanel = ({ show, teleports, onClick, updateConfiguration, def
 
             <Form.Group>
               <Form.Label className='section-title'>
-              Route preference
+                Route preference
               </Form.Label>
+              <Form.Text muted>
+                {`Loading screens incur a ${TIME_IN_LOADING_SCREENS} second wait plus an 'annoyance penalty' which is evaluated at ${LOADING_SCREEN_PENALTY} second-equivalents.`}
+              </Form.Text>
               <Form.Control id='route-preference' defaultValue={defaultPreference} as="select">
-                <option value='totalLoadingScreens'>Fewest loading screens</option>
                 <option value='preference'>Fastest route</option>
+                <option value='totalLoadingScreens'>Fewest loading screens</option>
                 <option value='totalFlyDistance'>Least flying</option>
                 <option value='sceneryValue'>Most scenic</option>
               </Form.Control>

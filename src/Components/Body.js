@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import NavigationSteps from './NavigationSteps'
 import Canvas from './Canvas/Canvas'
 import RouteSelectionSlider from './RouteSelectionSlider'
 
 import continents from '../Data/ContinentDB'
 import namedLocations from '../Data/LocationDB'
-import PlayerInfo from '../Data/Player'
 
 import RouteToDestination from '../Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from '../Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
@@ -19,18 +18,20 @@ import ConfigurationPanel from './ConfigurationPanel'
 import InfoPanel from './InfoPanel'
 import MapSettings from './MapSettings'
 import PointSearch from './PointSearch'
+import { DEFAULT_CONTINENT, DEFAULT_ROUTE_ORDER } from '../Data/ConfigConstants'
 
 const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showInfo }) => {
-  const [ startPosition, setStartPosition ] = useState(PlayerInfo.position)
-  const [ endPosition, setEndPosition ] = useState(new Point(58.6, 26.5, continents.EASTERN_KINGDOMS))
+  const [ startPosition, setStartPosition ] = useState()
+  const [ endPosition, setEndPosition ] = useState()
   const [ editingStart, setEditingStart ] = useState(true)
-  const [ continent, setContinent ] = useState(PlayerInfo.position.continent)
+  const [ continent, setContinent ] = useState(DEFAULT_CONTINENT)
   const [ routeGoodness, setRouteGoodness ] = useState(1)
-  const [ routeOrder, setRouteOrder ] = useState('preference')
+  const [ routeOrder, setRouteOrder ] = useState(DEFAULT_ROUTE_ORDER)
   const [ customStartText, setCustomStartText ] = useState('')
   const [ customEndText, setCustomEndText ] = useState('')
   const [ startPropChanged, setStartPropChanged ] = useState(false)
   const [ endPropChanged, setEndPropChanged ] = useState(false)
+  const [ routeDetails, setRouteDetails ] = useState({nodes: [], candidateRoutes: []})
 
   const changeBackground = (event) => {
     event.preventDefault()
@@ -144,13 +145,19 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
     setRouteOrder(routePreference)
   }
 
-  // This is now ran on every change of the site. Should probably be changed
-  const routeDetails = RouteToDestination(startPosition, endPosition, teleports)
+  useEffect(() => {
+    setRouteDetails(RouteToDestination(startPosition, endPosition, teleports))
+  
+    if (startPosition) {
+      const pointString = `new Point(${Math.round(startPosition.x * 100)/100}, ${Math.round(startPosition.y * 100)/100}, continents.${startPosition.continent.name.replaceAll(' ', '_').replaceAll('\'', '').toUpperCase()}),`
+      console.log(pointString)
+    }
+  }, [startPosition, endPosition, teleports]) // Run only when these variables change
+
   const nodes = routeDetails.nodes
   const candidateRoutes = routeDetails.candidateRoutes.slice(0, 50)
   const orderedRoutes = candidateRoutes.sort((a, b) => (a[routeOrder] > b[routeOrder]) ? 1 : -1)
   const finalRoute = orderedRoutes[routeGoodness - 1]
-
 
   return (
     <Container fluid id='body'>
@@ -169,13 +176,13 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
           <Row>
             <Col>
               <RouteSelectionSlider value={routeGoodness} onClick={updateRouteGoodness} numRoutes={candidateRoutes.length} />
-              <NavigationSteps onClick={toggleAvailability} finalRoute={finalRoute} />
+              <NavigationSteps onClick={toggleAvailability} finalRoute={finalRoute} startPosition={startPosition} endPosition={endPosition}/>
             </Col>
           </Row>
         </Col>
 
         <Col id='right' className='d-none d-sm-block overflow-hidden'>
-          <Canvas onClick={updateStartOrEnd} nodes={nodes} finalRoute={finalRoute} continent={continent}/>
+          <Canvas onClick={updateStartOrEnd} nodes={nodes} finalRoute={finalRoute} continent={continent} startAndEnd={{start: startPosition, end: endPosition}}/>
         </Col>
       </Row>
     </Container>

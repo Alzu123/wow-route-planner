@@ -1,7 +1,8 @@
+import { MAX_TELEPORTS_TO_USE, MAX_COST_INCREASE_PER_NODE } from '../../Data/ConfigConstants'
 import Point from '../../Data/Point'
 import UpdateFromPlayerTeleports from '../../Data/Teleport Processing/UpdateFromPlayerTeleports'
 import CalculateRouteInformation from './CalculateRouteInformation'
-import GetSpeed from './Speed/GetSpeed'
+import CalculateTravelTime from './CalculateTravelTime'
 
 const generateAllRouteCombinations = (nodes, maxDepth) => {
   const startNode = nodes[0]
@@ -36,8 +37,12 @@ const generateAllRouteCombinations = (nodes, maxDepth) => {
 }
 
 const RouteToDestination = ( startPosition, endPosition, teleports ) => {
-  const maxNumberOfNodesToPass = 6 // Maximum number of teleports to use
-  const acceptableCostIncrease = 1.2 // Maximum cost increase compared to optimal route to be considered.
+  if (!startPosition || !endPosition) {
+    return ({nodes: teleports.filter(teleport => teleport.enabled), candidateRoutes: [], hasStartEndPoints: false})
+  }
+
+  const maxNumberOfNodesToPass = MAX_TELEPORTS_TO_USE
+  const acceptableCostIncrease = MAX_COST_INCREASE_PER_NODE
 
   let nodes = []
   const updatedTeleports = UpdateFromPlayerTeleports(teleports, startPosition).filter(teleport => teleport.enabled)
@@ -97,7 +102,7 @@ const RouteToDestination = ( startPosition, endPosition, teleports ) => {
     return ({...node, distanceToTarget: distanceToEndNode})
   })
   nodes = nodes.map(node => ({...node, nextNodes: []}))
-  nodes = nodes.map(node => ({...node, costToTarget: node.cost + node.distanceToTarget / GetSpeed(node.destination.position.continent.isFlyable)}))
+  nodes = nodes.map(node => ({...node, costToTarget: node.cost + CalculateTravelTime(node.distanceToTarget, node.destination.position)}))
 
   // Radiate the best found distance from node origins
   for (let i = 0; i < maxNumberOfNodesToPass + 2; i++) { // + 2 because start and end nodes are in the count
@@ -114,7 +119,7 @@ const RouteToDestination = ( startPosition, endPosition, teleports ) => {
         }
         
         const newDistance = comparisonNode.distanceToTarget + nodeToUpdate.destination.position.distanceTo(comparisonPos) * comparisonPos.continent.scale
-        const newCost = nodeToUpdate.cost + comparisonNode.costToTarget + newDistance / GetSpeed(comparisonPos.continent.isFlyable)
+        const newCost = nodeToUpdate.cost + comparisonNode.costToTarget + CalculateTravelTime(newDistance, comparisonPos)
 
         // If better result save the distance and directions
         if (newCost < currentBestCost) {
@@ -134,7 +139,8 @@ const RouteToDestination = ( startPosition, endPosition, teleports ) => {
     const costTarget = nodeToUpdate.costToTarget
     for (let j = 1; j < nodes.length; j++) {
       const comparisonNode = nodes[j]
-      const costOfGettingToTarget = nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position) * comparisonNode.origin.position.continent.scale / GetSpeed(comparisonNode.origin.position.continent.isFlyable)
+      const distanceInYards = nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position) * comparisonNode.origin.position.continent.scale
+      const costOfGettingToTarget = CalculateTravelTime(distanceInYards, comparisonNode.origin.position)
       const comparisonCost = nodeToUpdate.cost + comparisonNode.costToTarget + costOfGettingToTarget
 
       const comparisonReachable = nodeToUpdate.destination.position.distanceTo(comparisonNode.origin.position) !== Infinity
@@ -153,7 +159,7 @@ const RouteToDestination = ( startPosition, endPosition, teleports ) => {
   const allPossibleRoutes = generateAllRouteCombinations(nodes, maxNumberOfNodesToPass)
   const candidateRoutes = CalculateRouteInformation(allPossibleRoutes)
 
-  return ({nodes: nodes, candidateRoutes: candidateRoutes})
+  return ({nodes: nodes, candidateRoutes: candidateRoutes, hasStartEndPoints: true})
 }
 
 export default RouteToDestination

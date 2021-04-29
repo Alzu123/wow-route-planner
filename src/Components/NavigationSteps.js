@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { Col, Container, Row } from 'react-bootstrap'
+import GetPointFlyability from './Calculations/GetPointFlyability'
 import ToggleTeleport from './ToggleTeleport'
 
 function formatTimeText(seconds) {
@@ -15,10 +16,31 @@ function formatTimeText(seconds) {
   }
 }
 
-const NavigationSteps = ({ finalRoute, onClick }) => {
-  if (!finalRoute) {
-    return 'Couldn\'t find a route with the available teleports.'
+const NavigationSteps = ({ finalRoute, onClick, startPosition, endPosition }) => {
+  let errorText;
+  if (!startPosition && !endPosition) {
+    errorText = 'Please enter the start position and the destination of the route.'
+  } else if (startPosition && !endPosition) {
+    errorText = 'Please enter the route destination.'
+  } else if (!startPosition && endPosition) {
+    errorText = 'Please enter the start position of the route.'
+  } else if (!finalRoute) {
+    errorText = 'Couldn\'t find a route with the available teleports.'
   }
+
+  if (errorText) {
+    return (
+      <Container className='no-side-padding navigation-steps'>
+        <Row key={0} className='navigation-step-row '>
+          <Col className='bold'>Planned route</Col>
+        </Row>
+        <Row>
+          <Col className='muted'>{errorText}</Col>
+        </Row>
+      </Container>
+    )
+  }
+
   const routeNodes = finalRoute.nodes.filter((_, i) => i !== 0 && i !== finalRoute.nodes.length - 0)
   const totalFlying = Math.round(finalRoute.totalTravelDistance + Number.EPSILON)
   const totalTime = Math.round(finalRoute.totalTime + Number.EPSILON)
@@ -46,8 +68,8 @@ const NavigationSteps = ({ finalRoute, onClick }) => {
   return (
     <Container className='no-side-padding navigation-steps'>
       <Row key={0} className='navigation-step-row '>
-        <Col className='bold'>Current route</Col>
-        <Col className='align-right muted'>{totalFlying} yd, {formatTimeText(totalTime)}</Col>
+        <Col className='bold'>Planned route</Col>
+        <Col className='align-right muted'>{totalFlying} yards, {formatTimeText(totalTime)}</Col>
       </Row>
 
       {shownSteps.map(function(step) {
@@ -67,7 +89,7 @@ const NavigationSteps = ({ finalRoute, onClick }) => {
           return (
             <Container className='no-side-padding navigation-step-row light-bottom-border' key={step.key}>
               <Row id={step.id}>
-                <Col className='navigation-step-text'>Fly to {step.name}</Col>
+                <Col className='navigation-step-text'>{GetPointFlyability(step.destination.position) ? 'Fly' : 'Travel'} to {step.name}</Col>
                 <Col className='align-right muted' xs={3}>{Math.round(step.distance)} yards</Col>
               </Row>
             </Container>
