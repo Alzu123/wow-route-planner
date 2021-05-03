@@ -24,7 +24,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -75,7 +75,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -126,7 +126,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -177,7 +177,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -228,7 +228,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -279,7 +279,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -330,7 +330,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Antoran Wastes, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+            default: "/wow-route-planner/static/media/Antoran Wastes.56c61dee.jpg"
           },
           scale: 24.21504181624986,
           type: 2,
@@ -381,7 +381,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -432,7 +432,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -524,7 +524,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Antoran Wastes, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+            default: "/wow-route-planner/static/media/Antoran Wastes.56c61dee.jpg"
           },
           scale: 24.21504181624986,
           type: 2,
@@ -541,7 +541,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -577,7 +577,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Antoran Wastes, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+            default: "/wow-route-planner/static/media/Antoran Wastes.56c61dee.jpg"
           },
           scale: 24.21504181624986,
           type: 2,
@@ -594,7 +594,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -630,7 +630,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -759,7 +759,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -922,7 +922,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -958,7 +958,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -975,7 +975,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -1050,7 +1050,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -1157,7 +1157,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -1264,7 +1264,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -1371,7 +1371,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -1463,7 +1463,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -1480,7 +1480,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -1555,7 +1555,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -1606,7 +1606,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -1642,7 +1642,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -1771,7 +1771,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -1934,7 +1934,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -1985,7 +1985,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -2036,7 +2036,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -2128,7 +2128,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -2201,7 +2201,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -2261,7 +2261,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2278,7 +2278,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -2338,7 +2338,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2355,7 +2355,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -2415,7 +2415,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2432,7 +2432,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -2524,7 +2524,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2541,7 +2541,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -2633,7 +2633,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2650,7 +2650,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -2710,7 +2710,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2727,7 +2727,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Nazjatar",
           image: {
-            default: "/wow-teleport-map/static/media/Nazjatar.d47d5216.jpg"
+            default: "/wow-route-planner/static/media/Nazjatar.d47d5216.jpg"
           },
           scale: 28.701431502849506,
           type: 3,
@@ -2763,7 +2763,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Nazjatar",
           image: {
-            default: "/wow-teleport-map/static/media/Nazjatar.d47d5216.jpg"
+            default: "/wow-route-planner/static/media/Nazjatar.d47d5216.jpg"
           },
           scale: 28.701431502849506,
           type: 3,
@@ -2780,7 +2780,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2816,7 +2816,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2833,7 +2833,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -2869,7 +2869,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2886,7 +2886,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -2922,7 +2922,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -2939,7 +2939,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -2990,7 +2990,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -3026,7 +3026,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -3067,7 +3067,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -3127,7 +3127,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -3168,7 +3168,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -3275,7 +3275,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -3350,7 +3350,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -3457,7 +3457,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -3508,7 +3508,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3544,7 +3544,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3561,7 +3561,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Antoran Wastes, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+            default: "/wow-route-planner/static/media/Antoran Wastes.56c61dee.jpg"
           },
           scale: 24.21504181624986,
           type: 2,
@@ -3597,7 +3597,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3614,7 +3614,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Antoran Wastes, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Antoran Wastes.56c61dee.jpg"
+            default: "/wow-route-planner/static/media/Antoran Wastes.56c61dee.jpg"
           },
           scale: 24.21504181624986,
           type: 2,
@@ -3650,7 +3650,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3667,7 +3667,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Krokuun, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+            default: "/wow-route-planner/static/media/Krokuun.6e50f5d1.jpg"
           },
           scale: 24.852060995640105,
           type: 2,
@@ -3703,7 +3703,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3720,7 +3720,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Krokuun, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+            default: "/wow-route-planner/static/media/Krokuun.6e50f5d1.jpg"
           },
           scale: 24.852060995640105,
           type: 2,
@@ -3756,7 +3756,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3773,7 +3773,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Krokuun, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+            default: "/wow-route-planner/static/media/Krokuun.6e50f5d1.jpg"
           },
           scale: 24.852060995640105,
           type: 2,
@@ -3809,7 +3809,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3826,7 +3826,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -3862,7 +3862,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3879,7 +3879,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -3915,7 +3915,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3932,7 +3932,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -3968,7 +3968,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -3985,7 +3985,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -4021,7 +4021,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -4038,7 +4038,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -4074,7 +4074,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -4091,7 +4091,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4151,7 +4151,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -4168,7 +4168,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4228,7 +4228,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -4245,7 +4245,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -4337,7 +4337,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -4410,7 +4410,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -4502,7 +4502,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4543,7 +4543,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4603,7 +4603,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4644,7 +4644,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -4680,7 +4680,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4721,7 +4721,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4781,7 +4781,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -4798,7 +4798,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4858,7 +4858,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -4875,7 +4875,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -4935,7 +4935,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -4952,7 +4952,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -5012,7 +5012,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -5029,7 +5029,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -5121,7 +5121,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -5138,7 +5138,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Nazjatar",
           image: {
-            default: "/wow-teleport-map/static/media/Nazjatar.d47d5216.jpg"
+            default: "/wow-route-planner/static/media/Nazjatar.d47d5216.jpg"
           },
           scale: 28.701431502849506,
           type: 3,
@@ -5189,7 +5189,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -5240,7 +5240,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -5291,7 +5291,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -5366,7 +5366,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -5473,7 +5473,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -5548,7 +5548,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -5623,7 +5623,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -5730,7 +5730,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -5805,7 +5805,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -5856,7 +5856,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -5963,7 +5963,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -5999,7 +5999,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -6016,7 +6016,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -6067,7 +6067,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -6118,7 +6118,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -6154,7 +6154,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6171,7 +6171,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6207,7 +6207,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6224,7 +6224,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6260,7 +6260,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6277,7 +6277,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6313,7 +6313,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6330,7 +6330,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6366,7 +6366,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6383,7 +6383,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6419,7 +6419,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6436,7 +6436,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6472,7 +6472,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6489,7 +6489,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6525,7 +6525,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6542,7 +6542,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6578,7 +6578,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6595,7 +6595,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6631,7 +6631,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6648,7 +6648,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6684,7 +6684,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6701,7 +6701,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6737,7 +6737,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6754,7 +6754,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6790,7 +6790,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6807,7 +6807,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6843,7 +6843,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6860,7 +6860,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6896,7 +6896,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6913,7 +6913,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -6949,7 +6949,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -6966,7 +6966,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7002,7 +7002,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7019,7 +7019,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7055,7 +7055,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7072,7 +7072,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7108,7 +7108,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7125,7 +7125,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7161,7 +7161,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7178,7 +7178,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7214,7 +7214,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7231,7 +7231,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7267,7 +7267,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7284,7 +7284,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7320,7 +7320,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7337,7 +7337,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7373,7 +7373,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7390,7 +7390,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7426,7 +7426,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7443,7 +7443,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7479,7 +7479,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7496,7 +7496,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7532,7 +7532,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7549,7 +7549,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7585,7 +7585,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7602,7 +7602,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7638,7 +7638,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7655,7 +7655,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7691,7 +7691,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7708,7 +7708,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7744,7 +7744,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7761,7 +7761,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7797,7 +7797,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7814,7 +7814,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7850,7 +7850,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7867,7 +7867,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7903,7 +7903,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -7920,7 +7920,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -7956,7 +7956,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -7997,7 +7997,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -8072,7 +8072,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -8123,7 +8123,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -8174,7 +8174,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -8210,7 +8210,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -8283,7 +8283,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -8375,7 +8375,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -8448,7 +8448,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -8540,7 +8540,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -8557,7 +8557,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -8617,7 +8617,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -8658,7 +8658,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -8709,7 +8709,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -8857,7 +8857,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -8874,7 +8874,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -8949,7 +8949,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -8985,7 +8985,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -9058,7 +9058,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -9150,7 +9150,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -9191,7 +9191,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -9251,7 +9251,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -9292,7 +9292,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -9367,7 +9367,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -9403,7 +9403,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Krokuun, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+            default: "/wow-route-planner/static/media/Krokuun.6e50f5d1.jpg"
           },
           scale: 24.852060995640105,
           type: 2,
@@ -9420,7 +9420,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -9456,7 +9456,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Krokuun, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+            default: "/wow-route-planner/static/media/Krokuun.6e50f5d1.jpg"
           },
           scale: 24.852060995640105,
           type: 2,
@@ -9473,7 +9473,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -9509,7 +9509,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Krokuun, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/Krokuun.6e50f5d1.jpg"
+            default: "/wow-route-planner/static/media/Krokuun.6e50f5d1.jpg"
           },
           scale: 24.852060995640105,
           type: 2,
@@ -9526,7 +9526,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -9562,7 +9562,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -9691,7 +9691,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -9839,7 +9839,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -9856,7 +9856,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -9892,7 +9892,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -9909,7 +9909,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -9945,7 +9945,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -9962,7 +9962,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -9998,7 +9998,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -10015,7 +10015,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -10051,7 +10051,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Mac'Aree, Argus",
           image: {
-            default: "/wow-teleport-map/static/media/MacAree.d6d9e6dd.jpg"
+            default: "/wow-route-planner/static/media/MacAree.d6d9e6dd.jpg"
           },
           scale: 22.943241506594326,
           type: 2,
@@ -10068,7 +10068,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -10104,7 +10104,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -10233,7 +10233,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -10381,7 +10381,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -10510,7 +10510,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -10658,7 +10658,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -10675,7 +10675,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -10726,7 +10726,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -10833,7 +10833,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -10940,7 +10940,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -11047,7 +11047,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -11154,7 +11154,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -11261,7 +11261,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -11336,7 +11336,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -11411,7 +11411,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -11486,7 +11486,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -11537,7 +11537,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -11588,7 +11588,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -11639,7 +11639,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -11690,7 +11690,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -11741,7 +11741,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -11816,7 +11816,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -11891,7 +11891,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -11942,7 +11942,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -11993,7 +11993,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -12044,7 +12044,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -12080,7 +12080,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -12121,7 +12121,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -12181,7 +12181,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -12198,7 +12198,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -12234,7 +12234,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -12363,7 +12363,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -12511,7 +12511,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -12640,7 +12640,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -12788,7 +12788,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -12829,7 +12829,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Deepholm",
           image: {
-            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+            default: "/wow-route-planner/static/media/Deepholm.aed7474b.jpg"
           },
           scale: 34.2339613347362,
           type: 3,
@@ -12865,7 +12865,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -12906,7 +12906,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -12966,7 +12966,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13007,7 +13007,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -13099,7 +13099,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13140,7 +13140,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -13232,7 +13232,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13273,7 +13273,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -13309,7 +13309,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13350,7 +13350,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13410,7 +13410,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Deepholm",
           image: {
-            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+            default: "/wow-route-planner/static/media/Deepholm.aed7474b.jpg"
           },
           scale: 34.2339613347362,
           type: 3,
@@ -13427,7 +13427,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13487,7 +13487,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13528,7 +13528,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -13588,7 +13588,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13629,7 +13629,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -13665,7 +13665,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13706,7 +13706,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -13742,7 +13742,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13783,7 +13783,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13843,7 +13843,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13884,7 +13884,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -13920,7 +13920,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -13961,7 +13961,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -13997,7 +13997,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14038,7 +14038,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -14074,7 +14074,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14115,7 +14115,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -14151,7 +14151,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14192,7 +14192,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -14284,7 +14284,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14325,7 +14325,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -14473,7 +14473,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14514,7 +14514,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -14606,7 +14606,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14647,7 +14647,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -14739,7 +14739,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -14756,7 +14756,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14816,7 +14816,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -14889,7 +14889,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14949,7 +14949,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -14990,7 +14990,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -15050,7 +15050,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -15091,7 +15091,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -15127,7 +15127,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -15168,7 +15168,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -15260,7 +15260,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -15301,7 +15301,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -15361,7 +15361,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -15490,7 +15490,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -15638,7 +15638,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -15767,7 +15767,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -15915,7 +15915,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16044,7 +16044,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16192,7 +16192,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16321,7 +16321,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16469,7 +16469,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16598,7 +16598,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -16658,7 +16658,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16787,7 +16787,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -16935,7 +16935,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -16952,7 +16952,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -17059,7 +17059,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -17134,7 +17134,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -17185,7 +17185,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -17292,7 +17292,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -17343,7 +17343,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -17394,7 +17394,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -17445,7 +17445,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -17520,7 +17520,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -17595,7 +17595,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -17702,7 +17702,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -17809,7 +17809,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -17916,7 +17916,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -17991,7 +17991,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -18066,7 +18066,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -18117,7 +18117,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -18192,7 +18192,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -18243,7 +18243,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -18279,7 +18279,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -18296,7 +18296,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -18388,7 +18388,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -18405,7 +18405,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -18497,7 +18497,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -18514,7 +18514,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -18606,7 +18606,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -18623,7 +18623,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -18715,7 +18715,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -18732,7 +18732,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -18824,7 +18824,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -18841,7 +18841,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -18933,7 +18933,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -18950,7 +18950,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19042,7 +19042,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -19059,7 +19059,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19151,7 +19151,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -19168,7 +19168,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19260,7 +19260,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -19277,7 +19277,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19369,7 +19369,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -19386,7 +19386,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19478,7 +19478,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -19495,7 +19495,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19587,7 +19587,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -19604,7 +19604,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -19664,7 +19664,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -19681,7 +19681,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -19741,7 +19741,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -19758,7 +19758,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -19833,7 +19833,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -19940,7 +19940,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Deepholm",
           image: {
-            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+            default: "/wow-route-planner/static/media/Deepholm.aed7474b.jpg"
           },
           scale: 34.2339613347362,
           type: 3,
@@ -19991,7 +19991,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -20051,7 +20051,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -20092,7 +20092,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -20199,7 +20199,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -20250,7 +20250,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -20301,7 +20301,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -20352,7 +20352,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -20403,7 +20403,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -20454,7 +20454,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -20490,7 +20490,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -20619,7 +20619,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -20782,7 +20782,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -20874,7 +20874,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -20891,7 +20891,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -20951,7 +20951,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -20968,7 +20968,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -21060,7 +21060,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -21077,7 +21077,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -21137,7 +21137,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -21154,7 +21154,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -21246,7 +21246,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -21263,7 +21263,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -21355,7 +21355,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -21372,7 +21372,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -21432,7 +21432,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -21473,7 +21473,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -21565,7 +21565,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -21606,7 +21606,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -21681,7 +21681,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -21756,7 +21756,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -21848,7 +21848,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -21889,7 +21889,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -21925,7 +21925,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -21942,7 +21942,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -22002,7 +22002,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -22075,7 +22075,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -22135,7 +22135,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22152,7 +22152,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22188,7 +22188,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22205,7 +22205,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22241,7 +22241,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22258,7 +22258,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22294,7 +22294,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22311,7 +22311,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22347,7 +22347,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22364,7 +22364,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22400,7 +22400,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22417,7 +22417,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22453,7 +22453,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22470,7 +22470,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22506,7 +22506,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22523,7 +22523,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22559,7 +22559,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22576,7 +22576,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22612,7 +22612,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22629,7 +22629,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -22665,7 +22665,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -22682,7 +22682,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -22718,7 +22718,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -22735,7 +22735,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -22827,7 +22827,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -22900,7 +22900,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -22936,7 +22936,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23009,7 +23009,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -23045,7 +23045,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23118,7 +23118,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Deepholm",
           image: {
-            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+            default: "/wow-route-planner/static/media/Deepholm.aed7474b.jpg"
           },
           scale: 34.2339613347362,
           type: 3,
@@ -23154,7 +23154,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23227,7 +23227,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -23287,7 +23287,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Deepholm",
           image: {
-            default: "/wow-teleport-map/static/media/Deepholm.aed7474b.jpg"
+            default: "/wow-route-planner/static/media/Deepholm.aed7474b.jpg"
           },
           scale: 34.2339613347362,
           type: 3,
@@ -23304,7 +23304,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23396,7 +23396,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -23437,7 +23437,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23529,7 +23529,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23602,7 +23602,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23694,7 +23694,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23767,7 +23767,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23859,7 +23859,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -23932,7 +23932,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -23968,7 +23968,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -23985,7 +23985,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24077,7 +24077,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24150,7 +24150,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -24210,7 +24210,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24283,7 +24283,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -24343,7 +24343,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -24384,7 +24384,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24476,7 +24476,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24549,7 +24549,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -24585,7 +24585,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24658,7 +24658,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -24694,7 +24694,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24767,7 +24767,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -24827,7 +24827,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -24900,7 +24900,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -24936,7 +24936,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25009,7 +25009,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -25045,7 +25045,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -25062,7 +25062,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25154,7 +25154,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25227,7 +25227,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -25263,7 +25263,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25336,7 +25336,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25428,7 +25428,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25501,7 +25501,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25593,7 +25593,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25666,7 +25666,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -25726,7 +25726,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -25799,7 +25799,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -25947,7 +25947,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -26020,7 +26020,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26080,7 +26080,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26121,7 +26121,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26181,7 +26181,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26222,7 +26222,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -26329,7 +26329,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -26380,7 +26380,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Broken Isles",
           image: {
-            default: "/wow-teleport-map/static/media/Broken Isles.8cf82db0.jpg"
+            default: "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg"
           },
           scale: 31.51458443027285,
           type: 2,
@@ -26431,7 +26431,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -26482,7 +26482,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26557,7 +26557,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26632,7 +26632,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -26683,7 +26683,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26758,7 +26758,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -26865,7 +26865,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -26940,7 +26940,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -27103,7 +27103,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -27154,7 +27154,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -27205,7 +27205,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -27312,7 +27312,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -27419,7 +27419,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -27470,7 +27470,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -27577,7 +27577,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -27652,7 +27652,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -27727,7 +27727,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -27778,7 +27778,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -27829,7 +27829,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -27936,7 +27936,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -28043,7 +28043,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -28118,7 +28118,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -28193,7 +28193,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -28244,7 +28244,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -28319,7 +28319,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -28411,7 +28411,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -28452,7 +28452,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -28559,7 +28559,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -28619,7 +28619,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -28636,7 +28636,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -28672,7 +28672,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Tol Barad Peninsula",
           image: {
-            default: "/wow-teleport-map/static/media/Tol Barad Peninsula.9e5738d1.jpg"
+            default: "/wow-route-planner/static/media/Tol Barad Peninsula.9e5738d1.jpg"
           },
           scale: 18.15606836545521,
           type: 3,
@@ -28689,7 +28689,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -28749,7 +28749,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -28790,7 +28790,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -28850,7 +28850,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -28923,7 +28923,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -28983,7 +28983,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29056,7 +29056,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29163,7 +29163,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -29238,7 +29238,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -29289,7 +29289,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -29325,7 +29325,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29398,7 +29398,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Outland",
           image: {
-            default: "/wow-teleport-map/static/media/Outland.2097c8c2.jpg"
+            default: "/wow-route-planner/static/media/Outland.2097c8c2.jpg"
           },
           scale: 154.67324871681333,
           type: 2,
@@ -29434,7 +29434,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29507,7 +29507,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29599,7 +29599,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29672,7 +29672,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -29708,7 +29708,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -29781,7 +29781,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -29841,7 +29841,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -29970,7 +29970,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -30133,7 +30133,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -30225,7 +30225,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -30242,7 +30242,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -30278,7 +30278,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -30295,7 +30295,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -30387,7 +30387,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -30404,7 +30404,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -30464,7 +30464,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -30537,7 +30537,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -30573,7 +30573,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -30614,7 +30614,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -30650,7 +30650,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -30723,7 +30723,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -30759,7 +30759,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -30832,7 +30832,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -30907,7 +30907,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -30958,7 +30958,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -31009,7 +31009,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -31060,7 +31060,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -31111,7 +31111,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -31162,7 +31162,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Draenor",
           image: {
-            default: "/wow-teleport-map/static/media/Draenor.4da50769.jpg"
+            default: "/wow-route-planner/static/media/Draenor.4da50769.jpg"
           },
           scale: 171.2834052215745,
           type: 2,
@@ -31213,7 +31213,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -31264,7 +31264,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -31315,7 +31315,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -31366,7 +31366,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -31417,7 +31417,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Northrend",
           image: {
-            default: "/wow-teleport-map/static/media/Northrend.177df605.jpg"
+            default: "/wow-route-planner/static/media/Northrend.177df605.jpg"
           },
           scale: 127.98852784383634,
           type: 2,
@@ -31468,7 +31468,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -31631,7 +31631,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -31794,7 +31794,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -31957,7 +31957,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -32120,7 +32120,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -32283,7 +32283,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -32446,7 +32446,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -32521,7 +32521,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -32613,7 +32613,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -32630,7 +32630,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -32666,7 +32666,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -32683,7 +32683,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -32719,7 +32719,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -32736,7 +32736,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -32772,7 +32772,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -32789,7 +32789,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -32825,7 +32825,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -32866,7 +32866,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kalimdor",
           image: {
-            default: "/wow-teleport-map/static/media/Kalimdor.b0e8d9f9.jpg"
+            default: "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg"
           },
           scale: 243.86543375958593,
           type: 2,
@@ -32926,7 +32926,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -32967,7 +32967,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Eastern Kingdoms",
           image: {
-            default: "/wow-teleport-map/static/media/Eastern Kingdoms.99b6df69.jpg"
+            default: "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg"
           },
           scale: 271.4677294568911,
           type: 2,
@@ -33074,7 +33074,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Pandaria",
           image: {
-            default: "/wow-teleport-map/static/media/Pandaria.e0f05941.jpg"
+            default: "/wow-route-planner/static/media/Pandaria.e0f05941.jpg"
           },
           scale: 133.62119474938243,
           type: 2,
@@ -33134,7 +33134,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Zandalar",
           image: {
-            default: "/wow-teleport-map/static/media/Zandalar.86c15982.jpg"
+            default: "/wow-route-planner/static/media/Zandalar.86c15982.jpg"
           },
           scale: 104.70838238275597,
           type: 2,
@@ -33151,7 +33151,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Kul Tiras",
           image: {
-            default: "/wow-teleport-map/static/media/Kul Tiras.d516abb4.jpg"
+            default: "/wow-route-planner/static/media/Kul Tiras.d516abb4.jpg"
           },
           scale: 118.39370477747505,
           type: 2,
@@ -33187,7 +33187,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -33316,7 +33316,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -33464,7 +33464,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -33593,7 +33593,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,
@@ -33756,7 +33756,7 @@ const preprocessedTeleports = [
         continent: {
           name: "Shadowlands",
           image: {
-            default: "/wow-teleport-map/static/media/Shadowlands.1b8841dc.jpg"
+            default: "/wow-route-planner/static/media/Shadowlands.1b8841dc.jpg"
           },
           scale: 242.42424242424107,
           type: 2,

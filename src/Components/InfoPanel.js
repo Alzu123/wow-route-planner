@@ -3,13 +3,6 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import { CANVAS_ACTIVE_TELEPORT_COLOR, CANVAS_END_COLOR, CANVAS_START_COLOR, CANVAS_TELEPORT_COLOR, CANVAS_TRAVEL_FLY_COLOR, CANVAS_TRAVEL_TELEPORT_COLOR } from '../Data/ConfigConstants';
 
 const InfoPanel = ({ show }) => {
-  let today = new Date();
-  const dd = String(today.getDate()).padStart(2, '0');
-  const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-  const yyyy = today.getFullYear();
-
-  today = `${yyyy}-${mm}-${dd}`
-
   if (show) {
     return (
       <Jumbotron className='overlay-2 info-panel'>
@@ -43,7 +36,7 @@ const InfoPanel = ({ show }) => {
             <li>Some areas (especially in Shadowlands) cause the route algorithm and the site to freeze.</li>
             <li>The route algorithm sometimes prioritises worse routes.</li>
           </ul>
-          <p className='muted'>Last edited on {today}.</p>
+          <p className='muted'>Last edited on 2021-05-03.</p>
       </Jumbotron>
     )
   } else {

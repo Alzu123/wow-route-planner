@@ -4,7 +4,6 @@ import Canvas from './Canvas/Canvas'
 import RouteSelectionSlider from './RouteSelectionSlider'
 
 import continents from '../Data/ContinentDB'
-import namedLocations from '../Data/LocationDB'
 
 import RouteToDestination from '../Components/Calculations/RouteToDestination'
 import MouseCoordinatesToWorldCoordinates from '../Components/Calculations/Coordinates/MouseCoordinatesToWorldCoordinates'
@@ -36,6 +35,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
   const changeBackground = (event) => {
     event.preventDefault()
     const dropdownValue = event.target.value
+    console.log(continents[dropdownValue])
     setContinent(continents[dropdownValue])
   }
 
@@ -68,28 +68,19 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
     if (!event[0]) {
       return
     }
+    const newPosition = event[0].position
 
-    const targetLocation = namedLocations.find(loc => loc.name === event[0].name)
-    if (!targetLocation) {
-      return
-    }
-
-    const newPosition = targetLocation.position
     setStartPropChanged(false)
     setStartPosition(newPosition)
+    setContinent(newPosition.continent)
   }
 
   const updateEndFromText = (event) => {
     if (!event[0]) {
       return
     }
+    const newPosition = event[0].position
 
-    const targetLocation = namedLocations.find(loc => loc.name === event[0].name)
-    if (!targetLocation) {
-      return
-    }
-
-    const newPosition = targetLocation.position
     setEndPropChanged(false)
     setEndPosition(newPosition)
   }
@@ -170,7 +161,7 @@ const Body = ({ showTeleports, teleports, setTeleports, showConfiguration, showI
           <Row>
             <Col>
               <RouteSelectionSlider value={routeGoodness} onClick={updateRouteGoodness} numRoutes={candidateRoutes.length} />
-              <NavigationSteps onClick={toggleAvailability} finalRoute={finalRoute} startPosition={startPosition} endPosition={endPosition}/>
+              <NavigationSteps onClick={toggleAvailability} finalRoute={finalRoute} startPosition={startPosition} endPosition={endPosition} onClickContinent={setContinent}/>
             </Col>
           </Row>
         </Col>

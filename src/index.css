@@ -131,6 +131,10 @@ code {
   font-weight: 600;
 }
 
+.navigation-distance-adjust {
+  padding-top: 3px
+}
+
 ol {
   margin-top: 10px;
   padding-left: 17px;
@@ -249,3 +253,4 @@ canvas {
 .float-right {
   float:initial;
 }
+

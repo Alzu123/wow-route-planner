@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Col, Container, Row } from 'react-bootstrap'
 import GetPointFlyability from './Calculations/GetPointFlyability'
+import ShowTargetContinent from './ShowTargetContinent'
 import ToggleTeleport from './ToggleTeleport'
 
 function formatTimeText(seconds) {
@@ -16,7 +17,7 @@ function formatTimeText(seconds) {
   }
 }
 
-const NavigationSteps = ({ finalRoute, onClick, startPosition, endPosition }) => {
+const NavigationSteps = ({ finalRoute, onClick, startPosition, endPosition, onClickContinent }) => {
   let errorText;
   if (!startPosition && !endPosition) {
     errorText = 'Please enter the start position and the destination of the route.'
@@ -78,10 +79,11 @@ const NavigationSteps = ({ finalRoute, onClick, startPosition, endPosition }) =>
             <Container className='no-side-padding navigation-step-row light-bottom-border' key={step.key}>
               <Row id={step.id}>
                 <Col className='navigation-step-text'>{step.name}</Col>
-                <Col className='align-right' xs={3}><ToggleTeleport onClick={onClick} teleport={step} text='Disable'/></Col>
+                <Col xs={'auto'}><ToggleTeleport onClick={onClick} teleport={step} text='Disable'/></Col>
+                <Col xs={'auto'}><ShowTargetContinent onClick={() => onClickContinent(step.origin.position.continent)}/></Col>
               </Row>
-              <Row>
-                <Col className='muted inner'>to {step.destination.description}</Col>
+              <Row className='tight-row'>
+                <Col className='inner muted'>to {step.destination.description}</Col>
               </Row>
             </Container>
           )
@@ -90,7 +92,8 @@ const NavigationSteps = ({ finalRoute, onClick, startPosition, endPosition }) =>
             <Container className='no-side-padding navigation-step-row light-bottom-border' key={step.key}>
               <Row id={step.id}>
                 <Col className='navigation-step-text'>{GetPointFlyability(step.destination.position) ? 'Fly' : 'Travel'} to {step.name}</Col>
-                <Col className='align-right muted' xs={3}>{Math.round(step.distance)} yards</Col>
+                <Col className='navigation-distance-adjust align-right muted' xs={3}>{Math.round(step.distance)} yards</Col>
+                <Col xs={'auto'} className='align-right'><ShowTargetContinent onClick={() => onClickContinent(step.destination.position.continent)}/></Col>
               </Row>
             </Container>
           )

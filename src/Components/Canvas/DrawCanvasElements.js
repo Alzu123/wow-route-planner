@@ -7,7 +7,7 @@ const DrawCanvasElements = (canvas, canvasBg, nodes, finalRoute, backgroundName,
 
   const bgHeight = canvasBg.naturalHeight
   const bgWidth = canvasBg.naturalWidth
-
+  
   context.drawImage(canvasBg, 0, 0, bgWidth, bgHeight,
                               0, 0, canvas.width, canvas.height);
 
