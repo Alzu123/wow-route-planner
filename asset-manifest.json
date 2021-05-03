@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/wow-route-planner/static/css/main.3d3381ee.chunk.css",
-    "main.js": "/wow-route-planner/static/js/main.be9c4ed7.chunk.js",
-    "main.js.map": "/wow-route-planner/static/js/main.be9c4ed7.chunk.js.map",
+    "main.css": "/wow-route-planner/static/css/main.bfac1965.chunk.css",
+    "main.js": "/wow-route-planner/static/js/main.ec24d489.chunk.js",
+    "main.js.map": "/wow-route-planner/static/js/main.ec24d489.chunk.js.map",
     "runtime-main.js": "/wow-route-planner/static/js/runtime-main.6eee4a0f.js",
     "runtime-main.js.map": "/wow-route-planner/static/js/runtime-main.6eee4a0f.js.map",
     "static/css/2.17cdf828.chunk.css": "/wow-route-planner/static/css/2.17cdf828.chunk.css",
-    "static/js/2.bc53b697.chunk.js": "/wow-route-planner/static/js/2.bc53b697.chunk.js",
-    "static/js/2.bc53b697.chunk.js.map": "/wow-route-planner/static/js/2.bc53b697.chunk.js.map",
+    "static/js/2.88bd55ab.chunk.js": "/wow-route-planner/static/js/2.88bd55ab.chunk.js",
+    "static/js/2.88bd55ab.chunk.js.map": "/wow-route-planner/static/js/2.88bd55ab.chunk.js.map",
     "index.html": "/wow-route-planner/index.html",
     "static/css/2.17cdf828.chunk.css.map": "/wow-route-planner/static/css/2.17cdf828.chunk.css.map",
-    "static/css/main.3d3381ee.chunk.css.map": "/wow-route-planner/static/css/main.3d3381ee.chunk.css.map",
-    "static/js/2.bc53b697.chunk.js.LICENSE.txt": "/wow-route-planner/static/js/2.bc53b697.chunk.js.LICENSE.txt",
+    "static/css/main.bfac1965.chunk.css.map": "/wow-route-planner/static/css/main.bfac1965.chunk.css.map",
+    "static/js/2.88bd55ab.chunk.js.LICENSE.txt": "/wow-route-planner/static/js/2.88bd55ab.chunk.js.LICENSE.txt",
     "static/media/Antoran Wastes.jpg": "/wow-route-planner/static/media/Antoran Wastes.56c61dee.jpg",
     "static/media/Broken Isles.jpg": "/wow-route-planner/static/media/Broken Isles.8cf82db0.jpg",
     "static/media/Deepholm.jpg": "/wow-route-planner/static/media/Deepholm.aed7474b.jpg",
     "static/media/Draenor.jpg": "/wow-route-planner/static/media/Draenor.4da50769.jpg",
     "static/media/Eastern Kingdoms.jpg": "/wow-route-planner/static/media/Eastern Kingdoms.99b6df69.jpg",
     "static/media/Eastern Kingdoms_New.jpg": "/wow-route-planner/static/media/Eastern Kingdoms_New.2ca5131e.jpg",
+    "static/media/Eye.png": "/wow-route-planner/static/media/Eye.1fabf373.png",
     "static/media/Isle of Thunder.jpg": "/wow-route-planner/static/media/Isle of Thunder.ab63b6e5.jpg",
     "static/media/Kalimdor.jpg": "/wow-route-planner/static/media/Kalimdor.b0e8d9f9.jpg",
     "static/media/Kalimdor2.jpg": "/wow-route-planner/static/media/Kalimdor2.b0e8d9f9.jpg",
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.6eee4a0f.js",
     "static/css/2.17cdf828.chunk.css",
-    "static/js/2.bc53b697.chunk.js",
-    "static/css/main.3d3381ee.chunk.css",
-    "static/js/main.be9c4ed7.chunk.js"
+    "static/js/2.88bd55ab.chunk.js",
+    "static/css/main.bfac1965.chunk.css",
+    "static/js/main.ec24d489.chunk.js"
   ]
 }
